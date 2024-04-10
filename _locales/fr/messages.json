@@ -1,0 +1,14 @@
+{
+    "extName": {
+      "message": "Messager de Portefeuille XRP de TextRP",
+      "description": "Le nom de l'extension."
+    },
+    "extDescription": {
+      "message": "Cliquez simplement avec le bouton droit sur n'importe quelle adresse de portefeuille XRP pour envoyer rapidement un message via TextRP, la couche de messagerie unifiée pour le XRPL.",
+      "description": "La description de l'extension."
+    },
+    "messageWalletTitle": {
+      "message": "Message au portefeuille XRP"
+    }
+  }
+  

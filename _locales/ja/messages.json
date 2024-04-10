@@ -1,0 +1,14 @@
+{
+    "extName": {
+      "message": "TextRPからのXRPウォレットメッセンジャー",
+      "description": "拡張機能の名前。"
+    },
+    "extDescription": {
+      "message": "TextRPを通じて、任意のXRPウォレットアドレスに右クリックするだけで、XRPLの統合メッセージングレイヤーを介してメッセージを迅速に送信できます。",
+      "description": "拡張機能の説明。"
+    },
+    "messageWalletTitle": {
+      "message": "XRPウォレットチャット"
+    }
+  }
+  

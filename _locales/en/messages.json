@@ -1,0 +1,13 @@
+{
+  "extName": {
+    "message": "XRP Wallet Messenger from TextRP",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Simply right-click on any XRP wallet address to quickly send a message through TextRP, the unified messaging layer for the XRPL.",
+    "description": "The description of the extension."
+  },
+  "messageWalletTitle": {
+    "message": "Message XRP Wallet"
+  }
+}

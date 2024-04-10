@@ -1,0 +1,14 @@
+{
+    "extName": {
+      "message": "Mensageiro da Carteira XRP do TextRP",
+      "description": "O nome da extensão."
+    },
+    "extDescription": {
+      "message": "Basta clicar com o botão direito do mouse em qualquer endereço de carteira XRP para enviar rapidamente uma mensagem pelo TextRP, a camada de mensagens unificada para o XRPL.",
+      "description": "A descrição da extensão."
+    },
+    "messageWalletTitle": {
+      "message": "Mensagem a carteira XRP"
+    }
+  }
+  
