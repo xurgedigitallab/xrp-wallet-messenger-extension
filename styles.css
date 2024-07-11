@@ -1,0 +1,28 @@
+.button {
+   font: inherit;
+   display: flex;
+   align-items: center;
+   gap: .4em;
+   background-color: #0077db;
+   background-image: linear-gradient(#0077db, #0099ec 80%, #0077db 100%);
+   box-shadow: 0 0 10px #0099ec inset, 2px 2px 10px #888;
+   color: white;
+   padding: .8em 2em;
+   border: none;
+   border-radius: .3em;
+   transition: .2s;
+   cursor: pointer;
+   user-select: none;
+}
+.button:hover {
+   background-image: unset;
+   box-shadow: 0 0 10px #0077db inset, 1px 1px 5px #888;
+   transform: translate(1px, 1px);
+}
+.img {
+   width: 1.5em;
+   height: 1.5em;
+}
+.text {
+   font-weight: 600;
+}

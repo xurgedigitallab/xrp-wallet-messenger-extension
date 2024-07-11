@@ -1,102 +1,261 @@
+async function loadSitesConfig() {
+  const response = await fetch(chrome.runtime.getURL('sitesConfig.json'));
+  const sites = await response.json();
+  return sites;
+}
+
 function findXRPAddresses(text) {
-  // Regular expression to match XRP wallet addresses
   const xrpRegex = /r[1-9A-HJ-NP-Za-km-z]{24,34}/g;
-  
-
   return text.match(xrpRegex);
-
 }
 
-function scanForWalletAddresses() {
-  const allText = document.body.innerText;
-  const addresses = findXRPAddresses(allText);
-  // Process addresses found
-}
+function findXRPAddressInNode(node) {
+  if (node) {
+    // Search in attributes of the current node
+    for (let i = 0; i < node.attributes.length; i++) {
+      const attribute = node.attributes[i];
+      const value = attribute.value;
+      if (attribute.name === 'href' && value.includes('/profile/')) {
+        const xrpAddress = value.split('/profile/')[1];
+        console.log('Found XRP address in href:', xrpAddress);
+        return xrpAddress;
+      }
+      const xrpAddress = findXRPAddresses(value);
+      if (xrpAddress) {
+        console.log('Found XRP address in attribute:', attribute.name, 'with value:', value);
+        return xrpAddress[0];
+      }
+    }
 
-// Scan for addresses in tooltips
-document.addEventListener('mouseover', function(event) {
-  let tooltipText = event.target.getAttribute('title');
-  if (tooltipText) {
-    const addresses = findXRPAddresses(tooltipText);
-    // Process addresses found
-  }
-});
-//scan for address in tooltips If the tooltip is 
-const observer = new MutationObserver(mutations => {
-    mutations.forEach(mutation => {
-      mutation.addedNodes.forEach(node => {
-        if (node.nodeType === Node.ELEMENT_NODE && node.hasAttribute('title')) {
-          const tooltipText = node.getAttribute('title');
-          console.log('lol',tooltipText);
-          if (tooltipText) {
-            const addresses = findXRPAddresses(tooltipText);
-            // Process addresses found
-          }
+    // Search in the text content of the current node
+    const xrpAddress = findXRPAddresses(node.textContent);
+    if (xrpAddress) {
+      console.log('Found XRP address in text content:', node.textContent);
+      return xrpAddress[0];
+    }
+
+    // Recursively search in child nodes
+    for (let i = 0; i < node.childNodes.length; i++) {
+      const child = node.childNodes[i];
+      if (child.nodeType === Node.ELEMENT_NODE) {
+        const result = findXRPAddressInNode(child);
+        if (result) {
+          return result;
         }
-      });
-    });
-  });
-  
-  observer.observe(document.body, { childList: true, subtree: true });
-  
-  
-  document.addEventListener('mouseover', function(event) {
-    const computedStyle = window.getComputedStyle(event.target, '::before');
-    // Extract content from computedStyle if possible
-    const content = computedStyle.content;
-    if (content) {
-        
-      const addresses = findXRPAddresses(content);
-      // Process addresses found
-    }
-  });
-  
-  function processElementForXRPAddress(element) {
-    // Get the title attribute of the element
-    const tooltipText = element.getAttribute('title');
-    
-    if (tooltipText) {
-      // If there's a title attribute, pass its content to findXRPAddresses
-      const addresses = findXRPAddresses(tooltipText);
-      // Process addresses found, you can add your logic here
-      //pass addresses to background.js
-      
-      console.log(addresses);
+      }
     }
   }
-  
-  // Add an event listener to document to catch all mouseover events
-  document.addEventListener('mouseover', function(event) {
-    // Check if the target of the mouseover event is an image with a class 'avatar-sm'
-    if (event.target.tagName === 'IMG' && event.target.classList.contains('avatar-sm')) {
-      // If so, pass the image element to the processing function
-      processElementForXRPAddress(event.target);
-    }
+  return null;
+}
+
+function createButton(xrpAddress, buttonText) {
+  const button = document.createElement('button');
+  button.classList.add('contact-nft-owner-button');
+
+  // Set button styles
+  button.style.backgroundColor = '#0077db';
+  button.style.color = '#ffffff';
+  button.style.display = 'flex';
+  button.style.alignItems = 'center';
+  button.style.justifyContent = 'center';
+  button.style.gap = '0.4em';
+  button.style.padding = '8px 16px';
+  button.style.margin = '10px 0';
+  button.style.border = 'none';
+  button.style.borderRadius = '5px';
+  button.style.cursor = 'pointer';
+  button.style.flex = '1'; // Allow the button to flex
+
+  // Create and append the SVG icon
+  const icon = document.createElement('img');
+  icon.src = chrome.runtime.getURL('icons/button_icon.svg');
+  icon.classList.add('img');
+  icon.style.width = '24px'; // Set fixed width for the icon
+  icon.style.height = '24px'; // Set fixed height for the icon
+  icon.style.border = 'none'; // Ensure no border
+  icon.style.borderRadius = '0'; // Ensure no border radius
+  button.appendChild(icon);
+
+  // Add text span
+  const textSpan = document.createElement('span');
+  textSpan.classList.add('text');
+  textSpan.textContent = buttonText;
+  button.appendChild(textSpan);
+
+  // Add click event to open a new tab
+  button.addEventListener('click', () => {
+    const cleanAddress = xrpAddress.replace(/[^a-zA-Z0-9]/g, '');
+    const url = `https://app.textrp.io/#/user/@${cleanAddress}:synapse.textrp.io`;
+    window.open(url, '_blank');
   });
-  
-  document.addEventListener('contextmenu', function(event) {
-    let targetElement = event.target;
-    let xrpAddress = findXRPAddressInAttributes(targetElement);
+
+  return button;
+}
+
+function injectStyles() {
+  const style = document.createElement('style');
+  style.textContent = `
+    .contact-nft-owner-button {
+      transition: background-color 0.2s, box-shadow 0.2s;
+      width: 100%; /* Ensure the button takes the full width of its container */
+    }
+    .contact-nft-owner-button:hover {
+      background-color: #005bb5 !important; /* Darker shade on hover */
+    }
+    .img {
+      width: 24px; /* Set fixed width */
+      height: 24px; /* Set fixed height */
+      object-fit: contain; /* Ensure image fits within the set dimensions */
+      border: none; /* Ensure no border */
+      border-radius: 0; /* Ensure no border radius */
+    }
+    .text {
+      font-weight: 600;
+      line-height: 1; /* Ensure text is vertically centered */
+    }
+  `;
+  document.head.appendChild(style);
+}
+
+function waitForElement(selector, timeout = 30000) {
+  return new Promise((resolve, reject) => {
+    const intervalTime = 100;
+    let timeElapsed = 0;
+
+    const interval = setInterval(() => {
+      const element = document.querySelector(selector);
+      if (element) {
+        clearInterval(interval);
+        resolve(element);
+      } else if (timeElapsed > timeout) {
+        clearInterval(interval);
+        reject(new Error(`Element with selector "${selector}" not found within timeout period.`));
+      }
+      timeElapsed += intervalTime;
+    }, intervalTime);
+  });
+}
+
+async function insertButtonForSite(site) {
+  console.log(`Checking URL: ${window.location.href}`);
+
+  try {
+    const container = await waitForElement(site.selector);
+    console.log('Found Owner address container:', container);
+
+    let xrpAddress = null;
+    if (site.url === 'https://app.zerpmon.world/en/user-profile/') {
+      xrpAddress = window.location.pathname.split('/').pop();
+      console.log('Extracted XRP address from URL:', xrpAddress);
+    } else {
+      xrpAddress = findXRPAddressInNode(container);
+    }
 
     if (xrpAddress) {
-        chrome.runtime.sendMessage({ type: 'rightClickWithXRPAddress', address: xrpAddress });
-    }
-});
+      console.log('Found XRP address:', xrpAddress);
 
-function findXRPAddressInAttributes(element) {
-    // Check common attributes that might contain an XRP address
-    const attributesToCheck = ['href', 'src', 'data', 'title', 'alt'];
-    
-    for (let attr of attributesToCheck) {
-        if (element.hasAttribute(attr)) {
-            let potentialAddress = element.getAttribute(attr);
-            let addresses = findXRPAddresses(potentialAddress);
-            if (addresses && addresses.length > 0) {
-                return addresses[0]; // Return the first found address
-            }
-        }
+      // Debugging: Log all potential insert containers
+      const potentialContainers = document.querySelectorAll(site.insertSelector);
+      console.log('Potential insert containers:', potentialContainers);
+
+      const insertContainer = await waitForElement(site.insertSelector);
+      console.log('Found insert container:', insertContainer);
+
+      // Check if the specific "Chat with player" button already exists
+      let buttonText = 'Chat with NFT owner';
+      if (site.type === 'game') {
+        buttonText = 'Chat with player';
+      }
+      if (site.type === 'wallet') {
+        buttonText = 'Chat with wallet';
+      }
+
+      // Remove the button if it already exists
+      const existingButton = insertContainer.querySelector('.contact-nft-owner-button');
+      if (existingButton) {
+        existingButton.remove();
+      }
+
+      const button = createButton(xrpAddress, buttonText);
+      insertContainer.appendChild(button);
+      console.log('Button inserted:', button);
+    } else {
+      console.log('XRP address not found in node:', site.selector, 'on URL:', site.url);
     }
-    return null; // Return null if no address is found
+  } catch (error) {
+    console.error(error.message);
+  }
 }
 
-scanForWalletAddresses();
+let debounceTimer;
+function observeDynamicContent(site) {
+  const observer = new MutationObserver((mutations) => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
+      mutations.forEach((mutation) => {
+        if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
+          console.log('Detected new content:', mutation);
+          insertButtonForSite(site);
+        }
+      });
+    }, 500); // Adjust debounce time as needed
+  });
+
+  const targetNode = document.querySelector('body'); // Observe changes on the entire body
+  observer.observe(targetNode, { childList: true, subtree: true });
+  console.log('MutationObserver set up for dynamic content.');
+}
+
+async function checkAndInsertButton() {
+  const currentUrl = window.location.href;
+  const sites = await loadSitesConfig();
+
+  for (const site of sites) {
+    if (currentUrl.startsWith(site.url)) {
+      console.log(`Matching site found for URL: ${site.url}`);
+      if (site.isDynamic) {
+        observeDynamicContent(site);
+      } else {
+        insertButtonForSite(site);
+      }
+      break;
+    }
+  }
+}
+
+// Step-by-step debugging for Sologenic.org
+async function debugSelectors() {
+  const selectors = [
+    '#content-scroll',
+    '#content-scroll > div',
+    '#content-scroll > div > div.nft-container',
+    '#content-scroll > div > div.nft-container > div.left.top',
+    '#content-scroll > div > div.nft-container > div.left.top > div'
+  ];
+
+  for (const selector of selectors) {
+    try {
+      const element = await waitForElement(selector);
+      console.log(`Found element for selector: ${selector}`, element);
+    } catch (error) {
+      console.error(error.message);
+      break; // Stop if any selector fails
+    }
+  }
+}
+
+window.addEventListener('load', () => {
+  injectStyles();
+  checkAndInsertButton();
+  debugSelectors(); // Debugging for Sologenic.org
+});
+
+// Monitor URL changes and re-run checkAndInsertButton
+let lastUrl = location.href;
+new MutationObserver(() => {
+  const currentUrl = location.href;
+  if (currentUrl !== lastUrl) {
+    lastUrl = currentUrl;
+    setTimeout(checkAndInsertButton, 1000); // Allow time for the new page to load
+  }
+}).observe(document, { subtree: true, childList: true });

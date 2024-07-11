@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "__MSG_extName__",
-  "version": "0.0.2",
+  "version": "0.1.2",
   "description": "__MSG_extDescription__",
   "default_locale": "en",
   "icons": {
@@ -10,13 +10,26 @@
     "128": "icons/icon128.png"
   },
   "permissions": ["contextMenus", "activeTab"],
+  "host_permissions": [
+    "https://nft.onxrp.com/*",
+    "https://xrp.cafe/*",
+    "https://xmart.art/*",
+    "https://xrpnft.com/*"
+  ],
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/button_icon.svg", "sitesConfig.json"],
+      "matches": ["<all_urls>"]
     }
   ]
 }
