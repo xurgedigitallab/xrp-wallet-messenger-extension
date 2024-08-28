@@ -1,71 +1,112 @@
 [
-    {
-      "url": "https://nft.onxrp.com/nft/",
-      "selector": "#__next > main > div > div > div > div > div.nft-details-right > section.nft-details-info > div > div > ul > li:nth-child(3) > span > a",
-      "insertSelector": "#__next > main > div > div > div > div > div.nft-details-right > section.nft-details-sale-actions > div.action-buttons"
-    },
-    {
-      "url": "https://xrp.cafe/nft/",
-      "selector": "#more > div > div > div.column.is-5 > section > article.accordion.is-active > div.accordion-body > div > div > div:nth-child(2) > div:nth-child(2) > a",
-      "insertSelector": "#__next > main > div > section.section.nft-item-hero > div.container > div > div.column.has-text-centered-mobile > div.box > div.buttons.is-justify-content-center-mobile"
-    },
-    {
-      "url": "https://xmart.art/",
-      "selector": "#nav-nftinfo > div.row > div:nth-child(2) > div:nth-child(3) > div.col-12.col-md-8.ellipsis > a > img",
-      "insertSelector": "#item-buttons > div",
-      "isDynamic": true
-    },
-    {
-      "url": "https://xrpnft.com/nft/",
-      "selector": ".css-166osl0 .css-j7qwjs a",
-      "insertSelector": "#__next > div.MuiBox-root.css-1o3ny4l > div.MuiContainer-root.MuiContainer-maxWidthLg.css-1iim8hk > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6\\.84.css-wkdhv1 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1b8agke > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-5.css-1t88fwi > div"
-    },
-    {
-      "url": "https://xpmarket.com/",
-      "selector": "#page-content > div > div > div > div.MuiStack-root.mui-style-1r7uait > div.MuiStack-root.mui-style-jj2ztu > div.MuiStack-root.mui-style-1hkv16f > div.base-card.MuiBox-root.mui-style-19ve2ps > div > div.MuiStack-root.mui-style-1ov46kg > div.MuiStack-root.mui-style-mef8pr > div:nth-child(2) > div > div.MuiBox-root.mui-style-2uzbfz > a > span > span",
-      "insertSelector": "#page-content > div > div > div > div.MuiStack-root.mui-style-1r7uait > div.MuiStack-root.mui-style-jj2ztu > div.MuiStack-root.mui-style-1hkv16f > div.base-card.MuiBox-root.mui-style-19ve2ps > div > div.MuiStack-root.mui-style-1ov46kg"
-    },
-    {
-      "url": "https://sologenic.org/nft/",
-      "selector": "#content-scroll > div > div.nft-container > div.right.bottom > div.users-related > div.owner.user > a > p",
-      "insertSelector": "#content-scroll > div > div.nft-container > div.left.top > div.jss57",
-      "type": "nft"
-    },
-    {
-      "url": "https://app.greyhoundcoin.net/",
-      "selector": "#main-wrapper > div.content-body > div > div > div > div:nth-child(1) > div > div:nth-child(2) > div > div.owner-info > h6",
-      "insertSelector": "#main-wrapper > div.content-body > div > div > div > div:nth-child(1) > div > div:nth-child(2)",
-      "type": "nft"
-    },
-    {
-      "url": "https://app.zerpmon.world/en/user-profile/",
-      "selector": "main > div.flex.flex-col.items-start.justify-start.mt-\\[65px\\] > div.w-full.flex.flex-col.xl\\:flex-row.justify-between.space-y-\\[28px\\].gap-2 > div.flex.flex-col.space-y-\\[16px\\] > div.flex.flex-row.space-x-\\[16px\\].items-center",
-      "insertSelector": "main > div.flex.flex-col.items-start.justify-start.mt-\\[65px\\] > div.w-full.flex.flex-col.xl\\:flex-row.justify-between.space-y-\\[28px\\].gap-2 > div.flex.flex-col.space-y-\\[16px\\]",
-      "type": "game"
-    },
-    {
-      "url": "https://bithomp.com/explorer/",
-      "selector": "#widget-info > div > div.address",
-      "insertSelector": "#widget-info > div > div.address",
-      "type": "wallet"
-    },
-    {
-      "url": "https://bithomp.com/",
-      "selector": "#__next > div > div.content > div.content-center.short-top.nft > div.column-right > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > a",
-      "insertSelector": "#__next > div > div.content > div.content-center.short-top.nft > div.column-right > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2)",
-      "type": "nft"
-    },
-    {
-      "url": "https://xrpscan.com/account/",
-      "selector": "#root > div > div > div > div > div:nth-child(3) > div > div > div > div.row > div.col-md-5.col-12 > div > table > thead > tr > th:nth-child(2) > a",
-      "insertSelector": "#root > div > div > div > div > div:nth-child(3) > div > div > div > div.row > div.col-md-5.col-12 > div > table > thead > tr > th:nth-child(2)",
-      "type": "wallet"
-    },
-    {
-      "url": "https://xrplwin.com/account/",
-      "selector": "#app > div.main-content > div:nth-child(2) > div:nth-child(1) > div.col-12.col-md-4 > div > div.font-monospace.text-break.text-muted.mb-2 > span",
-      "insertSelector": "#app > div.main-content > div:nth-child(2) > div:nth-child(1) > div.col-12.col-md-4 > div > div.font-monospace.text-break.text-muted.mb-2 > span",
-      "type": "wallet"
-    }
-  ]
-  
+  {
+    "url": "https://nft.onxrp.com/nft/",
+    "selector": "#__next > main > div > div > div > div > div.nft-details-right > section.nft-details-info > div > div > ul > li:nth-child(3) > span > a",
+    "insertSelector": "#__next > main > div > div > div > div > div.nft-details-right > section.nft-details-sale-actions > div.action-buttons"
+  },
+  {
+    "url": "https://xrp.cafe/nft/",
+    "selector": "#more > div > div > div.column.is-5 > section > article.accordion.is-active > div.accordion-body > div > div > div:nth-child(2) > div:nth-child(2) > a",
+    "insertSelector": "#__next > main > div > section.section.nft-item-hero > div.container > div > div.column.has-text-centered-mobile > div.box > div.buttons.is-justify-content-center-mobile"
+  },
+  {
+    "url": "https://xmart.art/",
+    "selector": "#nav-nftinfo > div.row > div:nth-child(2) > div:nth-child(3) > div.col-12.col-md-8.ellipsis > a > img",
+    "insertSelector": "#item-buttons > div",
+    "isDynamic": true
+  },
+  {
+    "url": "https://xrpnft.com/nft/",
+    "selector": ".css-166osl0 .css-j7qwjs a",
+    "insertSelector": "#__next > div.MuiBox-root.css-1o3ny4l > div.MuiContainer-root.MuiContainer-maxWidthLg.css-1iim8hk > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6\\.84.css-wkdhv1 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1b8agke > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-5.css-1t88fwi > div"
+  },
+  {
+    "url": "https://xpmarket.com/",
+    "selector": "#page-content > div > div > div > div.MuiStack-root.mui-style-1r7uait > div.MuiStack-root.mui-style-jj2ztu > div.MuiStack-root.mui-style-1hkv16f > div.base-card.MuiBox-root.mui-style-19ve2ps > div > div.MuiStack-root.mui-style-1ov46kg > div.MuiStack-root.mui-style-mef8pr > div:nth-child(2) > div > div.MuiBox-root.mui-style-2uzbfz > a > span > span",
+    "insertSelector": "#page-content > div > div > div > div.MuiStack-root.mui-style-1r7uait > div.MuiStack-root.mui-style-jj2ztu > div.MuiStack-root.mui-style-1hkv16f > div.base-card.MuiBox-root.mui-style-19ve2ps > div > div.MuiStack-root.mui-style-1ov46kg"
+  },
+  {
+    "url": "https://sologenic.org/nft/",
+    "selector": "#content-scroll > div > div.nft-container > div.right.bottom > div.users-related > div.owner.user > a > p",
+    "insertSelector": "#content-scroll > div > div.nft-container > div.left.top > div.jss57",
+    "type": "nft"
+  },
+  {
+    "url": "https://app.greyhoundcoin.net/",
+    "selector": "#main-wrapper > div.content-body > div > div > div > div:nth-child(1) > div > div:nth-child(2) > div > div.owner-info > h6",
+    "insertSelector": "#main-wrapper > div.content-body > div > div > div > div:nth-child(1) > div > div:nth-child(2)",
+    "type": "nft"
+  },
+  {
+    "url": "https://app.zerpmon.world/en/user-profile/",
+    "selector": "main > div.flex.flex-col.items-start.justify-start.mt-\\[65px\\] > div.w-full.flex.flex-col.xl\\:flex-row.justify-between.space-y-\\[28px\\].gap-2 > div.flex.flex-col.space-y-\\[16px\\] > div.flex.flex-row.space-x-\\[16px\\].items-center",
+    "insertSelector": "main > div.flex.flex-col.items-start.justify-start.mt-\\[65px\\] > div.w-full.flex.flex-col.xl\\:flex-row.justify-between.space-y-\\[28px\\].gap-2 > div.flex.flex-col.space-y-\\[16px\\]",
+    "type": "game"
+  },
+  {
+    "url": "https://bithomp.com/explorer/",
+    "selector": "#widget-info > div > div.address",
+    "insertSelector": "#widget-info > div > div.address",
+    "type": "wallet"
+  },
+  {
+    "url": "https://bithomp.com/",
+    "selector": "#__next > div > div.content > div.content-center.short-top.nft > div.column-right > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > a",
+    "insertSelector": "#__next > div > div.content > div.content-center.short-top.nft > div.column-right > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2)",
+    "type": "nft"
+  },
+  {
+    "url": "https://xrpscan.com/account/",
+    "selector": "#root > div > div > div > div > div:nth-child(3) > div > div > div > div.row > div.col-md-5.col-12 > div > table > thead > tr > th:nth-child(2) > a",
+    "insertSelector": "#root > div > div > div > div > div:nth-child(3) > div > div > div > div.row > div.col-md-5.col-12 > div > table > thead > tr > th:nth-child(2)",
+    "type": "wallet"
+  },
+  {
+    "url": "https://xrplwin.com/account/",
+    "selector": "#app > div.main-content > div:nth-child(2) > div:nth-child(1) > div.col-12.col-md-4 > div > div.font-monospace.text-break.text-muted.mb-2 > span",
+    "insertSelector": "#app > div.main-content > div:nth-child(2) > div:nth-child(1) > div.col-12.col-md-4 > div > div.font-monospace.text-break.text-muted.mb-2 > span",
+    "type": "wallet"
+  },
+  {
+    "url": "https://xrpstudio.io/user/",
+    "selector": "#root > div.BasePagestyles__BasePageRoot-sc-lv6ebf-0.NHHNv > div.PageHeaderstyles__PageHeaderRoot-sc-w1q3vw-0.RXKen.ProfileHeaderstyles__ProfileHeaderRoot-sc-1hdlcpu-0.jucxeA > header.PageHeaderstyles__MainPageHeader-sc-w1q3vw-1.grkPTR.main-header > div > div > div > div > div > div > div.Rowstyles__RowRoot-sc-x5gyks-0.ijEFcr.ProfileInfo___StyledRow-sc-rz5mc1-0.kDWrDz > span > div > a > p",
+    "insertSelector": "#root > div.BasePagestyles__BasePageRoot-sc-lv6ebf-0.NHHNv > div.PageHeaderstyles__PageHeaderRoot-sc-w1q3vw-0.RXKen.ProfileHeaderstyles__ProfileHeaderRoot-sc-1hdlcpu-0.jucxeA > header.PageHeaderstyles__MainPageHeader-sc-w1q3vw-1.grkPTR.main-header > div > div > div > div > div > div > div.Rowstyles__RowRoot-sc-x5gyks-0.ijEFcr.ProfileInfo___StyledRow-sc-rz5mc1-0.kDWrDz > span > div",
+    "type": "nft"
+  },
+  {
+    "url": "https://neefty.io/",
+    "selector": "body > div.main-page.bubble-element.Page > div > div > div > div:nth-child(1) > div > div > div > div > div > div:nth-child(6) > div > div > div > div:nth-child(1) > a",
+    "insertSelector": "body > div.main-page.bubble-element.Page > div > div > div > div:nth-child(1) > div > div > div > div > div > div:nth-child(6) > div > div",
+    "type": "nft"
+  },
+  {
+    "url": "https://livenet.xrpl.org/accounts/",
+    "selector": "#xrpl-explorer > div > div > div.content > div > div.box.account-header > div.section.box-header > h1",
+    "insertSelector": "#xrpl-explorer > div > div > div.content > div > div.box.account-header > div.section.box-header",
+    "type": "wallet"
+  },
+  {
+    "url": "https://testnet.xrpl.org/accounts",
+    "selector": "#xrpl-explorer > div > div > div.content > div > div.box.account-header > div.section.box-header > h1",
+    "insertSelector": "#xrpl-explorer > div > div > div.content > div > div.box.account-header > div.section.box-header",
+    "type": "wallet"
+  },
+  {
+    "url": "https://devnet.xrpl.org/accounts/",
+    "selector": "#xrpl-explorer > div > div > div.content > div > div.box.account-header > div.section.box-header > h1",
+    "insertSelector": "#xrpl-explorer > div > div > div.content > div > div.box.account-header > div.section.box-header",
+    "type": "wallet"
+  },
+  {
+    "url": "https://xahau.xrpl.org/accounts/",
+    "selector": "#xrpl-explorer > div > div > div.content > div > div.box.account-header > div.section.box-header > h1",
+    "insertSelector": "#xrpl-explorer > div > div > div.content > div > div.box.account-header > div.section.box-header",
+    "type": "wallet"
+  },
+  {
+    "url": "https://xahau-testnet.xrpl.org/accounts/",
+    "selector": "#xrpl-explorer > div > div > div.content > div > div.box.account-header > div.section.box-header > h1",
+    "insertSelector": "#xrpl-explorer > div > div > div.content > div > div.box.account-header > div.section.box-header",
+    "type": "wallet"
+  }
+]
