@@ -144,7 +144,7 @@ async function insertButtonForSite(site) {
     console.log('Found Owner address container:', container);
 
     let xrpAddress = null;
-    if (site.url === 'https://app.zerpmon.world/en/user-profile/') {
+    if (site.url === 'https://app.zerpmon.world') {
       xrpAddress = window.location.pathname.split('/').pop();
       console.log('Extracted XRP address from URL:', xrpAddress);
     } else {
