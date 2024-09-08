@@ -52,7 +52,7 @@
     "type": "game"
   },
   {
-    "url": "https://bithomp.com",
+    "url": "https://bithomp.com/explorer/",
     "fullPath": "https://bithomp.com/explorer/",
     "selector": "#widget-info > div > div.address",
     "insertSelector": "#widget-info > div > div.address",
@@ -60,9 +60,9 @@
   },
   {
     "url": "https://bithomp.com",
-    "fullPath": "https://bithomp.com/",
+    "fullPath": "https://bithomp.com/en/nft/",
     "selector": "#__next > div > div.content > div.content-center.short-top.nft > div.column-right > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > a",
-    "insertSelector": "#__next > div > div.content > div.content-center.short-top.nft > div.column-right > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2)",
+    "insertSelector": "#__next > div > div.content > div.content-center.short-top.nft > div.column-left > span",
     "type": "nft"
   },
   {
