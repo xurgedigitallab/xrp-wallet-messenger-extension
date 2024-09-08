@@ -27,8 +27,8 @@
   {
     "url": "https://xpmarket.com",
     "fullPath": "https://xpmarket.com/",
-    "selector": "#page-content > div > div > div > div.MuiStack-root.mui-style-1r7uait > div.MuiStack-root.mui-style-jj2ztu > div.MuiStack-root.mui-style-1hkv16f > div.base-card.MuiBox-root.mui-style-19ve2ps > div > div.MuiStack-root.mui-style-1ov46kg > div.MuiStack-root.mui-style-mef8pr > div:nth-child(2) > div > div.MuiBox-root.mui-style-2uzbfz > a > span > span",
-    "insertSelector": "#page-content > div > div > div > div.MuiStack-root.mui-style-1r7uait > div.MuiStack-root.mui-style-jj2ztu > div.MuiStack-root.mui-style-1hkv16f > div.base-card.MuiBox-root.mui-style-19ve2ps > div > div.MuiStack-root.mui-style-1ov46kg"
+    "selector": "#page-content > div > div > div > div.MuiStack-root.mui-style-1r7uait > div.MuiStack-root.mui-style-jj2ztu > div.MuiStack-root.mui-style-1hkv16f > div:nth-child(1) > div.card-content.MuiBox-root.mui-style-r8dn8q > div > div.MuiStack-root.mui-style-mef8pr > div:nth-child(2) > div.MuiBox-root.mui-style-2uzbfz > a",
+    "insertSelector": "#page-content > div > div > div > div.MuiStack-root.mui-style-1r7uait > div.MuiStack-root.mui-style-jj2ztu > div.MuiStack-root.mui-style-1hkv16f > div:nth-child(1) > div.card-content.MuiBox-root.mui-style-r8dn8q > div > div.MuiBox-root.mui-style-1pxgmwj > div"
   },
   {
     "url": "https://sologenic.org",
