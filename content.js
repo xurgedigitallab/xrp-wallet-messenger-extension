@@ -48,6 +48,21 @@ function findXRPAddressInNode(node) {
   return null;
 }
 
+function getXrpAddress(nftId) {
+  return new Promise((resolve, reject) => {
+    chrome.runtime.sendMessage({ action: 'getXrpAddress', nftId }, (response) => {
+      console.log('Received response:', response);
+      if (response && response.error) {
+        reject(response.error);
+      } else if (response && response.xrpAddress) {
+        resolve(response.xrpAddress);
+      } else {
+        reject('No valid response received.');
+      }
+    });
+  });
+}
+
 function createButton(xrpAddress, buttonText) {
   const button = document.createElement('button');
   button.classList.add('contact-nft-owner-button');
@@ -144,9 +159,16 @@ async function insertButtonForSite(site) {
     console.log('Found Owner address container:', container);
 
     let xrpAddress = null;
+    let nftId = null;
     if (site.url === 'https://app.zerpmon.world') {
       xrpAddress = window.location.pathname.split('/').pop();
       console.log('Extracted XRP address from URL:', xrpAddress);
+    } else if (site.url === 'https://sologenic.org') {
+      nftId = window.location.pathname.split('/').pop().split('?')[0];
+      console.log('found nftId', nftId);
+
+      xrpAddress = await getXrpAddress(nftId);
+      console.log('found xrpAddress', xrpAddress);
     } else {
       xrpAddress = findXRPAddressInNode(container);
     }

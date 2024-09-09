@@ -9,7 +9,10 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "permissions": ["contextMenus", "activeTab"],
+  "permissions": [
+    "contextMenus",
+    "activeTab"
+  ],
   "host_permissions": [
     "https://nft.onxrp.com/*",
     "https://xrp.cafe/*",
@@ -17,19 +20,30 @@
     "https://xrpnft.com/*"
   ],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "dist/background.bundle.js"
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"],
-      "css": ["styles.css"]
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ]
     }
   ],
   "web_accessible_resources": [
     {
-      "resources": ["icons/button_icon.svg", "sitesConfig.json"],
-      "matches": ["<all_urls>"]
+      "resources": [
+        "icons/button_icon.svg",
+        "sitesConfig.json"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
     }
   ]
 }

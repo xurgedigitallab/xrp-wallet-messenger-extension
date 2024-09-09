@@ -33,8 +33,8 @@
   {
     "url": "https://sologenic.org",
     "fullPath": "https://sologenic.org/nft/",
-    "selector": "#content-scroll > div > div.nft-container > div.right.bottom > div.users-related > div.owner.user > a > p",
-    "insertSelector": "#content-scroll > div > div.nft-container > div.left.top > div.jss57",
+    "selector": "#content-scroll > div > div.nft-container > div.right.bottom > div.users-related > div.owner.user > a",
+    "insertSelector": "#content-scroll > div > div.nft-container > div.left.top > div:first-child",
     "type": "nft"
   },
   {
