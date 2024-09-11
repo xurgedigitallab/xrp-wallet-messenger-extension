@@ -66,6 +66,20 @@
     "type": "nft"
   },
   {
+    "url": "https://xrplexplorer.com/explorer/",
+    "fullPath": "https://xrplexplorer.com/explorer/",
+    "selector": "#widget-info > div > div.address",
+    "insertSelector": "#widget-info > div > div.address",
+    "type": "wallet"
+  },
+  {
+    "url": "https://xrplexplorer.com",
+    "fullPath": "https://xrplexplorer.com/en/nft/",
+    "selector": "#__next > div > div.content > div.content-center.short-top.nft > div.column-right > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > a",
+    "insertSelector": "#__next > div > div.content > div.content-center.short-top.nft > div.column-left > span",
+    "type": "nft"
+  },
+  {
     "url": "https://xrpscan.com",
     "fullPath": "https://xrpscan.com/account/",
     "selector": "#root > div > div > div > div > div:nth-child(3) > div > div > div > div.row > div.col-md-5.col-12 > div > table > thead > tr > th:nth-child(2) > a",
