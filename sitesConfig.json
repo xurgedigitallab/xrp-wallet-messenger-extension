@@ -127,5 +127,12 @@
     "selector": "#xrpl-explorer > div > div > div.content > div > div.box.account-header > div.section.box-header > h1",
     "insertSelector": "#xrpl-explorer > div > div > div.content > div > div.box.account-header > div.section.box-header",
     "type": "wallet"
+  },
+  {
+    "url": "https://dexfi.pro/explorer",
+    "fullPath": "https://dexfi.pro/explorer",
+    "selector": "[id^='cdk-accordion-child-'] > div > div > table > tr:nth-child(4)",
+    "insertSelector": "body > app-root > div > div > div > app-nft-explorer > div > div > div > app-nft-table > mat-sidenav-container > mat-sidenav > div > div > app-nft-view > div > div",
+    "isDynamic": true
   }
 ]
