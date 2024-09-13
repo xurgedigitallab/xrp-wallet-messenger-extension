@@ -15,10 +15,18 @@ function findXRPAddressInNode(node) {
     for (let i = 0; i < node.attributes.length; i++) {
       const attribute = node.attributes[i];
       const value = attribute.value;
-      if (attribute.name === 'href' && value.includes('/profile/')) {
-        const xrpAddress = value.split('/profile/')[1];
-        console.log('Found XRP address in href:', xrpAddress);
-        return xrpAddress;
+      if (attribute.name === 'href') {
+        if (value.includes('/profile/')) {
+          const xrpAddress = value.split('/profile/')[1];
+          console.log('Found XRP address in href:', xrpAddress);
+          return xrpAddress;
+        } else {
+          const xrpAddress = findXRPAddresses(value);
+          if (xrpAddress) {
+            console.log('Found XRP address in href attribute:', attribute.name, 'with value:', value);
+            return xrpAddress[0];
+          }
+        }
       }
       const xrpAddress = findXRPAddresses(value);
       if (xrpAddress) {
