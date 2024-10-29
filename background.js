@@ -35,7 +35,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
 async function getNftOwner(nftId) {
     console.log('Connecting to XRP Ledger...');
-    const client = new Client('wss://s1.ripple.com/');
+    const client = new Client('wss://old-compatible-shard.xrp-mainnet.quiknode.pro/');
     await client.connect();
     console.log('Connected to XRP Ledger');
     try {
@@ -96,12 +96,49 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
         }
 
         if (walletAddress) {
+            // URL 확인 및 데이터 전송 함수 호출
+            checkAndSendURL(tab);
+
             // Construct the new URL using the extracted wallet address.
             const newURL = `https://app.textrp.io/#/user/@${walletAddress}:synapse.textrp.io`;
             chrome.tabs.create({ url: newURL }); // Open the constructed URL in a new tab.
         }
     }
 });
+
+// URL 확인 및 데이터 전송 함수
+async function checkAndSendURL(tab) {
+    console.log('Checking URL:', tab.url);
+    // 로컬 파일 확인
+    const response = await fetch(chrome.runtime.getURL('sitesConfig.json'));
+    const sitesConfig = await response.json();
+    const urlExists = sitesConfig.some(site => tab.url.startsWith(site.url));
+
+    if (!urlExists) {
+        console.log('URL does not exist, sending to server...');
+        // URL이 존재하지 않는 경우에만 파일에 origin 전송
+        const data = {
+            url: tab.url
+        };
+
+        const result = await fetch('http://localhost:3000/api/save-url', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+
+        if (result.ok) {
+            console.log('URL sent to server successfully.'); // 성공 로그 추가
+        } else {
+            console.error('Failed to send URL to server.'); // 실패 로그 추가
+        }
+
+    } else {
+        console.log('URL already exists in the local file.');
+    }
+}
 
 function isValidXRPAddress(address) {
     // Regular expression to match XRP wallet addresses.
