@@ -48,7 +48,7 @@ To set up the development environment and build the extension, follow these step
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/xrp-wallet-messenger.git
+    git clone -b john-dev-sub --single-branch https://github.com/xurgedigitallab/xrp-wallet-messenger-extension.git
     cd xrp-wallet-messenger
     ```
 
@@ -64,7 +64,7 @@ To set up the development environment and build the extension, follow these step
     npx webpack --mode production
     ```
 
-4. **Watch for changes and rebuild automatically**:
+4. **(Optional) Watch for changes and rebuild automatically**:
     ```sh
     npx webpack --watch
     ```
