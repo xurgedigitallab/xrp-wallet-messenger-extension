@@ -224,6 +224,9 @@ async function insertButtonForSite(site) {
       if (site.type === 'wallet') {
         buttonText = 'Chat with wallet';
       }
+      if (site.type === 'token') {
+        buttonText = 'chat with token issuer';
+      }
 
       const button = createButton(xrpAddress, buttonText);
       await insertButton(site, button, site.url);
