@@ -209,6 +209,24 @@ async function insertButtonForSite(site) {
 
       xrpAddress = await getXrpAddress(nftId);
       console.log('found xrpAddress', xrpAddress);
+    } else if (site.url === 'https://fuzion-xio.com') {
+      nftId = container.href.split('/').pop();
+      console.log('Extracted nftId from href:', nftId);
+      
+      xrpAddress = await getXrpAddress(nftId);
+      console.log('found xrpAddress', xrpAddress);
+    } else if (site.url === 'https://artdept.fun') {
+      nftId = window.location.pathname.split('/').pop();
+      console.log('found nftId', nftId);
+
+      xrpAddress = await getXrpAddress(nftId);
+      console.log('found xrpAddress', xrpAddress);
+    } else if (site.url === 'https://xmagnetic.org') {
+      nftId = window.location.pathname.split('/').pop().split('?')[0];
+      console.log('found nftId', nftId);
+
+      xrpAddress = await getXrpAddress(nftId);
+      console.log('found xrpAddress', xrpAddress);
     } else {
       xrpAddress = findXRPAddressInNode(container);
     }
