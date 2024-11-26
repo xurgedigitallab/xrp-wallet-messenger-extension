@@ -140,6 +140,38 @@ function injectStyles() {
   document.head.appendChild(style);
 }
 
+async function insertButton(site, button, siteUrl) {
+  // Debugging: Log all potential insert containers
+  const potentialContainers = document.querySelectorAll(site.insertSelector);
+  console.log('Potential insert containers:', potentialContainers);
+
+  const insertContainer = await waitForElement(site.insertSelector);
+  console.log('Found insert container:', insertContainer);
+
+  // Remove the button if it already exists
+  const existingButton = insertContainer.querySelector('.contact-nft-owner-button');
+  if (existingButton) {
+    existingButton.remove();
+  }
+
+  if (!insertContainer) {
+    console.error('Selector not found:', site.insertSelector);
+    return;
+  }
+
+  // For specific sites, insert the button using different methods.
+  if (siteUrl === 'https://xrplexplorer.com') {
+    insertContainer.insertAdjacentElement('afterend', button);
+  } else if (siteUrl === 'https://neefty.io') {
+    insertContainer.insertAdjacentElement('afterend', button);
+  } else if (siteUrl === 'https://xmagnetic.org') {
+    insertContainer.insertAdjacentElement('afterend', button);
+  } else {
+    // By default, insert as the last child
+    insertContainer.appendChild(button);
+  }
+}
+
 function waitForElement(selector, timeout = 30000) {
   return new Promise((resolve, reject) => {
     const intervalTime = 100;
@@ -184,13 +216,6 @@ async function insertButtonForSite(site) {
     if (xrpAddress) {
       console.log('Found XRP address:', xrpAddress);
 
-      // Debugging: Log all potential insert containers
-      const potentialContainers = document.querySelectorAll(site.insertSelector);
-      console.log('Potential insert containers:', potentialContainers);
-
-      const insertContainer = await waitForElement(site.insertSelector);
-      console.log('Found insert container:', insertContainer);
-
       // Check if the specific "Chat with player" button already exists
       let buttonText = 'Chat with NFT owner';
       if (site.type === 'game') {
@@ -200,14 +225,8 @@ async function insertButtonForSite(site) {
         buttonText = 'Chat with wallet';
       }
 
-      // Remove the button if it already exists
-      const existingButton = insertContainer.querySelector('.contact-nft-owner-button');
-      if (existingButton) {
-        existingButton.remove();
-      }
-
       const button = createButton(xrpAddress, buttonText);
-      insertContainer.appendChild(button);
+      await insertButton(site, button, site.url);
       console.log('Button inserted:', button);
     } else {
       console.log('XRP address not found in node:', site.selector, 'on URL:', site.url);
