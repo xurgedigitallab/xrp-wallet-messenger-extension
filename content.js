@@ -1,7 +1,16 @@
 async function loadSitesConfig() {
-  const response = await fetch(chrome.runtime.getURL('sitesConfig.json'));
-  const sites = await response.json();
-  return sites;
+  return new Promise((resolve, reject) => {
+    console.log('Sending getSitesConfig message to background.js');
+    chrome.runtime.sendMessage({ action: 'getSitesConfig' }, response => {
+      if (response.error) {
+        console.error('Error received from background.js:', response.error);
+        reject(new Error(response.error));
+      } else {
+        console.log('Received sitesConfig from background.js');
+        resolve(response.sitesConfig);
+      }
+    });
+  });
 }
 
 function findXRPAddresses(text) {
