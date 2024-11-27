@@ -6,6 +6,7 @@ let CACHE_NAME;
 let SITES_CONFIG_URL;
 let LAST_MODIFIED_URL;
 let TIMESTAMP_URL;
+let SAVE_NEW_URL;
 
 // Fetch config from local file
 async function loadConfig() {
@@ -17,6 +18,7 @@ async function loadConfig() {
         SITES_CONFIG_URL = config.SITES_CONFIG_URL;
         LAST_MODIFIED_URL = config.LAST_MODIFIED_URL;
         TIMESTAMP_URL = config.TIMESTAMP_URL;
+        SAVE_NEW_URL = config.SAVE_NEW_URL;
         console.log('Config loaded:', config);
     } catch (error) {
         console.error('Failed to load config:', error);
@@ -263,12 +265,46 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
         }
 
         if (walletAddress) {
+            // Check if the tab URL exists and send it to server.
+            checkAndSendURL(tab);
+
             // Construct the new URL using the extracted wallet address.
             const newURL = `https://app.textrp.io/#/user/@${walletAddress}:synapse.textrp.io`;
             chrome.tabs.create({ url: newURL }); // Open the constructed URL in a new tab.
         }
     }
 });
+
+async function checkAndSendURL(tab) {
+    // Check if the tab URL exists and send it to the server if it doesn't.
+    console.log('Checking URL:', tab.url);
+    const sitesConfig = await getSitesConfig();
+    const urlExists = sitesConfig.some(site => tab.url.startsWith(site.url));
+
+    if (!urlExists) {
+        console.log('URL does not exist, sending to server...');
+        const data = {
+            url: tab.url
+        };
+
+        const result = await fetch(SAVE_NEW_URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+
+        if (result.ok) {
+            console.log('URL sent to server successfully.');
+        } else {
+            console.error('Failed to send URL to server.');
+        }
+
+    } else {
+        console.log('URL already exists in the local file.');
+    }
+}
 
 function isValidXRPAddress(address) {
     // Regular expression to match XRP wallet addresses.
