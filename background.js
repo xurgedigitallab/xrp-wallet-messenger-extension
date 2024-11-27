@@ -1,6 +1,8 @@
 import { Client } from 'xrpl';
 // console.log('XRPL Client:', Client);
 
+let XRPL_WS_URL;
+
 self.addEventListener('install', (event) => {
     console.log('Service Worker installing.');
     self.skipWaiting();
@@ -35,7 +37,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
 async function getNftOwner(nftId) {
     console.log('Connecting to XRP Ledger...');
-    const client = new Client('wss://s1.ripple.com/');
+    const client = new Client(XRPL_WS_URL);
     await client.connect();
     console.log('Connected to XRP Ledger');
     try {
