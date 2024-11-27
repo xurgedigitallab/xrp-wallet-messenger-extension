@@ -2,7 +2,7 @@
   {
     "url": "https://bidds.com",
     "fullPath": "https://bidds.com/collection/",
-    "selector": "#__next > div.custom-modal > div > div > div > div.nft-detail__nft-wrapper > div.colum.right > div.nft-detail__details.widget > div.nft-detail__details--content > div:nth-child(3) > div.nft-detail__details--colum.right.owner > a",
+    "selector": "#__next > div.custom-modal > div > div > div > div.nft-detail__nft-wrapper > div.colum.right > div.nft-detail__details.widget > div.nft-detail__details--content > div:nth-child(4) > div.nft-detail__details--colum.right.owner > a",
     "insertSelector": "#__next > div.custom-modal > div > div > div > div.nft-detail__nft-wrapper > div.colum.right > div.nft-detail__listing-price.widget > div",
     "isDynamic": true,
     "sitesMonitorUrl": "https://bidds.com/collection/xpunks/",
@@ -27,8 +27,8 @@
   {
     "url": "https://xrpnft.com",
     "fullPath": "https://xrpnft.com/nft/",
-    "selector": "#__next > div.MuiBox-root.css-zp6e7o > div.MuiBox-root.css-15a6yjd > div.MuiContainer-root.MuiContainer-maxWidthXl.css-3nu7ic > div > div > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-7.css-8zj0wg > div > div > div.css-1kmhm76 > div.css-mu3t9k > div.css-j7qwjs > a",
-    "insertSelector": "#__next > div.MuiBox-root.css-zp6e7o > div.MuiBox-root.css-15a6yjd > div.MuiContainer-root.MuiContainer-maxWidthXl.css-3nu7ic > div > div > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-7.css-8zj0wg > div > div > div.css-1kmhm76 > div:nth-child(8) > div",
+    "selector": "#__next > div.MuiBox-root.css-zp6e7o > div.MuiBox-root.css-15a6yjd > div.MuiContainer-root.MuiContainer-maxWidthXl.css-3nu7ic > div > div > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-7.css-8zj0wg > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation0.css-3pix3k > div.css-1kmhm76 > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation0.css-2kexfz > div.css-1rbxxu8 > a",
+    "insertSelector": "#__next > div.MuiBox-root.css-zp6e7o > div.MuiBox-root.css-15a6yjd > div.MuiContainer-root.MuiContainer-maxWidthXl.css-3nu7ic > div > div > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-7.css-8zj0wg > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation0.css-3pix3k > div.css-1kmhm76 > div:nth-child(5) > div",
     "sitesMonitorUrl": "https://xrpnft.com/nft/000822B03EA060FD1026C04B2D390CC132D07D600DA9B0826FA103B600001E1C"
   },
   {
@@ -56,8 +56,8 @@
   {
     "url": "https://app.zerpmon.world",
     "fullPath": "https://app.zerpmon.world/en/user-profile/",
-    "selector": "main > div.flex.flex-col.items-start.justify-start.mt-\\[65px\\] > div.w-full.flex.flex-col.xl\\:flex-row.justify-between.space-y-\\[28px\\].gap-2 > div.flex.flex-col.space-y-\\[16px\\] > div.flex.flex-row.space-x-\\[16px\\].items-center",
-    "insertSelector": "main > div.flex.flex-col.items-start.justify-start.mt-\\[65px\\] > div.w-full.flex.flex-col.xl\\:flex-row.justify-between.space-y-\\[28px\\].gap-2 > div.flex.flex-col.space-y-\\[16px\\]",
+    "selector": "body > div.antialiased.bg-\\[color\\:var\\(--content-bg-color\\)\\] > main > div.flex.flex-col.items-start.justify-start > div.w-full.flex.flex-col.xl\\:flex-row.justify-between.space-y-\\[28px\\].gap-2 > div.flex.flex-col.space-y-\\[16px\\] > div.flex.flex-col.gap-6",
+    "insertSelector": "body > div.antialiased.bg-\\[color\\:var\\(--content-bg-color\\)\\] > main > div.flex.flex-col.items-start.justify-start > div.w-full.flex.flex-col.xl\\:flex-row.justify-between.space-y-\\[28px\\].gap-2 > div.flex.flex-col.space-y-\\[16px\\] > div.flex.flex-col.gap-6",
     "type": "game"
   },
   {
@@ -71,8 +71,8 @@
   {
     "url": "https://xrplexplorer.com",
     "fullPath": "https://xrplexplorer.com/en/nft/",
-    "selector": "#__next > div > div.content > div > div.content-profile > div.column-right > table:nth-child(4) > tbody > tr:nth-child(3) > td:nth-child(2) > a",
-    "insertSelector": "#__next > div > div.content > div > div.content-profile > div.column-left > img",
+    "selector": "#__next > div > div.content > div > div.content-profile > div.column-right > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > a",
+    "insertSelector": "#__next > div > div.content > div > div.content-profile > div.column-left > button",
     "type": "nft",
     "sitesMonitorUrl": "https://xrplexplorer.com/en/nft/000800002D2E1AF8BA10A32EBF925D5FC1172652EE1D86D71CD0F05B056E26C0"
   },
@@ -96,14 +96,14 @@
     "url": "https://xrpstudio.io",
     "fullPath": "https://xrpstudio.io/user/",
     "selector": "#root > div.BasePagestyles__BasePageRoot-sc-lv6ebf-0.NHHNv > div.PageHeaderstyles__PageHeaderRoot-sc-w1q3vw-0.RXKen.ProfileHeaderstyles__ProfileHeaderRoot-sc-1hdlcpu-0.jucxeA > header.PageHeaderstyles__MainPageHeader-sc-w1q3vw-1.grkPTR.main-header > div > div > div > div > div > div > div.Rowstyles__RowRoot-sc-x5gyks-0.ijEFcr.ProfileInfo___StyledRow-sc-rz5mc1-0.kDWrDz > span > div > a > p",
-    "insertSelector": "#root > div.BasePagestyles__BasePageRoot-sc-lv6ebf-0.NHHNv > div.PageHeaderstyles__PageHeaderRoot-sc-w1q3vw-0.RXKen.ProfileHeaderstyles__ProfileHeaderRoot-sc-1hdlcpu-0.jucxeA > header.PageHeaderstyles__MainPageHeader-sc-w1q3vw-1.grkPTR.main-header > div > div > div > div > div > div > div.Rowstyles__RowRoot-sc-x5gyks-0.ijEFcr.ProfileInfo___StyledRow-sc-rz5mc1-0.kDWrDz > span > div",
+    "insertSelector": "body > div.main-page.bubble-element.Page > div > div > div > div:nth-child(1) > div > div > div > div > div > div:nth-child(1) > div",
     "type": "nft"
   },
   {
     "url": "https://neefty.io",
     "fullPath": "https://neefty.io/",
     "selector": "body > div.main-page.bubble-element.Page > div > div > div > div:nth-child(1) > div > div > div > div > div > div:nth-child(6) > div > div > div > div:nth-child(1) > a",
-    "insertSelector": "body > div.main-page.bubble-element.Page > div > div > div > div:nth-child(1) > div > div > div > div > div > div:nth-child(6) > div > div",
+    "insertSelector": "body > div:nth-child(8) > div:nth-child(1) > div > div > div:nth-child(2)",
     "type": "nft",
     "sitesMonitorUrl": "https://neefty.io/xrpl?cid=63fea0117ecc1a23708fd704"
   },
@@ -148,15 +148,6 @@
     "sitesMonitorUrl": "https://xahau-testnet.xrpl.org/accounts/rHEbBTy4t5BGS7o4EmHyP6uZ9P7M53mziK"
   },
   {
-    "url": "https://dexfi.pro/explorer",
-    "fullPath": "https://dexfi.pro/explorer",
-    "selector": "[id^='cdk-accordion-child-'] > div > div > table > tr:nth-child(4)",
-    "insertSelector": "body > app-root > div > div > div > app-nft-explorer > div > div > div > app-nft-table > mat-sidenav-container > mat-sidenav > div > div > app-nft-view > div > div",
-    "isDynamic": true,
-    "sitesMonitorUrl": "https://dexfi.pro/explorer",
-    "clickSelector": "body > app-root > div > div > div > app-nft-explorer > div > div > div > app-nft-table > mat-sidenav-container > mat-sidenav-content > div > div > table > tbody > tr:nth-child(1)"
-  },
-  {
     "url": "https://fuzion-xio.com",
     "fullPath": "https://fuzion-xio.com/Nftdetail/",
     "selector": "#root > div.gradientBg.pt-4.DetailBG > div > div.pb-5.mainRow.row > div.order-1.order-md-0.order-lg-0.order-sm-0.order-xl-0.col-xl-6.col-lg-6.col-md-6.col-12 > div > div.nft_Buttons_left.d-flex.align-items-center > a.share.bitomp",
@@ -166,8 +157,8 @@
   {
     "url": "https://artdept.fun",
     "fullPath": "https://artdept.fun/nft/",
-    "selector": "#root > div:nth-child(3) > div.sc-bZRCjg.hWilXk > div.sc-lbehOG.eIPpFr > div.sc-idSQmJ.ecxkFI > div.sc-goKCGu.hBmrPl > div.sc-foYBXA.evRcqP > a:nth-child(2) > div > p.sc-jtmPYc.cerHAC",
-    "insertSelector": "#root > div:nth-child(3) > div.sc-bZRCjg.hWilXk > div.sc-lbehOG.eIPpFr > div.sc-idSQmJ.ecxkFI > div.sc-heHsaY.eaWhMk > div > div > div.sc-esTEXd.efJsGc > div.sc-aVPtf.eXZtgM",
+    "selector": "#root > div:nth-child(3) > div.sc-cZdauR.cFouGr > div.sc-bZRCjg.cPRHqs > div.sc-dioYEy.iTgOKr > div.sc-hnWaSf.jHcmHe > div.sc-jhtiLu.kEQgHq > a:nth-child(2)",
+    "insertSelector": "#root > div:nth-child(3) > div.sc-cZdauR.cFouGr > div.sc-bZRCjg.cPRHqs > div.sc-dioYEy.iTgOKr > div.sc-idSQmJ.fyzBna > div > div > div.sc-gZYfoo.fYRMfx > div.sc-hqjbBg.jvGQZZ",
     "sitesMonitorUrl": "https://artdept.fun/nft/0008138890A4E6F0235290178C0BA3CB3026CE29886D8D8B0741AA1404D6067A"
   },
   {
@@ -177,5 +168,13 @@
     "insertSelector": "#buy > div:nth-child(2)",
     "type": "token",
     "sitesMonitorUrl": "https://firstledger.net/token/rszenFJoDdiGjyezQc8pME9KWDQH43Tswh/44524F5000000000000000000000000000000000"
+  },
+  {
+    "url": "https://xmagnetic.org",
+    "fullPath": "https://xmagnetic.org/nfts/asset/",
+    "selector": "#__next > main > div:nth-child(4) > div > div.mb-10.lg\\:flex > div.w-full.lg\\:ml-8 > div.flex.gap-8.mt-6 > div:nth-child(1) > div.grid > a",
+    "insertSelector": "#__next > main > div:nth-child(4) > div > div.mb-10.lg\\:flex > div:nth-child(1) > div > div.relative.z-0.flex.items-center.justify-center.overflow-hidden.rounded-xl.min-h-\\[360px\\].xl\\:min-h-\\[480px\\].undefined",
+    "type": "nft",
+    "sitesMonitorUrl": "https://xmagnetic.org/nfts/asset/00081B581189F5687DBB7516339D6CCB5593D96622AD82DF8DEE602500000076?network=mainnet"
   }
 ]

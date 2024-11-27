@@ -6,21 +6,21 @@ const path = require('path');
 const configPath = path.join(__dirname, '../sitesConfig.json');
 const sitesConfig = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 
-// 크롬 확장 프로그램 경로 설정
+// Set Chrome extension path
 const extensionPath = path.join(__dirname, '../');
 
 async function checkSite(site) {
     const browser = await puppeteer.launch({
-        headless: false, // 확장 프로그램을 로드하려면 headless 모드를 비활성화해야 합니다.
+        headless: false, // Headless mode must be disabled to load the extension
         args: [
             `--disable-extensions-except=${extensionPath}`,
             `--load-extension=${extensionPath}`,
-            '--window-size=1920,1080' // 창 크기를 1920x1080으로 설정
+            '--window-size=1920,1080' // Set window size to 1920x1080
         ]
     });
     const page = await browser.newPage();
 
-    // 페이지 뷰포트 크기 설정
+    // Set page viewport size
     await page.setViewport({ width: 1920, height: 1080 });
 
     try {

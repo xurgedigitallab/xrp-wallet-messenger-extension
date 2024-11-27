@@ -10,6 +10,8 @@ This Chrome extension dynamically scans web pages for XRP wallet addresses and p
 - [Dependencies](#dependencies)
 - [Configuration](#configuration)
 - [Development](#development)
+- [Server Setup](#server-setup)
+- [Monitoring Setup](#monitoring-setup)
 - [Documentation](#documentation)
 - [Examples](#examples)
 - [Troubleshooting](#troubleshooting)
@@ -48,7 +50,7 @@ To set up the development environment and build the extension, follow these step
 
 1. **Clone the repository**:
     ```sh
-    git clone -b john-dev-sub --single-branch https://github.com/xurgedigitallab/xrp-wallet-messenger-extension.git
+    git clone https://github.com/yourusername/xrp-wallet-messenger.git
     cd xrp-wallet-messenger
     ```
 
@@ -64,7 +66,7 @@ To set up the development environment and build the extension, follow these step
     npx webpack --mode production
     ```
 
-4. **(Optional) Watch for changes and rebuild automatically**:
+4. **Watch for changes and rebuild automatically**:
     ```sh
     npx webpack --watch
     ```
@@ -73,6 +75,36 @@ To set up the development environment and build the extension, follow these step
     - Navigate to `chrome://extensions/`
     - Enable Developer Mode
     - Click "Load unpacked" and select the corresponding directory
+
+## Server Setup
+This branch is intended for running a server that communicates with the Chrome extension. The server is implemented in `server.js` and handles data exchange with the extension.
+
+### Install Server Dependencies
+To install the necessary packages for the server, run:
+```sh
+npm install express body-parser
+```
+
+### Run the Server
+To start the server, run:
+```sh
+node server.js
+```
+
+## Monitoring Setup
+This branch also includes a monitoring script `monitor.js` located in the `sitesMonitor` folder. The script uses Puppeteer to monitor changes in the Chrome extension.
+
+### Install Monitoring Dependencies
+To install the necessary packages for the monitoring script, run:
+```sh
+npm install puppeteer
+```
+
+### Run the Monitoring Script
+To start the monitoring script, run:
+```sh
+node monitor.js
+```
 
 ## Documentation
 Refer to the `manifest.json` for the extension's configuration and structure. Code comments in `background.js` and `content.js` provide insights into the functionality and flow of the extension.

@@ -10,14 +10,33 @@
     "128": "icons/icon128.png"
   },
   "permissions": [
+    "caches",
     "contextMenus",
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
   "host_permissions": [
-    "https://nft.onxrp.com/*",
+    "https://bidds.com*",
     "https://xrp.cafe/*",
     "https://xmart.art/*",
-    "https://xrpnft.com/*"
+    "https://xrpnft.com/*",
+    "https://xpmarket.com/*",
+    "https://sologenic.org/*",
+    "https://app.zerpmon.world/*",
+    "https://xrplexplorer.com/*",
+    "https://xrpscan.com/*",
+    "https://xrplwin.com/*",
+    "https://neefty.io/*",
+    "https://livenet.xrpl.org/*",
+    "https://testnet.xrpl.org/*",
+    "https://devnet.xrpl.org/*",
+    "https://xahau.xrpl.org/*",
+    "https://xahau-testnet.xrpl.org/*",
+    "https://fuzion-xio.com/*",
+    "https://artdept.fun/*",
+    "https://firstledger.net/*",
+    "https://xmagnetic.org/*",
+    "http://localhost:3000/*"
   ],
   "background": {
     "service_worker": "dist/background.bundle.js"
@@ -38,8 +57,7 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "icons/button_icon.svg",
-        "sitesConfig.json"
+        "icons/button_icon.svg"
       ],
       "matches": [
         "<all_urls>"
