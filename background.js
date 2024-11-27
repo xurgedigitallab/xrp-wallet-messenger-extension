@@ -3,9 +3,30 @@ import { Client } from 'xrpl';
 
 let XRPL_WS_URL;
 
+// Fetch config from local file
+async function loadConfig() {
+    try {
+        const response = await fetch(chrome.runtime.getURL('config.json'));
+        const config = await response.json();
+        XRPL_WS_URL = config.XRPL_WS_URL;
+        console.log('Config loaded:', config);
+    } catch (error) {
+        console.error('Failed to load config:', error);
+    }
+}
+
 self.addEventListener('install', (event) => {
     console.log('Service Worker installing.');
     self.skipWaiting();
+    event.waitUntil(
+        (async () => {
+            try {
+                await loadConfig(); // Load config before caching
+            } catch (error) {
+                console.error('Failed to load sitesConfig.json:', error);
+            }
+        })()
+    );
 });
 
 self.addEventListener('activate', (event) => {
