@@ -21,7 +21,7 @@ self.addEventListener('install', (event) => {
     event.waitUntil(
         (async () => {
             try {
-                await loadConfig(); // Load config before caching
+                await loadConfig(); // Load config
             } catch (error) {
                 console.error('Failed to load sitesConfig.json:', error);
             }
