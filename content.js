@@ -29,6 +29,10 @@ function findXRPAddressInNode(node) {
           const xrpAddress = value.split('/profile/')[1];
           console.log('Found XRP address in href:', xrpAddress);
           return xrpAddress;
+        } else if (value.includes('/explorer/')) {
+          const xrpAddress = value.split('/explorer/')[1];
+          console.log('Found XRP address in href:', xrpAddress);
+          return xrpAddress;
         } else {
           const xrpAddress = findXRPAddresses(value);
           if (xrpAddress) {
@@ -154,10 +158,13 @@ async function insertButton(site, button, siteUrl) {
   const potentialContainers = document.querySelectorAll(site.insertSelector);
   console.log('Potential insert containers:', potentialContainers);
 
-  // Added the secondary insertSelector
   let insertContainer;
   try {
-    insertContainer = await waitForElement(site.insertSelector);
+    if (site.url === 'https://dexscreener.com/xrpl') {
+      insertContainer = await waitForElement(site.insertSelector, 2000);
+    } else {
+      insertContainer = await waitForElement(site.insertSelector);
+    }
   } catch (error) {
     console.log(`Primary insertSelector not found: ${site.insertSelector}`);
     if (site.secInsertSelector) {
@@ -182,15 +189,10 @@ async function insertButton(site, button, siteUrl) {
     existingButton.remove();
   }
 
-  if (!insertContainer) {
-    console.error('Selector not found:', site.insertSelector);
-    return;
-  }
-
   // For specific sites, insert the button using different methods.
   if (siteUrl === 'https://xrplexplorer.com') {
     insertContainer.insertAdjacentElement('afterend', button);
-  } else if (siteUrl === 'https://neefty.io') {
+  } else if (siteUrl === 'https://neefty.io/xrpl') {
     insertContainer.insertAdjacentElement('afterend', button);
   } else if (siteUrl === 'https://xmagnetic.org') {
     insertContainer.insertAdjacentElement('afterend', button);
@@ -200,7 +202,7 @@ async function insertButton(site, button, siteUrl) {
   }
 }
 
-function waitForElement(selector, timeout = 2000) {
+function waitForElement(selector, timeout = 30000) {
   return new Promise((resolve, reject) => {
     const intervalTime = 100;
     let timeElapsed = 0;
