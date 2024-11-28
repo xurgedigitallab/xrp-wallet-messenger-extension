@@ -32,6 +32,14 @@
     "sitesMonitorUrl": "https://xrpnft.com/nft/000822B03EA060FD1026C04B2D390CC132D07D600DA9B0826FA103B600001E1C"
   },
   {
+    "url": "https://xpmarket.com/dex",
+    "fullPath": "https://xpmarket.com/dex",
+    "selector": "head > link:nth-child(4)",
+    "insertSelector": "#page-content > div > div > div > div > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-row.MuiGrid2-grid-mobile-12.mui-style-idb61v > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-column.mui-style-ozc2vf > div.MuiGrid2-root.MuiGrid2-direction-xs-row.MuiGrid2-grid-mobile-12.mui-style-1bwv1p9 > div > div > div > div.tabs-content.MuiBox-root.mui-style-0 > div.tab-panel.active.MuiBox-root.mui-style-1w0u2xi > div > form > div > div.MuiBox-root.mui-style-1v3caum",
+    "type": "token",
+    "sitesMonitorUrl": "https://xpmarket.com/dex/XPM-rXPMxBeefHGxx2K7g5qmmWq3gFsgawkoa/XRP?trade=market"
+  },
+  {
     "url": "https://xpmarket.com",
     "fullPath": "https://xpmarket.com/",
     "selector": "#page-content > div > div > div > div.MuiStack-root.mui-style-1r7uait > div.MuiStack-root.mui-style-jj2ztu > div.MuiStack-root.mui-style-1hkv16f > div:nth-child(1) > div.card-content.MuiBox-root.mui-style-r8dn8q > div > div.MuiStack-root.mui-style-mef8pr > div:nth-child(2) > div.MuiBox-root.mui-style-2uzbfz > a",
@@ -93,14 +101,7 @@
     "sitesMonitorUrl": "https://xrplwin.com/account/rHwUHPKLGKk6eM3cTLnvJx3EzpUf48bKxG"
   },
   {
-    "url": "https://xrpstudio.io",
-    "fullPath": "https://xrpstudio.io/user/",
-    "selector": "#root > div.BasePagestyles__BasePageRoot-sc-lv6ebf-0.NHHNv > div.PageHeaderstyles__PageHeaderRoot-sc-w1q3vw-0.RXKen.ProfileHeaderstyles__ProfileHeaderRoot-sc-1hdlcpu-0.jucxeA > header.PageHeaderstyles__MainPageHeader-sc-w1q3vw-1.grkPTR.main-header > div > div > div > div > div > div > div.Rowstyles__RowRoot-sc-x5gyks-0.ijEFcr.ProfileInfo___StyledRow-sc-rz5mc1-0.kDWrDz > span > div > a > p",
-    "insertSelector": "body > div.main-page.bubble-element.Page > div > div > div > div:nth-child(1) > div > div > div > div > div > div:nth-child(1) > div",
-    "type": "nft"
-  },
-  {
-    "url": "https://neefty.io",
+    "url": "https://neefty.io/xrpl",
     "fullPath": "https://neefty.io/",
     "selector": "body > div.main-page.bubble-element.Page > div > div > div > div:nth-child(1) > div > div > div > div > div > div:nth-child(6) > div > div > div > div:nth-child(1) > a",
     "insertSelector": "body > div:nth-child(8) > div:nth-child(1) > div > div > div:nth-child(2)",
