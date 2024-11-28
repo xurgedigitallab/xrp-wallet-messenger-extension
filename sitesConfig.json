@@ -87,8 +87,8 @@
   {
     "url": "https://xrplwin.com",
     "fullPath": "https://xrplwin.com/account/",
-    "selector": "#app > div.main-content > div:nth-child(2) > div:nth-child(1) > div.col-12.col-md-4 > div > div.font-monospace.text-break.text-muted.mb-2 > span",
-    "insertSelector": "#app > div.main-content > div:nth-child(2) > div:nth-child(1) > div.col-12.col-md-4 > div > div.font-monospace.text-break.text-muted.mb-2 > span",
+    "selector": "#account_common_head > div.col-12.col-md-4 > div > div.font-monospace.text-break.text-muted.mb-2 > span",
+    "insertSelector": "#account_common_head > div.col-12.col-md-4 > div > div.font-monospace.text-break.text-muted.mb-2",
     "type": "wallet",
     "sitesMonitorUrl": "https://xrplwin.com/account/rHwUHPKLGKk6eM3cTLnvJx3EzpUf48bKxG"
   },
