@@ -34,7 +34,7 @@
   {
     "url": "https://xpmarket.com/dex",
     "fullPath": "https://xpmarket.com/dex",
-    "selector": "head > link:nth-child(4)",
+    "selector": "head",
     "insertSelector": "#page-content > div > div > div > div > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-row.MuiGrid2-grid-mobile-12.mui-style-idb61v > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-column.mui-style-ozc2vf > div.MuiGrid2-root.MuiGrid2-direction-xs-row.MuiGrid2-grid-mobile-12.mui-style-1bwv1p9 > div > div > div > div.tabs-content.MuiBox-root.mui-style-0 > div.tab-panel.active.MuiBox-root.mui-style-1w0u2xi > div > form > div > div.MuiBox-root.mui-style-1v3caum",
     "type": "token",
     "sitesMonitorUrl": "https://xpmarket.com/dex/XPM-rXPMxBeefHGxx2K7g5qmmWq3gFsgawkoa/XRP?trade=market"
