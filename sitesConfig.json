@@ -176,5 +176,14 @@
     "insertSelector": "#__next > main > div:nth-child(4) > div > div.mb-10.lg\\:flex > div:nth-child(1) > div > div.relative.z-0.flex.items-center.justify-center.overflow-hidden.rounded-xl.min-h-\\[360px\\].xl\\:min-h-\\[480px\\].undefined",
     "type": "nft",
     "sitesMonitorUrl": "https://xmagnetic.org/nfts/asset/00081B581189F5687DBB7516339D6CCB5593D96622AD82DF8DEE602500000076?network=mainnet"
+  },
+  {
+    "url": "https://dexscreener.com/xrpl",
+    "fullPath": "https://dexscreener.com/xrpl",
+    "selector": "head",
+    "insertSelector": "#root > div > main > div > div > div.custom-7w9b0e > div > div.custom-1swyx69 > div.custom-13zeudb > div > div:nth-child(4)",
+    "secInsertSelector": "#root > div > main > div > div.custom-12pypef > div > div.custom-7w9b0e > div > div.custom-1swyx69 > div.custom-13zeudb > div > div:nth-child(4)",
+    "type": "token",
+    "sitesMonitorUrl": "https://dexscreener.com/xrpl/atm.radz4t8wpxkmdfjwmlbcnzmmshmbc523nz_xrp"
   }
 ]
