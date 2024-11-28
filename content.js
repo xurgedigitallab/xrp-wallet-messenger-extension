@@ -184,7 +184,7 @@ async function insertButton(site, button, siteUrl) {
   console.log('Found insert container:', insertContainer);
 
   // Remove the button if it already exists
-  const existingButton = insertContainer.querySelector('.contact-nft-owner-button');
+  const existingButton = document.querySelector('.contact-nft-owner-button');
   if (existingButton) {
     existingButton.remove();
   }
@@ -264,6 +264,9 @@ async function insertButtonForSite(site) {
     } else if (site.url === 'https://dexscreener.com/xrpl') {
       await delay(2000);  // Bypass button insertion blocking due to ssr and csr mismatch
       xrpAddress = window.location.pathname.split('/').pop().split('.').pop().split('_')[0];
+      console.log('Extracted XRP address from URL:', xrpAddress);
+    } else if (site.url === 'https://xpmarket.com/dex') {
+      xrpAddress = window.location.pathname.split('-').pop().split('/')[0];
       console.log('Extracted XRP address from URL:', xrpAddress);
     } else {
       xrpAddress = findXRPAddressInNode(container);
