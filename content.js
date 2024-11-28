@@ -154,7 +154,26 @@ async function insertButton(site, button, siteUrl) {
   const potentialContainers = document.querySelectorAll(site.insertSelector);
   console.log('Potential insert containers:', potentialContainers);
 
-  const insertContainer = await waitForElement(site.insertSelector);
+  // Added the secondary insertSelector
+  let insertContainer;
+  try {
+    insertContainer = await waitForElement(site.insertSelector);
+  } catch (error) {
+    console.log(`Primary insertSelector not found: ${site.insertSelector}`);
+    if (site.secInsertSelector) {
+      try {
+        insertContainer = await waitForElement(site.secInsertSelector);
+        console.log(`Secondary insertSelector found: ${site.secInsertSelector}`);
+      } catch (secError) {
+        console.error(`Both primary and secondary insertSelectors not found: ${site.insertSelector}, ${site.secInsertSelector}`);
+        return;
+      }
+    } else {
+      console.error(`Secondary insertSelector not provided and primary insertSelector not found: ${site.insertSelector}`);
+      return;
+    }
+  }
+
   console.log('Found insert container:', insertContainer);
 
   // Remove the button if it already exists
@@ -181,7 +200,7 @@ async function insertButton(site, button, siteUrl) {
   }
 }
 
-function waitForElement(selector, timeout = 30000) {
+function waitForElement(selector, timeout = 2000) {
   return new Promise((resolve, reject) => {
     const intervalTime = 100;
     let timeElapsed = 0;
@@ -198,6 +217,10 @@ function waitForElement(selector, timeout = 30000) {
       timeElapsed += intervalTime;
     }, intervalTime);
   });
+}
+
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 async function insertButtonForSite(site) {
@@ -236,6 +259,10 @@ async function insertButtonForSite(site) {
 
       xrpAddress = await getXrpAddress(nftId);
       console.log('found xrpAddress', xrpAddress);
+    } else if (site.url === 'https://dexscreener.com/xrpl') {
+      await delay(2000);  // Bypass button insertion blocking due to ssr and csr mismatch
+      xrpAddress = window.location.pathname.split('/').pop().split('.').pop().split('_')[0];
+      console.log('Extracted XRP address from URL:', xrpAddress);
     } else {
       xrpAddress = findXRPAddressInNode(container);
     }
