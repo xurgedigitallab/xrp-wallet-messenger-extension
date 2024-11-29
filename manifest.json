@@ -16,7 +16,7 @@
     "storage"
   ],
   "host_permissions": [
-    "https://bidds.com*",
+    "https://bidds.com/*",
     "https://xrp.cafe/*",
     "https://xmart.art/*",
     "https://xrpnft.com/*",
