@@ -284,7 +284,7 @@ async function insertButtonForSite(site) {
         buttonText = 'Chat with wallet';
       }
       if (site.type === 'token') {
-        buttonText = 'chat with token issuer';
+        buttonText = 'Chat with token issuer';
       }
 
       const button = createButton(xrpAddress, buttonText);
@@ -294,7 +294,11 @@ async function insertButtonForSite(site) {
       console.log('XRP address not found in node:', site.selector, 'on URL:', site.url);
     }
   } catch (error) {
-    console.error(error.message);
+    if (error.message.includes('Extension context invalidated')) {
+      console.warn('Extension context invalidated. Aborting operation.');
+    } else {
+      console.error(error.message);
+    }
   }
 }
 
@@ -335,30 +339,30 @@ async function checkAndInsertButton() {
 }
 
 // Step-by-step debugging for Sologenic.org
-async function debugSelectors() {
-  const selectors = [
-    '#content-scroll',
-    '#content-scroll > div',
-    '#content-scroll > div > div.nft-container',
-    '#content-scroll > div > div.nft-container > div.left.top',
-    '#content-scroll > div > div.nft-container > div.left.top > div'
-  ];
+// async function debugSelectors() {
+//   const selectors = [
+//     '#content-scroll',
+//     '#content-scroll > div',
+//     '#content-scroll > div > div.nft-container',
+//     '#content-scroll > div > div.nft-container > div.left.top',
+//     '#content-scroll > div > div.nft-container > div.left.top > div'
+//   ];
 
-  for (const selector of selectors) {
-    try {
-      const element = await waitForElement(selector);
-      console.log(`Found element for selector: ${selector}`, element);
-    } catch (error) {
-      console.error(error.message);
-      break; // Stop if any selector fails
-    }
-  }
-}
+//   for (const selector of selectors) {
+//     try {
+//       const element = await waitForElement(selector);
+//       console.log(`Found element for selector: ${selector}`, element);
+//     } catch (error) {
+//       console.error(error.message);
+//       break; // Stop if any selector fails
+//     }
+//   }
+// }
 
 window.addEventListener('load', () => {
   injectStyles();
   checkAndInsertButton();
-  debugSelectors(); // Debugging for Sologenic.org
+  // debugSelectors(); // Debugging for Sologenic.org
 });
 
 // Monitor URL changes and re-run checkAndInsertButton
@@ -367,6 +371,6 @@ new MutationObserver(() => {
   const currentUrl = location.href;
   if (currentUrl !== lastUrl) {
     lastUrl = currentUrl;
-    setTimeout(checkAndInsertButton, 1000); // Allow time for the new page to load
+    setTimeout(checkAndInsertButton, 1500); // Allow time for the new page to load
   }
 }).observe(document, { subtree: true, childList: true });
