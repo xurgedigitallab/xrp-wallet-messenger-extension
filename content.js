@@ -234,40 +234,20 @@ async function insertButtonForSite(site) {
 
     let xrpAddress = null;
     let nftId = null;
-    if (site.url === 'https://app.zerpmon.world') {
-      xrpAddress = window.location.pathname.split('/').pop();
+
+    if (site.pageLoadDelay) {
+      await delay(site.pageLoadDelay);
+    }
+
+    if (site.addressInUrl) {
+      xrpAddress = eval(site.urlPath);
       console.log('Extracted XRP address from URL:', xrpAddress);
-    } else if (site.url === 'https://sologenic.org') {
-      nftId = window.location.pathname.split('/').pop().split('?')[0];
-      console.log('found nftId', nftId);
+    } else if (site.nftIdPath) {
+      nftId = eval(site.nftIdPath);
+      console.log('Extracted NFT ID:', nftId);
 
       xrpAddress = await getXrpAddress(nftId);
-      console.log('found xrpAddress', xrpAddress);
-    } else if (site.url === 'https://fuzion-xio.com') {
-      nftId = container.href.split('/').pop();
-      console.log('Extracted nftId from href:', nftId);
-      
-      xrpAddress = await getXrpAddress(nftId);
-      console.log('found xrpAddress', xrpAddress);
-    } else if (site.url === 'https://artdept.fun') {
-      nftId = window.location.pathname.split('/').pop();
-      console.log('found nftId', nftId);
-
-      xrpAddress = await getXrpAddress(nftId);
-      console.log('found xrpAddress', xrpAddress);
-    } else if (site.url === 'https://xmagnetic.org') {
-      nftId = window.location.pathname.split('/').pop().split('?')[0];
-      console.log('found nftId', nftId);
-
-      xrpAddress = await getXrpAddress(nftId);
-      console.log('found xrpAddress', xrpAddress);
-    } else if (site.url === 'https://dexscreener.com/xrpl') {
-      await delay(2000);  // Bypass button insertion blocking due to ssr and csr mismatch
-      xrpAddress = window.location.pathname.split('/').pop().split('.').pop().split('_')[0];
-      console.log('Extracted XRP address from URL:', xrpAddress);
-    } else if (site.url === 'https://xpmarket.com/dex') {
-      xrpAddress = window.location.pathname.split('-').pop().split('/')[0];
-      console.log('Extracted XRP address from URL:', xrpAddress);
+      console.log('Found XRP address:', xrpAddress);
     } else {
       xrpAddress = findXRPAddressInNode(container);
     }
