@@ -15,7 +15,9 @@ if (!fs.existsSync(logDir)) {
 
 // Endpoint to get the last modified time of sitesConfig.json
 app.get('/api/sites-config-last-modified', (req, res) => {
-    console.log('Received request for last modified time of sitesConfig.json');
+    console.log(`${new Date().toISOString()} Received request for last modified time of sitesConfig.json \nIP Address: `, req.ip);
+    // log the ip address of the client
+
     fs.stat(sitesConfigPath, (err, stats) => {
         if (err) {
             console.error('Error getting file stats:', err);
@@ -27,7 +29,7 @@ app.get('/api/sites-config-last-modified', (req, res) => {
 
 // Endpoint to get the sitesConfig.json file
 app.get('/api/sites-config', (req, res) => {
-    console.log('Received request for sitesConfig.json');
+    console.log(`${new Date().toISOString()} Received request for sitesConfig.json\nIP Address: `, req.ip);
     if (fs.existsSync(sitesConfigPath)) {
         const sitesConfig = JSON.parse(fs.readFileSync(sitesConfigPath, 'utf8'));
         res.json(sitesConfig);
