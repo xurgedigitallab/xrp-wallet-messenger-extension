@@ -13,16 +13,46 @@
    transition: .2s;
    cursor: pointer;
    user-select: none;
+   position: relative;
+   overflow: hidden;
 }
+
 .button:hover {
    background-image: unset;
    box-shadow: 0 0 10px #0077db inset, 1px 1px 5px #888;
    transform: translate(1px, 1px);
 }
+
+.button::after {
+   animation: animate_shimmer 4s ease-in-out infinite;
+   animation-fill-mode: forwards;
+   content: "";
+   position: absolute;
+   top: -122%;
+   width: 200%;
+   height: 340%;
+   opacity: 0;
+   transform: rotate(-345deg);
+   background: linear-gradient(to right, rgba(255,255,255,0) 31%, rgba(255,255,255,0) 32%, rgba(255,255,255,1) 49%, rgba(255,255,255,0.96) 50%, rgba(255,255,255,0) 73%);
+   transition: all 0.1s ease-out;
+}
+
+@keyframes animate_shimmer {
+   10% {
+      opacity: 0.6;
+      left: -200%;
+   }
+   100% {
+      opacity: 0;
+      left: 200%;
+   }
+}
+
 .img {
    width: 1.5em;
    height: 1.5em;
 }
+
 .text {
    font-weight: 600;
 }

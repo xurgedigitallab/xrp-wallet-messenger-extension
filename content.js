@@ -121,7 +121,7 @@ function createButton(xrpAddress, buttonText) {
   // Add click event to open a new tab
   button.addEventListener('click', () => {
     const cleanAddress = xrpAddress.replace(/[^a-zA-Z0-9]/g, '');
-    const url = `https://app.textrp.io/#/user/@${cleanAddress}:synapse.textrp.io`;
+    const url = `https://app.textrp.io/#/user/@${cleanAddress}`;
     window.open(url, '_blank');
   });
 
@@ -153,15 +153,16 @@ function injectStyles() {
   document.head.appendChild(style);
 }
 
-async function insertButton(site, button, siteUrl) {
+async function insertButton(site, button, buttonAdjust) {
   // Debugging: Log all potential insert containers
   const potentialContainers = document.querySelectorAll(site.insertSelector);
   console.log('Potential insert containers:', potentialContainers);
 
   let insertContainer;
   try {
-    if (site.url === 'https://dexscreener.com/xrpl') {
-      insertContainer = await waitForElement(site.insertSelector, 2000);
+    if (site.pageLoadDelay) {
+      let delayTime = site.pageLoadDelay;
+      insertContainer = await waitForElement(site.insertSelector, delayTime);
     } else {
       insertContainer = await waitForElement(site.insertSelector);
     }
@@ -190,16 +191,23 @@ async function insertButton(site, button, siteUrl) {
   }
 
   // For specific sites, insert the button using different methods.
-  if (siteUrl === 'https://xrplexplorer.com') {
-    insertContainer.insertAdjacentElement('afterend', button);
-  } else if (siteUrl === 'https://neefty.io/xrpl') {
-    insertContainer.insertAdjacentElement('afterend', button);
-  } else if (siteUrl === 'https://xmagnetic.org') {
-    insertContainer.insertAdjacentElement('afterend', button);
+
+  if (buttonAdjust) {
+    insertContainer.insertAdjacentElement(buttonAdjust, button);
   } else {
-    // By default, insert as the last child
     insertContainer.appendChild(button);
   }
+
+  // if (siteUrl === 'https://xrplexplorer.com') {
+  //   insertContainer.insertAdjacentElement('afterend', button);
+  // } else if (siteUrl === 'https://neefty.io/xrpl') {
+  //   insertContainer.insertAdjacentElement('afterend', button);
+  // } else if (siteUrl === 'https://xmagnetic.org') {
+  //   insertContainer.insertAdjacentElement('afterend', button);
+  // } else {
+  // By default, insert as the last child
+  //   insertContainer.appendChild(button);
+  // }
 }
 
 function waitForElement(selector, timeout = 30000) {
@@ -225,12 +233,33 @@ function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+function parseAndExecuteExpression(expression) {
+  const parts = expression.split('.');
+
+  let currentObject = window;
+  for (const part of parts) {
+    const methodMatch = part.match(/(\w+)\(([^)]*)\)/);
+    if (methodMatch) {
+      const methodName = methodMatch[1];
+      const args = methodMatch[2].split(',').map(arg => arg.trim().replace(/['"]/g, ''));
+      currentObject = currentObject[methodName](...args);
+    } else {
+      currentObject = currentObject[part];
+    }
+  }
+
+  return currentObject;
+}
+
 async function insertButtonForSite(site) {
   console.log(`Checking URL: ${window.location.href}`);
 
   try {
-    const container = await waitForElement(site.selector);
-    console.log('Found Owner address container:', container);
+    let container = null;
+    if (site.selector) {
+      container = await waitForElement(site.selector);
+      console.log('Found Owner address container:', container);
+    }
 
     let xrpAddress = null;
     let nftId = null;
@@ -240,14 +269,20 @@ async function insertButtonForSite(site) {
     }
 
     if (site.addressInUrl) {
-      xrpAddress = eval(site.urlPath);
+      xrpAddress = site.urlPath;
       console.log('Extracted XRP address from URL:', xrpAddress);
     } else if (site.nftIdPath) {
-      nftId = eval(site.nftIdPath);
-      console.log('Extracted NFT ID:', nftId);
+      // Extract the NFT ID from the URL path using the provided path expression
+      nftId = parseAndExecuteExpression(site.nftIdPath);
+      console.log(`Extracted NFT ID: ${nftId}`);
 
-      xrpAddress = await getXrpAddress(nftId);
-      console.log('Found XRP address:', xrpAddress);
+      if (nftId) {
+        nftId = String(nftId);
+        xrpAddress = await getXrpAddress(nftId);
+        console.log('Found XRP address:', xrpAddress);
+      } else {
+        console.error('NFT ID not found in URL path');
+      }
     } else {
       xrpAddress = findXRPAddressInNode(container);
     }
@@ -268,7 +303,7 @@ async function insertButtonForSite(site) {
       }
 
       const button = createButton(xrpAddress, buttonText);
-      await insertButton(site, button, site.url);
+      await insertButton(site, button, site.buttonAdjust);
       console.log('Button inserted:', button);
     } else {
       console.log('XRP address not found in node:', site.selector, 'on URL:', site.url);
