@@ -39,7 +39,7 @@ self.addEventListener('install', event => {
     console.log('Service Worker installing.');
     // Activate immediately
     self.skipWaiting();
-    
+
     event.waitUntil(
         (async () => {
             try {
@@ -51,7 +51,7 @@ self.addEventListener('install', event => {
 
                 // Cache the timestamp - using http scheme
                 await cache.put(
-                    new Request(TIMESTAMP_URL), 
+                    new Request(TIMESTAMP_URL),
                     new Response(Date.now().toString())
                 );
                 console.log('Timestamp cached.');
@@ -85,10 +85,8 @@ self.addEventListener('activate', event => {
 
 async function getSitesConfig() {
     const CACHE_EXPIRATION_MS = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
-    // const CACHE_EXPIRATION_MS = 1 * 60 * 1000; // 1 minute in milliseconds (for demo)
 
     try {
-        // Open the cache
         const cache = await caches.open(CACHE_NAME);
         console.log('Opened cache');
 
@@ -96,24 +94,18 @@ async function getSitesConfig() {
         const timestamp = timestampResponse ? parseInt(await timestampResponse.text()) : 0;
         const now = Date.now();
 
-        const nowDate = new Date(now).toLocaleString();
-        const timestampDate = new Date(timestamp).toLocaleString();
-
-        console.log('Current timestamp:', now, '(', nowDate, ')');
-        console.log('Cached timestamp:', timestamp, '(', timestampDate, ')');
-
         if (now - timestamp > CACHE_EXPIRATION_MS) {
-            console.log('------------------------------------------------------------');
             console.log('Cache expired, checking server for updates');
-            console.log('------------------------------------------------------------');
             try {
-                // Check the last modified time on the server
                 const lastModifiedResponse = await fetch(LAST_MODIFIED_URL);
                 const lastModified = (await lastModifiedResponse.json()).lastModified;
 
                 if (lastModified > timestamp) {
                     console.log('Server data updated, fetching new data');
                     const networkResponse = await fetch(SITES_CONFIG_URL);
+                    if (!networkResponse.ok) {
+                        throw new Error(`Network response was not ok: ${networkResponse.statusText}`);
+                    }
                     await cache.put(SITES_CONFIG_URL, networkResponse.clone());
                     await cache.put(TIMESTAMP_URL, new Response(now.toString()));
                     const sitesConfig = await networkResponse.json();
@@ -124,27 +116,23 @@ async function getSitesConfig() {
                     await cache.put(TIMESTAMP_URL, new Response(now.toString()));
                 }
             } catch (error) {
-                console.log('Error checking last modified time:', error);
+                console.error('Error checking last modified time:', error);
             }
         } else {
-            console.log('------------------------------------------------------------');
             console.log('Cache is still valid');
-            console.log('------------------------------------------------------------');
         }
 
-        // Check if the response is in the cache
         let response = await cache.match(SITES_CONFIG_URL);
-        console.log('Response from cache:', response);
-
         if (response) {
-            console.log('Returning cached response');
             const sitesConfig = await response.json();
-            console.log('Received sitesConfig from cache:', sitesConfig);
             return formatSitesConfig(sitesConfig);
         }
 
         console.log('Fetching from network');
         response = await fetch(SITES_CONFIG_URL);
+        if (!response.ok) {
+            throw new Error(`Network response was not ok: ${response.statusText}`);
+        }
         await cache.put(SITES_CONFIG_URL, response.clone());
         await cache.put(TIMESTAMP_URL, new Response(now.toString()));
         const sitesConfig = await response.json();
@@ -178,7 +166,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         getSitesConfig().then(sitesConfig => {
             sendResponse({ sitesConfig });
         }).catch(error => {
-            sendResponse({ error: error.message});
+            sendResponse({ error: error.message });
         });
         return true; // Keep the message channel open
     } else if (request.action === 'getXrpAddress') {
@@ -192,7 +180,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
                 console.error('Error getting XRP address:', error);
                 sendResponse({ error: error.message });
             });
-            return true; // Keep the message channel open
+        return true; // Keep the message channel open
     } else {
         console.error('Unknown action:', request.action);
         sendResponse({ error: 'Unknown action' });
@@ -269,7 +257,7 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
             checkAndSendURL(tab);
 
             // Construct the new URL using the extracted wallet address.
-            const newURL = `https://app.textrp.io/#/user/@${walletAddress}:synapse.textrp.io`;
+            const newURL = `https://app.textrp.io/#/user/@${walletAddress}`;
             chrome.tabs.create({ url: newURL }); // Open the constructed URL in a new tab.
         }
     }
