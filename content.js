@@ -222,7 +222,8 @@ function waitForElement(selector, timeout = 30000) {
         resolve(element);
       } else if (timeElapsed > timeout) {
         clearInterval(interval);
-        reject(new Error(`Element with selector "${selector}" not found within timeout period.`));
+        console.warn(`Element with selector "${selector}" not found within timeout period.`);
+        resolve(null); // Resolve with null instead of rejecting
       }
       timeElapsed += intervalTime;
     }, intervalTime);
@@ -258,6 +259,10 @@ async function insertButtonForSite(site) {
     let container = null;
     if (site.selector) {
       container = await waitForElement(site.selector);
+      if (!container) {
+        console.warn(`Container not found for selector: ${site.selector}`);
+        return; // Exit the function if the container is not found
+      }
       console.log('Found Owner address container:', container);
     }
 
@@ -279,9 +284,8 @@ async function insertButtonForSite(site) {
       if (nftId) {
         nftId = String(nftId);
         xrpAddress = await getXrpAddress(nftId);
-        console.log('Found XRP address:', xrpAddress);
       } else {
-        console.error('NFT ID not found in URL path');
+        console.warn('NFT ID not found in URL path');
       }
     } else {
       xrpAddress = findXRPAddressInNode(container);
@@ -306,13 +310,14 @@ async function insertButtonForSite(site) {
       await insertButton(site, button, site.buttonAdjust);
       console.log('Button inserted:', button);
     } else {
-      console.log('XRP address not found in node:', site.selector, 'on URL:', site.url);
+      console.warn('XRP address not found in node:', site.selector, 'on URL:', site.url);
     }
   } catch (error) {
     if (error.message.includes('Extension context invalidated')) {
       console.warn('Extension context invalidated. Aborting operation.');
+      return; // Exit the function gracefully
     } else {
-      console.error(error.message);
+      console.error('Error in insertButtonForSite:', error.message);
     }
   }
 }
