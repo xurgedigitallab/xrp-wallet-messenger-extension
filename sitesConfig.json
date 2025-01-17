@@ -22,7 +22,8 @@
     "addressInUrl": null,
     "addressInNftId": null,
     "pageLoadDelay": null,
-    "buttonAdjust": null
+    "buttonAdjust": null,
+    "localesOn": true
   },
   {
     "url": "https://xmart.art",
@@ -131,7 +132,7 @@
     "url": "https://app.zerpmon.world",
     "fullPath": "https://app.zerpmon.world/en/user-profile/",
     "selector": "head",
-    "insertSelector": "body > div.antialiased.bg-\\[color\\:var\\(--content-bg-color\\)\\] > main > div.flex.flex-col.items-start.justify-start > div.w-full.flex.flex-col.xl\\:flex-row.justify-between.space-y-\\[28px\\].gap-2 > div.flex.flex-col.space-y-\\[16px\\] > div.flex.flex-col.gap-6",
+    "insertSelector": "body > div > div.antialiased.bg-\\[color\\:var\\(--content-bg-color\\)\\] > main > div.flex.flex-col.items-start.justify-start > div.w-full.flex.flex-col.xl\\:flex-row.justify-between.space-y-\\[28px\\].gap-2 > div.flex.flex-col.space-y-\\[16px\\] > div.flex.flex-col.gap-6",
     "type": "game",
     "sitesMonitorUrl": "https://app.zerpmon.world/en/user-profile/rsSDTfFq8zgLFcccw6vY84uBdwdU6TsF4T",
     "isDynamic": null,
@@ -290,8 +291,8 @@
   {
     "url": "https://artdept.fun/nft/",
     "fullPath": "https://artdept.fun/nft/",
-    "selector": "#root > div:nth-child(3) > div.sc-cZdauR.cFouGr > div.sc-bZRCjg.cPRHqs > div.sc-dioYEy.iTgOKr > div.sc-hnWaSf.jHcmHe > div.sc-jhtiLu.kEQgHq > a:nth-child(2)",
-    "insertSelector": "#root > div:nth-child(3) > div.sc-cZdauR.cFouGr > div.sc-bZRCjg.cPRHqs > div.sc-dioYEy.iTgOKr > div.sc-idSQmJ.fyzBna > div > div > div.sc-gZYfoo.fYRMfx > div.sc-hqjbBg.jvGQZZ",
+    "selector": "#root > div:nth-child(3) > div.sc-lbehOG.cvmaKX > div.sc-fyWJAz.fpUMaF > div.sc-heHsaY.jrSaYa > div.sc-lkouoF.mHjhn > div.sc-cHUbGp.cePKcb > a:nth-child(2)",
+    "insertSelector": "#root > div:nth-child(3) > div.sc-lbehOG.cvmaKX > div.sc-fyWJAz.fpUMaF > div.sc-heHsaY.jrSaYa > div.sc-hnWaSf.kfsQgb > div > div > div.sc-laVety.bbNnUI > div.sc-bKrhu.cJpeTz",
     "sitesMonitorUrl": "https://artdept.fun/nft/0008138890A4E6F0235290178C0BA3CB3026CE29886D8D8B0741AA1404D6067A",
     "isDynamic": null,
     "addressInUrl": null,
@@ -315,8 +316,8 @@
   {
     "url": "https://xmagnetic.org/nfts/asset/",
     "fullPath": "https://xmagnetic.org/nfts/asset/",
-    "selector": "#__next > main > div:nth-child(4) > div > div.mb-10.lg\\:flex > div.w-full.lg\\:ml-8 > div.flex.gap-8.mt-6 > div:nth-child(1) > div.grid > a",
-    "insertSelector": "#__next > main > div:nth-child(4) > div > div.mb-10.lg\\:flex > div:nth-child(1) > div > div.relative.z-0.flex.items-center.justify-center.overflow-hidden.rounded-xl.min-h-\\[360px\\].xl\\:min-h-\\[480px\\].undefined",
+    "selector": "#__next > main > div:nth-child(3) > div > div.mb-10.lg\\:flex > div.w-full.lg\\:ml-8 > div.flex.gap-8.mt-6 > div:nth-child(1) > div.grid > a",
+    "insertSelector": "#__next > main > div:nth-child(3) > div > div.mb-10.lg\\:flex > div:nth-child(1) > div > div.relative.z-0.flex.items-center.justify-center.overflow-hidden.rounded-xl.min-h-\\[360px\\].xl\\:min-h-\\[480px\\].undefined",
     "type": "nft",
     "sitesMonitorUrl": "https://xmagnetic.org/nfts/asset/00081B581189F5687DBB7516339D6CCB5593D96622AD82DF8DEE602500000076?network=mainnet",
     "isDynamic": null,
