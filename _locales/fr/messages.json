@@ -1,14 +1,25 @@
 {
-    "extName": {
-      "message": "Messager de Portefeuille XRP de TextRP",
-      "description": "Le nom de l'extension."
-    },
-    "extDescription": {
-      "message": "Cliquez simplement avec le bouton droit sur n'importe quelle adresse de portefeuille XRP pour envoyer rapidement un message via TextRP, la couche de messagerie unifiée pour le XRPL.",
-      "description": "La description de l'extension."
-    },
-    "messageWalletTitle": {
-      "message": "Message au portefeuille XRP"
-    }
+  "extName": {
+    "message": "Messager de Portefeuille XRP de TextRP",
+    "description": "Le nom de l'extension."
+  },
+  "extDescription": {
+    "message": "Cliquez simplement avec le bouton droit sur n'importe quelle adresse de portefeuille XRP pour envoyer rapidement un message via TextRP, la couche de messagerie unifiée pour le XRPL.",
+    "description": "La description de l'extension."
+  },
+  "messageWalletTitle": {
+    "message": "Message au portefeuille XRP"
+  },
+  "buttonTextNFT": {
+    "message": "Discuter avec le propriétaire du NFT"
+  },
+  "buttonTextGame": {
+    "message": "Discuter avec le joueur"
+  },
+  "buttonTextWallet": {
+    "message": "Discuter avec le portefeuille"
+  },
+  "buttonTextToken": {
+    "message": "Discuter avec l'émetteur de jetons"
   }
-  
+}

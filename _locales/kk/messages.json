@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "TextRP-ден XRP Wallet Messenger",
+        "description": "Кеңейтімнің атауы."
+    },
+    "extDescription": {
+        "message": "XRPL үшін бірыңғай хабар алмасу қабаты арқылы жылдам хабар жіберу үшін кез келген XRP әмиян мекенжайын тінтуірдің оң жақ түймешігімен басыңыз.",
+        "description": "Кеңейтімнің сипаттамасы."
+    },
+    "messageWalletTitle": {
+        "message": "XRP әмиянына хабарлама"
+    },
+    "buttonTextNFT": {
+        "message": "NFT иесімен сөйлесу"
+    },
+    "buttonTextGame": {
+        "message": "Ойыншымен сөйлесу"
+    },
+    "buttonTextWallet": {
+        "message": "Әмиянмен сөйлесу"
+    },
+    "buttonTextToken": {
+        "message": "Токен шығарушымен сөйлесу"
+    }
+}

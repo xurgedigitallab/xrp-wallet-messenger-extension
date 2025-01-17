@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger från TextRP",
+        "description": "Namnet på tillägget."
+    },
+    "extDescription": {
+        "message": "Högerklicka bara på vilken XRP-plånboksadress som helst för att snabbt skicka ett meddelande via TextRP, det enhetliga meddelandelagret för XRPL.",
+        "description": "Beskrivningen av tillägget."
+    },
+    "messageWalletTitle": {
+        "message": "Meddelande till XRP-plånbok"
+    },
+    "buttonTextNFT": {
+        "message": "Chatta med NFT-ägaren"
+    },
+    "buttonTextGame": {
+        "message": "Chatta med spelaren"
+    },
+    "buttonTextWallet": {
+        "message": "Chatta med plånboken"
+    },
+    "buttonTextToken": {
+        "message": "Chatta med tokenutgivaren"
+    }
+}

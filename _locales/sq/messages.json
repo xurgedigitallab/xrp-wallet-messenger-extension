@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger nga TextRP",
+        "description": "Emri i zgjerimit."
+    },
+    "extDescription": {
+        "message": "Thjesht klikoni me të djathtën në çdo adresë të portofolit XRP për të dërguar shpejt një mesazh përmes TextRP, shtresa e unifikuar e mesazheve për XRPL.",
+        "description": "Përshkrimi i zgjerimit."
+    },
+    "messageWalletTitle": {
+        "message": "Mesazh për portofolin XRP"
+    },
+    "buttonTextNFT": {
+        "message": "Bisedoni me pronarin e NFT"
+    },
+    "buttonTextGame": {
+        "message": "Bisedoni me lojtarin"
+    },
+    "buttonTextWallet": {
+        "message": "Bisedoni me portofolin"
+    },
+    "buttonTextToken": {
+        "message": "Bisedoni me emetuesin e tokenit"
+    }
+}

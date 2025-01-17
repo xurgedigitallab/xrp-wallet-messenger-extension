@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger ពី TextRP",
+        "description": "ឈ្មោះផ្នែកបន្ថែម។"
+    },
+    "extDescription": {
+        "message": "គ្រាន់តែចុចស្តាំលើអាសយដ្ឋានកាបូប XRP ដើម្បីផ្ញើសារយ៉ាងឆាប់រហ័សតាមរយៈ TextRP, ស្រទាប់សារតែមួយសម្រាប់ XRPL។",
+        "description": "ការពិពណ៌នាផ្នែកបន្ថែម។"
+    },
+    "messageWalletTitle": {
+        "message": "សារទៅកាបូប XRP"
+    },
+    "buttonTextNFT": {
+        "message": "ជជែកជាមួយម្ចាស់ NFT"
+    },
+    "buttonTextGame": {
+        "message": "ជជែកជាមួយអ្នកលេង"
+    },
+    "buttonTextWallet": {
+        "message": "ជជែកជាមួយកាបូប"
+    },
+    "buttonTextToken": {
+        "message": "ជជែកជាមួយអ្នកចេញផ្សាយតុកេន"
+    }
+}

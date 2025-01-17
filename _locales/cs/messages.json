@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger od TextRP",
+        "description": "Název rozšíření."
+    },
+    "extDescription": {
+        "message": "Jednoduše klikněte pravým tlačítkem na jakoukoli adresu peněženky XRP a rychle odešlete zprávu prostřednictvím TextRP, sjednocené vrstvy zpráv pro XRPL.",
+        "description": "Popis rozšíření."
+    },
+    "messageWalletTitle": {
+        "message": "Zpráva pro XRP peněženku"
+    },
+    "buttonTextNFT": {
+        "message": "Chat s vlastníkem NFT"
+    },
+    "buttonTextGame": {
+        "message": "Chat s hráčem"
+    },
+    "buttonTextWallet": {
+        "message": "Chat s peněženkou"
+    },
+    "buttonTextToken": {
+        "message": "Chat s vydavatelem tokenů"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP rahakoti sõnumitooja TextRP-st",
+        "description": "Laienduse nimi."
+    },
+    "extDescription": {
+        "message": "Lihtsalt paremklõpsake mis tahes XRP rahakoti aadressil, et kiiresti saata sõnum TextRP kaudu, XRPL-i ühtse sõnumikihi kaudu.",
+        "description": "Laienduse kirjeldus."
+    },
+    "messageWalletTitle": {
+        "message": "Sõnum XRP rahakotile"
+    },
+    "buttonTextNFT": {
+        "message": "Vestelge NFT omanikuga"
+    },
+    "buttonTextGame": {
+        "message": "Vestelge mängijaga"
+    },
+    "buttonTextWallet": {
+        "message": "Vestelge rahakotiga"
+    },
+    "buttonTextToken": {
+        "message": "Vestelge tokeni väljastajaga"
+    }
+}

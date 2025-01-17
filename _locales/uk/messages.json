@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger від TextRP",
+        "description": "Назва розширення."
+    },
+    "extDescription": {
+        "message": "Просто клацніть правою кнопкою миші будь-яку адресу гаманця XRP, щоб швидко надіслати повідомлення через TextRP, єдиний рівень обміну повідомленнями для XRPL.",
+        "description": "Опис розширення."
+    },
+    "messageWalletTitle": {
+        "message": "Повідомлення до гаманця XRP"
+    },
+    "buttonTextNFT": {
+        "message": "Чат із власником NFT"
+    },
+    "buttonTextGame": {
+        "message": "Чат із гравцем"
+    },
+    "buttonTextWallet": {
+        "message": "Чат із гаманцем"
+    },
+    "buttonTextToken": {
+        "message": "Чат із емітентом токенів"
+    }
+}

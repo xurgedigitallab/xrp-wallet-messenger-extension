@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "ኤክስአርፒ ቦሌት መላኪያ ከ ቴክስትአርፒ",
+        "description": "የእንግሊዝኛ ስም."
+    },
+    "extDescription": {
+        "message": "በቀላሉ በኤክስአርፒ ቦሌት አድራሻ ላይ ቀንድ ጠቅ በማድረግ በቴክስትአርፒ በኩል መልእክት ላክ.",
+        "description": "የእንግሊዝኛ መግለጫ."
+    },
+    "messageWalletTitle": {
+        "message": "መልእክት እና ኤክስአርፒ ቦሌት"
+    },
+    "buttonTextNFT": {
+        "message": "ከኤንኤፍቲ ባለቤት ጋር ይነጋገሩ"
+    },
+    "buttonTextGame": {
+        "message": "ከተጫዋች ጋር ይነጋገሩ"
+    },
+    "buttonTextWallet": {
+        "message": "ከቦሌት ጋር ይነጋገሩ"
+    },
+    "buttonTextToken": {
+        "message": "ከቶክን አዋቂ ጋር ይነጋገሩ"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger de la TextRP",
+        "description": "Numele extensiei."
+    },
+    "extDescription": {
+        "message": "Faceți clic dreapta pe orice adresă de portofel XRP pentru a trimite rapid un mesaj prin TextRP, stratul de mesagerie unificat pentru XRPL.",
+        "description": "Descrierea extensiei."
+    },
+    "messageWalletTitle": {
+        "message": "Mesaj către portofelul XRP"
+    },
+    "buttonTextNFT": {
+        "message": "Chat cu proprietarul NFT"
+    },
+    "buttonTextGame": {
+        "message": "Chat cu jucătorul"
+    },
+    "buttonTextWallet": {
+        "message": "Chat cu portofelul"
+    },
+    "buttonTextToken": {
+        "message": "Chat cu emitentul de tokenuri"
+    }
+}

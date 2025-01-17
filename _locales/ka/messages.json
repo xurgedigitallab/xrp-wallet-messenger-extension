@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger TextRP-დან",
+        "description": "გაფართოების სახელი."
+    },
+    "extDescription": {
+        "message": "უბრალოდ დააწკაპუნეთ მარჯვენა ღილაკით ნებისმიერ XRP საფულის მისამართზე, რათა სწრაფად გაგზავნოთ შეტყობინება TextRP-ის მეშვეობით, XRPL-ის ერთიანი შეტყობინებების ფენა.",
+        "description": "გაფართოების აღწერა."
+    },
+    "messageWalletTitle": {
+        "message": "შეტყობინება XRP საფულეზე"
+    },
+    "buttonTextNFT": {
+        "message": "ესაუბრეთ NFT მფლობელს"
+    },
+    "buttonTextGame": {
+        "message": "ესაუბრეთ მოთამაშეს"
+    },
+    "buttonTextWallet": {
+        "message": "ესაუბრეთ საფულეს"
+    },
+    "buttonTextToken": {
+        "message": "ესაუბრეთ ტოკენის გამცემს"
+    }
+}

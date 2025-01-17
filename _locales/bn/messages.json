@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "TextRP থেকে XRP ওয়ালেট মেসেঞ্জার",
+        "description": "এক্সটেনশনের নাম।"
+    },
+    "extDescription": {
+        "message": "TextRP এর মাধ্যমে দ্রুত একটি বার্তা পাঠাতে যেকোনো XRP ওয়ালেট ঠিকানায় ডান-ক্লিক করুন, XRPL এর জন্য ঐক্যবদ্ধ বার্তা স্তর।",
+        "description": "এক্সটেনশনের বর্ণনা।"
+    },
+    "messageWalletTitle": {
+        "message": "XRP ওয়ালেটে বার্তা"
+    },
+    "buttonTextNFT": {
+        "message": "NFT মালিকের সাথে চ্যাট করুন"
+    },
+    "buttonTextGame": {
+        "message": "প্লেয়ারের সাথে চ্যাট করুন"
+    },
+    "buttonTextWallet": {
+        "message": "ওয়ালেটের সাথে চ্যাট করুন"
+    },
+    "buttonTextToken": {
+        "message": "টোকেন ইস্যুকারীর সাথে চ্যাট করুন"
+    }
+}

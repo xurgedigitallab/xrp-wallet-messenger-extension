@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "TextRP कडून XRP वॉलेट मेसेंजर",
+        "description": "विस्ताराचे नाव."
+    },
+    "extDescription": {
+        "message": "TextRP, XRPL साठी एकत्रित संदेश लेयरद्वारे जलद संदेश पाठवण्यासाठी कोणत्याही XRP वॉलेट पत्त्यावर उजवे क्लिक करा.",
+        "description": "विस्ताराचे वर्णन."
+    },
+    "messageWalletTitle": {
+        "message": "XRP वॉलेटला संदेश"
+    },
+    "buttonTextNFT": {
+        "message": "NFT मालकाशी गप्पा मारा"
+    },
+    "buttonTextGame": {
+        "message": "खेळाडूशी गप्पा मारा"
+    },
+    "buttonTextWallet": {
+        "message": "वॉलेटशी गप्पा मारा"
+    },
+    "buttonTextToken": {
+        "message": "टोकन जारीकर्त्याशी गप्पा मारा"
+    }
+}

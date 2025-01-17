@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "رسول محفظة XRP من TextRP",
+        "description": "اسم الامتداد."
+    },
+    "extDescription": {
+        "message": "انقر بزر الماوس الأيمن على أي عنوان محفظة XRP لإرسال رسالة بسرعة عبر TextRP، طبقة المراسلة الموحدة لـ XRPL.",
+        "description": "وصف الامتداد."
+    },
+    "messageWalletTitle": {
+        "message": "رسالة إلى محفظة XRP"
+    },
+    "buttonTextNFT": {
+        "message": "الدردشة مع مالك NFT"
+    },
+    "buttonTextGame": {
+        "message": "الدردشة مع اللاعب"
+    },
+    "buttonTextWallet": {
+        "message": "الدردشة مع المحفظة"
+    },
+    "buttonTextToken": {
+        "message": "الدردشة مع مصدر الرمز"
+    }
+}

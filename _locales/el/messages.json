@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "Αγγελιοφόρος πορτοφολιού XRP από το TextRP",
+        "description": "Το όνομα της επέκτασης."
+    },
+    "extDescription": {
+        "message": "Απλώς κάντε δεξί κλικ σε οποιαδήποτε διεύθυνση πορτοφολιού XRP για να στείλετε γρήγορα ένα μήνυμα μέσω του TextRP, του ενοποιημένου επιπέδου μηνυμάτων για το XRPL.",
+        "description": "Η περιγραφή της επέκτασης."
+    },
+    "messageWalletTitle": {
+        "message": "Μήνυμα στο πορτοφόλι XRP"
+    },
+    "buttonTextNFT": {
+        "message": "Συνομιλία με τον ιδιοκτήτη του NFT"
+    },
+    "buttonTextGame": {
+        "message": "Συνομιλία με τον παίκτη"
+    },
+    "buttonTextWallet": {
+        "message": "Συνομιλία με το πορτοφόλι"
+    },
+    "buttonTextToken": {
+        "message": "Συνομιλία με τον εκδότη του token"
+    }
+}

@@ -9,5 +9,17 @@
     },
     "messageWalletTitle": {
         "message": "XRP 지갑 주소로 메시지 보내기"
+    },
+    "buttonTextNFT": {
+        "message": "NFT 소유자와 채팅하기"
+    },
+    "buttonTextGame": {
+        "message": "플레이어와 채팅하기"
+    },
+    "buttonTextWallet": {
+        "message": "지갑과 채팅하기"
+    },
+    "buttonTextToken": {
+        "message": "토큰 발행자와 채팅하기"
     }
 }

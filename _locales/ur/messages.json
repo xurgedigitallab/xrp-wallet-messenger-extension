@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "TextRP سے XRP والیٹ میسنجر",
+        "description": "ایکسٹینشن کا نام۔"
+    },
+    "extDescription": {
+        "message": "XRPL کے لیے متحدہ پیغام رسانی کی پرت کے ذریعے تیزی سے پیغام بھیجنے کے لیے کسی بھی XRP والیٹ ایڈریس پر دائیں کلک کریں۔",
+        "description": "ایکسٹینشن کی تفصیل۔"
+    },
+    "messageWalletTitle": {
+        "message": "XRP والیٹ کو پیغام"
+    },
+    "buttonTextNFT": {
+        "message": "NFT کے مالک کے ساتھ چیٹ کریں"
+    },
+    "buttonTextGame": {
+        "message": "کھلاڑی کے ساتھ چیٹ کریں"
+    },
+    "buttonTextWallet": {
+        "message": "والیٹ کے ساتھ چیٹ کریں"
+    },
+    "buttonTextToken": {
+        "message": "ٹوکن جاری کرنے والے کے ساتھ چیٹ کریں"
+    }
+}

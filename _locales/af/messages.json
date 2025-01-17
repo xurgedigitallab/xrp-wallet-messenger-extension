@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger van TextRP",
+        "description": "Die naam van die uitbreiding."
+    },
+    "extDescription": {
+        "message": "Regskliek eenvoudig op enige XRP-beursie-adres om vinnig 'n boodskap deur TextRP, die verenigde boodskaplaag vir die XRPL, te stuur.",
+        "description": "Die beskrywing van die uitbreiding."
+    },
+    "messageWalletTitle": {
+        "message": "Boodskap aan XRP-beursie"
+    },
+    "buttonTextNFT": {
+        "message": "Gesels met NFT-eienaar"
+    },
+    "buttonTextGame": {
+        "message": "Gesels met speler"
+    },
+    "buttonTextWallet": {
+        "message": "Gesels met beursie"
+    },
+    "buttonTextToken": {
+        "message": "Gesels met token-uitreiker"
+    }
+}

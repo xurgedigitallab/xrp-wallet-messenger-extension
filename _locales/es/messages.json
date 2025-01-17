@@ -9,5 +9,17 @@
   },
   "messageWalletTitle": {
     "message": "Mensaje a Cartera XRP"
+  },
+  "buttonTextNFT": {
+    "message": "Chatear con el propietario del NFT"
+  },
+  "buttonTextGame": {
+    "message": "Chatear con el jugador"
+  },
+  "buttonTextWallet": {
+    "message": "Chatear con la cartera"
+  },
+  "buttonTextToken": {
+    "message": "Chatear con el emisor del token"
   }
 }

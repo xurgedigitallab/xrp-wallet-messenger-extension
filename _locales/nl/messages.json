@@ -9,5 +9,17 @@
   },
   "messageWalletTitle": {
     "message": "Bericht naar XRP Wallet"
+  },
+  "buttonTextNFT": {
+    "message": "Chat met NFT-eigenaar"
+  },
+  "buttonTextGame": {
+    "message": "Chat met speler"
+  },
+  "buttonTextWallet": {
+    "message": "Chat met portemonnee"
+  },
+  "buttonTextToken": {
+    "message": "Chat met tokenuitgever"
   }
 }

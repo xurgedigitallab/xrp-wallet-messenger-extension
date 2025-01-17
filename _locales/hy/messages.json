@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger TextRP-ից",
+        "description": "Ընդլայնման անունը."
+    },
+    "extDescription": {
+        "message": "Պարզապես աջ սեղմեք ցանկացած XRP դրամապանակի հասցեի վրա՝ արագ հաղորդագրություն ուղարկելու համար TextRP-ի միջոցով, XRPL-ի միավորված հաղորդագրությունների շերտի միջոցով:",
+        "description": "Ընդլայնման նկարագրությունը."
+    },
+    "messageWalletTitle": {
+        "message": "Հաղորդագրություն XRP դրամապանակին"
+    },
+    "buttonTextNFT": {
+        "message": "Զրուցել NFT-ի սեփականատիրոջ հետ"
+    },
+    "buttonTextGame": {
+        "message": "Զրուցել խաղացողի հետ"
+    },
+    "buttonTextWallet": {
+        "message": "Զրուցել դրամապանակի հետ"
+    },
+    "buttonTextToken": {
+        "message": "Զրուցել թոքենի թողարկողի հետ"
+    }
+}
