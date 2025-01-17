@@ -312,17 +312,30 @@ async function insertButtonForSite(site) {
 
     if (xrpAddress) {
       console.log('Found XRP address:', xrpAddress);
-
+      let buttonText = null;
       // Check if the specific "Chat with player" button already exists
-      let buttonText = 'Chat with NFT owner';
-      if (site.type === 'game') {
-        buttonText = 'Chat with player';
-      }
-      if (site.type === 'wallet') {
-        buttonText = 'Chat with wallet';
-      }
-      if (site.type === 'token') {
-        buttonText = 'Chat with token issuer';
+      if (site.localesOn) {
+        buttonText = chrome.i18n.getMessage('buttonTextNFT');
+        if (site.type === 'game') {
+          buttonText = chrome.i18n.getMessage('buttonTextGame');
+        }
+        if (site.type === 'wallet') {
+          buttonText = chrome.i18n.getMessage('buttonTextWallet');
+        }
+        if (site.type === 'token') {
+          buttonText = chrome.i18n.getMessage('buttonTextToken');
+        }
+      } else {
+        let buttonText = 'Chat with NFT owner';
+        if (site.type === 'game') {
+          buttonText = 'Chat with player';
+        }
+        if (site.type === 'wallet') {
+          buttonText = 'Chat with wallet';
+        }
+        if (site.type === 'token') {
+          buttonText = 'Chat with token issuer';
+        }
       }
 
       // Remove the button if it already exists
