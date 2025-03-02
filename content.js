@@ -315,7 +315,9 @@ async function insertButtonForSite(site) {
       let buttonText = null;
       // Check if the specific "Chat with player" button already exists
       if (site.localesOn) {
-        buttonText = chrome.i18n.getMessage('buttonTextNFT');
+        if (site.type === 'nft') {
+          buttonText = chrome.i18n.getMessage('buttonTextNFT');
+        }
         if (site.type === 'game') {
           buttonText = chrome.i18n.getMessage('buttonTextGame');
         }
@@ -326,7 +328,9 @@ async function insertButtonForSite(site) {
           buttonText = chrome.i18n.getMessage('buttonTextToken');
         }
       } else {
-        let buttonText = 'Chat with NFT owner';
+        if (site.type === 'nft') {
+          buttonText = 'Chat with NFT owner';
+        }
         if (site.type === 'game') {
           buttonText = 'Chat with player';
         }
