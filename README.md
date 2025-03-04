@@ -9,6 +9,7 @@ This Chrome extension dynamically scans web pages for XRP wallet addresses and p
 - [Features](#features)
 - [Dependencies](#dependencies)
 - [Configuration](#configuration)
+- [Development](#development)
 - [Documentation](#documentation)
 - [Examples](#examples)
 - [Troubleshooting](#troubleshooting)
@@ -17,6 +18,7 @@ This Chrome extension dynamically scans web pages for XRP wallet addresses and p
 
 ## Installation
 To install the extension:
+
 1. Download the extension package.
 2. Navigate to `chrome://extensions/` in the Google Chrome browser.
 3. Enable Developer Mode by toggling the switch in the upper right corner.
@@ -32,10 +34,45 @@ After installation, the extension automatically scans web pages for XRP wallet a
 
 ## Dependencies
 - Google Chrome Browser
-- No external library dependencies for extension functionality.
+- Node.js
+- Webpack
+- Babel
+- xrpl
+
 
 ## Configuration
 The extension requires no additional configuration after installation.
+
+## Development
+To set up the development environment and build the extension, follow these steps:
+
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/yourusername/xrp-wallet-messenger.git
+    cd xrp-wallet-messenger
+    ```
+
+2. **Install dependencies**:
+    ```sh
+    npm install
+    npm install --save-dev webpack webpack-cli babel-loader @babel/core @babel/preset-env
+    npm install xrpl
+    ```
+
+3. **Build the extension**:
+    ```sh
+    npx webpack --mode production
+    ```
+
+4. **Watch for changes and rebuild automatically**:
+    ```sh
+    npx webpack --watch
+    ```
+
+5. **Load the extension in Chrome**:
+    - Navigate to `chrome://extensions/`
+    - Enable Developer Mode
+    - Click "Load unpacked" and select the corresponding directory
 
 ## Documentation
 Refer to the `manifest.json` for the extension's configuration and structure. Code comments in `background.js` and `content.js` provide insights into the functionality and flow of the extension.
@@ -45,8 +82,10 @@ Navigating to a web page containing XRP wallet addresses will automatically high
 
 ## Troubleshooting
 If the extension does not detect addresses as expected, ensure that:
+
 - The web page is fully loaded before the detection starts.
 - The extension has permission to run in the current context.
+- The extension is up to date with the latest code changes.
 
 ## Contributors
 To contribute to this extension, please fork the repository and submit a pull request with your proposed changes.

@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger kutoka TextRP",
+        "description": "Jina la kiendelezi."
+    },
+    "extDescription": {
+        "message": "Bonyeza tu kulia kwenye anwani yoyote ya mkoba wa XRP ili kutuma ujumbe haraka kupitia TextRP, safu ya ujumbe iliyounganishwa kwa XRPL.",
+        "description": "Maelezo ya kiendelezi."
+    },
+    "messageWalletTitle": {
+        "message": "Ujumbe kwa mkoba wa XRP"
+    },
+    "buttonTextNFT": {
+        "message": "Ongea na mmiliki wa NFT"
+    },
+    "buttonTextGame": {
+        "message": "Ongea na mchezaji"
+    },
+    "buttonTextWallet": {
+        "message": "Ongea na mkoba"
+    },
+    "buttonTextToken": {
+        "message": "Ongea na mtoaji wa tokeni"
+    }
+}

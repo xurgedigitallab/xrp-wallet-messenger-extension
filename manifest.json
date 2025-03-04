@@ -9,27 +9,42 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "permissions": ["contextMenus", "activeTab"],
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "storage"
+  ],
   "host_permissions": [
-    "https://nft.onxrp.com/*",
+    "https://bidds.com/*",
     "https://xrp.cafe/*",
     "https://xmart.art/*",
-    "https://xrpnft.com/*"
+    "https://xrpnft.com/*",
+    "http://localhost:3000/*"
   ],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "dist/background.bundle.js"
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"],
-      "css": ["styles.css"]
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ]
     }
   ],
   "web_accessible_resources": [
     {
-      "resources": ["icons/button_icon.svg", "sitesConfig.json"],
-      "matches": ["<all_urls>"]
+      "resources": [
+        "icons/button_icon.svg"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
     }
   ]
 }

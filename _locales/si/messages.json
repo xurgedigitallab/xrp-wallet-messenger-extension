@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "TextRP වෙතින් XRP Wallet Messenger",
+        "description": "දිගුවේ නම."
+    },
+    "extDescription": {
+        "message": "TextRP, XRPL සඳහා ඒකාබද්ධ පණිවිඩ ස්ථරය හරහා ඉක්මනින් පණිවිඩයක් යැවීමට ඕනෑම XRP Wallet ලිපිනයක් මත දකුණු මූසික බොත්තම ක්ලික් කරන්න.",
+        "description": "දිගුවේ විස්තරය."
+    },
+    "messageWalletTitle": {
+        "message": "XRP Wallet වෙත පණිවිඩයක්"
+    },
+    "buttonTextNFT": {
+        "message": "NFT හිමිකරු සමඟ කතාබස් කරන්න"
+    },
+    "buttonTextGame": {
+        "message": "ක්‍රීඩකයා සමඟ කතාබස් කරන්න"
+    },
+    "buttonTextWallet": {
+        "message": "Wallet සමඟ කතාබස් කරන්න"
+    },
+    "buttonTextToken": {
+        "message": "ටෝකන් නිකුත් කරන්නා සමඟ කතාබස් කරන්න"
+    }
+}

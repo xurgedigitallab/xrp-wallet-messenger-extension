@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger од TextRP",
+        "description": "Името на проширувањето."
+    },
+    "extDescription": {
+        "message": "Едноставно кликнете со десното копче на која било адреса на паричникот XRP за брзо да испратите порака преку TextRP, обединетиот слој за пораки за XRPL.",
+        "description": "Описот на проширувањето."
+    },
+    "messageWalletTitle": {
+        "message": "Порака до паричникот XRP"
+    },
+    "buttonTextNFT": {
+        "message": "Разговарајте со сопственикот на NFT"
+    },
+    "buttonTextGame": {
+        "message": "Разговарајте со играчот"
+    },
+    "buttonTextWallet": {
+        "message": "Разговарајте со паричникот"
+    },
+    "buttonTextToken": {
+        "message": "Разговарајте со издавачот на токени"
+    }
+}

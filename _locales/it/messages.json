@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger da TextRP",
+        "description": "Il nome dell'estensione."
+    },
+    "extDescription": {
+        "message": "Fai semplicemente clic con il pulsante destro del mouse su qualsiasi indirizzo del portafoglio XRP per inviare rapidamente un messaggio tramite TextRP, il livello di messaggistica unificato per XRPL.",
+        "description": "La descrizione dell'estensione."
+    },
+    "messageWalletTitle": {
+        "message": "Messaggio al portafoglio XRP"
+    },
+    "buttonTextNFT": {
+        "message": "Chatta con il proprietario dell'NFT"
+    },
+    "buttonTextGame": {
+        "message": "Chatta con il giocatore"
+    },
+    "buttonTextWallet": {
+        "message": "Chatta con il portafoglio"
+    },
+    "buttonTextToken": {
+        "message": "Chatta con l'emittente del token"
+    }
+}

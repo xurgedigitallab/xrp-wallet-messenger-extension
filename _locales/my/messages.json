@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "TextRP မှ XRP Wallet Messenger",
+        "description": "တိုးချဲ့မှုအမည်။"
+    },
+    "extDescription": {
+        "message": "XRPL အတွက် ပေါင်းစည်းထားသော မက်ဆေ့ချ်အလွှာမှတဆင့် အမြန်ဆုံး မက်ဆေ့ချ်ပို့ရန် မည်သည့် XRP ပေါက်ကွဲလိပ်စာကိုမဆို ညာဘက်ကလစ်လုပ်ပါ။",
+        "description": "တိုးချဲ့မှုအကြောင်းအရာ။"
+    },
+    "messageWalletTitle": {
+        "message": "XRP ပေါက်ကွဲသို့ မက်ဆေ့ချ်ပို့ပါ။"
+    },
+    "buttonTextNFT": {
+        "message": "NFT ပိုင်ရှင်နှင့် စကားပြောပါ။"
+    },
+    "buttonTextGame": {
+        "message": "ကစားသမားနှင့် စကားပြောပါ။"
+    },
+    "buttonTextWallet": {
+        "message": "ပေါက်ကွဲနှင့် စကားပြောပါ။"
+    },
+    "buttonTextToken": {
+        "message": "တိုကင်ထုတ်ဝေသူနှင့် စကားပြောပါ။"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger จาก TextRP",
+        "description": "ชื่อของส่วนขยาย"
+    },
+    "extDescription": {
+        "message": "เพียงคลิกขวาที่ที่อยู่กระเป๋าเงิน XRP ใดๆ เพื่อส่งข้อความอย่างรวดเร็วผ่าน TextRP ซึ่งเป็นเลเยอร์การส่งข้อความแบบครบวงจรสำหรับ XRPL",
+        "description": "คำอธิบายของส่วนขยาย"
+    },
+    "messageWalletTitle": {
+        "message": "ข้อความถึงกระเป๋าเงิน XRP"
+    },
+    "buttonTextNFT": {
+        "message": "แชทกับเจ้าของ NFT"
+    },
+    "buttonTextGame": {
+        "message": "แชทกับผู้เล่น"
+    },
+    "buttonTextWallet": {
+        "message": "แชทกับกระเป๋าเงิน"
+    },
+    "buttonTextToken": {
+        "message": "แชทกับผู้ออกโทเค็น"
+    }
+}

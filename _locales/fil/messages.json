@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger mula sa TextRP",
+        "description": "Ang pangalan ng extension."
+    },
+    "extDescription": {
+        "message": "I-right click lang ang anumang XRP wallet address para mabilis na magpadala ng mensahe sa pamamagitan ng TextRP, ang pinag-isang messaging layer para sa XRPL.",
+        "description": "Ang paglalarawan ng extension."
+    },
+    "messageWalletTitle": {
+        "message": "Mensahe sa XRP Wallet"
+    },
+    "buttonTextNFT": {
+        "message": "Makipag-chat sa may-ari ng NFT"
+    },
+    "buttonTextGame": {
+        "message": "Makipag-chat sa manlalaro"
+    },
+    "buttonTextWallet": {
+        "message": "Makipag-chat sa wallet"
+    },
+    "buttonTextToken": {
+        "message": "Makipag-chat sa nagbigay ng token"
+    }
+}

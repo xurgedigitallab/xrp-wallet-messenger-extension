@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger từ TextRP",
+        "description": "Tên của tiện ích mở rộng."
+    },
+    "extDescription": {
+        "message": "Chỉ cần nhấp chuột phải vào bất kỳ địa chỉ ví XRP nào để nhanh chóng gửi tin nhắn qua TextRP, lớp nhắn tin hợp nhất cho XRPL.",
+        "description": "Mô tả của tiện ích mở rộng."
+    },
+    "messageWalletTitle": {
+        "message": "Tin nhắn đến ví XRP"
+    },
+    "buttonTextNFT": {
+        "message": "Trò chuyện với chủ sở hữu NFT"
+    },
+    "buttonTextGame": {
+        "message": "Trò chuyện với người chơi"
+    },
+    "buttonTextWallet": {
+        "message": "Trò chuyện với ví"
+    },
+    "buttonTextToken": {
+        "message": "Trò chuyện với nhà phát hành token"
+    }
+}

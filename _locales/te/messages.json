@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "TextRP నుండి XRP వాలెట్ మెసెంజర్",
+        "description": "విస్తరణ పేరు."
+    },
+    "extDescription": {
+        "message": "XRPL కోసం ఏకీకృత సందేశ లేయర్ ద్వారా త్వరగా సందేశాన్ని పంపడానికి ఏదైనా XRP వాలెట్ చిరునామా పై రైట్ క్లిక్ చేయండి.",
+        "description": "విస్తరణ వివరణ."
+    },
+    "messageWalletTitle": {
+        "message": "XRP వాలెట్‌కు సందేశం"
+    },
+    "buttonTextNFT": {
+        "message": "NFT యజమానితో చాట్ చేయండి"
+    },
+    "buttonTextGame": {
+        "message": "ప్లేయర్‌తో చాట్ చేయండి"
+    },
+    "buttonTextWallet": {
+        "message": "వాలెట్‌తో చాట్ చేయండి"
+    },
+    "buttonTextToken": {
+        "message": "టోకెన్ ఇష్యూయర్‌తో చాట్ చేయండి"
+    }
+}

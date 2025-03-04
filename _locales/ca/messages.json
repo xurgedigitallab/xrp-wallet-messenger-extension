@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "Missatger de cartera XRP de TextRP",
+        "description": "El nom de l'extensió."
+    },
+    "extDescription": {
+        "message": "Feu clic amb el botó dret a qualsevol adreça de cartera XRP per enviar ràpidament un missatge a través de TextRP, la capa de missatgeria unificada per a l'XRPL.",
+        "description": "La descripció de l'extensió."
+    },
+    "messageWalletTitle": {
+        "message": "Missatge a la cartera XRP"
+    },
+    "buttonTextNFT": {
+        "message": "Xateja amb el propietari de l'NFT"
+    },
+    "buttonTextGame": {
+        "message": "Xateja amb el jugador"
+    },
+    "buttonTextWallet": {
+        "message": "Xateja amb la cartera"
+    },
+    "buttonTextToken": {
+        "message": "Xateja amb l'emissor del token"
+    }
+}

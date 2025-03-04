@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "שליח ארנק XRP מ-TextRP",
+        "description": "שם ההרחבה."
+    },
+    "extDescription": {
+        "message": "פשוט לחץ לחיצה ימנית על כל כתובת ארנק XRP כדי לשלוח הודעה במהירות דרך TextRP, שכבת ההודעות המאוחדת עבור XRPL.",
+        "description": "תיאור ההרחבה."
+    },
+    "messageWalletTitle": {
+        "message": "הודעה לארנק XRP"
+    },
+    "buttonTextNFT": {
+        "message": "צ'אט עם בעל ה-NFT"
+    },
+    "buttonTextGame": {
+        "message": "צ'אט עם השחקן"
+    },
+    "buttonTextWallet": {
+        "message": "צ'אט עם הארנק"
+    },
+    "buttonTextToken": {
+        "message": "צ'אט עם מנפיק הטוקן"
+    }
+}

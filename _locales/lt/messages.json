@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger iš TextRP",
+        "description": "Plėtinio pavadinimas."
+    },
+    "extDescription": {
+        "message": "Tiesiog dešiniuoju pelės mygtuku spustelėkite bet kurį XRP piniginės adresą, kad greitai išsiųstumėte pranešimą per TextRP, vieningą XRPL pranešimų sluoksnį.",
+        "description": "Plėtinio aprašymas."
+    },
+    "messageWalletTitle": {
+        "message": "Pranešimas XRP piniginei"
+    },
+    "buttonTextNFT": {
+        "message": "Pokalbis su NFT savininku"
+    },
+    "buttonTextGame": {
+        "message": "Pokalbis su žaidėju"
+    },
+    "buttonTextWallet": {
+        "message": "Pokalbis su pinigine"
+    },
+    "buttonTextToken": {
+        "message": "Pokalbis su žetonų leidėju"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger dari TextRP",
+        "description": "Nama sambungan."
+    },
+    "extDescription": {
+        "message": "Klik kanan pada mana-mana alamat dompet XRP untuk menghantar mesej dengan cepat melalui TextRP, lapisan pemesejan bersatu untuk XRPL.",
+        "description": "Penerangan sambungan."
+    },
+    "messageWalletTitle": {
+        "message": "Mesej ke Dompet XRP"
+    },
+    "buttonTextNFT": {
+        "message": "Berbual dengan pemilik NFT"
+    },
+    "buttonTextGame": {
+        "message": "Berbual dengan pemain"
+    },
+    "buttonTextWallet": {
+        "message": "Berbual dengan dompet"
+    },
+    "buttonTextToken": {
+        "message": "Berbual dengan penerbit token"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "TextRP-ээс XRP Wallet Messenger",
+        "description": "Өргөтгөлийн нэр."
+    },
+    "extDescription": {
+        "message": "XRPL-ийн нэгдсэн мессежийн давхаргаар дамжуулан хурдан мессеж илгээхийн тулд ямар ч XRP түрийвчний хаягийг баруун товчлуур дээр дарна уу.",
+        "description": "Өргөтгөлийн тайлбар."
+    },
+    "messageWalletTitle": {
+        "message": "XRP түрийвч рүү мессеж илгээх"
+    },
+    "buttonTextNFT": {
+        "message": "NFT эзэмшигчтэй чатлах"
+    },
+    "buttonTextGame": {
+        "message": "Тоглогчтой чатлах"
+    },
+    "buttonTextWallet": {
+        "message": "Түрийвчтэй чатлах"
+    },
+    "buttonTextToken": {
+        "message": "Токен гаргагчтай чатлах"
+    }
+}

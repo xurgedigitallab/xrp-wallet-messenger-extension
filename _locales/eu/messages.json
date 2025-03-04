@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger TextRP-tik",
+        "description": "Luzapenaren izena."
+    },
+    "extDescription": {
+        "message": "Egin klik eskuinean edozein XRP zorro helbidean, mezu bat azkar bidaltzeko TextRP bidez, XRPL-rako mezularitza geruza bateratua.",
+        "description": "Luzapenaren deskribapena."
+    },
+    "messageWalletTitle": {
+        "message": "Mezua XRP zorroari"
+    },
+    "buttonTextNFT": {
+        "message": "Txateatu NFT jabearekin"
+    },
+    "buttonTextGame": {
+        "message": "Txateatu jokalariarekin"
+    },
+    "buttonTextWallet": {
+        "message": "Txateatu zorroarekin"
+    },
+    "buttonTextToken": {
+        "message": "Txateatu token igorlearekin"
+    }
+}

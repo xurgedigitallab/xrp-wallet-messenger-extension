@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger a TextRP-től",
+        "description": "A kiterjesztés neve."
+    },
+    "extDescription": {
+        "message": "Egyszerűen kattintson a jobb gombbal bármely XRP pénztárca címére, hogy gyorsan üzenetet küldjön a TextRP-n keresztül, az XRPL egységes üzenetküldési rétegén keresztül.",
+        "description": "A kiterjesztés leírása."
+    },
+    "messageWalletTitle": {
+        "message": "Üzenet az XRP pénztárcának"
+    },
+    "buttonTextNFT": {
+        "message": "Csevegés az NFT tulajdonosával"
+    },
+    "buttonTextGame": {
+        "message": "Csevegés a játékossal"
+    },
+    "buttonTextWallet": {
+        "message": "Csevegés a pénztárcával"
+    },
+    "buttonTextToken": {
+        "message": "Csevegés a token kibocsátójával"
+    }
+}

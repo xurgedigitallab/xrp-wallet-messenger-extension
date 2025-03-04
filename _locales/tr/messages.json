@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "TextRP'den XRP Cüzdan Mesajlaşma",
+        "description": "Uzantının adı."
+    },
+    "extDescription": {
+        "message": "XRPL için birleşik mesajlaşma katmanı aracılığıyla hızlı bir şekilde mesaj göndermek için herhangi bir XRP cüzdan adresine sağ tıklayın.",
+        "description": "Uzantının açıklaması."
+    },
+    "messageWalletTitle": {
+        "message": "XRP Cüzdanına Mesaj"
+    },
+    "buttonTextNFT": {
+        "message": "NFT sahibiyle sohbet edin"
+    },
+    "buttonTextGame": {
+        "message": "Oyuncuyla sohbet edin"
+    },
+    "buttonTextWallet": {
+        "message": "Cüzdanla sohbet edin"
+    },
+    "buttonTextToken": {
+        "message": "Token ihraççısıyla sohbet edin"
+    }
+}

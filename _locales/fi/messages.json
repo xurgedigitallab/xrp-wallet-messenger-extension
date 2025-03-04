@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP-lompakon viestintä TextRP:ltä",
+        "description": "Laajennuksen nimi."
+    },
+    "extDescription": {
+        "message": "Napsauta hiiren kakkospainikkeella mitä tahansa XRP-lompakon osoitetta lähettääksesi nopeasti viestin TextRP:n kautta, yhtenäisen viestintäkerroksen XRPL:lle.",
+        "description": "Laajennuksen kuvaus."
+    },
+    "messageWalletTitle": {
+        "message": "Viestitä XRP-lompakolle"
+    },
+    "buttonTextNFT": {
+        "message": "Keskustele NFT-omistajan kanssa"
+    },
+    "buttonTextGame": {
+        "message": "Keskustele pelaajan kanssa"
+    },
+    "buttonTextWallet": {
+        "message": "Keskustele lompakon kanssa"
+    },
+    "buttonTextToken": {
+        "message": "Keskustele tokenin liikkeeseenlaskijan kanssa"
+    }
+}

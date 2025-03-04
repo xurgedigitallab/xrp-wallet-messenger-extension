@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger iz TextRP",
+        "description": "Ime razširitve."
+    },
+    "extDescription": {
+        "message": "Preprosto z desno tipko miške kliknite kateri koli naslov denarnice XRP, da hitro pošljete sporočilo prek TextRP, enotne plasti za sporočanje za XRPL.",
+        "description": "Opis razširitve."
+    },
+    "messageWalletTitle": {
+        "message": "Sporočilo za denarnico XRP"
+    },
+    "buttonTextNFT": {
+        "message": "Klepetajte z lastnikom NFT"
+    },
+    "buttonTextGame": {
+        "message": "Klepetajte z igralcem"
+    },
+    "buttonTextWallet": {
+        "message": "Klepetajte z denarnico"
+    },
+    "buttonTextToken": {
+        "message": "Klepetajte z izdajateljem žetonov"
+    }
+}

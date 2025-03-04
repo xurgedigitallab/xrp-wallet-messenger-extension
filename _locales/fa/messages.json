@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "پیام رسان کیف پول XRP از TextRP",
+        "description": "نام افزونه."
+    },
+    "extDescription": {
+        "message": "به سادگی روی هر آدرس کیف پول XRP راست کلیک کنید تا سریعاً از طریق TextRP، لایه پیام رسانی یکپارچه برای XRPL، پیام ارسال کنید.",
+        "description": "توضیحات افزونه."
+    },
+    "messageWalletTitle": {
+        "message": "پیام به کیف پول XRP"
+    },
+    "buttonTextNFT": {
+        "message": "چت با مالک NFT"
+    },
+    "buttonTextGame": {
+        "message": "چت با بازیکن"
+    },
+    "buttonTextWallet": {
+        "message": "چت با کیف پول"
+    },
+    "buttonTextToken": {
+        "message": "چت با صادر کننده توکن"
+    }
+}

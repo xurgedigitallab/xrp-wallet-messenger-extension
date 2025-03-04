@@ -1,0 +1,25 @@
+{
+    "extName": {
+        "message": "XRP Wallet Messenger no TextRP",
+        "description": "Paplašinājuma nosaukums."
+    },
+    "extDescription": {
+        "message": "Vienkārši noklikšķiniet ar peles labo pogu uz jebkuras XRP maku adreses, lai ātri nosūtītu ziņojumu, izmantojot TextRP, vienoto ziņojumapmaiņas slāni XRPL.",
+        "description": "Paplašinājuma apraksts."
+    },
+    "messageWalletTitle": {
+        "message": "Ziņojums XRP maku"
+    },
+    "buttonTextNFT": {
+        "message": "Tērzējiet ar NFT īpašnieku"
+    },
+    "buttonTextGame": {
+        "message": "Tērzējiet ar spēlētāju"
+    },
+    "buttonTextWallet": {
+        "message": "Tērzējiet ar maku"
+    },
+    "buttonTextToken": {
+        "message": "Tērzējiet ar žetonu izdevēju"
+    }
+}
