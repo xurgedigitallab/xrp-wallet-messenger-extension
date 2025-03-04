@@ -1,0 +1,8 @@
+{
+    "CACHE_NAME": "sites-config-cache",
+    "SITES_CONFIG_URL": "http://localhost:3000/api/sites-config",
+    "LAST_MODIFIED_URL": "http://localhost:3000/api/sites-config-last-modified",
+    "TIMESTAMP_URL": "http://localhost/timestamp",
+    "XRPL_WS_URL": "wss://old-compatible-shard.xrp-mainnet.quiknode.pro/",
+    "SAVE_NEW_URL": "http://localhost:3000/api/save-url"
+}
