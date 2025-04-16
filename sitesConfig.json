@@ -186,7 +186,7 @@
   {
     "url": "https://xrplexplorer.com",
     "fullPath": "https://xrplexplorer.com/en/nft/",
-    "selector": "#__next > div > div.content > div > div.content-profile > div.column-right > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > table > tbody > tr > td:nth-child(2) > a",
+    "selector": "#__next > div > div.content > div.nft_nftClass__RWT_a > div.content-profile > div.column-right > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > table > tbody > tr > td:nth-child(2) > a:nth-child(3)",
     "secSelector": "#__next > div > div.content > div > div.content-profile > div.column-right > table:nth-child(4) > tbody > tr:nth-child(3) > td:nth-child(2) > a",
     "insertSelector": "#__next > div > div.content > div > div.content-profile > div.column-left > button",
     "secInsertSelector": "#__next > div > div.content > div > div.content-profile > div.column-left > div:nth-child(4)",
