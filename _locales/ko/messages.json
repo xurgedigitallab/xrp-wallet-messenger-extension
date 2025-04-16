@@ -1,0 +1,13 @@
+{
+    "extName": {
+        "message": "TextRP의 XRP 지갑 메신저",
+        "description": "확장 프로그램의 이름입니다."
+    },
+    "extDescription": {
+        "message": "XRPL의 통합 메시징 계층인 TextRP를 통해 메시지를 빠르게 보내려면 XRP 지갑 주소를 마우스 오른쪽 버튼으로 클릭하세요.",
+        "description": "확장 기능에 대한 설명입니다."
+    },
+    "messageWalletTitle": {
+        "message": "XRP 지갑 주소로 메시지 보내기"
+    }
+}
