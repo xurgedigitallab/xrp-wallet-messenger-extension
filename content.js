@@ -338,7 +338,7 @@ async function insertButtonForSite(site) {
           buttonText = 'Chat with wallet';
         }
         if (site.type === 'token') {
-          buttonText = 'Chat with token issuer';
+          buttonText = "Chat with token creator's wallet";
         }
       }
 
