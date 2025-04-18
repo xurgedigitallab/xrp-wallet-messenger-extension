@@ -74,8 +74,8 @@
   {
     "url": "https://xpmarket.com/nfts/",
     "fullPath": "https://xpmarket.com/nfts/",
-    "selector": "#page-content > div > div > div > div.MuiStack-root.mui-style-1r7uait > div.MuiStack-root.mui-style-jj2ztu > div.MuiStack-root.mui-style-1hkv16f > div:nth-child(1) > div.card-content.MuiBox-root.mui-style-r8dn8q > div > div.MuiStack-root.mui-style-mef8pr > div:nth-child(2) > div.MuiBox-root.mui-style-2uzbfz > a",
-    "insertSelector": "#page-content > div > div > div > div.MuiStack-root.mui-style-1r7uait > div.MuiStack-root.mui-style-jj2ztu > div.MuiStack-root.mui-style-1hkv16f > div:nth-child(1) > div.card-content.MuiBox-root.mui-style-r8dn8q > div > div.MuiBox-root.mui-style-1pxgmwj > div",
+    "selector": "#page-content > div > div > div > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-row.MuiGrid2-spacing-xs-1.css-t9qbs7 > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-row.MuiGrid2-grid-mobile-12.MuiGrid2-spacing-xs-1.css-1qvq2zi > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-column.MuiGrid2-grid-mobile-true.MuiGrid2-spacing-xs-1.css-cp6e0i > div:nth-child(1) > div > div.card-content.MuiBox-root.css-r8dn8q > div > div.MuiStack-root.css-mef8pr > div:nth-child(2) > div.MuiBox-root.css-2uzbfz > a",
+    "insertSelector": "#page-content > div > div > div > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-row.MuiGrid2-spacing-xs-1.css-t9qbs7 > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-row.MuiGrid2-grid-mobile-12.MuiGrid2-spacing-xs-1.css-1qvq2zi > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-column.MuiGrid2-grid-mobile-true.MuiGrid2-spacing-xs-1.css-cp6e0i > div:nth-child(1) > div > div.card-content.MuiBox-root.css-r8dn8q > div > div.MuiBox-root.css-1pxgmwj > div",
     "sitesMonitorUrl": "https://xpmarket.com/nfts/item/00084E20538291B60B01B3355E0E4EF9DE56F88668A7FD384B36415F04C6DDD7",
     "isDynamic": null,
     "addressInUrl": null,
@@ -103,7 +103,7 @@
     "url": "https://xpmarket.com/wallet/",
     "fullPath": "https://xpmarket.com/wallet/",
     "selector": "head",
-    "insertSelector": "#page-content > div > div > div > div > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-row.mui-style-29es3x > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-column.MuiGrid2-grid-mobile-12.MuiGrid2-grid-laptop-true.mui-style-c6sl0l > div:nth-child(1) > div > div",
+    "insertSelector": "#page-content > div > div > div > div > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-row.css-29es3x > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-column.MuiGrid2-grid-mobile-12.MuiGrid2-grid-laptop-true.css-c6sl0l > div:nth-child(1) > div > div > div > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-column.MuiGrid2-grid-mobile-12.MuiGrid2-grid-laptop-true.css-v1j9lw > div",
     "sitesMonitorUrl": "https://xpmarket.com/wallet/r4Gdpa3mUpqBDa7u7PKHqNFqJanJZEBTFs",
     "isDynamic": null,
     "addressInUrl": "window.location.pathname.split('/').pop()",
@@ -186,8 +186,8 @@
   {
     "url": "https://xrplexplorer.com",
     "fullPath": "https://xrplexplorer.com/en/nft/",
-    "selector": "#__next > div > div.content > div.nft_nftClass__RWT_a > div.content-profile > div.column-right > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > table > tbody > tr > td:nth-child(2) > a:nth-child(3)",
-    "secSelector": "#__next > div > div.content > div > div.content-profile > div.column-right > table:nth-child(4) > tbody > tr:nth-child(3) > td:nth-child(2) > a",
+    "selector": "#__next > div > div.content > div.nft_nftClass__RWT_a > div.content-profile > div.column-right > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > table > tbody",
+    "secSelector": "#page-content > div > div > div > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-row.MuiGrid2-spacing-xs-1.css-t9qbs7 > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-row.MuiGrid2-grid-mobile-12.MuiGrid2-spacing-xs-1.css-1qvq2zi > div.MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-column.MuiGrid2-spacing-xs-1.css-ukiki0 > div.MuiGrid2-root.MuiGrid2-direction-xs-row.MuiGrid2-grid-mobile-12.css-1bwv1p9 > div > div > div.nft-overlay.MuiBox-root.css-b0n9kr > div.overlay-container.MuiBox-root.css-79elbk > div > div > div",
     "insertSelector": "#__next > div > div.content > div > div.content-profile > div.column-left > button",
     "secInsertSelector": "#__next > div > div.content > div > div.content-profile > div.column-left > div:nth-child(4)",
     "sitesMonitorUrl": "https://xrplexplorer.com/en/nft/000800002D2E1AF8BA10A32EBF925D5FC1172652EE1D86D71CD0F05B056E26C0",
@@ -344,7 +344,7 @@
   {
     "url": "https://firstledger.net/token/",
     "fullPath": "https://firstledger.net/token/",
-    "selector": "#__next > main > div > section.cell-content > div.split-list > ul > li:nth-child(5) > div.cursor-pointer",
+    "selector": "#__next > main > div > section.cell-content > div.split-list > ul > li:nth-child(6) > div.cursor-pointer",
     "insertSelector": "#buy > div:nth-child(2)",
     "sitesMonitorUrl": "https://firstledger.net/token/rszenFJoDdiGjyezQc8pME9KWDQH43Tswh/44524F5000000000000000000000000000000000",
     "isDynamic": null,
@@ -370,10 +370,24 @@
     "type": "nft"
   },
   {
+    "url": "https://xmagnetic.org/wallet/",
+    "fullPath": "https://xmagnetic.org/wallet/",
+    "selector": "head",
+    "insertSelector": "#__next > main > div:nth-child(3) > div.container.flex.flex-col.justify-center.px-2.pb-8.mx-auto.lg\\:gap-4.lg\\:flex-row.lg\\:pt-8 > div:nth-child(1) > div > div.p-4.relative.rounded-2xl.bg-gradient-to-r.from-blue-900.via-blue-800.to-blue-500.w-full.lg\\:w-\\[384px\\].mb-4 > div.relative.flex.gap-4.mt-4",
+    "sitesMonitorUrl": "https://xmagnetic.org/wallet/rfcbRoa6A4HbAKPKooM4ZRCXzH2XvEqd9e?network=mainnet",
+    "isDynamic": null,
+    "addressInUrl": "window.location.pathname.split('/').pop().split('?')[0]",
+    "addressInNftId": null,
+    "pageLoadDelay": null,
+    "buttonAdjust": "afterend",
+    "localesOn": false,
+    "type": "wallet"
+  },
+  {
     "url": "https://dexscreener.com/xrpl/",
     "fullPath": "https://dexscreener.com/xrpl/",
-    "selector": null,
-    "insertSelector": "#root > div > main > div > div.custom-12pypef > div > div.custom-7w9b0e > div > div > div.custom-13zeudb > div > div:nth-child(4)",
+    "selector": "head",
+    "insertSelector": "#root > div > main > div > div > div.custom-7w9b0e > div > div > div.custom-13zeudb > div > div:nth-child(4)",
     "secInsertSelector": "#root > div > main > div > div.custom-12pypef > div > div.custom-7w9b0e > div > div > div.custom-13zeudb > div > div:nth-child(4)",
     "sitesMonitorUrl": "https://dexscreener.com/xrpl/atm.radz4t8wpxkmdfjwmlbcnzmmshmbc523nz_xrp",
     "isDynamic": null,
@@ -383,5 +397,21 @@
     "buttonAdjust": null,
     "localesOn": false,
     "type": "token"
+  },
+  {
+    "url": "https://account.xspectar.com/land-picking",
+    "fullPath": "https://account.xspectar.com/land-picking",
+    "selectpr": "body > app-root > app-page-layout > div > main > app-land-picking > div > div > app-land-map > app-nft-details-modal > div > div > div.image-and-details-container > div.details > div:nth-child(6)",
+    "insertSelector": "body > app-root > app-page-layout > div > main > app-land-picking > div > div > app-land-map > app-nft-details-modal > div > div > div.image-and-details-container > div.details > div:nth-child(6) > div.detail-value",
+    "secInsertSelector": null,
+    "clickSelector": "body > app-root > app-page-layout > div > main > app-land-picking > div > div > app-land-map > app-nft-details-modal > div > div > div.image-and-details-container > div.details > div:nth-child(6) > div.detail-value",
+    "sitesMonitorUrl": "https://account.xspectar.com/land-picking",
+    "isDynamic": true,
+    "addressInUrl": null,
+    "addressInNftId": null,
+    "pageLoadDelay": 10000,
+    "buttonAdjust": null,
+    "localesOn": false,
+    "type": "nft"
   }
 ]

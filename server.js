@@ -15,7 +15,7 @@ if (!fs.existsSync(logDir)) {
 
 // Endpoint to get the last modified time of sitesConfig.json
 app.get('/api/sites-config-last-modified', (req, res) => {
-    console.log('Received request for last modified time of sitesConfig.json');
+    console.log(`Received request for last modified time of sitesConfig.json at ${new Date().toISOString()}`);
     fs.stat(sitesConfigPath, (err, stats) => {
         if (err) {
             console.error('Error getting file stats:', err);
@@ -27,7 +27,7 @@ app.get('/api/sites-config-last-modified', (req, res) => {
 
 // Endpoint to get the sitesConfig.json file
 app.get('/api/sites-config', (req, res) => {
-    console.log('Received request for sitesConfig.json');
+    console.log(`Received request for sitesConfig.json at ${new Date().toISOString()}`);
     if (fs.existsSync(sitesConfigPath)) {
         const sitesConfig = JSON.parse(fs.readFileSync(sitesConfigPath, 'utf8'));
         res.json(sitesConfig);
@@ -37,7 +37,7 @@ app.get('/api/sites-config', (req, res) => {
 });
 
 app.post('/api/save-url', (req, res) => {
-    console.log('Received request:', req.body);
+    console.log(`${new Date().toISOString()} Received request:`, req.body);
     const { url: requestUrl } = req.body;
     const parsedUrl = new URL(requestUrl);
     const urlOrigin = parsedUrl.origin;
