@@ -10,12 +10,12 @@
     "128": "icons/icon128.png"
   },
   "permissions": [
-  "declarativeNetRequest",
-  "declarativeNetRequestWithHostAccess",
-  "contextMenus",
-  "activeTab",
-  "storage",
-  "tabs"
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "contextMenus",
+    "activeTab",
+    "storage",
+    "tabs"
   ],
   "host_permissions": [
     "https://bidds.com/*",
@@ -44,13 +44,18 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "icons/button_icon.svg"
+        "icons/button_icon.svg",
+        "options.js"
       ],
       "matches": [
         "<all_urls>"
       ]
     }
   ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' http://localhost:3000 ws://localhost:3000 wss://*.quiknode.pro https://3db0f9ff-0403-42b3-91cf-d9f6166dabbf-00-z920vd7lo1bb.spock.replit.dev:3000"
   }

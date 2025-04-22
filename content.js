@@ -1,3 +1,9 @@
+let buttonStyles = {
+  background: '#0077db',
+  text: '#ffffff',
+  hover: '#005bb5'
+};
+
 async function loadSitesConfig() {
   return new Promise((resolve, reject) => {
     console.log('Sending getSitesConfig message to background.js');
@@ -31,7 +37,6 @@ function findFirstXRPAddressInArray(array) {
 
 function findXRPAddressInNode(node) {
   if (node) {
-    // Search in attributes of the current node
     for (let i = 0; i < node.attributes.length; i++) {
       const attribute = node.attributes[i];
       const value = attribute.value;
@@ -50,15 +55,11 @@ function findXRPAddressInNode(node) {
         return xrpAddress[0];
       }
     }
-
-    // Search in the text content of the current node
     const xrpAddress = findXRPAddresses(node.textContent);
     if (xrpAddress) {
       console.log('Found XRP address in text content:', node.textContent);
       return xrpAddress[0];
     }
-
-    // Recursively search in child nodes
     for (let i = 0; i < node.childNodes.length; i++) {
       const child = node.childNodes[i];
       if (child.nodeType === Node.ELEMENT_NODE) {
@@ -90,10 +91,6 @@ function getXrpAddress(nftId) {
 function createButton(xrpAddress, buttonText) {
   const button = document.createElement('button');
   button.classList.add('contact-nft-owner-button');
-
-  // Set button styles
-  button.style.backgroundColor = '#0077db';
-  button.style.color = '#ffffff';
   button.style.display = 'flex';
   button.style.alignItems = 'center';
   button.style.justifyContent = 'center';
@@ -103,64 +100,75 @@ function createButton(xrpAddress, buttonText) {
   button.style.border = 'none';
   button.style.borderRadius = '5px';
   button.style.cursor = 'pointer';
-  button.style.flex = '1'; // Allow the button to flex
-
-  // Create and append the SVG icon
+  button.style.flex = '1';
   const icon = document.createElement('img');
   icon.src = chrome.runtime.getURL('icons/button_icon.svg');
   icon.classList.add('img');
-  icon.style.width = '24px'; // Set fixed width for the icon
-  icon.style.height = '24px'; // Set fixed height for the icon
-  icon.style.border = 'none'; // Ensure no border
-  icon.style.borderRadius = '0'; // Ensure no border radius
+  icon.style.width = '24px';
+  icon.style.height = '24px';
+  icon.style.border = 'none';
+  icon.style.borderRadius = '0';
   button.appendChild(icon);
-
-  // Add text span
   const textSpan = document.createElement('span');
   textSpan.classList.add('text');
   textSpan.textContent = buttonText;
   button.appendChild(textSpan);
-
-  // Add click event to open a new tab
   button.addEventListener('click', () => {
     const cleanAddress = xrpAddress.replace(/[^a-zA-Z0-9]/g, '');
     const url = `https://app.textrp.io/#/user/@${cleanAddress}`;
     window.open(url, '_blank');
   });
-
   return button;
+}
+
+function setButtonStyles() {
+  document.documentElement.style.setProperty('--button-background', buttonStyles.background);
+  document.documentElement.style.setProperty('--button-text', buttonStyles.text);
+  document.documentElement.style.setProperty('--button-hover', buttonStyles.hover);
 }
 
 function injectStyles() {
   const style = document.createElement('style');
   style.textContent = `
     .contact-nft-owner-button {
+      background: linear-gradient(135deg, var(--button-background) 0%, var(--button-background) 40%, #ffffff 50%, var(--button-background) 60%, var(--button-background) 100%);
+      background-size: 300%;
+      background-repeat: no-repeat;
+      background-position: 0px;
+      color: var(--button-text);
       transition: background-color 0.2s, box-shadow 0.2s;
-      width: 100%; /* Ensure the button takes the full width of its container */
+      width: 100%;
     }
     .contact-nft-owner-button:hover {
-      background-color: #005bb5 !important; /* Darker shade on hover */
+      background-color: var(--button-hover);
+      animation: light 1s;
     }
     .img {
-      width: 24px; /* Set fixed width */
-      height: 24px; /* Set fixed height */
-      object-fit: contain; /* Ensure image fits within the set dimensions */
-      border: none; /* Ensure no border */
-      border-radius: 0; /* Ensure no border radius */
+      width: 24px;
+      height: 24px;
+      object-fit: contain;
+      border: none;
+      border-radius: 0;
     }
     .text {
       font-weight: 600;
-      line-height: 1; /* Ensure text is vertically centered */
+      line-height: 1;
+    }
+    @keyframes light {
+      0% {
+        background-position: -600px;
+      }
+      100% {
+        background-position: 0px;
+      }
     }
   `;
   document.head.appendChild(style);
 }
 
 async function insertButton(site, button, buttonAdjust) {
-  // Debugging: Log all potential insert containers
   const potentialContainers = document.querySelector(site.insertSelector);
   console.log('Potential insert containers:', potentialContainers);
-
   let insertContainer;
   try {
     if (site.pageLoadDelay) {
@@ -179,7 +187,7 @@ async function insertButton(site, button, buttonAdjust) {
     if (site.secInsertSelector) {
       try {
         insertContainer = await waitForElement(site.secInsertSelector);
-        console.log(`Secondary insertSelector found: ${site.secInsertSelector}`);
+        console.log(`Secondary insertSelector not found: ${site.secInsertSelector}`);
       } catch (secError) {
         console.error(`Both primary and secondary insertSelectors not found: ${site.insertSelector}, ${site.secInsertSelector}`);
         return;
@@ -189,15 +197,11 @@ async function insertButton(site, button, buttonAdjust) {
       return;
     }
   }
-
-  // Remove the button if it already exists
   const existingButton = document.querySelector('.contact-nft-owner-button');
   if (existingButton) {
     existingButton.remove();
     console.log('Existing button removed:', existingButton);
   }
-
-  // For specific sites, insert the button using different methods.
   if (buttonAdjust) {
     insertContainer.insertAdjacentElement(buttonAdjust, button);
   } else {
@@ -209,7 +213,6 @@ function waitForElement(selector, timeout = 30000) {
   return new Promise((resolve, reject) => {
     const intervalTime = 100;
     let timeElapsed = 0;
-
     const interval = setInterval(() => {
       const element = document.querySelector(selector);
       if (element) {
@@ -248,19 +251,15 @@ function parseAndExecuteExpression(expression) {
 
 async function insertButtonForSite(site) {
   console.log(`Checking URL: ${window.location.href}`);
-
   try {
     let container = null;
     let secContainer = null;
     let xrpAddress = null;
     let nftId = null;
     let foundXRPAddress = null;
-
-
     if (site.pageLoadDelay) {
       await delay(site.pageLoadDelay);
     }
-
     if (site.addressInUrl) {
       console.log('Extracting XRP address from URL:', site.addressInUrl);
       xrpAddress = parseAndExecuteExpression(site.addressInUrl);
@@ -308,12 +307,9 @@ async function insertButtonForSite(site) {
       xrpAddress = findXRPAddressInNode(container);
       console.log('Found XRP address:', xrpAddress);
     }
-
-
     if (xrpAddress) {
       console.log('Found XRP address:', xrpAddress);
       let buttonText = null;
-      // Check if the specific "Chat with player" button already exists
       if (site.localesOn) {
         if (site.type === 'nft') {
           buttonText = chrome.i18n.getMessage('buttonTextNFT');
@@ -341,8 +337,6 @@ async function insertButtonForSite(site) {
           buttonText = "Chat with token creator's wallet";
         }
       }
-
-      // Remove the button if it already exists
       if (site.secInsertSelector && site.buttonExists) {
         const existingButton = document.querySelector('.contact-nft-owner-button');
         if (existingButton) {
@@ -350,7 +344,6 @@ async function insertButtonForSite(site) {
           console.log('Existing button removed:', existingButton);
         }
       }
-
       const button = createButton(xrpAddress, buttonText);
       await insertButton(site, button, site.buttonAdjust);
       console.log('Button inserted:', button);
@@ -377,10 +370,9 @@ function observeDynamicContent(site) {
           insertButtonForSite(site);
         }
       });
-    }, 500); // Adjust debounce time as needed
+    }, 500);
   });
-
-  const targetNode = document.querySelector('body'); // Observe changes on the entire body
+  const targetNode = document.querySelector('body');
   observer.observe(targetNode, { childList: true, subtree: true });
   console.log('MutationObserver set up for dynamic content.');
 }
@@ -389,7 +381,6 @@ async function checkAndInsertButton() {
   console.log('checkAndInsertButton called');
   const currentUrl = window.location.href;
   const sites = await loadSitesConfig();
-
   for (const site of sites) {
     if (currentUrl.startsWith(site.url)) {
       console.log(`Matching site found for URL: ${site.url}`);
@@ -403,40 +394,31 @@ async function checkAndInsertButton() {
   }
 }
 
-// Step-by-step debugging for Sologenic.org
-// async function debugSelectors() {
-//   const selectors = [
-//     '#content-scroll',
-//     '#content-scroll > div',
-//     '#content-scroll > div > div.nft-container',
-//     '#content-scroll > div > div.nft-container > div.left.top',
-//     '#content-scroll > div > div.nft-container > div.left.top > div'
-//   ];
+chrome.storage.sync.get('buttonColor', (result) => {
+  if (result.buttonColor) {
+    buttonStyles = result.buttonColor;
+  }
+  setButtonStyles();
+});
 
-//   for (const selector of selectors) {
-//     try {
-//       const element = await waitForElement(selector);
-//       console.log(`Found element for selector: ${selector}`, element);
-//     } catch (error) {
-//       console.error(error.message);
-//       break; // Stop if any selector fails
-//     }
-//   }
-// }
+chrome.storage.onChanged.addListener((changes, area) => {
+  if (area === 'sync' && changes.buttonColor) {
+    buttonStyles = changes.buttonColor.newValue;
+    setButtonStyles();
+  }
+});
 
 window.addEventListener('load', () => {
   injectStyles();
   checkAndInsertButton();
-  // debugSelectors(); // Debugging for Sologenic.org
 });
 
-// Monitor URL changes and re-run checkAndInsertButton
 let lastUrl = location.href;
 new MutationObserver(() => {
   const currentUrl = location.href;
   if (currentUrl !== lastUrl) {
     lastUrl = currentUrl;
-    setTimeout(checkAndInsertButton, 1500); // Allow time for the new page to load
+    setTimeout(checkAndInsertButton, 1500);
     console.log('URL changed:', currentUrl);
   }
 }).observe(document, { subtree: true, childList: true });
