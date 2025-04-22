@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const fs = require("fs");
 const path = require("path");
 const cors = require("cors");
+const { Client } = require("xrpl");
 
 const app = express();
 app.use(bodyParser.json());
@@ -16,11 +17,12 @@ app.use(
 );
 
 const API_TOKEN = "1234567890qwertyuiop";
+const XRPL_WS_URL = process.env.XRPL_WS_URL || "wss://s1.ripple.com"; // Use environment variable or fallback
 
 // Middleware for API routes
 app.use("/api/*", (req, res, next) => {
     console.log("All headers:", req.headers);
-    const token = req.headers["x-api-token"]; // Extract from custom header
+    const token = req.headers["x-api-token"];
     console.log("Received token:", token, "Expected:", API_TOKEN);
     if (token !== API_TOKEN) {
         return res.status(401).json({ error: "Unauthorized" });
@@ -34,12 +36,14 @@ app.get("/api/sites-config-last-modified", (req, res) => {
         if (err) {
             return res.status(500).json({ error: "Error getting file stats" });
         }
+        console.log("Getting requested file stats:", stats);
         res.json({ lastModified: stats.mtime.getTime() });
     });
 });
 
 app.get("/api/sites-config", (req, res) => {
     if (fs.existsSync(sitesConfigPath)) {
+        console.log("Getting sites config from:", sitesConfigPath);
         const sitesConfig = JSON.parse(
             fs.readFileSync(sitesConfigPath, "utf8"),
         );
@@ -68,6 +72,28 @@ app.post("/api/save-url", (req, res) => {
         res.sendStatus(200);
     } else {
         res.sendStatus(409);
+    }
+});
+
+app.get("/api/get-nft-owner", async (req, res) => {
+    const { nftId } = req.query;
+    if (!nftId) {
+        return res.status(400).json({ error: "nftId is required" });
+    }
+    console.log("Getting NFT owner for:", nftId);
+    const client = new Client(XRPL_WS_URL);
+    try {
+        await client.connect();
+        const response = await client.request({
+            command: "nft_info",
+            nft_id: nftId,
+        });
+        res.json({ owner: response.result.owner });
+    } catch (error) {
+        console.error("Failed to get NFT owner:", error);
+        res.status(500).json({ error: error.message });
+    } finally {
+        await client.disconnect();
     }
 });
 

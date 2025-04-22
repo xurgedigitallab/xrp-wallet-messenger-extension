@@ -24,7 +24,21 @@
     "addressInUrl": null,
     "addressInNftId": null,
     "pageLoadDelay": null,
-    "buttonAdjust": null,
+    "buttonAdjust": "afterend",
+    "localesOn": true,
+    "type": "nft"
+  },
+  {
+    "url": "https://nftmaster.com",
+    "fullPath": "https://nftmaster.com/NFT",
+    "selector": "body > div.main-body > main > div.nft-details-container.container.py-5 > div.row > div.nft-details-column.nft-details-column-right.nft-details-info > div.nft-details-body > div.row.py-3.px-3 > div:nth-child(2) > div:nth-child(2) > div",
+    "insertSelector": "body > div.main-body > main > div.nft-details-container.container.py-5 > div.row > div.nft-details-column.nft-details-column-right.nft-details-info > div.nft-details-body > div.row.py-3.px-3",
+    "sitesMonitorUrl": "https://nftmaster.com/NFT/0008177072631AFCCECFF285A11CDC6159CE3E5AB34920B95F04D762000008B5/",
+    "isDynamic": null,
+    "addressInUrl": null,
+    "addressInNftId": null,
+    "pageLoadDelay": null,
+    "buttonAdjust": "afterend",
     "localesOn": true,
     "type": "nft"
   },
