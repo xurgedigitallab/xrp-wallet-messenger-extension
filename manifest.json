@@ -10,16 +10,20 @@
     "128": "icons/icon128.png"
   },
   "permissions": [
-    "contextMenus",
-    "activeTab",
-    "storage"
+  "declarativeNetRequest",
+  "declarativeNetRequestWithHostAccess",
+  "contextMenus",
+  "activeTab",
+  "storage",
+  "tabs"
   ],
   "host_permissions": [
     "https://bidds.com/*",
     "https://xrp.cafe/*",
     "https://xmart.art/*",
     "https://xrpnft.com/*",
-    "http://localhost:3000/*"
+    "http://localhost:3000/*",
+    "https://3db0f9ff-0403-42b3-91cf-d9f6166dabbf-00-z920vd7lo1bb.spock.replit.dev:3000/"
   ],
   "background": {
     "service_worker": "dist/background.bundle.js"
@@ -48,6 +52,6 @@
     }
   ],
   "content_security_policy": {
-  "extension_pages": "script-src 'self'; object-src 'self'; connect-src *"
-}
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' http://localhost:3000 ws://localhost:3000 wss://*.quiknode.pro https://3db0f9ff-0403-42b3-91cf-d9f6166dabbf-00-z920vd7lo1bb.spock.replit.dev:3000"
+  }
 }

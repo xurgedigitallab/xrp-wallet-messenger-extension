@@ -6,10 +6,10 @@ let LAST_MODIFIED_URL;
 let TIMESTAMP_URL;
 let XRPL_WS_URL;
 let SAVE_NEW_URL;
+let API_TOKEN;
 
 let configLoaded = false;
 
-// Load config from local file
 async function loadConfig() {
     try {
         const response = await fetch(chrome.runtime.getURL('config.json'));
@@ -20,146 +20,134 @@ async function loadConfig() {
         TIMESTAMP_URL = config.TIMESTAMP_URL;
         XRPL_WS_URL = config.XRPL_WS_URL;
         SAVE_NEW_URL = config.SAVE_NEW_URL;
+        API_TOKEN = config.API_TOKEN; // Properly assign API_TOKEN
         console.log('Config loaded:', config);
+        configLoaded = true;
     } catch (error) {
         console.error('Failed to load config:', error);
     }
 }
 
+// const EXPIRATION_TIME_MS = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+const EXPIRATION_TIME_MS = 60 * 1000; // 1 minute for development
+
 async function getSitesConfig() {
+    if (!configLoaded) {
+        await loadConfig();
+    }
+
+    if (!API_TOKEN) {
+        console.error('API_TOKEN is not initialized');
+        throw new Error('API_TOKEN is not initialized');
+    }
+
+    const cachedData = await chrome.storage.local.get(['sitesConfig', 'sitesConfigTimestamp']);
+    const now = Date.now();
+
+    if (cachedData.sitesConfig &&
+        cachedData.sitesConfigTimestamp &&
+        (now - cachedData.sitesConfigTimestamp < EXPIRATION_TIME_MS) &&
+        cachedData.sitesConfig.length > 0) {
+        console.log('Returning cached sitesConfig:', cachedData.sitesConfig);
+        return cachedData.sitesConfig;
+    }
+
     try {
-        if (!configLoaded || !SITES_CONFIG_URL) {
-            console.warn('Reloading config in getSitesConfig...');
-            await loadConfig();
-            configLoaded = true;
-        }
+        const url = `${SITES_CONFIG_URL}?t=${Date.now()}`;
+        const headers = new Headers();
+        headers.append('x-api-token', API_TOKEN);
+        console.log('Headers being sent:', Object.fromEntries(headers));
 
-        if (!SITES_CONFIG_URL) {
-            console.error('SITES_CONFIG_URL is still undefined after loadConfig');
-            return [];
-        }
+        const response = await fetch(url, {
+            method: 'GET',
+            headers: headers
+        });
 
-        const CACHE_EXPIRATION_MS = 24 * 60 * 60 * 1000; // 24 hours
-        const { sitesConfig, timestamp = 0 } = await new Promise(resolve =>
-            chrome.storage.local.get(['sitesConfig', 'timestamp'], resolve)
-        );
-        const now = Date.now();
-
-        const isExpired = now - timestamp > CACHE_EXPIRATION_MS;
-        const isEmpty = !Array.isArray(sitesConfig) || sitesConfig.length === 0;
-
-        if (isEmpty || isExpired) {
-            console.warn('Cached sitesConfig is empty or expired. Fetching from server...');
-            console.warn('Fetching sitesConfig from:', SITES_CONFIG_URL);
-            const response = await fetch(SITES_CONFIG_URL);
-            console.warn('Fetch response status:', response.status);
-
-            if (!response.ok) {
-                console.error(`Failed to fetch config. HTTP status: ${response.status}`);
-                return [];
-            }
-
+        if (!response.ok) {
             const text = await response.text();
-            console.warn('Raw response text:', text);
-
-            let freshConfig;
-            try {
-                freshConfig = JSON.parse(text);
-            } catch (parseError) {
-                console.error('Failed to parse JSON from sitesConfig:', parseError);
-                return [];
-            }
-
-            if (!Array.isArray(freshConfig) || freshConfig.length === 0) {
-                console.error('Fetched config is empty. Not updating cache.');
-                return [];
-            }
-
-            console.warn('Saving sitesConfig to storage:', freshConfig);
-            if (Array.isArray(freshConfig) && freshConfig.length > 0) {
-                await chrome.storage.local.set({ sitesConfig: freshConfig, timestamp: now });
-            } else {
-                console.warn('Blocked attempt to cache empty sitesConfig.');
-            }
-
-            return freshConfig;
+            throw new Error(`HTTP error! Status: ${response.status}, Response: ${text}`);
         }
 
-        console.log('Using cached sitesConfig.');
-        return sitesConfig;
-    } catch (err) {
-        console.error('Fatal error in getSitesConfig:', err);
-        return [];
+        const data = await response.json();
+        await chrome.storage.local.set({
+            sitesConfig: data,
+            sitesConfigTimestamp: now
+        });
+        return data;
+    } catch (error) {
+        console.error('Fetch error:', error.message);
+        return cachedData.sitesConfig || [];
     }
 }
 
-self.addEventListener('install', event => {
-    console.log('Service Worker installing.');
-    self.skipWaiting();
-    event.waitUntil(
-        (async () => {
-            await loadConfig();
-            configLoaded = true;
-            await getSitesConfig(); // Pre-fetch and store sitesConfig
-            console.log('Initial sitesConfig cached.');
-        })()
-    );
-});
+async function checkAndSendURL(tab) {
+    const sitesConfig = await getSitesConfig();
+    const urlExists = sitesConfig.some(site => tab.url.startsWith(site.url));
+    if (!urlExists) {
+        const data = { url: tab.url };
+        try {
+            const headers = new Headers();
+            headers.append('x-api-token', API_TOKEN); // Use custom header
+            headers.append('Content-Type', 'application/json');
+            const response = await fetch(SAVE_NEW_URL, {
+                method: 'POST',
+                headers: headers,
+                body: JSON.stringify(data)
+            });
+            if (!response.ok) {
+                const text = await response.text();
+                console.error('Failed to send URL:', response.status, text);
+            }
+        } catch (error) {
+            console.error('POST fetch error:', error);
+        }
+    }
+}
 
-self.addEventListener('activate', event => {
-    console.log('Service Worker activated.');
-    event.waitUntil(self.clients.claim());
-});
+async function getNftOwner(nftId) {
+    const client = new Client(XRPL_WS_URL);
+    await client.connect();
+    try {
+        const response = await client.request({ command: 'nft_info', nft_id: nftId });
+        return response.result.owner;
+    } catch (error) {
+        console.error('Failed to get NFT owner:', error);
+        throw error;
+    } finally {
+        await client.disconnect();
+    }
+}
+
+function isValidXRPAddress(address) {
+    const regex = /r[1-9A-HJ-NP-Za-km-z]{24,34}/;
+    return regex.test(address);
+}
+
+function extractWalletAddress(url) {
+    const regex = /r[1-9A-HJ-NP-Za-km-z]{24,34}/;
+    const matches = url.match(regex);
+    return matches ? matches[0] : '';
+}
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.action === 'getSitesConfig') {
         getSitesConfig()
-            .then(sitesConfig => {
-                sendResponse({ sitesConfig });
-            })
+            .then(sitesConfig => sendResponse({ sitesConfig }))
             .catch(error => {
-                console.error('Error sending sitesConfig:', error);
+                console.error('getSitesConfig error:', error);
                 sendResponse({ error: error.message });
             });
         return true;
     } else if (request.action === 'getXrpAddress') {
-        const nftId = request.nftId;
-        getNftOwner(nftId)
-            .then((xrpAddress) => {
-                console.log('Found XRP address:', xrpAddress);
-                sendResponse({ xrpAddress });
-            })
-            .catch((error) => {
-                console.error('Error getting XRP address:', error);
+        getNftOwner(request.nftId)
+            .then(xrpAddress => sendResponse({ xrpAddress }))
+            .catch(error => {
+                console.error('getXrpAddress error:', error);
                 sendResponse({ error: error.message });
             });
         return true;
     }
 });
-
-async function getNftOwner(nftId) {
-    console.log('Connecting to XRP Ledger...');
-    const client = new Client(XRPL_WS_URL);
-    await client.connect();
-    console.log('Connected to XRP Ledger');
-    try {
-        console.log('Requesting NFT info for ID:', nftId);
-        const response = await client.request({
-            command: 'nft_info',
-            nft_id: nftId
-        });
-        console.log('NFT info response:', response);
-        const xrpAddress = response.result.owner;
-        console.log('xrpAddress:', xrpAddress);
-        return xrpAddress;
-    } catch (error) {
-        console.error('Error in client request:', error);
-        throw error;
-    } finally {
-        await client.disconnect();
-        console.log('Disconnected from XRP Ledger');
-    }
-}
 
 chrome.runtime.onInstalled.addListener(function () {
     chrome.contextMenus.create({
@@ -167,6 +155,14 @@ chrome.runtime.onInstalled.addListener(function () {
         title: chrome.i18n.getMessage("messageWalletTitle"),
         contexts: ["selection", "link"]
     });
+    // Fetch and cache sitesConfig
+    try {
+        //loadConfig(); // Load config first to set API_TOKEN, etc.
+        getSitesConfig(); // Fetch and cache sitesConfig
+        console.log('sitesConfig fetched and cached on install');
+    } catch (error) {
+        console.error('Failed to fetch sitesConfig on install:', error);
+    }
 });
 
 let rightClickedAddress = null;
@@ -194,36 +190,3 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
         }
     }
 });
-
-async function checkAndSendURL(tab) {
-    console.log('Checking URL:', tab.url);
-    const sitesConfig = await getSitesConfig();
-    const urlExists = sitesConfig.some(site => tab.url.startsWith(site.url));
-    if (!urlExists) {
-        console.log('URL does not exist, sending to server...');
-        const data = { url: tab.url };
-        const result = await fetch(SAVE_NEW_URL, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(data)
-        });
-        if (result.ok) {
-            console.log('URL sent to server successfully.');
-        } else {
-            console.error('Failed to send URL to server.');
-        }
-    } else {
-        console.log('URL already exists in the local file.');
-    }
-}
-
-function isValidXRPAddress(address) {
-    const regex = /r[1-9A-HJ-NP-Za-km-z]{24,34}/;
-    return regex.test(address);
-}
-
-function extractWalletAddress(url) {
-    const regex = /r[1-9A-HJ-NP-Za-km-z]{24,34}/;
-    const matches = url.match(regex);
-    return matches ? matches[0] : '';
-}

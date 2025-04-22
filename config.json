@@ -1,8 +1,9 @@
 {
     "XRPL_WS_URL": "wss://old-compatible-shard.xrp-mainnet.quiknode.pro/",
     "CACHE_NAME": "sites-config-cache",
-    "SITES_CONFIG_URL": "http://localhost:3000/api/sites-config",
-    "LAST_MODIFIED_URL": "http://localhost:3000/api/sites-config-last-modified",
-    "TIMESTAMP_URL": "http://localhost/timestamp",
-    "SAVE_NEW_URL": "http://localhost:3000/api/save-url"
+    "SITES_CONFIG_URL": "https://3db0f9ff-0403-42b3-91cf-d9f6166dabbf-00-z920vd7lo1bb.spock.replit.dev:3000/api/sites-config",
+    "LAST_MODIFIED_URL": "https://3db0f9ff-0403-42b3-91cf-d9f6166dabbf-00-z920vd7lo1bb.spock.replit.dev:3000/api/sites-config-last-modified",
+    "TIMESTAMP_URL": "https://3db0f9ff-0403-42b3-91cf-d9f6166dabbf-00-z920vd7lo1bb.spock.replit.dev:3000/timestamp",
+    "SAVE_NEW_URL": "https://3db0f9ff-0403-42b3-91cf-d9f6166dabbf-00-z920vd7lo1bb.spock.replit.dev:3000/api/save-url",
+    "API_TOKEN": "1234567890qwertyuiop"
 }
