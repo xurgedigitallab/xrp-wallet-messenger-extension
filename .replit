@@ -1,0 +1,12 @@
+modules = ["nodejs-20", "web"]
+run = "server"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "server"]
+
+[[ports]]
+localPort = 3000
+externalPort = 3000
