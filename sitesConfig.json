@@ -244,6 +244,20 @@
     "type": "wallet"
   },
   {
+    "url": "https://explorer.xrplf.org/",
+    "fullPath": "https://explorer.xrplf.org/",
+    "selector": "#app > main > code",
+    "insertSelector": "#app > main > code",
+    "sitesMonitorUrl": "https://explorer.xrplf.org/rfdmLaLLtBzHUrq2SjtnZemY39XM9jPYwL",
+    "isDynamic": null,
+    "addressInUrl": null,
+    "addressInNftId": null,
+    "pageLoadDelay": null,
+    "buttonAdjust": null,
+    "localesOn": false,
+    "type": "wallet"
+  },
+  {
     "url": "https://neefty.io/xrpl",
     "fullPath": "https://neefty.io/",
     "selector": "body > div.main-page.bubble-element.Page > div > div > div > div:nth-child(1) > div > div > div > div > div > div:nth-child(6) > div > div > div > div:nth-child(1) > a",

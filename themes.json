@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Fall Colors",
+        "background": "#FFA500",
+        "text": "#000000",
+        "hover": "#FF8C00",
+        "borderRadius": "10px",
+        "border": "2px solid #8B4513"
+    }
+]

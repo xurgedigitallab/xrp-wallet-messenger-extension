@@ -12,17 +12,17 @@ app.use(
     cors({
         origin: "*",
         methods: ["GET", "POST", "OPTIONS"],
-        allowedHeaders: ["x-api-token", "authorization", "content-type"],
+        allowedHeaders: ["x-svc-call", "authorization", "content-type"],
     }),
 );
 
-const API_TOKEN = "1234567890qwertyuiop";
+const API_TOKEN = "4x9f3b8c1d6e2f709a5b4c3e8d1f6x2b";
 const XRPL_WS_URL = process.env.XRPL_WS_URL || "wss://s1.ripple.com"; // Use environment variable or fallback
 
 // Middleware for API routes
 app.use("/api/*", (req, res, next) => {
     console.log("All headers:", req.headers);
-    const token = req.headers["x-api-token"];
+    const token = req.headers["x-svc-call"];
     console.log("Received token:", token, "Expected:", API_TOKEN);
     if (token !== API_TOKEN) {
         return res.status(401).json({ error: "Unauthorized" });
@@ -94,6 +94,20 @@ app.get("/api/get-nft-owner", async (req, res) => {
         res.status(500).json({ error: error.message });
     } finally {
         await client.disconnect();
+    }
+});
+
+app.get('/api/themes', (req, res) => {
+    const svcCall = req.headers['x-svc-call'];
+    if (svcCall !== SERVICE_VAL) {
+        return res.status(401).json({ error: 'Unauthorized' });
+    }
+    const themesPath = path.join(__dirname, 'themes.json');
+    if (fs.existsSync(themesPath)) {
+        const themes = JSON.parse(fs.readFileSync(themesPath, 'utf8'));
+        res.json(themes);
+    } else {
+        res.status(404).json({ error: 'themes.json not found' });
     }
 });
 
