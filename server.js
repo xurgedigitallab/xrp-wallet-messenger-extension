@@ -111,6 +111,30 @@ app.get('/api/themes', (req, res) => {
     }
 });
 
+// Feedback endpoint
+app.post('/api/feedback', (req, res) => {
+    const feedback = req.body;
+    const timestamp = new Date().toISOString();
+    const logEntry = {
+        timestamp,
+        feedback,
+        ip: req.ip
+    };
+
+    // Create logs directory if it doesn't exist
+    const logsDir = path.join(__dirname, 'logs');
+    if (!fs.existsSync(logsDir)) {
+        fs.mkdirSync(logsDir);
+    }
+
+    // Log to feedback.log file
+    const logFile = path.join(logsDir, 'feedback.log');
+    fs.appendFileSync(logFile, JSON.stringify(logEntry) + '\n');
+
+    console.log('Feedback received:', logEntry);
+    res.status(200).json({ message: 'Feedback received', timestamp });
+});
+
 // Create HTTP server
 app.listen(3000, () => {
     console.log("Server is running on http://localhost:3000");
