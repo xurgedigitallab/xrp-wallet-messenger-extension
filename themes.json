@@ -1,10 +1,67 @@
 [
     {
-        "name": "Fall Colors",
+        "name": "Pumpkin Pie",
         "background": "#FFA500",
         "text": "#000000",
         "hover": "#FF8C00",
         "borderRadius": "10px",
-        "border": "2px solid #8B4513"
+        "border": "2px solid #8B4513",
+        "fontSize": "18px",
+        "fontStyle": "italic",
+        "textDecoration": "underline wavy orange",
+        "fontWeight": "700",
+        "textTransform": "uppercase"
+    },
+    {
+        "name": "Winter Frost",
+        "background": "#E6F0FA",
+        "text": "#1E3A8A",
+        "hover": "#BFDBFE",
+        "borderRadius": "5px",
+        "border": "none",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "textDecoration": "line-through dashed blue",
+        "fontWeight": "500",
+        "textTransform": "lowercase"
+    },
+    {
+        "name": "Spring Bloom",
+        "background": "#D4EDDA",
+        "text": "#155724",
+        "hover": "#C3E6CB",
+        "borderRadius": "8px",
+        "border": "1px solid #155724",
+        "fontSize": "14px",
+        "fontStyle": "italic",
+        "textDecoration": "underline overline solid green",
+        "fontWeight": "600",
+        "textTransform": "capitalize"
+    },
+    {
+        "name": "Patriot",
+        "background": "#0100AB",
+        "text": "#FFFFFF",
+        "hover": "#0100AB",
+        "borderRadius": "",
+        "border": "8px solid #FE0001",
+        "fontSize": "18px",
+        "fontStyle": "bold",
+        "textDecoration": "underline",
+        "fontWeight": "700",
+        "textTransform": "uppercase"
+    },
+    {
+        "name": "XMEME",
+        "background": "#01FF01",
+        "text": "#040100",
+        "hover": "#01FF01",
+        "borderRadius": "28px",
+        "border": "",
+        "fontSize": "18px",
+        "fontStyle": "bold",
+        "textDecoration": "",
+        "fontWeight": "700",
+        "textTransform": "uppercase"
     }
 ]

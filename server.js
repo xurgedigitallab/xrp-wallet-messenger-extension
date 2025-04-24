@@ -16,17 +16,22 @@ app.use(
     }),
 );
 
-const API_TOKEN = "4x9f3b8c1d6e2f709a5b4c3e8d1f6x2b";
+const apiToken = process.env["API_TOKEN"];
+//console.log(apiToken);
 const XRPL_WS_URL = process.env.XRPL_WS_URL || "wss://s1.ripple.com"; // Use environment variable or fallback
 
 // Middleware for API routes
 app.use("/api/*", (req, res, next) => {
-    console.log("All headers:", req.headers);
+    // console.log("All headers:", req.headers);
     const token = req.headers["x-svc-call"];
-    console.log("Received token:", token, "Expected:", API_TOKEN);
-    if (token !== API_TOKEN) {
+
+    if (token !== apiToken) {
+        console.log(
+            `[${new Date().toISOString()}] Call rejected: Unauthorized`,
+        );
         return res.status(401).json({ error: "Unauthorized" });
     }
+    console.log(`[${new Date().toISOString()}] Call accepted: Authorized`);
     next();
 });
 
@@ -43,10 +48,10 @@ app.get("/api/sites-config-last-modified", (req, res) => {
 
 app.get("/api/sites-config", (req, res) => {
     if (fs.existsSync(sitesConfigPath)) {
-        console.log("Getting sites config from:", sitesConfigPath);
         const sitesConfig = JSON.parse(
             fs.readFileSync(sitesConfigPath, "utf8"),
         );
+        console.log(`Sending sites config from:`, sitesConfigPath);
         res.json(sitesConfig);
     } else {
         res.status(404).json({ error: "sitesConfig.json not found" });
@@ -69,8 +74,10 @@ app.post("/api/save-url", (req, res) => {
     if (!domainExists) {
         logData.push({ url: requestUrl });
         fs.writeFileSync(logFilePath, JSON.stringify(logData, null, 2));
+        console.log("URL saved successfully: ", requestUrl);
         res.sendStatus(200);
     } else {
+        console.log("URL not saved, domain already exists: ", requestUrl);
         res.sendStatus(409);
     }
 });
@@ -97,42 +104,42 @@ app.get("/api/get-nft-owner", async (req, res) => {
     }
 });
 
-app.get('/api/themes', (req, res) => {
-    const svcCall = req.headers['x-svc-call'];
-    if (svcCall !== SERVICE_VAL) {
-        return res.status(401).json({ error: 'Unauthorized' });
+app.get("/api/themes", (req, res) => {
+    const svcCall = req.headers["x-svc-call"];
+    if (svcCall !== API_TOKEN) {
+        return res.status(401).json({ error: "Unauthorized" });
     }
-    const themesPath = path.join(__dirname, 'themes.json');
+    const themesPath = path.join(__dirname, "themes.json");
     if (fs.existsSync(themesPath)) {
-        const themes = JSON.parse(fs.readFileSync(themesPath, 'utf8'));
+        const themes = JSON.parse(fs.readFileSync(themesPath, "utf8"));
         res.json(themes);
     } else {
-        res.status(404).json({ error: 'themes.json not found' });
+        res.status(404).json({ error: "themes.json not found" });
     }
 });
 
 // Feedback endpoint
-app.post('/api/feedback', (req, res) => {
+app.post("/api/feedback", (req, res) => {
     const feedback = req.body;
     const timestamp = new Date().toISOString();
     const logEntry = {
         timestamp,
         feedback,
-        ip: req.ip
+        ip: req.ip,
     };
 
     // Create logs directory if it doesn't exist
-    const logsDir = path.join(__dirname, 'logs');
+    const logsDir = path.join(__dirname, "logs");
     if (!fs.existsSync(logsDir)) {
         fs.mkdirSync(logsDir);
     }
 
     // Log to feedback.log file
-    const logFile = path.join(logsDir, 'feedback.log');
-    fs.appendFileSync(logFile, JSON.stringify(logEntry) + '\n');
+    const logFile = path.join(logsDir, "feedback.log");
+    fs.appendFileSync(logFile, JSON.stringify(logEntry) + "\n");
 
-    console.log('Feedback received:', logEntry);
-    res.status(200).json({ message: 'Feedback received', timestamp });
+    console.log("Feedback received:", logEntry);
+    res.status(200).json({ message: "Feedback received", timestamp });
 });
 
 // Create HTTP server
