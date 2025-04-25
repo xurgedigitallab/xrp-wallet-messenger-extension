@@ -15,10 +15,10 @@ app.use(
         allowedHeaders: ["x-svc-call", "authorization", "content-type"],
     }),
 );
-
+require("dotenv").config();
 const apiToken = process.env["API_TOKEN"];
 //console.log(apiToken);
-const XRPL_WS_URL = process.env.XRPL_WS_URL || "wss://s1.ripple.com"; // Use environment variable or fallback
+const XRPL_WS_URL = process.env["XRPL_WS_URL"] || "wss://s1.ripple.com"; // Use environment variable or fallback
 
 // Middleware for API routes
 app.use("/api/*", (req, res, next) => {
