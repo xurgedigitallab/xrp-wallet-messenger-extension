@@ -1,20 +1,23 @@
 let buttonStyles = {
   background: '#0077db',
   text: '#ffffff',
-  hover: '#005bb5'
+  hover: '#005bb5',
+  borderRadius: null,
+  border: null,
+  fontSize: null,
+  fontStyle: null,
+  textTransform: null,
+  textDecoration: null
 };
 
 async function loadSitesConfig() {
   return new Promise((resolve, reject) => {
-    console.log('Sending getSitesConfig message to background.js');
     chrome.runtime.sendMessage({ action: 'getSitesConfig' }, response => {
       if (response.error) {
         console.error('Error received from background.js:', response.error);
         reject(new Error(response.error));
       } else {
-        console.log('Received sitesConfig from background.js');
         resolve(response.sitesConfig);
-        console.log('Sites config:', response.sitesConfig);
       }
     });
   });
@@ -42,22 +45,18 @@ function findXRPAddressInNode(node) {
       const value = attribute.value;
       if (attribute.name === 'href' && value.includes('/profile/')) {
         const xrpAddress = value.split('/profile/')[1];
-        console.log('Found XRP address in href:', xrpAddress);
         return xrpAddress;
       } else if (attribute.name === 'href' && value.includes('/explorer/')) {
         const xrpAddress = value.split('/explorer/')[1];
-        console.log('Found XRP address in href:', xrpAddress);
         return xrpAddress;
       }
       const xrpAddress = findXRPAddresses(value);
       if (xrpAddress) {
-        console.log('Found XRP address in attribute:', attribute.name, 'with value:', value);
         return xrpAddress[0];
       }
     }
     const xrpAddress = findXRPAddresses(node.textContent);
     if (xrpAddress) {
-      console.log('Found XRP address in text content:', node.textContent);
       return xrpAddress[0];
     }
     for (let i = 0; i < node.childNodes.length; i++) {
@@ -76,7 +75,6 @@ function findXRPAddressInNode(node) {
 function getXrpAddress(nftId) {
   return new Promise((resolve, reject) => {
     chrome.runtime.sendMessage({ action: 'getXrpAddress', nftId }, (response) => {
-      console.log('Received response:', response);
       if (response && response.error) {
         reject(response.error);
       } else if (response && response.xrpAddress) {
@@ -97,10 +95,14 @@ function createButton(xrpAddress, buttonText) {
   button.style.gap = '0.4em';
   button.style.padding = '8px 16px';
   button.style.margin = '10px 0';
-  button.style.border = 'none';
-  button.style.borderRadius = '5px';
+  button.style.border = buttonStyles.border || 'none'; // Explicitly set to 'none' if border is null
+  button.style.borderRadius = buttonStyles.borderRadius || '5px';
   button.style.cursor = 'pointer';
   button.style.flex = '1';
+  if (buttonStyles.fontSize) button.style.fontSize = buttonStyles.fontSize;
+  if (buttonStyles.fontStyle) button.style.fontStyle = buttonStyles.fontStyle;
+  if (buttonStyles.textTransform) button.style.textTransform = buttonStyles.textTransform;
+  if (buttonStyles.textDecoration) button.style.textDecoration = buttonStyles.textDecoration;
   const icon = document.createElement('img');
   icon.src = chrome.runtime.getURL('icons/button_icon.svg');
   icon.classList.add('img');
@@ -122,9 +124,17 @@ function createButton(xrpAddress, buttonText) {
 }
 
 function setButtonStyles() {
-  document.documentElement.style.setProperty('--button-background', buttonStyles.background);
-  document.documentElement.style.setProperty('--button-text', buttonStyles.text);
-  document.documentElement.style.setProperty('--button-hover', buttonStyles.hover);
+  // Set required styles with fallbacks
+  document.documentElement.style.setProperty('--button-background', buttonStyles.background || '#0077db');
+  document.documentElement.style.setProperty('--button-text', buttonStyles.text || '#ffffff');
+  document.documentElement.style.setProperty('--button-hover', buttonStyles.hover || '#005bb5');
+  // Set optional styles, resetting to default if null
+  document.documentElement.style.setProperty('--button-border-radius', buttonStyles.borderRadius || '5px');
+  document.documentElement.style.setProperty('--button-border', buttonStyles.border || 'none');
+  document.documentElement.style.setProperty('--button-font-size', buttonStyles.fontSize || 'inherit');
+  document.documentElement.style.setProperty('--button-font-style', buttonStyles.fontStyle || 'normal');
+  document.documentElement.style.setProperty('--button-text-transform', buttonStyles.textTransform || 'none');
+  document.documentElement.style.setProperty('--button-text-decoration', buttonStyles.textDecoration || 'none');
 }
 
 function injectStyles() {
@@ -132,12 +142,18 @@ function injectStyles() {
   style.textContent = `
     .contact-nft-owner-button {
       background: linear-gradient(135deg, var(--button-background) 0%, var(--button-background) 40%, #ffffff 50%, var(--button-background) 60%, var(--button-background) 100%);
-      background-size: 300%;
+      backgroundfavorite_border_size: 300%;
       background-repeat: no-repeat;
       background-position: 0px;
       color: var(--button-text);
       transition: background-color 0.2s, box-shadow 0.2s;
       width: 100%;
+      border: var(--button-border, none);
+      border-radius: var(--button-border-radius, 5px);
+      font-size: var(--button-font-size, inherit);
+      font-style: var(--button-font-style, normal);
+      text-transform: var(--button-text-transform, none);
+      text-decoration: var(--button-text-decoration, none);
     }
     .contact-nft-owner-button:hover {
       background-color: var(--button-hover);
@@ -168,7 +184,6 @@ function injectStyles() {
 
 async function insertButton(site, button, buttonAdjust) {
   const potentialContainers = document.querySelector(site.insertSelector);
-  console.log('Potential insert containers:', potentialContainers);
   let insertContainer;
   try {
     if (site.pageLoadDelay) {
@@ -183,11 +198,9 @@ async function insertButton(site, button, buttonAdjust) {
       insertContainer = await waitForElement(site.insertSelector);
     }
   } catch (error) {
-    console.log(`Primary insertSelector not found: ${site.insertSelector}`);
     if (site.secInsertSelector) {
       try {
         insertContainer = await waitForElement(site.secInsertSelector);
-        console.log(`Secondary insertSelector not found: ${site.secInsertSelector}`);
       } catch (secError) {
         console.error(`Both primary and secondary insertSelectors not found: ${site.insertSelector}, ${site.secInsertSelector}`);
         return;
@@ -200,7 +213,6 @@ async function insertButton(site, button, buttonAdjust) {
   const existingButton = document.querySelector('.contact-nft-owner-button');
   if (existingButton) {
     existingButton.remove();
-    console.log('Existing button removed:', existingButton);
   }
   if (buttonAdjust) {
     insertContainer.insertAdjacentElement(buttonAdjust, button);
@@ -233,7 +245,6 @@ function delay(ms) {
 
 function parseAndExecuteExpression(expression) {
   const parts = expression.match(/(\w+\(.*?\))|(\w+)/g);
-  console.log('Expression parts:', parts);
   let currentObject = window;
   for (const part of parts) {
     const methodMatch = part.match(/(\w+)\(([^)]*)\)/);
@@ -245,12 +256,10 @@ function parseAndExecuteExpression(expression) {
       currentObject = currentObject[part];
     }
   }
-  console.log('Expression executed:', expression, 'Result:', currentObject);
   return currentObject;
 }
 
 async function insertButtonForSite(site) {
-  console.log(`Checking URL: ${window.location.href}`);
   try {
     let container = null;
     let secContainer = null;
@@ -261,27 +270,20 @@ async function insertButtonForSite(site) {
       await delay(site.pageLoadDelay);
     }
     if (site.addressInUrl) {
-      console.log('Extracting XRP address from URL:', site.addressInUrl);
       xrpAddress = parseAndExecuteExpression(site.addressInUrl);
-      console.log('Extracted XRP address from URL:', xrpAddress);
       if (Array.isArray(xrpAddress)) {
         xrpAddress = findFirstXRPAddressInArray(xrpAddress);
       }
-      console.log('Extracted XRP address from URL:', xrpAddress);
     } else if (site.addressInNftId) {
       if (site.addressInNftId === 'href') {
         const hrefContainer = await waitForElement(site.selector);
-        console.log('Found href container:', hrefContainer);
         nftId = hrefContainer.href.split('/').pop();
         xrpAddress = await getXrpAddress(nftId);
-        console.log('Found XRP address:', xrpAddress);
       } else {
         nftId = parseAndExecuteExpression(site.addressInNftId);
-        console.log(`Extracted NFT ID: ${nftId}`);
         if (nftId) {
           nftId = String(nftId);
           xrpAddress = await getXrpAddress(nftId);
-          console.log('Found XRP address:', xrpAddress);
         } else {
           console.error('NFT ID not found in URL path');
         }
@@ -289,7 +291,6 @@ async function insertButtonForSite(site) {
     } else if (site.noXRPAddressInPath && site.buttonExists) {
       try {
         container = await waitForElement(site.selector, 5000);
-        console.log('Found Owner address container:', container);
         foundXRPAddress = findXRPAddresses(container.textContent);
         if (!foundXRPAddress) {
           throw new Error('XRP address not found in node:', site.selector, 'on URL:', site.url);
@@ -298,17 +299,13 @@ async function insertButtonForSite(site) {
       } catch (error) {
         console.error(`Primary selector not found or timed out: ${site.selector}`);
         secContainer = await waitForElement(site.secSelector, 5000);
-        console.log('Found secondary Owner address container:', secContainer);
         xrpAddress = findXRPAddressInNode(secContainer);
       }
     } else {
       container = await waitForElement(site.selector);
-      console.log('Found Owner address container:', container);
       xrpAddress = findXRPAddressInNode(container);
-      console.log('Found XRP address:', xrpAddress);
     }
     if (xrpAddress) {
-      console.log('Found XRP address:', xrpAddress);
       let buttonText = null;
       if (site.localesOn) {
         if (site.type === 'nft') {
@@ -341,14 +338,10 @@ async function insertButtonForSite(site) {
         const existingButton = document.querySelector('.contact-nft-owner-button');
         if (existingButton) {
           existingButton.remove();
-          console.log('Existing button removed:', existingButton);
         }
       }
       const button = createButton(xrpAddress, buttonText);
       await insertButton(site, button, site.buttonAdjust);
-      console.log('Button inserted:', button);
-    } else {
-      console.log('XRP address not found in node:', site.selector, 'on URL:', site.url);
     }
   } catch (error) {
     if (error.message.includes('Extension context invalidated')) {
@@ -366,7 +359,6 @@ function observeDynamicContent(site) {
     debounceTimer = setTimeout(() => {
       mutations.forEach((mutation) => {
         if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
-          console.log('Detected new content:', mutation);
           insertButtonForSite(site);
         }
       });
@@ -374,16 +366,13 @@ function observeDynamicContent(site) {
   });
   const targetNode = document.querySelector('body');
   observer.observe(targetNode, { childList: true, subtree: true });
-  console.log('MutationObserver set up for dynamic content.');
 }
 
 async function checkAndInsertButton() {
-  console.log('checkAndInsertButton called');
   const currentUrl = window.location.href;
   const sites = await loadSitesConfig();
   for (const site of sites) {
     if (currentUrl.startsWith(site.url)) {
-      console.log(`Matching site found for URL: ${site.url}`);
       if (site.isDynamic) {
         observeDynamicContent(site);
       } else {
@@ -394,16 +383,18 @@ async function checkAndInsertButton() {
   }
 }
 
-chrome.storage.sync.get('buttonColor', (result) => {
-  if (result.buttonColor) {
-    buttonStyles = result.buttonColor;
+// Load saved button styles on initialization
+chrome.storage.sync.get('buttonStyles', (result) => {
+  if (result.buttonStyles) {
+    buttonStyles = { ...buttonStyles, ...result.buttonStyles };
+    setButtonStyles();
   }
-  setButtonStyles();
 });
 
+// Listen for changes to button styles
 chrome.storage.onChanged.addListener((changes, area) => {
-  if (area === 'sync' && changes.buttonColor) {
-    buttonStyles = changes.buttonColor.newValue;
+  if (area === 'sync' && changes.buttonStyles) {
+    buttonStyles = { ...buttonStyles, ...changes.buttonStyles.newValue };
     setButtonStyles();
   }
 });
@@ -419,6 +410,5 @@ new MutationObserver(() => {
   if (currentUrl !== lastUrl) {
     lastUrl = currentUrl;
     setTimeout(checkAndInsertButton, 1500);
-    console.log('URL changed:', currentUrl);
   }
 }).observe(document, { subtree: true, childList: true });
