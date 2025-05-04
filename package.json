@@ -4,8 +4,8 @@
   "description": "This Chrome extension dynamically scans web pages for XRP wallet addresses and provides functionalities to interact with these addresses directly through the context menu. Users can easily navigate to related XRP transactions or account details by right-clicking on detected addresses.",
   "main": "background.js",
   "scripts": {
-    "build": "npx terser content.js -o content.min.js --compress --mangle && webpack --env production",
-    "dev": "webpack --env development"
+  "build": "npx terser content.js -o content.min.js --compress drop_console=false --mangle && npx terser options.js -o options.min.js --compress drop_console=false --mangle && webpack --env production",
+  "dev": "webpack --env development"
   },
   "keywords": [],
   "author": "",

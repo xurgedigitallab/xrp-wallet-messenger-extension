@@ -8,7 +8,7 @@ async function loadConfig() {
       throw new Error(`Failed to fetch config.json: ${response.statusText}`);
     }
     config = await response.json();
-    // console.log('Config loaded successfully:', config);
+    console.log('Config loaded successfully:', config);
     return config;
   } catch (error) {
     console.error('Failed to load config:', error);
@@ -43,7 +43,7 @@ async function getSitesConfig() {
           }
           const { lastModified } = await lastModifiedResponse.json();
           if (!lastModified || lastModified <= cachedData[CACHE_TIMESTAMP_KEY]) {
-            // console.log('Returning cached sitesConfig (not modified)');
+            console.log('Returning cached sitesConfig (not modified)');
             return cachedData[CACHE_KEY];
           }
         } catch (error) {
@@ -54,7 +54,7 @@ async function getSitesConfig() {
     }
 
     // Fetch from API
-    // console.log('Fetching sitesConfig from API');
+    console.log('Fetching sitesConfig from API');
     const headers = new Headers();
     headers.append('x-svc-call', config.SERVICE_VAL);
     const response = await fetch(`${config.BASE_URL}${config.ENDPOINTS.SITES_CONFIG}?t=${Date.now()}`, {
@@ -70,7 +70,7 @@ async function getSitesConfig() {
       [CACHE_KEY]: data,
       [CACHE_TIMESTAMP_KEY]: now
     });
-    // console.log('Fetched and cached sitesConfig:', data);
+    console.log('Fetched and cached sitesConfig:', data);
     return data;
   } catch (error) {
     console.warn('Failed to fetch sitesConfig, using cached data:', error.message);
@@ -110,7 +110,7 @@ async function checkAndSendURL(tab) {
     const sitesConfig = await getSitesConfig();
     const urlExists = sitesConfig.some(site => tab.url.startsWith(site.url));
     if (!urlExists) {
-      // console.log('URL does not exist, sending to server:', tab.url);
+      console.log('URL does not exist, sending to server:', tab.url);
       const data = { url: tab.url };
       const headers = new Headers();
       headers.append('x-svc-call', config.SERVICE_VAL);
@@ -124,9 +124,9 @@ async function checkAndSendURL(tab) {
         const text = await response.text();
         throw new Error(`Failed to send URL: ${response.status}, ${text}`);
       }
-      // console.log('URL sent to server successfully');
+      console.log('URL sent to server successfully');
     } else {
-      // console.log('URL already exists in sitesConfig:', tab.url);
+      console.log('URL already exists in sitesConfig:', tab.url);
     }
   } catch (error) {
     console.error('Error in checkAndSendURL:', error);
@@ -226,6 +226,9 @@ chrome.runtime.onInstalled.addListener(function () {
   getSitesConfig().catch(error => {
     console.error('Failed to fetch sitesConfig on install:', error);
   });
+
+  // Open the options.html page upon installation
+  chrome.tabs.create({ url: chrome.runtime.getURL("options.html") });
 });
 
 let rightClickedAddress = null;

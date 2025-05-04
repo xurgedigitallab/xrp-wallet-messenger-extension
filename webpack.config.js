@@ -3,7 +3,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 const { merge } = require('webpack-merge');
 
 const commonConfig = {
-  entry: './background.js',
+  entry: './background.js', // Only process background.js
   output: {
     filename: 'background.bundle.js',
     path: path.resolve(__dirname, 'dist'),
@@ -38,7 +38,7 @@ const productionConfig = {
       new TerserPlugin({
         terserOptions: {
           compress: {
-            drop_console: false, // Keep console logs for debugging
+            drop_console: false, // Keep console logs
             drop_debugger: true, // Remove debugger statements
           },
           mangle: true, // Shorten variable names

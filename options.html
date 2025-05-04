@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>Extension Settings</title>
   <style>
     body {
-      font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f4f6f8;
-      padding: 40px 20px;
-      max-width: 500px;
-      margin: auto;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f7fa;
       color: #333;
     }
 
@@ -18,75 +19,209 @@
       border-radius: 12px;
       padding: 30px;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      margin-bottom: 20px;
+      border: 1px solid #e0e0e0;
     }
 
     .header {
       display: flex;
       align-items: center;
-      margin-bottom: 25px;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .header-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
     }
 
     .header-icon {
-      font-size: 26px;
-      margin-right: 10px;
+      width: 24px;
+      height: 24px;
     }
 
     h1 {
-      font-size: 22px;
+      font-size: 24px;
       margin: 0;
+      color: #1a1a1a;
+    }
+
+    .preview-wrapper {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 14px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    #preview-button {
+      background-color: #0077db;
+      color: #ffffff;
+      font-size: 14px;
+      border: none;
+      padding: 12px 24px;
+      display: inline-block;
+    }
+
+    #preview-button:hover {
+      background-color: #005bb5;
+    }
+
+    #save-button {
+      background-color: #28a745;
+      color: #fff;
+    }
+
+    #save-button:hover {
+      background-color: #1e7e34;
+    }
+
+    #feedbackButton {
+      background-color: #343a40;
+      color: #fff;
+    }
+
+    #feedbackButton:hover {
+      background-color: #23272b;
     }
 
     label {
-      font-weight: 600;
-      margin-bottom: 10px;
       display: block;
+      margin: 20px 0 10px;
+      font-weight: 500;
     }
 
     select {
       width: 100%;
       padding: 10px;
-      font-size: 15px;
+      font-size: 14px;
       border: 1px solid #ccc;
       border-radius: 8px;
-      margin-bottom: 25px;
+      background-color: #fff;
+      cursor: pointer;
     }
 
     .button-group {
+      margin-top: 20px;
       display: flex;
       gap: 10px;
     }
 
-    button {
-      flex: 1;
-      padding: 12px 16px;
-      font-size: 15px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background-color 0.2s ease, transform 0.1s ease;
+    .sections-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
     }
 
-    button:active {
-      transform: scale(0.98);
+    .instructions,
+    .websites {
+      width: 48%;
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      margin-bottom: 20px;
+      border: 1px solid #e0e0e0;
     }
 
-    #save-button {
+    .step {
+      display: flex;
+      gap: 20px;
+      /* Increased gap for better spacing */
+      margin-bottom: 30px;
+      /* Increased to separate steps */
+    }
+
+    .step-number {
+      width: 30px;
+      height: 30px;
       background-color: #0077db;
-      color: white;
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      flex-shrink: 0;
     }
 
-    #save-button:hover {
-      background-color: #005bb5;
+    .step-content {
+      flex-grow: 1;
     }
 
-    #feedbackButton {
-      background-color: #f0f0f0;
-      color: #333;
-      border: 1px solid #ccc;
+    .step-content p {
+      margin: 0 0 15px;
+      /* Increased margin-bottom to separate text from image */
     }
 
-    #feedbackButton:hover {
-      background-color: #e0e0e0;
+    .highlight {
+      font-weight: bold;
+      color: #0077db;
+    }
+
+    .placeholder-image {
+      background-color: #e9ecef;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #6c757d;
+      font-style: italic;
+      /* Removed fixed height to prevent overlap */
+    }
+
+    .placeholder-image img {
+      max-width: 100%;
+      max-height: 150px;
+      /* Added max-height to constrain image size */
+      height: auto;
+      border-radius: 8px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-top: 0;
+      margin-bottom: 20px;
+      color: #1a1a1a;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #1a1a1a;
+    }
+
+    .websites ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .websites li {
+      margin-bottom: 10px;
+    }
+
+    .websites a {
+      color: #0077db;
+      text-decoration: none;
+    }
+
+    .websites a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 14px;
+      color: #666;
     }
 
     /* Modal Styles */
@@ -108,6 +243,7 @@
       from {
         opacity: 0;
       }
+
       to {
         opacity: 1;
       }
@@ -208,23 +344,63 @@
       background-color: #e5e5e5;
       border-color: #ccc;
     }
+
+    @media (max-width: 768px) {
+      .sections-container {
+        flex-direction: column;
+      }
+
+      .instructions,
+      .websites {
+        width: 100%;
+      }
+    }
   </style>
 </head>
+
 <body>
   <div class="container">
+    <!-- Updated title with icon -->
+    <div class="header" style="justify-content: center;">
+      <a href="https://textrp.io" class="header-link">
+        <img src="textrp_circle@7x.png" class="header-icon" width="24" height="24" alt="TextRP icon">
+      </a>
+      <h1 style="font-size: 28px; margin: 0; color: #1a1a1a;">XRP Wallet Messenger from TextRP</h1>
+
+    </div>
+    <div class="h3" style="justify-content: center;">
+      <p style="text-align: center; margin: 0; color: #1a1a1a;">Adds a chat button to XRP websites for
+        instant wallet-to-wallet chat.</p>
+    </div>
+    <div class="h3" style="justify-content: center;">
+      <p style="text-align: center; margin: 0; color: #1a1a1a;">Or right-click any XRP address for
+        instant wallet-to-wallet chat.</p>
+    </div>
     <div class="header">
-      <div class="header-icon">⚙️</div>
       <h1>Button Theme Settings</h1>
     </div>
-    
+
+    <div class="preview-wrapper">
+      <button id="preview-button">Chat Button Preview</button>
+    </div>
+
     <label for="color-select">Select Button Theme:</label>
     <select id="color-select">
-      data-text="#ffffff" data-hover="#005bb5" data-border="" data-border-radius="8px" data-font-size="16px" data-font-style="normal"
-      <option value="#0077db" data-text="#ffffff" data-hover="#005bb5" data-border="" data-border-radius="8px" data-font-size="14px" data-font-style="normal" data-text-transform="none" data-text-decoration="none">Blue</option>
-      <option value="#28a745" data-text="#ffffff" data-hover="#1e7e34" data-border="" data-border-radius="8px" data-font-size="14px" data-font-style="normal" data-text-transform="none" data-text-decoration="none">Green</option>
-      <option value="#dc3545" data-text="#ffffff" data-hover="#bd2130" data-border="" data-border-radius="8px" data-font-size="16px" data-font-style="normal" data-text-transform="none" data-text-decoration="none">Red</option>
-      <option value="#343a40" data-text="#ffffff" data-hover="#23272b" data-border="" data-border-radius="8px" data-font-size="14px" data-font-style="normal" data-text-transform="none" data-text-decoration="none">Dark Gray</option>
-      <option value="#f8f9fa" data-text="#212529" data-hover="#e2e6ea" data-border="" data-border-radius="8px" data-font-size="14px" data-font-style="normal" data-text-transform="none" data-text-decoration="none">Light Gray</option>
+      <option value="#0077db" data-text="#ffffff" data-hover="#005bb5" data-border="" data-border-radius="8px"
+        data-font-size="14px" data-font-style="normal" data-text-transform="none" data-text-decoration="none">Blue
+      </option>
+      <option value="#28a745" data-text="#ffffff" data-hover="#1e7e34" data-border="" data-border-radius="8px"
+        data-font-size="14px" data-font-style="normal" data-text-transform="none" data-text-decoration="none">Green
+      </option>
+      <option value="#FC0033" data-text="#ffffff" data-hover="#bd2130" data-border="" data-border-radius="8px"
+        data-font-size="16px" data-font-style="normal" data-text-transform="none" data-text-decoration="none">Red
+      </option>
+      <option value="#343a40" data-text="#ffffff" data-hover="#23272b" data-border="" data-border-radius="8px"
+        data-font-size="14px" data-font-style="normal" data-text-transform="none" data-text-decoration="none">Dark
+        Gray</option>
+      <option value="#f8f9fa" data-text="#212529" data-hover="#e2e6ea" data-border="" data-border-radius="8px"
+        data-font-size="14px" data-font-style="normal" data-text-transform="none" data-text-decoration="none">Light
+        Gray</option>
     </select>
 
     <div class="button-group">
@@ -232,6 +408,56 @@
       <button id="feedbackButton">Provide Feedback</button>
     </div>
   </div>
+
+  <div class="sections-container">
+    <div class="instructions">
+      <h2>To change button theme later</h2>
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <p><span class="highlight">Pin the extension</span></p>
+          <div class="placeholder-image">
+            <img src="pin.gif" alt="Browser toolbar with extension pin highlighted" />
+          </div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <p><span class="highlight">Click icon</span> options</p>
+          <div class="placeholder-image">
+            <img src="option.gif" alt="Extension icon with options menu open" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="websites">
+      <h2>Try it now at these websites</h2>
+      <ul>
+        <li><a href="https://bidds.com/" target="_blank">bidds.com</a></li>
+        <li><a href="https://xrp.cafe/" target="_blank">xrp.cafe</a></li>
+        <li><a href="https://xmart.art/" target="_blank">xmart.art</a></li>
+        <li><a href="https://xrpnft.com/" target="_blank">xrpnft.com</a></li>
+        <li><a href="https://xpmarket.com/" target="_blank">xpmarket.com</a></li>
+        <li><a href="https://sologenic.org/" target="_blank">sologenic.org</a></li>
+        <li><a href="https://app.zerpmon.world/" target="_blank">app.zerpmon.world</a></li>
+        <li><a href="https://xrplexplorer.com/" target="_blank">xrplexplorer.com</a></li>
+        <li><a href="https://xrpscan.com/" target="_blank">xrpscan.com</a></li>
+        <li><a href="https://livenet.xrpl.org/" target="_blank">livenet.xrpl.org</a></li>
+        <li><a href="https://fuzion-xio.com/" target="_blank">fuzion-xio.com</a></li>
+        <li><a href="https://artdept.fun/" target="_blank">artdept.fun</a></li>
+        <li><a href="https://firstledger.net/" target="_blank">firstledger.net</a></li>
+        <li><a href="https://xmagnetic.org/" target="_blank">xmagnetic.org</a></li>
+        <li><a href="https://xrpl.to/" target="_blank">xrpl.to</a></li>
+        <li><a href="https://myweb3.me/" target="_blank">myweb3.me</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Xurge Digital Lab LLC</p>
+  </footer>
 
   <!-- Feedback Modal -->
   <div id="feedbackModal" class="modal">
@@ -248,6 +474,7 @@
     </div>
   </div>
 
-  <script src="options.js"></script>
+  <script src="options.min.js"></script>
 </body>
+
 </html>

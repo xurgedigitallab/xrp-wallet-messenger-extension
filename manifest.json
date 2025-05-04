@@ -45,7 +45,7 @@
     {
       "resources": [
         "icons/button_icon.svg",
-        "options.js"
+        "options.min.js"
       ],
       "matches": [
         "<all_urls>"

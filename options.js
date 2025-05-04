@@ -7,6 +7,51 @@ document.addEventListener('DOMContentLoaded', async () => {
   const cancelFeedbackButton = document.getElementById('cancelFeedback');
   const submitFeedbackButton = document.getElementById('submitFeedback');
   const feedbackText = document.getElementById('feedbackText');
+  const previewButton = document.getElementById('preview-button');
+
+  // Function to update the preview button styles based on the selected theme
+  function updatePreviewButton() {
+    const selectedOption = select.options[select.selectedIndex];
+    if (!selectedOption) return; // Guard against no selection
+
+    const styles = {
+      background: select.value || '#0077db',
+      color: selectedOption.getAttribute('data-text') || '#ffffff',
+      borderRadius: selectedOption.getAttribute('data-border-radius') || '8px',
+      border: selectedOption.getAttribute('data-border') || 'none',
+      fontSize: selectedOption.getAttribute('data-font-size') || '14px',
+      fontStyle: selectedOption.getAttribute('data-font-style') || 'normal',
+      textTransform: selectedOption.getAttribute('data-text-transform') || 'none',
+      textDecoration: selectedOption.getAttribute('data-text-decoration') || 'none'
+    };
+
+    // Apply styles to the preview button
+    previewButton.style.background = styles.background;
+    previewButton.style.color = styles.color;
+    previewButton.style.borderRadius = styles.borderRadius;
+    previewButton.style.border = styles.border;
+    previewButton.style.fontSize = styles.fontSize;
+    previewButton.style.fontStyle = styles.fontStyle;
+    previewButton.style.textTransform = styles.textTransform;
+    previewButton.style.textDecoration = styles.textDecoration;
+
+    // Update hover effect
+    const hoverColor = selectedOption.getAttribute('data-hover') || styles.background;
+    previewButton.onmouseover = () => {
+      previewButton.style.background = hoverColor;
+    };
+    previewButton.onmouseout = () => {
+      previewButton.style.background = styles.background;
+    };
+  }
+
+  // Initial update with default value
+  updatePreviewButton();
+
+  // Update preview on selection change
+  ['change', 'input'].forEach(event => {
+    select.addEventListener(event, updatePreviewButton);
+  });
 
   // Fetch config from background script
   let config = {};
@@ -40,7 +85,6 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (result.sessionId) {
         resolve(result.sessionId);
       } else {
-        // Fallback to random string if crypto.randomUUID is unavailable
         const newSessionId = typeof crypto !== 'undefined' && crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).slice(2);
         chrome.storage.local.set({ sessionId: newSessionId }, () => {
           resolve(newSessionId);
@@ -62,7 +106,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (response.error) {
       console.error('Error fetching themes:', response.error);
     } else {
-      // Handle themes as array directly or from response.themes
       const themes = Array.isArray(response) ? response : response.themes || [];
       if (themes.length > 0) {
         themes.forEach(theme => {
@@ -94,10 +137,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
       }
 
-      // Load saved theme
+      // Load saved theme and update preview
       chrome.storage.sync.get('buttonStyles', (result) => {
         if (result.buttonStyles && result.buttonStyles.background) {
           select.value = result.buttonStyles.background;
+          updatePreviewButton(); // Update preview with saved theme
         }
       });
     }
@@ -118,7 +162,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       textDecoration: selectedOption.getAttribute('data-text-decoration') || null
     };
     chrome.storage.sync.set({ buttonStyles }, () => {
-      // console.log('Saved button styles:', buttonStyles);
+      console.log('Saved button styles:', buttonStyles);
       alert('Theme saved successfully');
     });
   });
