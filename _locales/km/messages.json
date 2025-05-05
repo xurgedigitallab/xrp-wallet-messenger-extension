@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "XRP Wallet Messenger ពី TextRP",
-        "description": "ឈ្មោះផ្នែកបន្ថែម។"
-    },
-    "extDescription": {
-        "message": "គ្រាន់តែចុចស្តាំលើអាសយដ្ឋានកាបូប XRP ដើម្បីផ្ញើសារយ៉ាងឆាប់រហ័សតាមរយៈ TextRP, ស្រទាប់សារតែមួយសម្រាប់ XRPL។",
-        "description": "ការពិពណ៌នាផ្នែកបន្ថែម។"
-    },
-    "messageWalletTitle": {
-        "message": "សារទៅកាបូប XRP"
-    },
-    "buttonTextNFT": {
-        "message": "ជជែកជាមួយម្ចាស់ NFT"
-    },
-    "buttonTextGame": {
-        "message": "ជជែកជាមួយអ្នកលេង"
-    },
-    "buttonTextWallet": {
-        "message": "ជជែកជាមួយកាបូប"
-    },
-    "buttonTextToken": {
-        "message": "ជជែកជាមួយអ្នកចេញផ្សាយតុកេន"
-    }
+  "buttonTextGame": {
+    "message": "ជជែកជាមួយអ្នកលេង",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "បន្ថែមប៊ូតុងជជែកទៅកាន់គេហទំព័រ XRP សម្រាប់ជជែកពីកាបូបទៅកាបូបភ្លាមៗ។",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "បៃតង",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "ខៀវ",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "បានរក្សាទុកស្បែកជោគជ័យ",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "ងងឹត",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "គ្រាន់តែចុច​ខាង​ស្តាំ​លើ​អាសយដ្ឋានកាបូប XRP ដើម្បីផ្ញើសារ​ឲ្យបាន​លឿនតាមរយៈ TextRP ដែលជាស្រទាប់ផ្ញើសារតែមួយសម្រាប់ XRPL។",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "ភ្លឺ",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "ជជែកជាមួយកាបូប",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "បានដាក់ស្នើមតិយោបល់ដោយជោគជ័យ",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "មិនអាចដាក់ស្នើមតិយោបល់បានទេ។ សូមសាកល្បងម្តងទៀតក្រោយមក។",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "មើលមុនប៊ូតុងជជែក",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "ជជែកជាមួយអ្នកចេញ Token",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "ជជែកជាមួយម្ចាស់ NFT",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "ក្រហម",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "ផ្ញើសារ​ទៅកាន់កាបូប XRP",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "រក្សាទុក",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "ជជែកជាមួយកាបូបអ្នកបង្កើត Token",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "បោះបង់",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "បិទ",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "ដាក់ស្នើ",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "ដាក់ខ្មៅស្នាមផ្នែកបន្ថែម",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "ជ្រើសស្បែកប៊ូតុង៖",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "បរាជ័យក្នុងការផ្ទុកការកំណត់។ មិនអាចដាក់ស្នើមតិយោបល់បានទេ។",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "កម្មវិធីជជែក XRP Wallet ពី TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "ការកំណត់មិនបានផ្ទុកឡើង។ មិនអាចដាក់ស្នើមតិយោបល់បានទេ។",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "សូមបញ្ចូលមតិយោបល់មុនដាក់ស្នើ។",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "ឬចុច​ខាង​ស្តាំ​លើអាសយដ្ឋាន XRP ដើម្បីជជែកពីកាបូបទៅកាបូបភ្លាមៗ។",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "របៀបផ្លាស់ប្ដូរស្បែកប៊ូតុង",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "សាកល្បងគេហទំព័រ XRP ទាំងនេះ",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "ផ្ញើមតិយោបល់",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "ចុច​លើជម្រើសរូបតំណាង",
+    "description": "Step instruction for clicking options"
+  }
 }

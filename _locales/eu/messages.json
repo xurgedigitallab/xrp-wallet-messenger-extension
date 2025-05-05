@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "XRP Wallet Messenger TextRP-tik",
-        "description": "Luzapenaren izena."
+    "buttonTextGame": {
+        "message": "گفتگو با بازیکن",
+        "description": "متن دکمه برای گفتگو با بازیکن بازی"
+    },
+    "optionsDescription1": {
+        "message": "دکمه گفتگویی به وب‌سایت‌های XRP برای چت فوری بین کیف‌پول‌ها اضافه می‌کند.",
+        "description": "بخش اول توضیحات صفحه گزینه‌ها"
+    },
+    "themeGreen": {
+        "message": "سبز",
+        "description": "نام گزینه تم سبز"
+    },
+    "themeBlue": {
+        "message": "آبی",
+        "description": "نام گزینه تم آبی"
+    },
+    "themeSaved": {
+        "message": "تم با موفقیت ذخیره شد",
+        "description": "پیام موفقیت هنگام ذخیره تم"
+    },
+    "themeDark": {
+        "message": "تیره",
+        "description": "نام گزینه تم تیره"
     },
     "extDescription": {
-        "message": "Egin klik eskuinean edozein XRP zorro helbidean, mezu bat azkar bidaltzeko TextRP bidez, XRPL-rako mezularitza geruza bateratua.",
-        "description": "Luzapenaren deskribapena."
+        "message": "با کلیک راست روی هر آدرس کیف‌پول XRP، می‌توانید به‌سرعت از طریق TextRP پیام ارسال کنید، لایه پیام‌رسانی یکپارچه برای XRPL.",
+        "description": "توضیحات افزونه."
     },
-    "messageWalletTitle": {
-        "message": "Mezua XRP zorroari"
-    },
-    "buttonTextNFT": {
-        "message": "Txateatu NFT jabearekin"
-    },
-    "buttonTextGame": {
-        "message": "Txateatu jokalariarekin"
+    "themeLight": {
+        "message": "روشن",
+        "description": "نام گزینه تم روشن"
     },
     "buttonTextWallet": {
-        "message": "Txateatu zorroarekin"
+        "message": "گفتگو با کیف‌پول",
+        "description": "متن دکمه برای گفتگو با کیف‌پول"
+    },
+    "feedbackSuccess": {
+        "message": "بازخورد با موفقیت ارسال شد",
+        "description": "پیام موفقیت هنگام ارسال بازخورد"
+    },
+    "feedbackError": {
+        "message": "ارسال بازخورد ناموفق بود. لطفاً دوباره امتحان کنید.",
+        "description": "پیام خطا هنگام شکست ارسال بازخورد"
+    },
+    "previewButtonText": {
+        "message": "پیش‌نمایش دکمه گفتگو",
+        "description": "متن دکمه پیش‌نمایش در گزینه‌ها"
     },
     "buttonTextToken": {
-        "message": "Txateatu token igorlearekin"
+        "message": "گفتگو با صادرکننده توکن",
+        "description": "متن دکمه برای گفتگو با صادرکننده توکن"
+    },
+    "buttonTextNFT": {
+        "message": "گفتگو با مالک NFT",
+        "description": "متن دکمه برای گفتگو با مالک NFT"
+    },
+    "themeRed": {
+        "message": "قرمز",
+        "description": "نام گزینه تم قرمز"
+    },
+    "messageWalletTitle": {
+        "message": "پیام به کیف‌پول XRP",
+        "description": "عنوان رابط پیام‌رسانی کیف‌پول"
+    },
+    "saveButtonText": {
+        "message": "ذخیره",
+        "description": "متن دکمه ذخیره"
+    },
+    "buttonTextTokenCreator": {
+        "message": "گفتگو با کیف‌پول سازنده توکن",
+        "description": "متن دکمه برای گفتگو با کیف‌پول سازنده توکن"
+    },
+    "cancelButtonText": {
+        "message": "لغو",
+        "description": "متن دکمه لغو"
+    },
+    "closeButtonText": {
+        "message": "بستن",
+        "description": "متن دکمه بستن"
+    },
+    "submitButtonText": {
+        "message": "ارسال",
+        "description": "متن دکمه ارسال"
+    },
+    "stepPinExtension": {
+        "message": "پین کردن افزونه",
+        "description": "دستورالعمل مرحله برای پین کردن افزونه"
+    },
+    "themeSelectLabel": {
+        "message": "انتخاب تم دکمه:",
+        "description": "برچسب برای منوی کشویی انتخاب تم"
+    },
+    "configLoadError": {
+        "message": "بارگذاری پیکربندی ناموفق بود. ارسال بازخورد غیرفعال است.",
+        "description": "پیام خطا هنگام شکست بارگذاری پیکربندی"
+    },
+    "extName": {
+        "message": "پیام‌رسان کیف‌پول XRP از TextRP",
+        "description": "نام افزونه."
+    },
+    "configNotLoaded": {
+        "message": "پیکربندی بارگذاری نشده است. ارسال بازخورد غیرفعال است.",
+        "description": "پیام خطا وقتی پیکربندی بارگذاری نشده است"
+    },
+    "feedbackRequired": {
+        "message": "لطفاً قبل از ارسال، بازخورد وارد کنید.",
+        "description": "پیام خطا وقتی بازخورد خالی است"
+    },
+    "optionsDescription2": {
+        "message": "یا با کلیک راست روی آدرس XRP، چت فوری بین کیف‌پول‌ها انجام دهید.",
+        "description": "بخش دوم توضیحات صفحه گزینه‌ها"
+    },
+    "howToChangeTheme": {
+        "message": "نحوه تغییر تم دکمه",
+        "description": "عنوان بخش دستورالعمل‌های تغییر تم"
+    },
+    "tryXRPWebsites": {
+        "message": "این وب‌سایت‌های XRP را امتحان کنید",
+        "description": "عنوان لیست وب‌سایت‌های XRP"
+    },
+    "feedbackButtonText": {
+        "message": "ارائه بازخورد",
+        "description": "متن دکمه بازخورد"
+    },
+    "stepClickOptions": {
+        "message": "روی گزینه‌های آیکون کلیک کنید",
+        "description": "دستورالعمل مرحله برای کلیک روی گزینه‌ها"
     }
 }

@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "XRP Wallet Messenger iz TextRP",
-        "description": "Ime razširitve."
-    },
-    "extDescription": {
-        "message": "Preprosto z desno tipko miške kliknite kateri koli naslov denarnice XRP, da hitro pošljete sporočilo prek TextRP, enotne plasti za sporočanje za XRPL.",
-        "description": "Opis razširitve."
-    },
-    "messageWalletTitle": {
-        "message": "Sporočilo za denarnico XRP"
-    },
-    "buttonTextNFT": {
-        "message": "Klepetajte z lastnikom NFT"
-    },
-    "buttonTextGame": {
-        "message": "Klepetajte z igralcem"
-    },
-    "buttonTextWallet": {
-        "message": "Klepetajte z denarnico"
-    },
-    "buttonTextToken": {
-        "message": "Klepetajte z izdajateljem žetonov"
-    }
+  "buttonTextGame": {
+    "message": "Klepet z igralcem",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Na spletna mesta XRP doda gumb za klepet za takojšnje klepete med denarnicami.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Zelena",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Modra",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Tema je bila uspešno shranjena",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Temna",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Z desno tipko miške kliknite kateri koli naslov XRP-denarnice, da hitro pošljete sporočilo prek TextRP — poenotene komunikacijske plasti za XRPL.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Svetla",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Klepet z denarnico",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Povratne informacije so bile uspešno poslane",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Pošiljanje povratnih informacij ni uspelo. Poskusite znova pozneje.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Predogled gumba za klepet",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Klepet z izdajateljem žetona",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Klepet z lastnikom NFT",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Rdeča",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Pošlji sporočilo XRP-denarnici",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Shrani",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Klepet z denarnico ustvarjalca žetona",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Prekliči",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Zapri",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Pošlji",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Pripni razširitev",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Izberi temo gumba:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Nalaganje konfiguracije ni uspelo. Pošiljanje povratnih informacij je onemogočeno.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "Sporočevalnik XRP denarnice iz TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Konfiguracija ni bila naložena. Pošiljanje povratnih informacij je onemogočeno.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Pred pošiljanjem vnesite povratne informacije.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Ali kliknite z desno tipko miške kateri koli naslov XRP za takojšnji klepet med denarnicami.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Kako spremeniti temo gumba",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Preizkusite ta spletna mesta XRP",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Pošlji povratne informacije",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Klikni ikono možnosti",
+    "description": "Step instruction for clicking options"
+  }
 }

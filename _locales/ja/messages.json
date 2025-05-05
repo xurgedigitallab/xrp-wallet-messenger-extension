@@ -1,25 +1,130 @@
 {
-  "extName": {
-    "message": "TextRPからのXRPウォレットメッセンジャー",
-    "description": "拡張機能の名前。"
+  "buttonTextGame": {
+    "message": "プレイヤーとチャット",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "XRPサイトにチャットボタンを追加し、ウォレット間の即時チャットを実現します。",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "グリーン",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "ブルー",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "テーマが正常に保存されました",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "ダーク",
+    "description": "Name of the dark theme option"
   },
   "extDescription": {
-    "message": "TextRPを通じて、任意のXRPウォレットアドレスに右クリックするだけで、XRPLの統合メッセージングレイヤーを介してメッセージを迅速に送信できます。",
-    "description": "拡張機能の説明。"
+    "message": "任意のXRPウォレットアドレスを右クリックするだけで、TextRPを通じてすばやくメッセージを送信できます。TextRPはXRPLの統一メッセージングレイヤーです。",
+    "description": "The description of the extension."
   },
-  "messageWalletTitle": {
-    "message": "XRPウォレットチャット"
-  },
-  "buttonTextNFT": {
-    "message": "NFTオーナーとチャットする"
-  },
-  "buttonTextGame": {
-    "message": "プレイヤーとチャットする"
+  "themeLight": {
+    "message": "ライト",
+    "description": "Name of the light theme option"
   },
   "buttonTextWallet": {
-    "message": "ウォレットとチャットする"
+    "message": "ウォレットとチャット",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "フィードバックが正常に送信されました",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "フィードバックの送信に失敗しました。後でもう一度お試しください。",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "チャットボタンのプレビュー",
+    "description": "Text for the preview button in options"
   },
   "buttonTextToken": {
-    "message": "トークン発行者とチャットする"
+    "message": "トークン発行者とチャット",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "NFT所有者とチャット",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "レッド",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "XRPウォレットにメッセージ",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "保存",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "トークン作成者のウォレットとチャット",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "キャンセル",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "閉じる",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "送信",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "拡張機能をピン留めする",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "ボタンのテーマを選択：",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "設定の読み込みに失敗しました。フィードバックの送信は無効です。",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "TextRPによるXRPウォレットメッセンジャー",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "設定が読み込まれていません。フィードバックの送信は無効です。",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "送信前にフィードバックを入力してください。",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "または、任意のXRPアドレスを右クリックして即時のウォレット間チャットを開始します。",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "ボタンのテーマを変更する方法",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "以下のXRPサイトを試す",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "フィードバックを送る",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "アイコンのオプションをクリック",
+    "description": "Step instruction for clicking options"
   }
 }

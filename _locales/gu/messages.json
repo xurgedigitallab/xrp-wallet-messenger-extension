@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "TextRP થી XRP વૉલેટ મેસેન્જર",
-        "description": "એક્સ્ટેન્શનનું નામ."
+    "buttonTextGame": {
+        "message": "ખેલાડી સાથે ચેટ",
+        "description": "રમતના ખેલાડી સાથે ચેટ કરવા માટે બટનનું ટેક્સ્ટ"
+    },
+    "optionsDescription1": {
+        "message": "XRP વેબસાઇટ્સ પર ત્વરિત વૉલેટ-ટૂ-વૉલેટ ચેટ માટે ચેટ બટન ઉમેરે છે.",
+        "description": "વિકલ્પો પૃષ્ઠના વર્ણનનો પ્રથમ ભાગ"
+    },
+    "themeGreen": {
+        "message": "લીલું",
+        "description": "લીલા થીમ વિકલ્પનું નામ"
+    },
+    "themeBlue": {
+        "message": "વાદળી",
+        "description": "વાદળી થીમ વિકલ્પનું નામ"
+    },
+    "themeSaved": {
+        "message": "થીમ સફળતાપૂર્વક સાચવવામાં આવી",
+        "description": "થીમ સાચવવામાં આવે ત્યારે સફળતાનો સંદેશ"
+    },
+    "themeDark": {
+        "message": "ઘેરું",
+        "description": "ઘેરા થીમ વિકલ્પનું નામ"
     },
     "extDescription": {
-        "message": "TextRP, XRPL માટે એકીકૃત મેસેજિંગ લેયર દ્વારા ઝડપી સંદેશ મોકલવા માટે કોઈપણ XRP વૉલેટ સરનામે પર જમણું ક્લિક કરો.",
-        "description": "એક્સ્ટેન્શનનું વર્ણન."
+        "message": "કોઈપણ XRP વૉલેટ એડ્રેસ પર જમણું ક્લિક કરીને TextRP દ્વારા ઝડપથી સંદેશ મોકલો, જે XRPL માટે એકીકૃત મેસેજિંગ લેયર છે.",
+        "description": "એક્સટેન્શનનું વર્ણન."
     },
-    "messageWalletTitle": {
-        "message": "XRP વૉલેટને સંદેશો"
-    },
-    "buttonTextNFT": {
-        "message": "NFT માલિક સાથે ચેટ કરો"
-    },
-    "buttonTextGame": {
-        "message": "પ્લેયર સાથે ચેટ કરો"
+    "themeLight": {
+        "message": "આછું",
+        "description": "આછા થીમ વિકલ્પનું નામ"
     },
     "buttonTextWallet": {
-        "message": "વૉલેટ સાથે ચેટ કરો"
+        "message": "વૉલેટ સાથે ચેટ",
+        "description": "વૉલેટ સાથે ચેટ કરવા માટે બટનનું ટેક્સ્ટ"
+    },
+    "feedbackSuccess": {
+        "message": "પ્રતિસાદ સફળતાપૂર્વક સબમિટ કરાયો",
+        "description": "પ્રતિસાદ સબમિટ કરવામાં આવે ત્યારે સફળતાનો સંદેશ"
+    },
+    "feedbackError": {
+        "message": "પ્રતિસાદ સબમિટ કરવામાં નિષ્ફળ. કૃપા કરીને ફરીથી પ્રયાસ કરો.",
+        "description": "પ્રતિસાદ સબમિશન નિષ્ફળ જાય ત્યારે ભૂલ સંદેશ"
+    },
+    "previewButtonText": {
+        "message": "ચેટ બટનનું પૂર્વાવલોકન",
+        "description": "વિકલ્પોમાં પૂર્વાવલોકન બટન માટે ટેક્સ્ટ"
     },
     "buttonTextToken": {
-        "message": "ટોકન ઇશ્યુર સાથે ચેટ કરો"
+        "message": "ટોકન જારી કરનાર સાથે ચેટ",
+        "description": "ટોકન જારી કરનાર સાથે ચેટ કરવા માટે બટનનું ટેક્સ્ટ"
+    },
+    "buttonTextNFT": {
+        "message": "NFT માલિક સાથે ચેટ",
+        "description": "NFT માલિક સાથે ચેટ કરવા માટે બટનનું ટેક્સ્ટ"
+    },
+    "themeRed": {
+        "message": "લાલ",
+        "description": "લાલ થીમ વિકલ્પનું નામ"
+    },
+    "messageWalletTitle": {
+        "message": "XRP વૉલેટને સંદેશ",
+        "description": "વૉલેટ મેસેજિંગ ઇન્ટરફેસ માટે શીર્ષક"
+    },
+    "saveButtonText": {
+        "message": "સાચવો",
+        "description": "સાચવો બટન માટે ટેક્સ્ટ"
+    },
+    "buttonTextTokenCreator": {
+        "message": "ટોકન નિર્માતાના વૉલેટ સાથે ચેટ",
+        "description": "ટોકન નિર્માતાના વૉલેટ સાથે ચેટ કરવા માટે બટનનું ટેક્સ્ટ"
+    },
+    "cancelButtonText": {
+        "message": "રદ કરો",
+        "description": "રદ કરો બટન માટે ટેક્સ્ટ"
+    },
+    "closeButtonText": {
+        "message": "બંધ કરો",
+        "description": "બંધ કરો બટન માટે ટેક્સ્ટ"
+    },
+    "submitButtonText": {
+        "message": "સબમિટ",
+        "description": "સબમિટ બટન માટે ટેક્સ્ટ"
+    },
+    "stepPinExtension": {
+        "message": "એક્સટેન્શન પિન કરો",
+        "description": "એક્સટેન્શન પિન કરવા માટે પગલું સૂચના"
+    },
+    "themeSelectLabel": {
+        "message": "બટન થીમ પસંદ કરો:",
+        "description": "થીમ પસંદગી ડ્રોપડાઉન માટે લેબલ"
+    },
+    "configLoadError": {
+        "message": "કન્ફિગરેશન લોડ કરવામાં નિષ્ફળ. પ્રતિસાદ સબમિશન અક્ષમ છે.",
+        "description": "કન્ફિગરેશન લોડ ન થાય ત્યારે ભૂલ સંદેશ"
+    },
+    "extName": {
+        "message": "TextRP તરફથી XRP વૉલેટ મેસેન્જર",
+        "description": "એક્સટેન્શનનું નામ."
+    },
+    "configNotLoaded": {
+        "message": "કન્ફિગરેશન લોડ થયું નથી. પ્રતિસાદ સબમિશન અક્ષમ છે.",
+        "description": "કન્ફિગરેશન લોડ ન થયું હોય ત્યારે ભૂલ સંદેશ"
+    },
+    "feedbackRequired": {
+        "message": "કૃપા કરીને સબમિટ કરતા પહેલા પ્રતિસાદ દાખલ કરો.",
+        "description": "પ્રતિસાદ ખાલી હોય ત્યારે ભૂલ સંદેશ"
+    },
+    "optionsDescription2": {
+        "message": "અથવા કોઈપણ XRP એડ્રેસ પર જમણું ક્લિક કરીને ત્વરિત વૉલેટ-ટૂ-વૉલેટ ચેટ કરો.",
+        "description": "વિકલ્પો પૃષ્ઠના વર્ણનનો બીજો ભાગ"
+    },
+    "howToChangeTheme": {
+        "message": "બટન થીમ કેવી રીતે બદલવી",
+        "description": "થીમ બદલવાની સૂચનાઓના વિભાગ માટે શીર્ષક"
+    },
+    "tryXRPWebsites": {
+        "message": "આ XRP વેબસાઇટ્સ અજમાવો",
+        "description": "XRP વેબસાઇટ્સની યાદી માટે શીર્ષક"
+    },
+    "feedbackButtonText": {
+        "message": "પ્રતિસાદ આપો",
+        "description": "પ્રતિસાદ બટન માટે ટેક્સ્ટ"
+    },
+    "stepClickOptions": {
+        "message": "આઇકન વિકલ્પો પર ક્લિક કરો",
+        "description": "વિકલ્પો પર ક્લિક કરવા માટે પગલું સૂચના"
     }
 }

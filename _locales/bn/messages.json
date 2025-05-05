@@ -1,25 +1,130 @@
 {
+    "buttonTextGame": {
+        "message": "খেলোয়াড়ের সাথে চ্যাট",
+        "description": "গেম খেলোয়াড়ের সাথে চ্যাট করার জন্য বোতামের পাঠ্য"
+    },
+    "optionsDescription1": {
+        "message": "XRP ওয়েবসাইটে তাৎক্ষণিক ওয়ালেট-টু-ওয়ালেট চ্যাটের জন্য চ্যাট বোতাম যোগ করে।",
+        "description": "বিকল্প পৃষ্ঠার বর্ণনার প্রথম অংশ"
+    },
+    "themeGreen": {
+        "message": "সবুজ",
+        "description": "সবুজ থিম বিকল্পের নাম"
+    },
+    "themeBlue": {
+        "message": "নীল",
+        "description": "নীল থিম বিকল্পের নাম"
+    },
+    "themeSaved": {
+        "message": "থিম সফলভাবে সংরক্ষিত",
+        "description": "থিম সংরক্ষণের সময় সফলতার বার্তা"
+    },
+    "themeDark": {
+        "message": "গাঢ়",
+        "description": "গাঢ় থিম বিকল্পের নাম"
+    },
+    "extDescription": {
+        "message": "যেকোনো XRP ওয়ালেট ঠিকানায় ডান ক্লিক করে TextRP-এর মাধ্যমে দ্রুত বার্তা পাঠান, যা XRPL-এর জন্য একীভূত মেসেজিং স্তর।",
+        "description": "এক্সটেনশনের বর্ণনা।"
+    },
+    "themeLight": {
+        "message": "হালকা",
+        "description": "হালকা থিম বিকল্পের নাম"
+    },
+    "buttonTextWallet": {
+        "message": "ওয়ালেটের সাথে চ্যাট",
+        "description": "ওয়ালেটের সাথে চ্যাট করার জন্য বোতামের পাঠ্য"
+    },
+    "feedbackSuccess": {
+        "message": "প্রতিক্রিয়া সফলভাবে জমা দেওয়া হয়েছে",
+        "description": "প্রতিক্রিয়া জমা দেওয়ার সময় সফলতার বার্তা"
+    },
+    "feedbackError": {
+        "message": "প্রতিক্রিয়া জমা দেওয়া ব্যর্থ। আবার চেষ্টা করুন।",
+        "description": "প্রতিক্রিয়া জমা দেওয়া ব্যর্থ হলে ত্রুটির বার্তা"
+    },
+    "previewButtonText": {
+        "message": "চ্যাট বোতামের পূর্বরূপ",
+        "description": "বিকল্পগুলিতে পূর্বরূপ বোতামের জন্য পাঠ্য"
+    },
+    "buttonTextToken": {
+        "message": "টোকেন ইস্যুকারীর সাথে চ্যাট",
+        "description": "টোকেন ইস্যুকারীর সাথে চ্যাট করার জন্য বোতামের পাঠ্য"
+    },
+    "buttonTextNFT": {
+        "message": "NFT মালিকের সাথে চ্যাট",
+        "description": "NFT মালিকের সাথে চ্যাট করার জন্য বোতামের পাঠ্য"
+    },
+    "themeRed": {
+        "message": "লাল",
+        "description": "লাল থিম বিকল্পের নাম"
+    },
+    "messageWalletTitle": {
+        "message": "XRP ওয়ালেটে বার্তা",
+        "description": "ওয়ালেট মেসেজিং ইন্টারফেসের জন্য শিরোনাম"
+    },
+    "saveButtonText": {
+        "message": "সংরক্ষণ",
+        "description": "সংরক্ষণ বোতামের জন্য পাঠ্য"
+    },
+    "buttonTextTokenCreator": {
+        "message": "টোকেন স্রষ্টার ওয়ালেটের সাথে চ্যাট",
+        "description": "টোকেন স্রষ্টার ওয়ালেটের সাথে চ্যাট করার জন্য বোতামের পাঠ্য"
+    },
+    "cancelButtonText": {
+        "message": "বাতিল",
+        "description": "বাতিল বোতামের জন্য পাঠ্য"
+    },
+    "closeButtonText": {
+        "message": "বন্ধ",
+        "description": "বন্ধ বোতামের জন্য পাঠ্য"
+    },
+    "submitButtonText": {
+        "message": "জমা দিন",
+        "description": "জমা দেওয়ার বোতামের জন্য পাঠ্য"
+    },
+    "stepPinExtension": {
+        "message": "এক্সটেনশন পিন করুন",
+        "description": "এক্সটেনশন পিন করার জন্য নির্দেশনা"
+    },
+    "themeSelectLabel": {
+        "message": "বোতামের থিম নির্বাচন করুন:",
+        "description": "থিম নির্বাচন ড্রপডাউনের জন্য লেবেল"
+    },
+    "configLoadError": {
+        "message": "কনফিগারেশন লোড ব্যর্থ। প্রতিক্রিয়া জমা দেওয়া নিষ্ক্রিয়।",
+        "description": "কনফিগারেশন লোড ব্যর্থ হলে ত্রুটির বার্তা"
+    },
     "extName": {
         "message": "TextRP থেকে XRP ওয়ালেট মেসেঞ্জার",
         "description": "এক্সটেনশনের নাম।"
     },
-    "extDescription": {
-        "message": "TextRP এর মাধ্যমে দ্রুত একটি বার্তা পাঠাতে যেকোনো XRP ওয়ালেট ঠিকানায় ডান-ক্লিক করুন, XRPL এর জন্য ঐক্যবদ্ধ বার্তা স্তর।",
-        "description": "এক্সটেনশনের বর্ণনা।"
+    "configNotLoaded": {
+        "message": "কনফিগারেশন লোড হয়নি। প্রতিক্রিয়া জমা দেওয়া নিষ্ক্রিয়।",
+        "description": "কনফিগারেশন লোড না হলে ত্রুটির বার্তা"
     },
-    "messageWalletTitle": {
-        "message": "XRP ওয়ালেটে বার্তা"
+    "feedbackRequired": {
+        "message": "জমা দেওয়ার আগে প্রতিক্রিয়া প্রবেশ করুন।",
+        "description": "প্রতিক্রিয়া খালি হলে ত্রুটির বার্তা"
     },
-    "buttonTextNFT": {
-        "message": "NFT মালিকের সাথে চ্যাট করুন"
+    "optionsDescription2": {
+        "message": "অথবা XRP ঠিকানায় ডান ক্লিক করে তাৎক্ষণিক চ্যাট করুন।",
+        "description": "বিকল্প পৃষ্ঠার বর্ণনার দ্বিতীয় অংশ"
     },
-    "buttonTextGame": {
-        "message": "প্লেয়ারের সাথে চ্যাট করুন"
+    "howToChangeTheme": {
+        "message": "কীভাবে বোতামের থিম পরিবর্তন করবেন",
+        "description": "থিম পরিবর্তন নির্দেশনা বিভাগের জন্য শিরোনাম"
     },
-    "buttonTextWallet": {
-        "message": "ওয়ালেটের সাথে চ্যাট করুন"
+    "tryXRPWebsites": {
+        "message": "এই XRP ওয়েবসাইটগুলি চেষ্টা করুন",
+        "description": "XRP ওয়েবসাইটের তালিকার জন্য শিরোনাম"
     },
-    "buttonTextToken": {
-        "message": "টোকেন ইস্যুকারীর সাথে চ্যাট করুন"
+    "feedbackButtonText": {
+        "message": "প্রতিক্রিয়া প্রদান করুন",
+        "description": "প্রতিক্রিয়া বোতামের জন্য পাঠ্য"
+    },
+    "stepClickOptions": {
+        "message": "আইকন বিকল্পগুলিতে ক্লিক করুন",
+        "description": "বিকল্পগুলিতে ক্লিক করার জন্য নির্দেশনা"
     }
 }

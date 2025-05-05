@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "TextRPден XRP Wallet Messenger",
-        "description": "Кеңейтүүнүн аты."
-    },
-    "extDescription": {
-        "message": "XRPL үчүн бирдиктүү билдирүү катмары аркылуу тез билдирүү жөнөтүү үчүн каалаган XRP капчык дарегин оң баскыч менен чыкылдатыңыз.",
-        "description": "Кеңейтүүнүн сүрөттөлүшү."
-    },
-    "messageWalletTitle": {
-        "message": "XRP капчыгына билдирүү"
-    },
-    "buttonTextNFT": {
-        "message": "NFT ээси менен баарлашуу"
-    },
-    "buttonTextGame": {
-        "message": "Оюнчу менен баарлашуу"
-    },
-    "buttonTextWallet": {
-        "message": "Капчык менен баарлашуу"
-    },
-    "buttonTextToken": {
-        "message": "Токен чыгарган менен баарлашуу"
-    }
+  "buttonTextGame": {
+    "message": "Оюнчу менен баарлашуу",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "XRP веб-сайттарына капчыктан капчыкка заматта баарлашуу үчүн чат баскычын кошот.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Жашыл",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Көк",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Тема ийгиликтүү сакталды",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Караңгы",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Каалаган XRP капчыгынын дарегине оң баскычты чыкылдатып, XRPL үчүн бирдиктүү билдирүү катмары болгон TextRP аркылуу дароо билдирүү жөнөтсөңүз болот.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Ачык",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Капчык менен баарлашуу",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Пикир ийгиликтүү жөнөтүлдү",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Пикир жөнөтүү ишке ашкан жок. Кийинчерээк кайра аракет кылыңыз.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Чат баскычынын алдын ала көрүү",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Токен чыгаруучу менен баарлашуу",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "NFT ээси менен баарлашуу",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Кызыл",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "XRP капчыгына билдирүү жөнөтүү",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Сактоо",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Токен түзүүчүнүн капчыгы менен баарлашуу",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Жокко чыгаруу",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Жабуу",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Жөнөтүү",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Кеңейтүүнү бекитүү",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Баскыч темасын тандаңыз:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Конфигурация жүктөлгөн жок. Пикир жөнөтүү мүмкүн эмес.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "TextRP тарабынан XRP капчык кабарчысы",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Конфигурация жүктөлгөн эмес. Пикир жөнөтүү мүмкүн эмес.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Жөнөтүүдөн мурун пикириңизди киргизиңиз.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Же болбосо XRP дарегине оң баскыч менен чыкылдатып, заматта капчыктан капчыкка чат жүргүзүңүз.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Баскычтын темасын кантип өзгөртүү керек",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Бул XRP веб-сайттарын колдонуп көрүңүз",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Пикир калтыруу",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Иконка параметрлерин чыкылдатыңыз",
+    "description": "Step instruction for clicking options"
+  }
 }

@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "TextRP dan XRP Wallet Messenger",
-        "description": "Kengaytmaning nomi."
-    },
-    "extDescription": {
-        "message": "XRPL uchun birlashtirilgan xabar qatlamidan tezda xabar yuborish uchun har qanday XRP hamyon manzilini o'ng tugmasini bosing.",
-        "description": "Kengaytmaning tavsifi."
-    },
-    "messageWalletTitle": {
-        "message": "XRP hamyoniga xabar"
-    },
-    "buttonTextNFT": {
-        "message": "NFT egasi bilan suhbatlashing"
-    },
-    "buttonTextGame": {
-        "message": "O'yinchi bilan suhbatlashing"
-    },
-    "buttonTextWallet": {
-        "message": "Hamyon bilan suhbatlashing"
-    },
-    "buttonTextToken": {
-        "message": "Token chiqaruvchi bilan suhbatlashing"
-    }
+  "buttonTextGame": {
+    "message": "Oʻyinchi bilan chat",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "XRP saytlariga darhol hamyon-orqali chat uchun chat tugmasini qo‘shadi.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Yashil",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Ko‘k",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Mavzu muvaffaqiyatli saqlandi",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Qorong‘i",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "TextRP orqali tezkor xabar yuborish uchun istalgan XRP hamyon manziliga oʻng tugmani bosing — XRPL uchun yagona xabar qatlamidir.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Yorug‘",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Hamyon bilan chat",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Fikr-mulohaza muvaffaqiyatli yuborildi",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Fikr-mulohaza yuborilmadi. Iltimos, keyinroq qayta urinib ko‘ring.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Chat tugmasi ko‘rinishini koʻrish",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Token chiqaruvchisi bilan chat",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "NFT egasi bilan chat",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Qizil",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "XRP hamyoniga xabar yuborish",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Saqlash",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Token yaratuvchisi hamyoni bilan chat",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Bekor qilish",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Yopish",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Yuborish",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Kengaytmani mahkamlash",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Tugma mavzusini tanlang:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Konfiguratsiyani yuklab boʻlmadi. Fikr-mulohaza yuborish o‘chirib qo‘yilgan.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "TextRP tomonidan XRP Hamyon Xabarchisi",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Konfiguratsiya yuklanmadi. Fikr-mulohaza yuborish o‘chirib qo‘yilgan.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Yuborishdan oldin fikr-mulohazani kiriting.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Yoki XRP manziliga oʻng tugmani bosib darhol hamyon-orqali chatni boshlang.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Tugma mavzusini qanday oʻzgartirish",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Ushbu XRP saytlarini sinab ko‘ring",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Fikr-mulohaza yuborish",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Belgini bosib parametrlarni tanlang",
+    "description": "Step instruction for clicking options"
+  }
 }

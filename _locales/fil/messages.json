@@ -1,25 +1,130 @@
 {
+    "buttonTextGame": {
+        "message": "Makipag-chat sa manlalaro",
+        "description": "Teksto ng buton para sa pakikipag-chat sa manlalaro ng laro"
+    },
+    "optionsDescription1": {
+        "message": "Nagdadagdag ng buton ng chat sa mga website ng XRP para sa instant na wallet-to-wallet chat.",
+        "description": "Unang bahagi ng paglalarawan ng pahina ng mga opsyon"
+    },
+    "themeGreen": {
+        "message": "Berde",
+        "description": "Pangalan ng opsyon ng berdeng tema"
+    },
+    "themeBlue": {
+        "message": "Asul",
+        "description": "Pangalan ng opsyon ng asul na tema"
+    },
+    "themeSaved": {
+        "message": "Matagumpay na na-save ang tema",
+        "description": "Mensaheng tagumpay kapag na-save ang tema"
+    },
+    "themeDark": {
+        "message": "Madilim",
+        "description": "Pangalan ng opsyon ng madilim na tema"
+    },
+    "extDescription": {
+        "message": "Mag-right-click lamang sa anumang XRP wallet address upang mabilis na magpadala ng mensahe sa pamamagitan ng TextRP, ang pinag-isang layer ng mensahe para sa XRPL.",
+        "description": "Ang paglalarawan ng extension."
+    },
+    "themeLight": {
+        "message": "Maliwanag",
+        "description": "Pangalan ng opsyon ng maliwanag na tema"
+    },
+    "buttonTextWallet": {
+        "message": "Makipag-chat sa wallet",
+        "description": "Teksto ng buton para sa pakikipag-chat sa wallet"
+    },
+    "feedbackSuccess": {
+        "message": "Matagumpay na naipasa ang feedback",
+        "description": "Mensaheng tagumpay kapag naipasa ang feedback"
+    },
+    "feedbackError": {
+        "message": "Hindi naipasa ang feedback. Subukang muli mamaya.",
+        "description": "Mensaheng error kapag nabigo ang pagpapasa ng feedback"
+    },
+    "previewButtonText": {
+        "message": "Preview ng Buton ng Chat",
+        "description": "Teksto para sa buton ng preview sa mga opsyon"
+    },
+    "buttonTextToken": {
+        "message": "Makipag-chat sa issuer ng token",
+        "description": "Teksto ng buton para sa pakikipag-chat sa issuer ng token"
+    },
+    "buttonTextNFT": {
+        "message": "Makipag-chat sa may-ari ng NFT",
+        "description": "Teksto ng buton para sa pakikipag-chat sa may-ari ng NFT"
+    },
+    "themeRed": {
+        "message": "Pula",
+        "description": "Pangalan ng opsyon ng pulang tema"
+    },
+    "messageWalletTitle": {
+        "message": "Mensahe sa XRP Wallet",
+        "description": "Pamagat para sa interface ng pagmemensahe ng wallet"
+    },
+    "saveButtonText": {
+        "message": "I-save",
+        "description": "Teksto para sa buton ng pag-save"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Makipag-chat sa wallet ng lumikha ng token",
+        "description": "Teksto ng buton para sa pakikipag-chat sa wallet ng lumikha ng token"
+    },
+    "cancelButtonText": {
+        "message": "Kanselahin",
+        "description": "Teksto para sa buton ng pagkansela"
+    },
+    "closeButtonText": {
+        "message": "Isara",
+        "description": "Teksto para sa buton ng pagsara"
+    },
+    "submitButtonText": {
+        "message": "Ipasa",
+        "description": "Teksto para sa buton ng pagpapasa"
+    },
+    "stepPinExtension": {
+        "message": "I-pin ang extension",
+        "description": "Hakbang na instruksyon para sa pag-pin ng extension"
+    },
+    "themeSelectLabel": {
+        "message": "Pumili ng Tema ng Buton:",
+        "description": "Label para sa dropdown ng pagpili ng tema"
+    },
+    "configLoadError": {
+        "message": "Hindi na-load ang configuration. Ang pagpapasa ng feedback ay hindi pinagana.",
+        "description": "Mensaheng error kapag nabigo ang pag-load ng configuration"
+    },
     "extName": {
         "message": "XRP Wallet Messenger mula sa TextRP",
         "description": "Ang pangalan ng extension."
     },
-    "extDescription": {
-        "message": "I-right click lang ang anumang XRP wallet address para mabilis na magpadala ng mensahe sa pamamagitan ng TextRP, ang pinag-isang messaging layer para sa XRPL.",
-        "description": "Ang paglalarawan ng extension."
+    "configNotLoaded": {
+        "message": "Hindi na-load ang configuration. Ang pagpapasa ng feedback ay hindi pinagana.",
+        "description": "Mensaheng error kapag hindi na-load ang configuration"
     },
-    "messageWalletTitle": {
-        "message": "Mensahe sa XRP Wallet"
+    "feedbackRequired": {
+        "message": "Mangyaring maglagay ng feedback bago ipasa.",
+        "description": "Mensaheng error kapag walang laman ang feedback"
     },
-    "buttonTextNFT": {
-        "message": "Makipag-chat sa may-ari ng NFT"
+    "optionsDescription2": {
+        "message": "O mag-right-click sa anumang XRP address para sa instant na wallet-to-wallet chat.",
+        "description": "Ikalawang bahagi ng paglalarawan ng pahina ng mga opsyon"
     },
-    "buttonTextGame": {
-        "message": "Makipag-chat sa manlalaro"
+    "howToChangeTheme": {
+        "message": "Paano Baguhin ang Tema ng Buton",
+        "description": "Header para sa seksyon ng mga instruksyon sa pagbabago ng tema"
     },
-    "buttonTextWallet": {
-        "message": "Makipag-chat sa wallet"
+    "tryXRPWebsites": {
+        "message": "Subukan ang mga Website ng XRP na Ito",
+        "description": "Header para sa listahan ng mga website ng XRP"
     },
-    "buttonTextToken": {
-        "message": "Makipag-chat sa nagbigay ng token"
+    "feedbackButtonText": {
+        "message": "Magbigay ng Feedback",
+        "description": "Teksto para sa buton ng feedback"
+    },
+    "stepClickOptions": {
+        "message": "I-click ang mga opsyon ng icon",
+        "description": "Hakbang na instruksyon para sa pag-click sa mga opsyon"
     }
 }

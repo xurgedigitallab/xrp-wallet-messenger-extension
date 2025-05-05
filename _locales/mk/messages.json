@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "XRP Wallet Messenger од TextRP",
-        "description": "Името на проширувањето."
-    },
-    "extDescription": {
-        "message": "Едноставно кликнете со десното копче на која било адреса на паричникот XRP за брзо да испратите порака преку TextRP, обединетиот слој за пораки за XRPL.",
-        "description": "Описот на проширувањето."
-    },
-    "messageWalletTitle": {
-        "message": "Порака до паричникот XRP"
-    },
-    "buttonTextNFT": {
-        "message": "Разговарајте со сопственикот на NFT"
-    },
-    "buttonTextGame": {
-        "message": "Разговарајте со играчот"
-    },
-    "buttonTextWallet": {
-        "message": "Разговарајте со паричникот"
-    },
-    "buttonTextToken": {
-        "message": "Разговарајте со издавачот на токени"
-    }
+  "buttonTextGame": {
+    "message": "Разговор со играчот",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Додава копче за разговор на XRP веб-страници за инстант разговор меѓу паричници.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Зелена",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Сина",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Темата е успешно зачувана",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Темна",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Само кликнете со десно на било која XRP адреса за брзо испраќање порака преку TextRP – обединетиот слој за пораки на XRPL.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Светла",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Разговор со паричникот",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Повратната информација е успешно поднесена",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Неуспешно поднесување на повратна информација. Обидете се повторно подоцна.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Преглед на копче за разговор",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Разговор со издавачот на токенот",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Разговор со сопственикот на NFT",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Црвена",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Испрати порака до XRP паричник",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Зачувај",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Разговор со паричникот на креаторот на токенот",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Откажи",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Затвори",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Поднеси",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Закачи го екстензијата",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Изберете тема за копче:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Неуспешно вчитување на конфигурацијата. Поднесувањето на повратна информација е оневозможено.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "XRP Паричник Месенџер од TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Конфигурацијата не е вчитана. Поднесувањето на повратна информација е оневозможено.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Ве молиме внесете повратна информација пред да поднесете.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Или кликнете со десно на било која XRP адреса за инстант разговор меѓу паричници.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Како да ја смените темата на копчето",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Пробајте ги овие XRP веб-страници",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Достави повратна информација",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Кликнете на иконата со опции",
+    "description": "Step instruction for clicking options"
+  }
 }

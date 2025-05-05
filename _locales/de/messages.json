@@ -1,25 +1,130 @@
 {
+    "buttonTextGame": {
+        "message": "Mit Spieler chatten",
+        "description": "Schaltflächentext für das Chatten mit dem Spieler"
+    },
+    "optionsDescription1": {
+        "message": "Fügt XRP-Websites eine Chat-Schaltfläche für sofortigen Wallet-zu-Wallet-Chat hinzu.",
+        "description": "Erster Teil der Beschreibung der Optionsseite"
+    },
+    "themeGreen": {
+        "message": "Grün",
+        "description": "Name der grünen Themenoption"
+    },
+    "themeBlue": {
+        "message": "Blau",
+        "description": "Name der blauen Themenoption"
+    },
+    "themeSaved": {
+        "message": "Thema erfolgreich gespeichert",
+        "description": "Erfolgsmeldung, wenn das Thema gespeichert wird"
+    },
+    "themeDark": {
+        "message": "Dunkel",
+        "description": "Name der dunklen Themenoption"
+    },
+    "extDescription": {
+        "message": "Rechtsklicken Sie auf eine XRP-Wallet-Adresse, um schnell eine Nachricht über TextRP zu senden, die einheitliche Messaging-Schicht für XRPL.",
+        "description": "Die Beschreibung der Erweiterung."
+    },
+    "themeLight": {
+        "message": "Hell",
+        "description": "Name der hellen Themenoption"
+    },
+    "buttonTextWallet": {
+        "message": "Mit Wallet chatten",
+        "description": "Schaltflächentext für das Chatten mit der Wallet"
+    },
+    "feedbackSuccess": {
+        "message": "Feedback erfolgreich gesendet",
+        "description": "Erfolgsmeldung, wenn Feedback gesendet wird"
+    },
+    "feedbackError": {
+        "message": "Feedback konnte message: Fehler beim Senden des Feedbacks. Bitte versuchen Sie es später erneut.",
+        "description": "Fehlermeldung, wenn das Senden des Feedbacks fehlschlägt"
+    },
+    "previewButtonText": {
+        "message": "Vorschau Chat-Schaltfläche",
+        "description": "Text für die Vorschau-Schaltfläche in den Optionen"
+    },
+    "buttonTextToken": {
+        "message": "Mit Token-Aussteller chatten",
+        "description": "Schaltflächentext für das Chatten mit dem Token-Aussteller"
+    },
+    "buttonTextNFT": {
+        "message": "Mit NFT-Besitzer chatten",
+        "description": "Schaltflächentext für das Chatten mit dem NFT-Besitzer"
+    },
+    "themeRed": {
+        "message": "Rot",
+        "description": "Name der roten Themenoption"
+    },
+    "messageWalletTitle": {
+        "message": "Nachricht an XRP-Wallet",
+        "description": "Titel für die Wallet-Messaging-Schnittstelle"
+    },
+    "saveButtonText": {
+        "message": "Speichern",
+        "description": "Text für die Speichern-Schaltfläche"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Mit Wallet des Token-Erstellers chatten",
+        "description": "Schaltflächentext für das Chatten mit der Wallet des Token-Erstellers"
+    },
+    "cancelButtonText": {
+        "message": "Abbrechen",
+        "description": "Text für die Abbrechen-Schaltfläche"
+    },
+    "closeButtonText": {
+        "message": "Schließen",
+        "description": "Text für die Schließen-Schaltfläche"
+    },
+    "submitButtonText": {
+        "message": "Senden",
+        "description": "Text für die Senden-Schaltfläche"
+    },
+    "stepPinExtension": {
+        "message": "Erweiterung anheften",
+        "description": "Schrittanweisung zum Anheften der Erweiterung"
+    },
+    "themeSelectLabel": {
+        "message": "Schaltflächen-Thema auswählen:",
+        "description": "Beschriftung für das Dropdown-Menü zur Themenwahl"
+    },
+    "configLoadError": {
+        "message": "Konfiguration konnte nicht geladen werden. Feedback-Senden ist deaktiviert.",
+        "description": "Fehlermeldung, wenn die Konfiguration nicht geladen wird"
+    },
     "extName": {
         "message": "XRP Wallet Messenger von TextRP",
         "description": "Der Name der Erweiterung."
     },
-    "extDescription": {
-        "message": "Klicken Sie einfach mit der rechten Maustaste auf eine beliebige XRP-Wallet-Adresse, um schnell eine Nachricht über TextRP, die einheitliche Messaging-Schicht für das XRPL, zu senden.",
-        "description": "Die Beschreibung der Erweiterung."
+    "configNotLoaded": {
+        "message": "Konfiguration nicht geladen. Feedback-Senden ist deaktiviert.",
+        "description": "Fehlermeldung, wenn die Konfiguration nicht geladen ist"
     },
-    "messageWalletTitle": {
-        "message": "Nachricht an XRP-Wallet"
+    "feedbackRequired": {
+        "message": "Bitte geben Sie Feedback ein, bevor Sie es senden.",
+        "description": "Fehlermeldung, wenn das Feedback-Feld leer ist"
     },
-    "buttonTextNFT": {
-        "message": "Chat mit NFT-Besitzer"
+    "optionsDescription2": {
+        "message": "Oder rechtsklicken Sie auf eine XRP-Adresse für sofortigen Wallet-Chat.",
+        "description": "Zweiter Teil der Beschreibung der Optionsseite"
     },
-    "buttonTextGame": {
-        "message": "Chat mit Spieler"
+    "howToChangeTheme": {
+        "message": "Wie man das Schaltflächen-Thema ändert",
+        "description": "Überschrift für den Abschnitt mit Anweisungen zum Themawechsel"
     },
-    "buttonTextWallet": {
-        "message": "Chat mit Wallet"
+    "tryXRPWebsites": {
+        "message": "Probieren Sie diese XRP-Websites aus",
+        "description": "Überschrift für die Liste der XRP-Websites"
     },
-    "buttonTextToken": {
-        "message": "Chat mit Token-Aussteller"
+    "feedbackButtonText": {
+        "message": "Feedback geben",
+        "description": "Text für die Feedback-Schaltfläche"
+    },
+    "stepClickOptions": {
+        "message": "Auf Symboloptionen klicken",
+        "description": "Schrittanweisung zum Klicken auf Optionen"
     }
 }

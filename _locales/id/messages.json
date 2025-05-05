@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "XRP Wallet Messenger dari TextRP",
-        "description": "Nama ekstensi."
-    },
-    "extDescription": {
-        "message": "Cukup klik kanan pada alamat dompet XRP mana pun untuk mengirim pesan dengan cepat melalui TextRP, lapisan pesan terpadu untuk XRPL.",
-        "description": "Deskripsi ekstensi."
-    },
-    "messageWalletTitle": {
-        "message": "Pesan ke Dompet XRP"
-    },
-    "buttonTextNFT": {
-        "message": "Mengobrol dengan pemilik NFT"
-    },
-    "buttonTextGame": {
-        "message": "Mengobrol dengan pemain"
-    },
-    "buttonTextWallet": {
-        "message": "Mengobrol dengan dompet"
-    },
-    "buttonTextToken": {
-        "message": "Mengobrol dengan penerbit token"
-    }
+  "buttonTextGame": {
+    "message": "Ngobrol dengan pemain",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Menambahkan tombol obrolan ke situs web XRP untuk obrolan dompet-ke-dompet instan.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Hijau",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Biru",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Tema berhasil disimpan",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Gelap",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Cukup klik kanan pada alamat dompet XRP untuk langsung mengirim pesan melalui TextRP, lapisan pesan terpadu untuk XRPL.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Terang",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Ngobrol dengan dompet",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Umpan balik berhasil dikirim",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Gagal mengirim umpan balik. Silakan coba lagi nanti.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Pratinjau Tombol Obrolan",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Ngobrol dengan penerbit token",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Ngobrol dengan pemilik NFT",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Merah",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Pesan Dompet XRP",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Simpan",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Ngobrol dengan dompet pembuat token",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Batal",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Tutup",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Kirim",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Sematkan ekstensi",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Pilih Tema Tombol:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Gagal memuat konfigurasi. Pengiriman umpan balik dinonaktifkan.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "Messenger Dompet XRP dari TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Konfigurasi belum dimuat. Pengiriman umpan balik dinonaktifkan.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Silakan masukkan umpan balik sebelum mengirim.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Atau klik kanan pada alamat XRP untuk obrolan dompet-ke-dompet instan.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Cara Mengubah Tema Tombol",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Coba Situs Web XRP Ini",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Berikan Umpan Balik",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Klik ikon opsi",
+    "description": "Step instruction for clicking options"
+  }
 }

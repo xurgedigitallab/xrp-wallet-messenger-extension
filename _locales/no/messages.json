@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "XRP Wallet Messenger fra TextRP",
-        "description": "Navnet på utvidelsen."
-    },
-    "extDescription": {
-        "message": "Høyreklikk på hvilken som helst XRP-lommebokadresse for raskt å sende en melding via TextRP, det enhetlige meldingslaget for XRPL.",
-        "description": "Beskrivelsen av utvidelsen."
-    },
-    "messageWalletTitle": {
-        "message": "Melding til XRP-lommebok"
-    },
-    "buttonTextNFT": {
-        "message": "Chat med NFT-eieren"
-    },
-    "buttonTextGame": {
-        "message": "Chat med spilleren"
-    },
-    "buttonTextWallet": {
-        "message": "Chat med lommeboken"
-    },
-    "buttonTextToken": {
-        "message": "Chat med tokenutstederen"
-    }
+  "buttonTextGame": {
+    "message": "Chat med spiller",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Legger til en chatteknapp på XRP-nettsteder for umiddelbar lommebok-til-lommebok-chat.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Grønn",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Blå",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Temaet ble lagret",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Mørk",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Høyreklikk på en XRP-lommebokadresse for å sende en rask melding via TextRP – det forente meldingslaget for XRPL.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Lys",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Chat med lommebok",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Tilbakemelding sendt",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Kunne ikke sende tilbakemelding. Prøv igjen senere.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Forhåndsvis knapp for chat",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Chat med tokenutsteder",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Chat med NFT-eier",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Rød",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Send melding til XRP-lommebok",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Lagre",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Chat med tokenoppretterens lommebok",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Avbryt",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Lukk",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Send",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Fest utvidelsen",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Velg knappens tema:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Kunne ikke laste inn konfigurasjon. Tilbakemeldinger er deaktivert.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "XRP-lommebok Messenger fra TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Konfigurasjonen er ikke lastet. Tilbakemeldinger er deaktivert.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Skriv inn tilbakemelding før du sender.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Eller høyreklikk på en XRP-adresse for umiddelbar lommebok-til-lommebok-chat.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Hvordan endre knappens tema",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Prøv disse XRP-nettstedene",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Gi tilbakemelding",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Klikk på ikonets alternativer",
+    "description": "Step instruction for clicking options"
+  }
 }

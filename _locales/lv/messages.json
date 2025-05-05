@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "XRP Wallet Messenger no TextRP",
-        "description": "Paplašinājuma nosaukums."
-    },
-    "extDescription": {
-        "message": "Vienkārši noklikšķiniet ar peles labo pogu uz jebkuras XRP maku adreses, lai ātri nosūtītu ziņojumu, izmantojot TextRP, vienoto ziņojumapmaiņas slāni XRPL.",
-        "description": "Paplašinājuma apraksts."
-    },
-    "messageWalletTitle": {
-        "message": "Ziņojums XRP maku"
-    },
-    "buttonTextNFT": {
-        "message": "Tērzējiet ar NFT īpašnieku"
-    },
-    "buttonTextGame": {
-        "message": "Tērzējiet ar spēlētāju"
-    },
-    "buttonTextWallet": {
-        "message": "Tērzējiet ar maku"
-    },
-    "buttonTextToken": {
-        "message": "Tērzējiet ar žetonu izdevēju"
-    }
+  "buttonTextGame": {
+    "message": "Tērzēt ar spēlētāju",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Pievieno XRP vietnēm tērzēšanas pogu ātrai maku–maku saziņai.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Zaļš",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Zils",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Tēma veiksmīgi saglabāta",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Tumšs",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Vienkārši noklikšķiniet ar peles labo pogu uz jebkuras XRP maka adreses, lai ātri nosūtītu ziņojumu caur TextRP – XRPL vienoto ziņojumapmaiņas slāni.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Gaišs",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Tērzēt ar maku",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Atsauksme veiksmīgi nosūtīta",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Neizdevās nosūtīt atsauksmi. Lūdzu, mēģiniet vēlāk vēlreiz.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Tērzēšanas pogas priekšskatījums",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Tērzēt ar tokena emitentu",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Tērzēt ar NFT īpašnieku",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Sarkans",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Ziņojums XRP makam",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Saglabāt",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Tērzēt ar tokena veidotāja maku",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Atcelt",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Aizvērt",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Iesniegt",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Piespraust paplašinājumu",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Izvēlieties pogas tēmu:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Neizdevās ielādēt konfigurāciju. Atsauksmes iesniegšana ir atspējota.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "XRP maka ziņojumapmaiņa no TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Konfigurācija nav ielādēta. Atsauksmes iesniegšana ir atspējota.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Lūdzu, ievadiet atsauksmi pirms iesniegšanas.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Vai ar peles labo pogu noklikšķiniet uz jebkuras XRP adreses, lai sāktu tūlītēju maku–maku tērzēšanu.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Kā nomainīt pogas tēmu",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Izmēģiniet šīs XRP vietnes",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Sniedziet atsauksmi",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Noklikšķiniet uz ikonas opcijām",
+    "description": "Step instruction for clicking options"
+  }
 }

@@ -1,0 +1,2246 @@
+﻿{
+    "ms":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "no":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "gu":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "ko":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "km":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "my":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "uz":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "sv":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "ru":  {
+               "English":  [
+
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  1,
+               "Total":  23,
+               "EnglishCount":  0,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+                                   "themeSelectLabel"
+                               ]
+           },
+    "uk":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "sq":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "sw":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "ur":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "pa":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "te":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "ro":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "ky":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "vi":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "am":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "sr":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "mn":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "bn":  {
+               "English":  [
+
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  1,
+               "Total":  23,
+               "EnglishCount":  0,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+                                   "themeSelectLabel"
+                               ]
+           },
+    "fi":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "id":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "bg":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "az":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "mk":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "mr":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "kk":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "ml":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "th":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "tr":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "is":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "fa":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "pt_BR":  {
+                  "English":  [
+                                  "previewButtonText",
+                                  "themeSelectLabel",
+                                  "themeBlue",
+                                  "themeGreen",
+                                  "themeRed",
+                                  "themeDark",
+                                  "themeLight",
+                                  "configLoadError",
+                                  "themeSaved",
+                                  "feedbackRequired",
+                                  "configNotLoaded",
+                                  "feedbackSuccess",
+                                  "feedbackError",
+                                  "stepPinExtension",
+                                  "stepClickOptions",
+                                  "saveButtonText",
+                                  "feedbackButtonText",
+                                  "closeButtonText",
+                                  "cancelButtonText",
+                                  "submitButtonText",
+                                  "optionsDescription1",
+                                  "optionsDescription2"
+                              ],
+                  "MissingCount":  0,
+                  "PlaceholderCount":  0,
+                  "Total":  23,
+                  "EnglishCount":  22,
+                  "Missing":  [
+
+                              ],
+                  "Placeholder":  [
+
+                                  ]
+              },
+    "pt_PT":  {
+                  "English":  [
+                                  "previewButtonText",
+                                  "themeSelectLabel",
+                                  "themeBlue",
+                                  "themeGreen",
+                                  "themeRed",
+                                  "themeDark",
+                                  "themeLight",
+                                  "configLoadError",
+                                  "themeSaved",
+                                  "feedbackRequired",
+                                  "configNotLoaded",
+                                  "feedbackSuccess",
+                                  "feedbackError",
+                                  "stepPinExtension",
+                                  "stepClickOptions",
+                                  "saveButtonText",
+                                  "feedbackButtonText",
+                                  "closeButtonText",
+                                  "cancelButtonText",
+                                  "submitButtonText",
+                                  "optionsDescription1",
+                                  "optionsDescription2"
+                              ],
+                  "MissingCount":  0,
+                  "PlaceholderCount":  0,
+                  "Total":  23,
+                  "EnglishCount":  22,
+                  "Missing":  [
+
+                              ],
+                  "Placeholder":  [
+
+                                  ]
+              },
+    "he":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "eu":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "es":  {
+               "English":  [
+
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  1,
+               "Total":  23,
+               "EnglishCount":  0,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+                                   "themeSelectLabel"
+                               ]
+           },
+    "si":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "hy":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "nl":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "lt":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "ja":  {
+               "English":  [
+
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  1,
+               "Total":  23,
+               "EnglishCount":  0,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+                                   "themeSelectLabel"
+                               ]
+           },
+    "it":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "el":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "kn":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "de":  {
+               "English":  [
+
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  1,
+               "Total":  23,
+               "EnglishCount":  0,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+                                   "themeSelectLabel"
+                               ]
+           },
+    "ne":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "ar":  {
+               "English":  [
+
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  1,
+               "Total":  23,
+               "EnglishCount":  0,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+                                   "themeSelectLabel"
+                               ]
+           },
+    "hi":  {
+               "English":  [
+
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  1,
+               "Total":  23,
+               "EnglishCount":  0,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+                                   "themeSelectLabel"
+                               ]
+           },
+    "ka":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "af":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "et":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "pl":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "ta":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "sl":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "fr":  {
+               "English":  [
+
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  1,
+               "Total":  23,
+               "EnglishCount":  0,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+                                   "themeSelectLabel"
+                               ]
+           },
+    "hr":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "sk":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "bs":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "da":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "lv":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "fil":  {
+                "English":  [
+                                "previewButtonText",
+                                "themeSelectLabel",
+                                "themeBlue",
+                                "themeGreen",
+                                "themeRed",
+                                "themeDark",
+                                "themeLight",
+                                "configLoadError",
+                                "themeSaved",
+                                "feedbackRequired",
+                                "configNotLoaded",
+                                "feedbackSuccess",
+                                "feedbackError",
+                                "stepPinExtension",
+                                "stepClickOptions",
+                                "saveButtonText",
+                                "feedbackButtonText",
+                                "closeButtonText",
+                                "cancelButtonText",
+                                "submitButtonText",
+                                "optionsDescription1",
+                                "optionsDescription2"
+                            ],
+                "MissingCount":  0,
+                "PlaceholderCount":  0,
+                "Total":  23,
+                "EnglishCount":  22,
+                "Missing":  [
+
+                            ],
+                "Placeholder":  [
+
+                                ]
+            },
+    "cs":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "hu":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           },
+    "ca":  {
+               "English":  [
+                               "previewButtonText",
+                               "themeSelectLabel",
+                               "themeBlue",
+                               "themeGreen",
+                               "themeRed",
+                               "themeDark",
+                               "themeLight",
+                               "configLoadError",
+                               "themeSaved",
+                               "feedbackRequired",
+                               "configNotLoaded",
+                               "feedbackSuccess",
+                               "feedbackError",
+                               "stepPinExtension",
+                               "stepClickOptions",
+                               "saveButtonText",
+                               "feedbackButtonText",
+                               "closeButtonText",
+                               "cancelButtonText",
+                               "submitButtonText",
+                               "optionsDescription1",
+                               "optionsDescription2"
+                           ],
+               "MissingCount":  0,
+               "PlaceholderCount":  0,
+               "Total":  23,
+               "EnglishCount":  22,
+               "Missing":  [
+
+                           ],
+               "Placeholder":  [
+
+                               ]
+           }
+}

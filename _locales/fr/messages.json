@@ -1,25 +1,130 @@
 {
-  "extName": {
-    "message": "Messager de Portefeuille XRP de TextRP",
-    "description": "Le nom de l'extension."
-  },
-  "extDescription": {
-    "message": "Cliquez simplement avec le bouton droit sur n'importe quelle adresse de portefeuille XRP pour envoyer rapidement un message via TextRP, la couche de messagerie unifiée pour le XRPL.",
-    "description": "La description de l'extension."
-  },
-  "messageWalletTitle": {
-    "message": "Message au portefeuille XRP"
-  },
-  "buttonTextNFT": {
-    "message": "Discuter avec le propriétaire du NFT"
-  },
-  "buttonTextGame": {
-    "message": "Discuter avec le joueur"
-  },
-  "buttonTextWallet": {
-    "message": "Discuter avec le portefeuille"
-  },
-  "buttonTextToken": {
-    "message": "Discuter avec l'émetteur de jetons"
-  }
+    "buttonTextGame": {
+        "message": "Discuter avec le joueur",
+        "description": "Texte du bouton pour discuter avec le joueur du jeu"
+    },
+    "optionsDescription1": {
+        "message": "Ajoute un bouton de discussion aux sites XRP pour un chat instantané entre portefeuilles.",
+        "description": "Première partie de la description de la page des options"
+    },
+    "themeGreen": {
+        "message": "Vert",
+        "description": "Nom de l'option de thème vert"
+    },
+    "themeBlue": {
+        "message": "Bleu",
+        "description": "Nom de l'option de thème bleu"
+    },
+    "themeSaved": {
+        "message": "Thème enregistré avec succès",
+        "description": "Message de succès lorsque le thème est enregistré"
+    },
+    "themeDark": {
+        "message": "Sombre",
+        "description": "Nom de l'option de thème sombre"
+    },
+    "extDescription": {
+        "message": "Faites un clic droit sur n'importe quelle adresse de portefeuille XRP pour envoyer rapidement un message via TextRP, la couche de messagerie unifiée pour XRPL.",
+        "description": "La description de l'extension."
+    },
+    "themeLight": {
+        "message": "Clair",
+        "description": "Nom de l'option de thème clair"
+    },
+    "buttonTextWallet": {
+        "message": "Discuter avec le portefeuille",
+        "description": "Texte du bouton pour discuter avec le portefeuille"
+    },
+    "feedbackSuccess": {
+        "message": "Commentaires envoyés avec succès",
+        "description": "Message de succès lorsque les commentaires sont envoyés"
+    },
+    "feedbackError": {
+        "message": "Échec de l'envoi des commentaires. Veuillez réessayer.",
+        "description": "Message d'erreur lorsque l'envoi des commentaires échoue"
+    },
+    "previewButtonText": {
+        "message": "Aperçu du bouton de discussion",
+        "description": "Texte pour le bouton d'aperçu dans les options"
+    },
+    "buttonTextToken": {
+        "message": "Discuter avec l'émetteur de jeton",
+        "description": "Texte du bouton pour discuter avec l'émetteur de jeton"
+    },
+    "buttonTextNFT": {
+        "message": "Discuter avec le propriétaire de NFT",
+        "description": "Texte du bouton pour discuter avec le propriétaire de NFT"
+    },
+    "themeRed": {
+        "message": "Rouge",
+        "description": "Nom de l'option de thème rouge"
+    },
+    "messageWalletTitle": {
+        "message": "Message au portefeuille XRP",
+        "description": "Titre pour l'interface de messagerie du portefeuille"
+    },
+    "saveButtonText": {
+        "message": "Enregistrer",
+        "description": "Texte pour le bouton d'enregistrement"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Discuter avec le portefeuille du créateur de jeton",
+        "description": "Texte du bouton pour discuter avec le portefeuille du créateur de jeton"
+    },
+    "cancelButtonText": {
+        "message": "Annuler",
+        "description": "Texte pour le bouton d'annulation"
+    },
+    "closeButtonText": {
+        "message": "Fermer",
+        "description": "Texte pour le bouton de fermeture"
+    },
+    "submitButtonText": {
+        "message": "Envoyer",
+        "description": "Texte pour le bouton d'envoi"
+    },
+    "stepPinExtension": {
+        "message": "Épingler l'extension",
+        "description": "Instruction pour épingler l'extension"
+    },
+    "themeSelectLabel": {
+        "message": "Sélectionner le thème du bouton :",
+        "description": "Étiquette pour le menu déroulant de sélection du thème"
+    },
+    "configLoadError": {
+        "message": "Échec du chargement de la configuration. L'envoi de commentaires est désactivé.",
+        "description": "Message d'erreur lorsque le chargement de la configuration échoue"
+    },
+    "extName": {
+        "message": "Messager de Portefeuille XRP de TextRP",
+        "description": "Le nom de l'extension."
+    },
+    "configNotLoaded": {
+        "message": "Configuration non chargée. L'envoi de commentaires est désactivé.",
+        "description": "Message d'erreur lorsque la configuration n'est pas chargée"
+    },
+    "feedbackRequired": {
+        "message": "Veuillez entrer des commentaires avant d'envoyer.",
+        "description": "Message d'erreur lorsque les commentaires sont vides"
+    },
+    "optionsDescription2": {
+        "message": "Ou faites un clic droit sur une adresse XRP pour un chat instantané entre portefeuilles.",
+        "description": "Deuxième partie de la description de la page des options"
+    },
+    "howToChangeTheme": {
+        "message": "Comment changer le thème du bouton",
+        "description": "En-tête pour la section des instructions de changement de thème"
+    },
+    "tryXRPWebsites": {
+        "message": "Essayez ces sites XRP",
+        "description": "En-tête pour la liste des sites XRP"
+    },
+    "feedbackButtonText": {
+        "message": "Envoyer des commentaires",
+        "description": "Texte pour le bouton de commentaires"
+    },
+    "stepClickOptions": {
+        "message": "Cliquer sur les options de l'icône",
+        "description": "Instruction pour cliquer sur les options"
+    }
 }

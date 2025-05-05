@@ -1,0 +1,605 @@
+﻿{
+    "ms":  {
+               "Priority":  22,
+               "Speakers":  77000000,
+               "Comment":  "Malay - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "no":  {
+               "Priority":  28,
+               "Speakers":  5000000,
+               "Comment":  "Norwegian - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "gu":  {
+               "Priority":  39,
+               "Speakers":  50000000,
+               "Comment":  "Gujarati - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "ko":  {
+               "Priority":  12,
+               "Speakers":  77000000,
+               "Comment":  "Korean - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "km":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "my":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "uz":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "sv":  {
+               "Priority":  27,
+               "Speakers":  10000000,
+               "Comment":  "Swedish - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "ru":  {
+               "Priority":  8,
+               "Speakers":  258000000,
+               "Comment":  "Russian - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "uk":  {
+               "Priority":  19,
+               "Speakers":  40000000,
+               "Comment":  "Ukrainian - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "sq":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "sw":  {
+               "Priority":  33,
+               "Speakers":  100000000,
+               "Comment":  "Swahili - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "ur":  {
+               "Priority":  32,
+               "Speakers":  170000000,
+               "Comment":  "Urdu - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "pa":  {
+               "Priority":  40,
+               "Speakers":  100000000,
+               "Comment":  "Punjabi - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "te":  {
+               "Priority":  35,
+               "Speakers":  80000000,
+               "Comment":  "Telugu - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "ro":  {
+               "Priority":  23,
+               "Speakers":  24000000,
+               "Comment":  "Romanian - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "ky":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "vi":  {
+               "Priority":  13,
+               "Speakers":  96000000,
+               "Comment":  "Vietnamese - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "am":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "sr":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "mn":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "bn":  {
+               "Priority":  6,
+               "Speakers":  300000000,
+               "Comment":  "Bengali - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "fi":  {
+               "Priority":  26,
+               "Speakers":  5500000,
+               "Comment":  "Finnish - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "id":  {
+               "Priority":  16,
+               "Speakers":  200000000,
+               "Comment":  "Indonesian - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "bg":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "az":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "mk":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "mr":  {
+               "Priority":  38,
+               "Speakers":  75000000,
+               "Comment":  "Marathi - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "kk":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "ml":  {
+               "Priority":  36,
+               "Speakers":  34000000,
+               "Comment":  "Malayalam - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "th":  {
+               "Priority":  21,
+               "Speakers":  20000000,
+               "Comment":  "Thai - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "tr":  {
+               "Priority":  14,
+               "Speakers":  88000000,
+               "Comment":  "Turkish - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "is":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "fa":  {
+               "Priority":  17,
+               "Speakers":  110000000,
+               "Comment":  "Persian - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "pt_BR":  {
+                  "Priority":  100,
+                  "Speakers":  0,
+                  "Comment":  "No priority data",
+                  "PlaceholderKeys":  [
+
+                                      ],
+                  "PlaceholderCount":  0
+              },
+    "pt_PT":  {
+                  "Priority":  100,
+                  "Speakers":  0,
+                  "Comment":  "No priority data",
+                  "PlaceholderKeys":  [
+
+                                      ],
+                  "PlaceholderCount":  0
+              },
+    "he":  {
+               "Priority":  31,
+               "Speakers":  9000000,
+               "Comment":  "Hebrew - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "eu":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "es":  {
+               "Priority":  3,
+               "Speakers":  500000000,
+               "Comment":  "Spanish - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "si":  {
+               "Priority":  43,
+               "Speakers":  19000000,
+               "Comment":  "Sinhala - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "hy":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "nl":  {
+               "Priority":  20,
+               "Speakers":  24000000,
+               "Comment":  "Dutch - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "lt":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "ja":  {
+               "Priority":  11,
+               "Speakers":  125000000,
+               "Comment":  "Japanese - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "it":  {
+               "Priority":  15,
+               "Speakers":  65000000,
+               "Comment":  "Italian - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "el":  {
+               "Priority":  30,
+               "Speakers":  13000000,
+               "Comment":  "Greek - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "kn":  {
+               "Priority":  37,
+               "Speakers":  45000000,
+               "Comment":  "Kannada - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "de":  {
+               "Priority":  10,
+               "Speakers":  95000000,
+               "Comment":  "German - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "ne":  {
+               "Priority":  44,
+               "Speakers":  17000000,
+               "Comment":  "Nepali - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "ar":  {
+               "Priority":  5,
+               "Speakers":  420000000,
+               "Comment":  "Arabic - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "hi":  {
+               "Priority":  4,
+               "Speakers":  600000000,
+               "Comment":  "Hindi - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "ka":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "af":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "et":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "pl":  {
+               "Priority":  18,
+               "Speakers":  40000000,
+               "Comment":  "Polish - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "ta":  {
+               "Priority":  34,
+               "Speakers":  80000000,
+               "Comment":  "Tamil - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "sl":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "fr":  {
+               "Priority":  9,
+               "Speakers":  270000000,
+               "Comment":  "French - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "hr":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "sk":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "bs":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "da":  {
+               "Priority":  25,
+               "Speakers":  6000000,
+               "Comment":  "Danish - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "lv":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "fil":  {
+                "Priority":  100,
+                "Speakers":  0,
+                "Comment":  "No priority data",
+                "PlaceholderKeys":  [
+
+                                    ],
+                "PlaceholderCount":  0
+            },
+    "cs":  {
+               "Priority":  24,
+               "Speakers":  12000000,
+               "Comment":  "Czech - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "hu":  {
+               "Priority":  29,
+               "Speakers":  13000000,
+               "Comment":  "Hungarian - large user base",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           },
+    "ca":  {
+               "Priority":  100,
+               "Speakers":  0,
+               "Comment":  "No priority data",
+               "PlaceholderKeys":  [
+
+                                   ],
+               "PlaceholderCount":  0
+           }
+}

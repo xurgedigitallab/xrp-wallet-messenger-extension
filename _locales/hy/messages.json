@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "XRP Wallet Messenger TextRP-ից",
-        "description": "Ընդլայնման անունը."
-    },
-    "extDescription": {
-        "message": "Պարզապես աջ սեղմեք ցանկացած XRP դրամապանակի հասցեի վրա՝ արագ հաղորդագրություն ուղարկելու համար TextRP-ի միջոցով, XRPL-ի միավորված հաղորդագրությունների շերտի միջոցով:",
-        "description": "Ընդլայնման նկարագրությունը."
-    },
-    "messageWalletTitle": {
-        "message": "Հաղորդագրություն XRP դրամապանակին"
-    },
-    "buttonTextNFT": {
-        "message": "Զրուցել NFT-ի սեփականատիրոջ հետ"
-    },
-    "buttonTextGame": {
-        "message": "Զրուցել խաղացողի հետ"
-    },
-    "buttonTextWallet": {
-        "message": "Զրուցել դրամապանակի հետ"
-    },
-    "buttonTextToken": {
-        "message": "Զրուցել թոքենի թողարկողի հետ"
-    }
+  "buttonTextGame": {
+    "message": "Զրուցել խաղացողի հետ",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Ավելացնում է զրուցելու կոճակ XRP կայքերում՝ դրամապանակից դրամապանակ զրույցի համար։",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Կանաչ",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Կապույտ",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Թեման հաջողությամբ պահպանվեց",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Մուգ",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Պարզապես աջ սեղմեք ցանկացած XRP դրամապանակի հասցեի վրա՝ արագ հաղորդագրություն ուղարկելու համար TextRP-ի միջոցով՝ XRPL-ի համախմբված հաղորդագրության շերտ։",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Բաց",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Զրուցել դրամապանակի հետ",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Կարծիքը հաջողությամբ ուղարկվեց",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Չհաջողվեց ուղարկել կարծիքը։ Խնդրում ենք փորձել ավելի ուշ։",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Զրույցի կոճակի նախադիտում",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Զրուցել թոքեն թողարկողի հետ",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Զրուցել NFT-ի տիրոջ հետ",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Կարմիր",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Հաղորդագրություն XRP դրամապանակին",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Պահպանել",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Զրուցել թոքենի ստեղծողի դրամապանակի հետ",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Չեղարկել",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Փակել",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Ուղարկել",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Ամրագրել ընդլայնումը",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Ընտրեք կոճակի թեման՝",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Չհաջողվեց բեռնել կազմաձևը։ Կարծիքների ուղարկումը անջատված է։",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "XRP դրամապանակի մեսենջեր՝ TextRP-ից",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Կազմաձևումը բեռնված չէ։ Կարծիքների ուղարկումը անջատված է։",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Խնդրում ենք մուտքագրել կարծիքը մինչև ուղարկելը։",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Կամ աջ սեղմեք ցանկացած XRP հասցեի վրա՝ դրամապանակից դրամապանակ զրույց սկսելու համար։",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Ինչպես փոխել կոճակի թեման",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Փորձեք այս XRP կայքերը",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Տալ կարծիք",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Սեղմեք պատկերակի վրա՝ ընտրանքները բացելու համար",
+    "description": "Step instruction for clicking options"
+  }
 }

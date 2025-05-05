@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "שליח ארנק XRP מ-TextRP",
-        "description": "שם ההרחבה."
+    "buttonTextGame": {
+        "message": "צ'אט עם שחקן",
+        "description": "טקסט הכפתור לשיחה עם שחקן במשחק"
+    },
+    "optionsDescription1": {
+        "message": "מוסיף כפתור צ'אט לאתרי XRP לשיחה מיידית בין ארנקים.",
+        "description": "חלק ראשון של תיאור דף האפשרויות"
+    },
+    "themeGreen": {
+        "message": "ירוק",
+        "description": "שם האפשרות לערכת נושא ירוקה"
+    },
+    "themeBlue": {
+        "message": "כחול",
+        "description": "שם האפשרות לערכת נושא כחולה"
+    },
+    "themeSaved": {
+        "message": "ערכת הנושא נשמרה בהצלחה",
+        "description": "הודעת הצלחה כאשר ערכת הנושא נשמרת"
+    },
+    "themeDark": {
+        "message": "כהה",
+        "description": "שם האפשרות לערכת נושא כהה"
     },
     "extDescription": {
-        "message": "פשוט לחץ לחיצה ימנית על כל כתובת ארנק XRP כדי לשלוח הודעה במהירות דרך TextRP, שכבת ההודעות המאוחדת עבור XRPL.",
-        "description": "תיאור ההרחבה."
+        "message": "לחץ ימני על כל כתובת ארנק XRP כדי לשלוח הודעה במהירות דרך TextRP, שכבת ההודעות המאוחדת עבור XRPL.",
+        "description": "תיאור התוסף."
     },
-    "messageWalletTitle": {
-        "message": "הודעה לארנק XRP"
-    },
-    "buttonTextNFT": {
-        "message": "צ'אט עם בעל ה-NFT"
-    },
-    "buttonTextGame": {
-        "message": "צ'אט עם השחקן"
+    "themeLight": {
+        "message": "בהיר",
+        "description": "שם האפשרות לערכת נושא בהירה"
     },
     "buttonTextWallet": {
-        "message": "צ'אט עם הארנק"
+        "message": "צ'אט עם ארנק",
+        "description": "טקסט הכפתור לשיחה עם ארנק"
+    },
+    "feedbackSuccess": {
+        "message": "משוב נשלח בהצלחה",
+        "description": "הודעת הצלחה כאשר המשוב נשלח"
+    },
+    "feedbackError": {
+        "message": "שליחת המשוב נכשלה. אנא נסה שוב.",
+        "description": "הודעת שגיאה כאשר שליחת המשוב נכשלת"
+    },
+    "previewButtonText": {
+        "message": "תצוגה מקדימה של כפתור הצ'אט",
+        "description": "טקסט עבור כפתור התצוגה המקדימה באפשרויות"
     },
     "buttonTextToken": {
-        "message": "צ'אט עם מנפיק הטוקן"
+        "message": "צ'אט עם מנפיק טוקן",
+        "description": "טקסט הכפתור לשיחה עם מנפיק טוקן"
+    },
+    "buttonTextNFT": {
+        "message": "צ'אט עם בעל NFT",
+        "description": "טקסט הכפתור לשיחה עם בעל NFT"
+    },
+    "themeRed": {
+        "message": "אדום",
+        "description": "שם האפשרות לערכת נושא אדומה"
+    },
+    "messageWalletTitle": {
+        "message": "הודעה לארנק XRP",
+        "description": "כותרת לממשק ההודעות של הארנק"
+    },
+    "saveButtonText": {
+        "message": "שמור",
+        "description": "טקסט עבור כפתור השמירה"
+    },
+    "buttonTextTokenCreator": {
+        "message": "צ'אט עם ארנק יוצר הטוקן",
+        "description": "טקסט הכפתור לשיחה עם ארנק יוצר הטוקן"
+    },
+    "cancelButtonText": {
+        "message": "בטל",
+        "description": "טקסט עבור כפתור הביטול"
+    },
+    "closeButtonText": {
+        "message": "סגור",
+        "description": "טקסט עבור כפתור הסגירה"
+    },
+    "submitButtonText": {
+        "message": "שלח",
+        "description": "טקסט עבור כפתור השליחה"
+    },
+    "stepPinExtension": {
+        "message": "הצמד את התוסף",
+        "description": "הוראה להצמדת התוסף"
+    },
+    "themeSelectLabel": {
+        "message": "בחר ערכת נושא לכפתור:",
+        "description": "תווית לתפריט הנפתח לבחירת ערכת נושא"
+    },
+    "configLoadError": {
+        "message": "טעינת התצורה נכשלה. שליחת משוב מושבתת.",
+        "description": "הודעת שגיאה כאשר טעינת התצורה נכשלת"
+    },
+    "extName": {
+        "message": "מסנג'ר ארנק XRP מ-TextRP",
+        "description": "שם התוסף."
+    },
+    "configNotLoaded": {
+        "message": "התצורה לא נטענה. שליחת משוב מושבתת.",
+        "description": "הודעת שגיאה כאשר התצורה לא נטענה"
+    },
+    "feedbackRequired": {
+        "message": "אנא הזן משוב לפני השליחה.",
+        "description": "הודעת שגיאה כאשר המשוב ריק"
+    },
+    "optionsDescription2": {
+        "message": "או לחץ ימני על כתובת XRP לשיחה מיידית בין ארנקים.",
+        "description": "חלק שני של תיאור דף האפשרויות"
+    },
+    "howToChangeTheme": {
+        "message": "כיצד לשנות את ערכת הנושא של הכפתור",
+        "description": "כותרת לקטע ההוראות לשינוי ערכת הנושא"
+    },
+    "tryXRPWebsites": {
+        "message": "נסה את אתרי XRP אלה",
+        "description": "כותרת לרשימת אתרי XRP"
+    },
+    "feedbackButtonText": {
+        "message": "שלח משוב",
+        "description": "טקסט עבור כפתור המשוב"
+    },
+    "stepClickOptions": {
+        "message": "לחץ על אפשרויות הסמל",
+        "description": "הוראה ללחיצה על האפשרויות"
     }
 }

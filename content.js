@@ -394,7 +394,7 @@ async function insertButtonForSite(site) {
           buttonText = 'Chat with wallet';
         }
         if (site.type === 'token') {
-          buttonText = "Chat with token creator's wallet";
+          buttonText = chrome.i18n.getMessage("buttonTextTokenCreator");
         }
       }
       if (site.secInsertSelector && site.buttonExists) {
@@ -456,10 +456,81 @@ async function checkAndInsertButton() {
   }
 }
 
+// Function to apply styles to all existing buttons
+function applyButtonStyles() {
+  const buttons = document.querySelectorAll('.xrp-wallet-button');
+  buttons.forEach(button => {
+    if (buttonStyles.background) button.style.backgroundColor = buttonStyles.background;
+    if (buttonStyles.text) button.style.color = buttonStyles.text;
+    if (buttonStyles.borderRadius) button.style.borderRadius = buttonStyles.borderRadius;
+    if (buttonStyles.border) button.style.border = buttonStyles.border;
+    if (buttonStyles.fontSize) button.style.fontSize = buttonStyles.fontSize;
+    if (buttonStyles.fontStyle) button.style.fontStyle = buttonStyles.fontStyle;
+    if (buttonStyles.textTransform) button.style.textTransform = buttonStyles.textTransform;
+    if (buttonStyles.textDecoration) button.style.textDecoration = buttonStyles.textDecoration;
+    
+    // Update hover effect
+    if (buttonStyles.hover) {
+      button.addEventListener('mouseover', () => {
+        button.style.backgroundColor = buttonStyles.hover;
+      });
+      button.addEventListener('mouseout', () => {
+        button.style.backgroundColor = buttonStyles.background;
+      });
+    }
+  });
+}
+
+// Function to set initial button styles
+function setButtonStyles() {
+  const style = document.createElement('style');
+  style.id = 'xrp-button-styles';
+  document.head.appendChild(style);
+  updateButtonStyles();
+}
+
+// Function to update button styles in the style element
+function updateButtonStyles() {
+  const styleElement = document.getElementById('xrp-button-styles');
+  if (!styleElement) return;
+
+  const hoverColor = buttonStyles.hover || (buttonStyles.background ? adjustColor(buttonStyles.background, -20) : '#005bb5');
+  
+  styleElement.textContent = `
+    .xrp-wallet-button {
+      background-color: ${buttonStyles.background || '#0077db'} !important;
+      color: ${buttonStyles.text || '#ffffff'} !important;
+      border-radius: ${buttonStyles.borderRadius || '8px'} !important;
+      border: ${buttonStyles.border || 'none'} !important;
+      font-size: ${buttonStyles.fontSize || '14px'} !important;
+      font-style: ${buttonStyles.fontStyle || 'normal'} !important;
+      text-transform: ${buttonStyles.textTransform || 'none'} !important;
+      text-decoration: ${buttonStyles.textDecoration || 'none'} !important;
+      transition: background-color 0.2s ease;
+    }
+    .xrp-wallet-button:hover {
+      background-color: ${hoverColor} !important;
+    }
+  `;
+}
+
+// Listen for style updates from the options page
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  if (request.action === 'updateButtonStyles' && request.styles) {
+    buttonStyles = { ...buttonStyles, ...request.styles };
+    updateButtonStyles();
+    applyButtonStyles();
+    sendResponse({ success: true });
+  }
+  return true; // Keep the message channel open for async response
+});
+
 // Load saved button styles on initialization
 chrome.storage.sync.get('buttonStyles', (result) => {
   if (result.buttonStyles) {
     buttonStyles = { ...buttonStyles, ...result.buttonStyles };
+    // Apply styles to existing buttons
+    applyButtonStyles();
     setButtonStyles();
   }
 });

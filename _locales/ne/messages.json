@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "TextRP बाट XRP वालेट मेसेन्जर",
-        "description": "विस्तारको नाम।"
-    },
-    "extDescription": {
-        "message": "XRPL को लागि एकीकृत सन्देश तह मार्फत छिटो सन्देश पठाउन कुनै पनि XRP वालेट ठेगानामा दायाँ क्लिक गर्नुहोस्।",
-        "description": "विस्तारको विवरण।"
-    },
-    "messageWalletTitle": {
-        "message": "XRP वालेटलाई सन्देश"
-    },
-    "buttonTextNFT": {
-        "message": "NFT मालिकसँग च्याट गर्नुहोस्"
-    },
-    "buttonTextGame": {
-        "message": "खेलाडीसँग च्याट गर्नुहोस्"
-    },
-    "buttonTextWallet": {
-        "message": "वालेटसँग च्याट गर्नुहोस्"
-    },
-    "buttonTextToken": {
-        "message": "टोकन जारीकर्तासँग च्याट गर्नुहोस्"
-    }
+  "buttonTextGame": {
+    "message": "खेलाडीसँग कुराकानी गर्नुहोस्",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "XRP वेबसाइटहरूमा तत्काल वालेट-टु-वालेट च्याटको लागि च्याट बटन थप्दछ।",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "हरियो",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "नीलो",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "थीम सफलतापूर्वक सुरक्षित गरियो",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "गाढा",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "TextRP मार्फत छिटो सन्देश पठाउन कुनै पनि XRP वालेट ठेगानामा दायाँ-क्लिक गर्नुहोस् — XRPL को統 एकीकृत सन्देश प्रणाली।",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "हल्का",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "वालेटसँग च्याट गर्नुहोस्",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "प्रतिक्रिया सफलतापूर्वक पठाइयो",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "प्रतिक्रिया पठाउन असफल भयो। कृपया पछि प्रयास गर्नुहोस्।",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "च्याट बटनको पूर्वावलोकन",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "टोकन जारीकर्तासँग च्याट गर्नुहोस्",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "NFT मालिकसँग च्याट गर्नुहोस्",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "रातो",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "XRP वालेटलाई सन्देश पठाउनुहोस्",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "सेभ गर्नुहोस्",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "टोकन सिर्जनाकर्ताको वालेटसँग च्याट गर्नुहोस्",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "रद्द गर्नुहोस्",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "बन्द गर्नुहोस्",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "पठाउनुहोस्",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "एक्सटेन्सन पिन गर्नुहोस्",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "बटनको थीम चयन गर्नुहोस्:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "कन्फिगरेसन लोड गर्न असफल। प्रतिक्रिया पठाउन सकिंदैन।",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "TextRP बाट XRP वालेट मेसेन्जर",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "कन्फिगरेसन लोड गरिएको छैन। प्रतिक्रिया पठाउन सकिंदैन।",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "कृपया प्रतिक्रिया टाइप गर्नुहोस् पठाउनुअघि।",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "वा कुनै पनि XRP ठेगानामा दायाँ-क्लिक गरेर तत्काल वालेट-टु-वालेट च्याट गर्नुहोस्।",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "बटन थीम कसरी परिवर्तन गर्ने",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "यी XRP वेबसाइटहरू प्रयास गर्नुहोस्",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "प्रतिक्रिया दिनुहोस्",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "आइकन विकल्पहरूमा क्लिक गर्नुहोस्",
+    "description": "Step instruction for clicking options"
+  }
 }

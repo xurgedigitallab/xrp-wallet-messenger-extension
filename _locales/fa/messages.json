@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "پیام رسان کیف پول XRP از TextRP",
-        "description": "نام افزونه."
-    },
-    "extDescription": {
-        "message": "به سادگی روی هر آدرس کیف پول XRP راست کلیک کنید تا سریعاً از طریق TextRP، لایه پیام رسانی یکپارچه برای XRPL، پیام ارسال کنید.",
-        "description": "توضیحات افزونه."
-    },
-    "messageWalletTitle": {
-        "message": "پیام به کیف پول XRP"
-    },
-    "buttonTextNFT": {
-        "message": "چت با مالک NFT"
-    },
-    "buttonTextGame": {
-        "message": "چت با بازیکن"
-    },
-    "buttonTextWallet": {
-        "message": "چت با کیف پول"
-    },
-    "buttonTextToken": {
-        "message": "چت با صادر کننده توکن"
-    }
+  "buttonTextGame": {
+    "message": "چت با بازیکن",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "دکمه چت را برای مکالمه سریع کیف‌پول به کیف‌پول به وب‌سایت‌های XRP اضافه می‌کند.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "سبز",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "آبی",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "پوسته با موفقیت ذخیره شد",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "تاریک",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "برای ارسال سریع پیام از طریق TextRP روی هر آدرس کیف پول XRP راست‌کلیک کنید — لایه‌ی یکپارچه پیام‌رسانی برای XRPL.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "روشن",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "چت با کیف‌پول",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "بازخورد با موفقیت ارسال شد",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "ارسال بازخورد ناموفق بود. لطفاً بعداً دوباره تلاش کنید.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "پیش‌نمایش دکمه چت",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "چت با صادرکننده توکن",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "چت با مالک NFT",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "قرمز",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "ارسال پیام به کیف‌پول XRP",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "ذخیره",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "چت با کیف‌پول سازنده توکن",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "لغو",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "بستن",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "ارسال",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "افزونه را پین کنید",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "انتخاب پوسته دکمه:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "بارگذاری پیکربندی ناموفق بود. ارسال بازخورد غیرفعال است.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "پیام‌رسان کیف‌پول XRP توسط TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "پیکربندی بارگذاری نشد. ارسال بازخورد غیرفعال است.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "لطفاً پیش از ارسال، بازخورد را وارد کنید.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "یا با راست‌کلیک بر روی آدرس XRP، چت کیف‌پول به کیف‌پول را فوراً آغاز کنید.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "چگونه پوسته دکمه را تغییر دهیم",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "این وب‌سایت‌های XRP را امتحان کنید",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "ارسال بازخورد",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "روی آیکن تنظیمات کلیک کنید",
+    "description": "Step instruction for clicking options"
+  }
 }

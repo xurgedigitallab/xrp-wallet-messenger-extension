@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "XRP Wallet Messenger från TextRP",
-        "description": "Namnet på tillägget."
-    },
-    "extDescription": {
-        "message": "Högerklicka bara på vilken XRP-plånboksadress som helst för att snabbt skicka ett meddelande via TextRP, det enhetliga meddelandelagret för XRPL.",
-        "description": "Beskrivningen av tillägget."
-    },
-    "messageWalletTitle": {
-        "message": "Meddelande till XRP-plånbok"
-    },
-    "buttonTextNFT": {
-        "message": "Chatta med NFT-ägaren"
-    },
-    "buttonTextGame": {
-        "message": "Chatta med spelaren"
-    },
-    "buttonTextWallet": {
-        "message": "Chatta med plånboken"
-    },
-    "buttonTextToken": {
-        "message": "Chatta med tokenutgivaren"
-    }
+  "buttonTextGame": {
+    "message": "Chatta med spelaren",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Lägger till en chattknapp på XRP-webbplatser för omedelbar plånbok-till-plånbok-kommunikation.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Grön",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Blå",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Temat sparades",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Mörk",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Högerklicka på en XRP-plånboksadress för att snabbt skicka ett meddelande via TextRP – det enhetliga meddelandelagret för XRPL.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Ljus",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Chatta med plånboken",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Feedback skickad",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Det gick inte att skicka feedback. Försök igen senare.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Förhandsgranska chattknapp",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Chatta med tokenutgivaren",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Chatta med NFT-ägaren",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Röd",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Skicka meddelande till XRP-plånbok",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Spara",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Chatta med token-skaparens plånbok",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Avbryt",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Stäng",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Skicka",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Fäst tillägget",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Välj knappens tema:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Kunde inte läsa in konfigurationen. Feedback är inaktiverat.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "XRP-plånboksmeddelare från TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Konfigurationen är inte inläst. Feedback är inaktiverat.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Ange feedback innan du skickar.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Eller högerklicka på en XRP-adress för att starta en direkt plånbok-till-plånbok-chatt.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Hur du ändrar knappens tema",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Prova dessa XRP-webbplatser",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Skicka feedback",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Klicka på ikonens alternativ",
+    "description": "Step instruction for clicking options"
+  }
 }

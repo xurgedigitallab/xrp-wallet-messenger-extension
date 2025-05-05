@@ -1,25 +1,130 @@
 {
-  "extName": {
-    "message": "Mensageiro da Carteira XRP do TextRP",
-    "description": "O nome da extensão."
+  "buttonTextGame": {
+    "message": "Conversar com o jogador",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Adiciona um botão de chat a sites XRP para conversas instantâneas entre carteiras.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Verde",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Azul",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Tema salvo com sucesso",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Escuro",
+    "description": "Name of the dark theme option"
   },
   "extDescription": {
-    "message": "Basta clicar com o botão direito em qualquer endereço de carteira XRP para enviar rapidamente uma mensagem através do TextRP, a camada de mensagens unificada para o XRPL.",
-    "description": "A descrição da extensão."
+    "message": "Clique com o botão direito em qualquer endereço de carteira XRP para enviar rapidamente uma mensagem via TextRP — a camada de mensagens unificada do XRPL.",
+    "description": "The description of the extension."
   },
-  "messageWalletTitle": {
-    "message": "Mensagem a carteira XRP"
-  },
-  "buttonTextNFT": {
-    "message": "Conversar com o proprietário do NFT"
-  },
-  "buttonTextGame": {
-    "message": "Conversar com o jogador"
+  "themeLight": {
+    "message": "Claro",
+    "description": "Name of the light theme option"
   },
   "buttonTextWallet": {
-    "message": "Conversar com a carteira"
+    "message": "Conversar com a carteira",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Feedback enviado com sucesso",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Falha ao enviar feedback. Tente novamente mais tarde.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Pré-visualizar botão de chat",
+    "description": "Text for the preview button in options"
   },
   "buttonTextToken": {
-    "message": "Conversar com o emissor do token"
+    "message": "Conversar com o emissor do token",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Conversar com o dono do NFT",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Vermelho",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Enviar mensagem para carteira XRP",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Salvar",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Conversar com a carteira do criador do token",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Cancelar",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Fechar",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Enviar",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Fixar a extensão",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Selecionar tema do botão:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Erro ao carregar a configuração. Envio de feedback desativado.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "Mensageiro de Carteira XRP por TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Configuração não carregada. Envio de feedback desativado.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Digite um feedback antes de enviar.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Ou clique com o botão direito em um endereço XRP para iniciar um chat instantâneo entre carteiras.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Como mudar o tema do botão",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Experimente estes sites XRP",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Enviar feedback",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Clique nas opções do ícone",
+    "description": "Step instruction for clicking options"
   }
 }

@@ -66,7 +66,7 @@
       color: #ffffff;
       font-size: 14px;
       border: none;
-      padding: 12px 24px;
+      padding: 12px 12px;
       display: inline-block;
     }
 
@@ -118,6 +118,20 @@
       display: flex;
       justify-content: space-between;
       gap: 20px;
+      margin-bottom: 40px; /* Added for section separation */
+    }
+
+    .description-container {
+      margin-bottom: 40px; /* Increased for section separation */
+    }
+
+    .theme-settings {
+      margin-bottom: 40px; /* Increased for section separation */
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      border: 1px solid #e0e0e0;
     }
 
     .instructions,
@@ -134,9 +148,7 @@
     .step {
       display: flex;
       gap: 20px;
-      /* Increased gap for better spacing */
-      margin-bottom: 30px;
-      /* Increased to separate steps */
+      margin-bottom: 40px; /* Increased to separate steps */
     }
 
     .step-number {
@@ -157,8 +169,7 @@
     }
 
     .step-content p {
-      margin: 0 0 15px;
-      /* Increased margin-bottom to separate text from image */
+      margin: 0 0 25px; /* Increased to separate text from image */
     }
 
     .highlight {
@@ -174,13 +185,11 @@
       justify-content: center;
       color: #6c757d;
       font-style: italic;
-      /* Removed fixed height to prevent overlap */
     }
 
     .placeholder-image img {
       max-width: 100%;
       max-height: 150px;
-      /* Added max-height to constrain image size */
       height: auto;
       border-radius: 8px;
     }
@@ -232,21 +241,17 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.6);
-      justify-content: center;
-      align-items: center;
+      background-color: rgba(0, 0, 0, 0.5);
       z-index: 1000;
-      animation: fadeIn 0.3s ease-in-out;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
     }
 
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-      }
-
-      to {
-        opacity: 1;
-      }
+    .modal.show {
+      display: flex;
+      opacity: 1;
     }
 
     .modal-content {
@@ -255,7 +260,8 @@
       border-radius: 16px;
       padding: 30px;
       width: 90%;
-      max-width: 450px;
+      max-width: 500px;
+      margin: 0;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
       border: 1px solid #e0e0e0;
     }
@@ -360,116 +366,106 @@
 
 <body>
   <div class="container">
-    <!-- Updated title with icon -->
-    <div class="header" style="justify-content: center;">
-      <a href="https://textrp.io" class="header-link">
-        <img src="textrp_circle@7x.png" class="header-icon" width="24" height="24" alt="TextRP icon">
-      </a>
-      <h1 style="font-size: 28px; margin: 0; color: #1a1a1a;">XRP Wallet Messenger from TextRP</h1>
-
-    </div>
-    <div class="h3" style="justify-content: center;">
-      <p style="text-align: center; margin: 0; color: #1a1a1a;">Adds a chat button to XRP websites for
-        instant wallet-to-wallet chat.</p>
-    </div>
-    <div class="h3" style="justify-content: center;">
-      <p style="text-align: center; margin: 0; color: #1a1a1a;">Or right-click any XRP address for
-        instant wallet-to-wallet chat.</p>
-    </div>
+    <!-- Header section -->
     <div class="header">
-      <h1>Button Theme Settings</h1>
+      <a href="https://textrp.io" class="header-link">
+        <img src="textrp_circle@7x.png" alt="TextRP icon" class="header-icon" width="24" height="24">
+      </a>
+      <h1 id="extName">TextRP XRP Wallet Messenger</h1>
     </div>
 
-    <div class="preview-wrapper">
-      <button id="preview-button">Chat Button Preview</button>
-    </div>
-
-    <label for="color-select">Select Button Theme:</label>
-    <select id="color-select">
-      <option value="#0077db" data-text="#ffffff" data-hover="#005bb5" data-border="" data-border-radius="8px"
-        data-font-size="14px" data-font-style="normal" data-text-transform="none" data-text-decoration="none">Blue
-      </option>
-      <option value="#28a745" data-text="#ffffff" data-hover="#1e7e34" data-border="" data-border-radius="8px"
-        data-font-size="14px" data-font-style="normal" data-text-transform="none" data-text-decoration="none">Green
-      </option>
-      <option value="#FC0033" data-text="#ffffff" data-hover="#bd2130" data-border="" data-border-radius="8px"
-        data-font-size="16px" data-font-style="normal" data-text-transform="none" data-text-decoration="none">Red
-      </option>
-      <option value="#343a40" data-text="#ffffff" data-hover="#23272b" data-border="" data-border-radius="8px"
-        data-font-size="14px" data-font-style="normal" data-text-transform="none" data-text-decoration="none">Dark
-        Gray</option>
-      <option value="#f8f9fa" data-text="#212529" data-hover="#e2e6ea" data-border="" data-border-radius="8px"
-        data-font-size="14px" data-font-style="normal" data-text-transform="none" data-text-decoration="none">Light
-        Gray</option>
-    </select>
-
-    <div class="button-group">
-      <button id="save-button">Save</button>
-      <button id="feedbackButton">Provide Feedback</button>
-    </div>
-  </div>
-
-  <div class="sections-container">
-    <div class="instructions">
-      <h2>To change button theme later</h2>
-      <div class="step">
-        <div class="step-number">1</div>
-        <div class="step-content">
-          <p><span class="highlight">Pin the extension</span></p>
-          <div class="placeholder-image">
-            <img src="pin.gif" alt="Browser toolbar with extension pin highlighted" />
-          </div>
-        </div>
+    <!-- Description section -->
+    <!-- Theme settings section -->
+    <div class="theme-settings">
+      <h2>Button Theme Settings</h2>
+      <div class="preview-wrapper">
+        <button id="preview-button"></button>
       </div>
-      <div class="step">
-        <div class="step-number">2</div>
-        <div class="step-content">
-          <p><span class="highlight">Click icon</span> options</p>
-          <div class="placeholder-image">
-            <img src="option.gif" alt="Extension icon with options menu open" />
-          </div>
-        </div>
+
+      <label for="color-select" id="themeSelectLabel"></label>
+      <select id="color-select">
+        <option value="#0077db" data-text="#ffffff" data-hover="#005bb5" data-border="" data-border-radius="8px"
+          data-font-size="14px" data-font-style="normal" data-text-transform="none" data-text-decoration="none" id="themeBlue"></option>
+        <option value="#28a745" data-text="#ffffff" data-hover="#1e7e34" data-border="" data-border-radius="8px"
+          data-font-size="14px" data-font-style="normal" data-text-transform="none" data-text-decoration="none" id="themeGreen"></option>
+        <option value="#FC0033" data-text="#ffffff" data-hover="#bd2130" data-border="" data-border-radius="8px"
+          data-font-size="16px" data-font-style="normal" data-text-transform="none" data-text-decoration="none" id="themeRed"></option>
+        <option value="#343a40" data-text="#ffffff" data-hover="#23272b" data-border="" data-border-radius="8px"
+          data-font-size="14px" data-font-style="normal" data-text-transform="none" data-text-decoration="none" id="themeDark"></option>
+        <option value="#f8f9fa" data-text="#212529" data-hover="#e2e6ea" data-border="" data-border-radius="8px"
+          data-font-size="14px" data-font-style="normal" data-text-transform="none" data-text-decoration="none" id="themeLight"></option>
+      </select>
+
+      <div class="button-group">
+        <button id="save-button"></button>
+        <button id="feedbackButton"></button>
       </div>
     </div>
 
-    <div class="websites">
-      <h2>Try it now at these websites</h2>
-      <ul>
-        <li><a href="https://bidds.com/" target="_blank">bidds.com</a></li>
-        <li><a href="https://xrp.cafe/" target="_blank">xrp.cafe</a></li>
-        <li><a href="https://xmart.art/" target="_blank">xmart.art</a></li>
-        <li><a href="https://xrpnft.com/" target="_blank">xrpnft.com</a></li>
-        <li><a href="https://xpmarket.com/" target="_blank">xpmarket.com</a></li>
-        <li><a href="https://sologenic.org/" target="_blank">sologenic.org</a></li>
-        <li><a href="https://app.zerpmon.world/" target="_blank">app.zerpmon.world</a></li>
-        <li><a href="https://xrplexplorer.com/" target="_blank">xrplexplorer.com</a></li>
-        <li><a href="https://xrpscan.com/" target="_blank">xrpscan.com</a></li>
-        <li><a href="https://livenet.xrpl.org/" target="_blank">livenet.xrpl.org</a></li>
-        <li><a href="https://fuzion-xio.com/" target="_blank">fuzion-xio.com</a></li>
-        <li><a href="https://artdept.fun/" target="_blank">artdept.fun</a></li>
-        <li><a href="https://firstledger.net/" target="_blank">firstledger.net</a></li>
-        <li><a href="https://xmagnetic.org/" target="_blank">xmagnetic.org</a></li>
-        <li><a href="https://xrpl.to/" target="_blank">xrpl.to</a></li>
-        <li><a href="https://myweb3.me/" target="_blank">myweb3.me</a></li>
-      </ul>
+    <!-- Instructions section -->
+    <div class="sections-container">
+      <div class="instructions">
+        <h2 id="howToChangeTheme"></h2>
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <p><span class="highlight" id="stepPinExtension"></span></p>
+            <div class="placeholder-image">
+              <img src="pin.gif" alt="Browser toolbar with extension pin highlighted" />
+            </div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <p><span class="highlight" id="stepClickOptions"></span> options</p>
+            <div class="placeholder-image">
+              <img src="option.gif" alt="Extension icon with options menu open" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Websites section -->
+      <div class="websites">
+        <h2 id="tryXRPWebsites"></h2>
+        <ul>
+          <li><a href="https://bidds.com/" target="_blank">bidds.com</a></li>
+          <li><a href="https://xrp.cafe/" target="_blank">xrp.cafe</a></li>
+          <li><a href="https://xmart.art/" target="_blank">xmart.art</a></li>
+          <li><a href="https://xrpnft.com/" target="_blank">xrpnft.com</a></li>
+          <li><a href="https://xpmarket.com/" target="_blank">xpmarket.com</a></li>
+          <li><a href="https://sologenic.org/" target="_blank">sologenic.org</a></li>
+          <li><a href="https://app.zerpmon.world/" target="_blank">app.zerpmon.world</a></li>
+          <li><a href="https://xrplexplorer.com/" target="_blank">xrplexplorer.com</a></li>
+          <li><a href="https://xrpscan.com/" target="_blank">xrpscan.com</a></li>
+          <li><a href="https://livenet.xrpl.org/" target="_blank">livenet.xrpl.org</a></li>
+          <li><a href="https://fuzion-xio.com/" target="_blank">fuzion-xio.com</a></li>
+          <li><a href="https://artdept.fun/" target="_blank">artdept.fun</a></li>
+          <li><a href="https://firstledger.net/" target="_blank">firstledger.net</a></li>
+          <li><a href="https://xmagnetic.org/" target="_blank">xmagnetic.org</a></li>
+          <li><a href="https://xrpl.to/" target="_blank">xrpl.to</a></li>
+          <li><a href="https://myweb3.me/" target="_blank">myweb3.me</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 
   <footer>
-    <p>© 2025 Xurge Digital Lab LLC</p>
+    <p> 2025 Xurge Digital Lab LLC</p>
   </footer>
 
   <!-- Feedback Modal -->
   <div id="feedbackModal" class="modal">
     <div class="modal-content">
       <div class="modal-header">
-        <h2>Provide Feedback</h2>
-        <button id="closeModal" class="close-button">×</button>
+        <h2 data-i18n="feedbackTitle">Provide Feedback</h2>
+        <button id="closeModal" class="close-button" aria-label="Close">×</button>
       </div>
-      <textarea id="feedbackText" placeholder="Enter your feedback here..." required></textarea>
+      <textarea id="feedbackText" data-i18n-placeholder="feedbackPlaceholder" required></textarea>
       <div class="modal-actions">
-        <button id="submitFeedback">Submit</button>
-        <button id="cancelFeedback">Cancel</button>
+        <button id="submitFeedback" data-i18n="submitFeedback">Submit</button>
+        <button id="cancelFeedback" data-i18n="cancelFeedback">Cancel</button>
       </div>
     </div>
   </div>

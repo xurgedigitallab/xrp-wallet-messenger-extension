@@ -23,6 +23,7 @@
     "https://xmart.art/*",
     "https://xrpnft.com/*",
     "https://team.textrp.io/*",
+    "https://api.textrp.com/*",
     "<all_urls>"
   ],
   "background": {
@@ -45,7 +46,9 @@
     {
       "resources": [
         "icons/button_icon.svg",
-        "options.min.js"
+        "options.min.js",
+        "pin.gif",
+        "option.gif"
       ],
       "matches": [
         "<all_urls>"
@@ -57,6 +60,6 @@
     "open_in_tab": true
   },
   "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' wss://*.quiknode.pro https://team.textrp.io"
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' wss://*.quiknode.pro https://team.textrp.io https://api.textrp.com"
   }
 }

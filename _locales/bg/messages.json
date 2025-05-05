@@ -1,25 +1,130 @@
 {
-  "extName": {
-    "message": "XRP Wallet Messenger от TextRP",
-    "description": "Името на разширението."
-  },
-  "extDescription": {
-    "message": "Просто кликнете с десния бутон на всякакъв XRP портфейл адрес, за да изпратите бързо съобщение чрез TextRP, обединеният слой за съобщения за XRPL.",
-    "description": "Описанието на разширението."
-  },
-  "messageWalletTitle": {
-    "message": "Съобщение до XRP Wallet"
-  },
-  "buttonTextNFT": {
-    "message": "Чат с притежателя на NFT"
-  },
-  "buttonTextGame": {
-    "message": "Чат с играча"
-  },
-  "buttonTextWallet": {
-    "message": "Чат с портфейла"
-  },
-  "buttonTextToken": {
-    "message": "Чат с издателя на токени"
-  }
+    "buttonTextGame": {
+        "message": "Чат с играч",
+        "description": "Текст на бутона за чат с играч на играта"
+    },
+    "optionsDescription1": {
+        "message": "Добавя бутон за чат към XRP уебсайтове за моментален чат между портфейли.",
+        "description": "Първа част от описанието на страницата с опции"
+    },
+    "themeGreen": {
+        "message": "Зелен",
+        "description": "Име на опцията за зелена тема"
+    },
+    "themeBlue": {
+        "message": "Син",
+        "description": "Име на опцията за синя тема"
+    },
+    "themeSaved": {
+        "message": "Темата е запазена успешно",
+        "description": "Съобщение за успех при запазване на темата"
+    },
+    "themeDark": {
+        "message": "Тъмна",
+        "description": "Име на опцията за тъмна тема"
+    },
+    "extDescription": {
+        "message": "Щракнете с десния бутон върху адрес на XRP портфейл, за да изпратите бързо съобщение чрез TextRP, унифицирания слой за съобщения за XRPL.",
+        "description": "Описанието на разширението."
+    },
+    "themeLight": {
+        "message": "Светла",
+        "description": "Име на опцията за светла тема"
+    },
+    "buttonTextWallet": {
+        "message": "Чат с портфейл",
+        "description": "Текст на бутона за чат с портфейл"
+    },
+    "feedbackSuccess": {
+        "message": "Обратната връзка е изпратена успешно",
+        "description": "Съобщение за успех при изпращане на обратна връзка"
+    },
+    "feedbackError": {
+        "message": "Неуспешно изпращане на обратна връзка. Опитайте отново.",
+        "description": "Съобщение за грешка при неуспешно изпращане на обратна връзка"
+    },
+    "previewButtonText": {
+        "message": "Преглед на бутона за чат",
+        "description": "Текст за бутона за преглед в опциите"
+    },
+    "buttonTextToken": {
+        "message": "Чат с издател на токен",
+        "description": "Текст на бутона за чат с издател на токен"
+    },
+    "buttonTextNFT": {
+        "message": "Чат със собственик на NFT",
+        "description": "Текст на бутона за чат със собственик на NFT"
+    },
+    "themeRed": {
+        "message": "Червен",
+        "description": "Име на опцията за червена тема"
+    },
+    "messageWalletTitle": {
+        "message": "Съобщение до XRP портфейл",
+        "description": "Заглавие за интерфейса за съобщения до портфейл"
+    },
+    "saveButtonText": {
+        "message": "Запази",
+        "description": "Текст за бутона за запазване"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Чат с портфейла на създател на токен",
+        "description": "Текст на бутона за чат с портфейла на създател на токен"
+    },
+    "cancelButtonText": {
+        "message": "Отказ",
+        "description": "Текст за бутона за отказ"
+    },
+    "closeButtonText": {
+        "message": "Затвори",
+        "description": "Текст за бутона за затваряне"
+    },
+    "submitButtonText": {
+        "message": "Изпрати",
+        "description": "Текст за бутона за изпращане"
+    },
+    "stepPinExtension": {
+        "message": "Закачете разширението",
+        "description": "Инструкция за закачане на разширението"
+    },
+    "themeSelectLabel": {
+        "message": "Изберете тема за бутона:",
+        "description": "Етикет за падащото меню за избор на тема"
+    },
+    "configLoadError": {
+        "message": "Неуспешно зареждане на конфигурацията. Изпращането на обратна връзка е деактивирано.",
+        "description": "Съобщение за грешка при неуспешно зареждане на конфигурацията"
+    },
+    "extName": {
+        "message": "XRP Портфейл Месинджър от TextRP",
+        "description": "Името на разширението."
+    },
+    "configNotLoaded": {
+        "message": "Конфигурацията не е заредена. Изпращането на обратна връзка е деактивирано.",
+        "description": "Съобщение за грешка, когато конфигурацията не е заредена"
+    },
+    "feedbackRequired": {
+        "message": "Моля, въведете обратна връзка преди изпращане.",
+        "description": "Съобщение за грешка, когато обратната връзка е празна"
+    },
+    "optionsDescription2": {
+        "message": "Или щракнете с десния бутон върху XRP адрес за моментален чат.",
+        "description": "Втора част от описанието на страницата с опции"
+    },
+    "howToChangeTheme": {
+        "message": "Как да смените темата на бутона",
+        "description": "Заглавие за секцията с инструкции за смяна на темата"
+    },
+    "tryXRPWebsites": {
+        "message": "Изпробвайте тези XRP уебсайтове",
+        "description": "Заглавие за списъка с XRP уебсайтове"
+    },
+    "feedbackButtonText": {
+        "message": "Подайте обратна връзка",
+        "description": "Текст за бутона за обратна връзка"
+    },
+    "stepClickOptions": {
+        "message": "Щракнете върху опциите на иконата",
+        "description": "Инструкция за щракване върху опциите"
+    }
 }

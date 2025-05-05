@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "XRP Wallet Messenger від TextRP",
-        "description": "Назва розширення."
-    },
-    "extDescription": {
-        "message": "Просто клацніть правою кнопкою миші будь-яку адресу гаманця XRP, щоб швидко надіслати повідомлення через TextRP, єдиний рівень обміну повідомленнями для XRPL.",
-        "description": "Опис розширення."
-    },
-    "messageWalletTitle": {
-        "message": "Повідомлення до гаманця XRP"
-    },
-    "buttonTextNFT": {
-        "message": "Чат із власником NFT"
-    },
-    "buttonTextGame": {
-        "message": "Чат із гравцем"
-    },
-    "buttonTextWallet": {
-        "message": "Чат із гаманцем"
-    },
-    "buttonTextToken": {
-        "message": "Чат із емітентом токенів"
-    }
+  "buttonTextGame": {
+    "message": "Чат з гравцем",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Додає кнопку чату на сайти XRP для миттєвого чату між гаманцями.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Зелена",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Синя",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Тему успішно збережено",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Темна",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Клікніть правою кнопкою миші на будь-яку адресу гаманця XRP, щоб миттєво надіслати повідомлення через TextRP — єдиний рівень повідомлень для XRPL.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Світла",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Чат з гаманцем",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Відгук успішно надіслано",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Не вдалося надіслати відгук. Спробуйте пізніше.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Попередній перегляд кнопки чату",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Чат з емітентом токена",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Чат з власником NFT",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Червона",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Надіслати повідомлення до гаманця XRP",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Зберегти",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Чат з гаманцем творця токена",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Скасувати",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Закрити",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Надіслати",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Закріпити розширення",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Оберіть тему кнопки:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Не вдалося завантажити конфігурацію. Надсилання відгуків вимкнено.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "Месенджер XRP-гаманця від TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Конфігурацію не завантажено. Надсилання відгуків вимкнено.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Будь ласка, введіть відгук перед надсиланням.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Або клацніть правою кнопкою миші на адресу XRP, щоб миттєво почати чат між гаманцями.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Як змінити тему кнопки",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Спробуйте ці сайти XRP",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Надіслати відгук",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Натисніть на параметри іконки",
+    "description": "Step instruction for clicking options"
+  }
 }

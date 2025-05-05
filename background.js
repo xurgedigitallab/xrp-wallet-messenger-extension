@@ -1,6 +1,12 @@
 let config = null;
 const EXPIRATION_TIME_MS = 60 * 60 * 1000; // 1 hour
 
+function getHeaders() {
+  const headers = new Headers();
+  headers.append('x-svc-call', "4x9f3b8c1d6e2f709a5b4c3e8d1f6x2b");
+  return headers;
+}
+
 async function loadConfig() {
   try {
     const response = await fetch(chrome.runtime.getURL('config.json'));
@@ -31,11 +37,9 @@ async function getSitesConfig() {
       if (now - cachedData[CACHE_TIMESTAMP_KEY] < EXPIRATION_TIME_MS) {
         // Check LAST_MODIFIED endpoint
         try {
-          const headers = new Headers();
-          headers.append('x-svc-call', config.SERVICE_VAL);
           const lastModifiedResponse = await fetch(`${config.BASE_URL}${config.ENDPOINTS.LAST_MODIFIED}`, {
             method: 'GET',
-            headers: headers
+            headers: getHeaders()
           });
           if (!lastModifiedResponse.ok) {
             const text = await lastModifiedResponse.text();
@@ -55,11 +59,9 @@ async function getSitesConfig() {
 
     // Fetch from API
     console.log('Fetching sitesConfig from API');
-    const headers = new Headers();
-    headers.append('x-svc-call', config.SERVICE_VAL);
     const response = await fetch(`${config.BASE_URL}${config.ENDPOINTS.SITES_CONFIG}?t=${Date.now()}`, {
       method: 'GET',
-      headers: headers
+      headers: getHeaders()
     });
     if (!response.ok) {
       const text = await response.text();
@@ -84,11 +86,9 @@ async function getThemes() {
     await loadConfig();
   }
   try {
-    const headers = new Headers();
-    headers.append('x-svc-call', config.SERVICE_VAL);
     const response = await fetch(`${config.BASE_URL}${config.ENDPOINTS.THEMES}`, {
       method: 'GET',
-      headers: headers
+      headers: getHeaders()
     });
     if (!response.ok) {
       const text = await response.text();
@@ -112,8 +112,7 @@ async function checkAndSendURL(tab) {
     if (!urlExists) {
       console.log('URL does not exist, sending to server:', tab.url);
       const data = { url: tab.url };
-      const headers = new Headers();
-      headers.append('x-svc-call', config.SERVICE_VAL);
+      const headers = getHeaders();
       headers.append('Content-Type', 'application/json');
       const response = await fetch(`${config.BASE_URL}${config.ENDPOINTS.SAVE_NEW}`, {
         method: 'POST',
@@ -138,11 +137,9 @@ async function getNftOwner(nftId) {
     await loadConfig();
   }
   try {
-    const headers = new Headers();
-    headers.append('x-svc-call', config.SERVICE_VAL);
     const response = await fetch(`${config.BASE_URL}${config.ENDPOINTS.GET_NFT_OWNER}?nftId=${nftId}`, {
       method: 'GET',
-      headers: headers
+      headers: getHeaders()
     });
     if (!response.ok) {
       const text = await response.text();

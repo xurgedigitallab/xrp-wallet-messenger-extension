@@ -9,6 +9,5 @@
         "THEMES": "/api/themes",
         "FEEDBACK": "/api/feedback"
     },
-    "CACHE_NAME": "sites-config-cache",
-    "SERVICE_VAL": "4x9f3b8c1d6e2f709a5b4c3e8d1f6x2b"
+    "CACHE_NAME": "sites-config-cache"
 }

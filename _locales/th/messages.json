@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "XRP Wallet Messenger จาก TextRP",
-        "description": "ชื่อของส่วนขยาย"
-    },
-    "extDescription": {
-        "message": "เพียงคลิกขวาที่ที่อยู่กระเป๋าเงิน XRP ใดๆ เพื่อส่งข้อความอย่างรวดเร็วผ่าน TextRP ซึ่งเป็นเลเยอร์การส่งข้อความแบบครบวงจรสำหรับ XRPL",
-        "description": "คำอธิบายของส่วนขยาย"
-    },
-    "messageWalletTitle": {
-        "message": "ข้อความถึงกระเป๋าเงิน XRP"
-    },
-    "buttonTextNFT": {
-        "message": "แชทกับเจ้าของ NFT"
-    },
-    "buttonTextGame": {
-        "message": "แชทกับผู้เล่น"
-    },
-    "buttonTextWallet": {
-        "message": "แชทกับกระเป๋าเงิน"
-    },
-    "buttonTextToken": {
-        "message": "แชทกับผู้ออกโทเค็น"
-    }
+  "buttonTextGame": {
+    "message": "แชทกับผู้เล่น",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "เพิ่มปุ่มแชทไปยังเว็บไซต์ XRP เพื่อแชทกระเป๋าสตางค์ต่อกระเป๋าสตางค์แบบทันที",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "เขียว",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "น้ำเงิน",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "บันทึกธีมเรียบร้อยแล้ว",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "เข้ม",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "คลิกขวาที่ที่อยู่กระเป๋า XRP ใดๆ เพื่อส่งข้อความอย่างรวดเร็วผ่าน TextRP — เลเยอร์ข้อความแบบรวมศูนย์สำหรับ XRPL",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "สว่าง",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "แชทกับกระเป๋าสตางค์",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "ส่งความคิดเห็นเรียบร้อยแล้ว",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "ไม่สามารถส่งความคิดเห็นได้ กรุณาลองใหม่ภายหลัง",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "แสดงตัวอย่างปุ่มแชท",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "แชทกับผู้ออกโทเค็น",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "แชทกับเจ้าของ NFT",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "แดง",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "ส่งข้อความไปยังกระเป๋า XRP",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "บันทึก",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "แชทกับกระเป๋าของผู้สร้างโทเค็น",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "ยกเลิก",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "ปิด",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "ส่ง",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "ปักหมุดส่วนขยาย",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "เลือกธีมของปุ่ม:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "โหลดค่าการตั้งค่าไม่สำเร็จ การส่งความคิดเห็นถูกปิดใช้งาน",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "ผู้ส่งข้อความกระเป๋า XRP โดย TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "ยังไม่ได้โหลดค่าการตั้งค่า ไม่สามารถส่งความคิดเห็นได้",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "กรุณากรอกความคิดเห็นก่อนส่ง",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "หรือคลิกขวาที่ที่อยู่ XRP เพื่อเริ่มแชทกระเป๋าต่อกระเป๋าทันที",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "วิธีเปลี่ยนธีมของปุ่ม",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "ลองเว็บไซต์ XRP เหล่านี้",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "ส่งความคิดเห็น",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "คลิกตัวเลือกของไอคอน",
+    "description": "Step instruction for clicking options"
+  }
 }

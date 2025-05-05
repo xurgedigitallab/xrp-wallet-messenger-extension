@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "TextRP'den XRP Cüzdan Mesajlaşma",
-        "description": "Uzantının adı."
-    },
-    "extDescription": {
-        "message": "XRPL için birleşik mesajlaşma katmanı aracılığıyla hızlı bir şekilde mesaj göndermek için herhangi bir XRP cüzdan adresine sağ tıklayın.",
-        "description": "Uzantının açıklaması."
-    },
-    "messageWalletTitle": {
-        "message": "XRP Cüzdanına Mesaj"
-    },
-    "buttonTextNFT": {
-        "message": "NFT sahibiyle sohbet edin"
-    },
-    "buttonTextGame": {
-        "message": "Oyuncuyla sohbet edin"
-    },
-    "buttonTextWallet": {
-        "message": "Cüzdanla sohbet edin"
-    },
-    "buttonTextToken": {
-        "message": "Token ihraççısıyla sohbet edin"
-    }
+  "buttonTextGame": {
+    "message": "Oyuncuyla sohbet et",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "XRP web sitelerine anında cüzdan-cüzdan sohbet için bir sohbet butonu ekler.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Yeşil",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Mavi",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Tema başarıyla kaydedildi",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Koyu",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Herhangi bir XRP cüzdan adresine sağ tıklayarak TextRP üzerinden hızlıca mesaj gönderin — XRPL için birleşik mesajlaşma katmanı.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Açık",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Cüzdanla sohbet et",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Geri bildirim başarıyla gönderildi",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Geri bildirim gönderilemedi. Lütfen daha sonra tekrar deneyin.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Sohbet butonunu önizle",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Token ihraççısıyla sohbet et",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "NFT sahibine mesaj gönder",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Kırmızı",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "XRP cüzdanına mesaj gönder",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Kaydet",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Token yaratıcısının cüzdanıyla sohbet et",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "İptal",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Kapat",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Gönder",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Eklentiyi sabitle",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Buton teması seçin:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Yapılandırma yüklenemedi. Geri bildirim gönderme devre dışı.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "TextRP tarafından XRP Cüzdan Mesajlaşma Aracı",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Yapılandırma yüklenmedi. Geri bildirim gönderme devre dışı.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Göndermeden önce geri bildiriminizi girin.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Ya da bir XRP adresine sağ tıklayarak anında cüzdan-cüzdan sohbet başlatın.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Buton temasını nasıl değiştirirsiniz",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Bu XRP sitelerini deneyin",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Geri bildirim gönder",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Simge seçeneklerine tıklayın",
+    "description": "Step instruction for clicking options"
+  }
 }

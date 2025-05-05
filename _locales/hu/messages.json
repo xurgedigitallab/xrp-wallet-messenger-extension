@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "XRP Wallet Messenger a TextRP-től",
-        "description": "A kiterjesztés neve."
-    },
-    "extDescription": {
-        "message": "Egyszerűen kattintson a jobb gombbal bármely XRP pénztárca címére, hogy gyorsan üzenetet küldjön a TextRP-n keresztül, az XRPL egységes üzenetküldési rétegén keresztül.",
-        "description": "A kiterjesztés leírása."
-    },
-    "messageWalletTitle": {
-        "message": "Üzenet az XRP pénztárcának"
-    },
-    "buttonTextNFT": {
-        "message": "Csevegés az NFT tulajdonosával"
-    },
-    "buttonTextGame": {
-        "message": "Csevegés a játékossal"
-    },
-    "buttonTextWallet": {
-        "message": "Csevegés a pénztárcával"
-    },
-    "buttonTextToken": {
-        "message": "Csevegés a token kibocsátójával"
-    }
+  "buttonTextGame": {
+    "message": "Csevegés a játékossal",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Csevegőgombot ad hozzá XRP weboldalakhoz azonnali pénztárca–pénztárca csevegéshez.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Zöld",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Kék",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Téma sikeresen mentve",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Sötét",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Egyszerűen kattintson jobb gombbal bármely XRP pénztárca címre, hogy gyorsan üzenetet küldjön a TextRP-n keresztül, amely az XRPL egységes üzenetküldő rétege.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Világos",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Csevegés a pénztárcával",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Visszajelzés sikeresen elküldve",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "A visszajelzés küldése nem sikerült. Kérjük, próbálja meg később újra.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Csevegőgomb előnézete",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Csevegés a token kibocsátóval",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Csevegés az NFT tulajdonossal",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Piros",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Üzenet XRP pénztárcának",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Mentés",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Csevegés a token készítő pénztárcájával",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Mégse",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Bezárás",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Küldés",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Rögzítse a bővítményt",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Válasszon gomb témát:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "A konfiguráció betöltése nem sikerült. A visszajelzés küldése le van tiltva.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "XRP Pénztárca Messenger a TextRP-től",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "A konfiguráció nincs betöltve. A visszajelzés küldése le van tiltva.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Kérjük, adja meg a visszajelzést a küldés előtt.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Vagy kattintson jobb gombbal bármely XRP címre azonnali pénztárca–pénztárca csevegéshez.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Hogyan változtassuk meg a gomb témáját",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Próbálja ki ezeket az XRP weboldalakat",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Visszajelzés küldése",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Kattintson az ikon beállításaira",
+    "description": "Step instruction for clicking options"
+  }
 }

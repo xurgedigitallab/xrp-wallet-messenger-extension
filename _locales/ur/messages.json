@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "TextRP سے XRP والیٹ میسنجر",
-        "description": "ایکسٹینشن کا نام۔"
-    },
-    "extDescription": {
-        "message": "XRPL کے لیے متحدہ پیغام رسانی کی پرت کے ذریعے تیزی سے پیغام بھیجنے کے لیے کسی بھی XRP والیٹ ایڈریس پر دائیں کلک کریں۔",
-        "description": "ایکسٹینشن کی تفصیل۔"
-    },
-    "messageWalletTitle": {
-        "message": "XRP والیٹ کو پیغام"
-    },
-    "buttonTextNFT": {
-        "message": "NFT کے مالک کے ساتھ چیٹ کریں"
-    },
-    "buttonTextGame": {
-        "message": "کھلاڑی کے ساتھ چیٹ کریں"
-    },
-    "buttonTextWallet": {
-        "message": "والیٹ کے ساتھ چیٹ کریں"
-    },
-    "buttonTextToken": {
-        "message": "ٹوکن جاری کرنے والے کے ساتھ چیٹ کریں"
-    }
+  "buttonTextGame": {
+    "message": "کھلاڑی سے چیٹ کریں",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "XRP ویب سائٹس پر فوری بٹوے سے بٹوے چیٹ کے لیے چیٹ بٹن شامل کرتا ہے۔",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "سبز",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "نیلا",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "تھیم کامیابی سے محفوظ کر لیا گیا ہے",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "تاریک",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "TextRP کے ذریعے تیز پیغام بھیجنے کے لیے کسی بھی XRP بٹوے کے پتے پر دایاں کلک کریں — XRPL کے لیے ایک متحد پیغام رسانی پرت۔",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "روشن",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "بٹوے سے چیٹ کریں",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "آپ کی رائے کامیابی سے بھیج دی گئی ہے",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "رائے بھیجنے میں ناکامی۔ براہ کرم بعد میں دوبارہ کوشش کریں۔",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "چیٹ بٹن کا پیش نظارہ",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "ٹوکن جاری کنندہ سے چیٹ کریں",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "NFT مالک سے چیٹ کریں",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "سرخ",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "XRP بٹوے کو پیغام بھیجیں",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "محفوظ کریں",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "ٹوکن بنانے والے کے بٹوے سے چیٹ کریں",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "منسوخ کریں",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "بند کریں",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "بھیجیں",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "ایکسٹینشن کو پن کریں",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "بٹن تھیم منتخب کریں:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "ترتیبات لوڈ نہیں ہو سکیں۔ رائے بھیجنا غیر فعال ہے۔",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "TextRP کی طرف سے XRP بٹوے کا میسنجر",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "ترتیبات لوڈ نہیں ہوئیں۔ رائے بھیجنا غیر فعال ہے۔",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "براہ کرم بھیجنے سے پہلے اپنی رائے درج کریں۔",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "یا کسی XRP ایڈریس پر دایاں کلک کر کے فوری بٹوے سے بٹوے چیٹ شروع کریں۔",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "بٹن تھیم کیسے تبدیل کریں",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "ان XRP ویب سائٹس کو آزمائیں",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "رائے دیں",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "آئیکن کے اختیارات پر کلک کریں",
+    "description": "Step instruction for clicking options"
+  }
 }

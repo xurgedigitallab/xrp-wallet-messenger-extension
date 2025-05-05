@@ -1,25 +1,130 @@
 {
-    "extName": {
-        "message": "XRP Wallet Messenger iz TextRP-a",
-        "description": "Naziv proširenja."
+    "buttonTextGame": {
+        "message": "Ćaskanje s igračem",
+        "description": "Tekst dugmeta za ćaskanje s igračem igre"
+    },
+    "optionsDescription1": {
+        "message": "Dodaje dugme za ćaskanje na XRP web stranice za trenutni razgovor između novčanika.",
+        "description": "Prvi dio opisa stranice s opcijama"
+    },
+    "themeGreen": {
+        "message": "Zelena",
+        "description": "Naziv opcije za zelenu temu"
+    },
+    "themeBlue": {
+        "message": "Plava",
+        "description": "Naziv opcije za plavu temu"
+    },
+    "themeSaved": {
+        "message": "Tema uspješno sačuvana",
+        "description": "Poruka o uspjehu kada se tema sačuva"
+    },
+    "themeDark": {
+        "message": "Tamna",
+        "description": "Naziv opcije za tamnu temu"
     },
     "extDescription": {
-        "message": "Jednostavno desnim klikom na bilo koju XRP adresu novčanika brzo pošaljite poruku putem TextRP-a, jedinstvenog sloja za razmjenu poruka za XRPL.",
-        "description": "Opis proširenja."
+        "message": "Desni klik na bilo koju XRP adresu novčanika za brzo slanje poruke putem TextRP-a, ujedinjenog sloja za poruke za XRPL.",
+        "description": "Opis ekstenzije."
     },
-    "messageWalletTitle": {
-        "message": "Poruka za XRP novčanik"
-    },
-    "buttonTextNFT": {
-        "message": "Razgovarajte s vlasnikom NFT-a"
-    },
-    "buttonTextGame": {
-        "message": "Razgovarajte s igračem"
+    "themeLight": {
+        "message": "Svijetla",
+        "description": "Naziv opcije za svijetlu temu"
     },
     "buttonTextWallet": {
-        "message": "Razgovarajte s novčanikom"
+        "message": "Ćaskanje s novčanikom",
+        "description": "Tekst dugmeta za ćaskanje s novčanikom"
+    },
+    "feedbackSuccess": {
+        "message": "Povratna informacija uspješno poslana",
+        "description": "Poruka o uspjehu kada se povratna informacija pošalje"
+    },
+    "feedbackError": {
+        "message": "Slanje povratne informacije nije uspjelo. Pokušajte ponovo.",
+        "description": "Poruka o grešci kada slanje povratne informacije ne uspije"
+    },
+    "previewButtonText": {
+        "message": "Pregled dugmeta za ćaskanje",
+        "description": "Tekst za dugme pregleda u opcijama"
     },
     "buttonTextToken": {
-        "message": "Razgovarajte s izdavačem tokena"
+        "message": "Ćaskanje s izdavačem tokena",
+        "description": "Tekst dugmeta za ćaskanje s izdavačem tokena"
+    },
+    "buttonTextNFT": {
+        "message": "Ćaskanje s vlasnikom NFT-a",
+        "description": "Tekst dugmeta za ćaskanje s vlasnikom NFT-a"
+    },
+    "themeRed": {
+        "message": "Crvena",
+        "description": "Naziv opcije za crvenu temu"
+    },
+    "messageWalletTitle": {
+        "message": "Poruka XRP novčaniku",
+        "description": "Naslov za interfejs poruka novčanika"
+    },
+    "saveButtonText": {
+        "message": "Sačuvaj",
+        "description": "Tekst za dugme za čuvanje"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Ćaskanje s novčanikom kreatora tokena",
+        "description": "Tekst dugmeta za ćaskanje s novčanikom kreatora tokena"
+    },
+    "cancelButtonText": {
+        "message": "Otkaži",
+        "description": "Tekst za dugme za otkazivanje"
+    },
+    "closeButtonText": {
+        "message": "Zatvori",
+        "description": "Tekst za dugme za zatvaranje"
+    },
+    "submitButtonText": {
+        "message": "Pošalji",
+        "description": "Tekst za dugme za slanje"
+    },
+    "stepPinExtension": {
+        "message": "Prikvači ekstenziju",
+        "description": "Uputstvo za prikvačivanje ekstenzije"
+    },
+    "themeSelectLabel": {
+        "message": "Odaberi temu dugmeta:",
+        "description": "Oznaka za padajući meni za odabir teme"
+    },
+    "configLoadError": {
+        "message": "Učitavanje konfiguracije nije uspjelo. Slanje povratnih informacija je onemogućeno.",
+        "description": "Poruka o grešci kada učitavanje konfiguracije ne uspije"
+    },
+    "extName": {
+        "message": "XRP Novčanik Messenger od TextRP",
+        "description": "Naziv ekstenzije."
+    },
+    "configNotLoaded": {
+        "message": "Konfiguracija nije učitana. Slanje povratnih informacija je onemogućeno.",
+        "description": "Poruka o grešci kada konfiguracija nije učitana"
+    },
+    "feedbackRequired": {
+        "message": "Unesite povratnu informaciju prije slanja.",
+        "description": "Poruka o grešci kada je povratna informacija prazna"
+    },
+    "optionsDescription2": {
+        "message": "Ili desni klik na XRP adresu za trenutni čat.",
+        "description": "Drugi dio opisa stranice s opcijama"
+    },
+    "howToChangeTheme": {
+        "message": "Kako promijeniti temu dugmeta",
+        "description": "Naslov za odjeljak s uputstvima za promjenu teme"
+    },
+    "tryXRPWebsites": {
+        "message": "Isprobajte ove XRP web stranice",
+        "description": "Naslov za listu XRP web stranica"
+    },
+    "feedbackButtonText": {
+        "message": "Pošalji povratnu informaciju",
+        "description": "Tekst za dugme za povratnu informaciju"
+    },
+    "stepClickOptions": {
+        "message": "Kliknite na opcije ikone",
+        "description": "Uputstvo za klik na opcije"
     }
 }
