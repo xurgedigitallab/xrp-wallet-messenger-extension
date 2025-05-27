@@ -1,0 +1,130 @@
+{
+    "buttonTextGame": {
+        "message": "Vestle mängijaga",
+        "description": "Nupu tekst mängijaga vestlemiseks"
+    },
+    "optionsDescription1": {
+        "message": "Lisab XRP veebisaitidele vestlusnupu kiireks rahakottide vaheliseks vestluseks.",
+        "description": "Valikute lehe kirjelduse esimene osa"
+    },
+    "themeGreen": {
+        "message": "Roheline",
+        "description": "Rohelise teema valiku nimi"
+    },
+    "themeBlue": {
+        "message": "Sinine",
+        "description": "Sinise teema valiku nimi"
+    },
+    "themeSaved": {
+        "message": "Teema edukalt salvestatud",
+        "description": "Edu sõnum, kui teema salvestatakse"
+    },
+    "themeDark": {
+        "message": "Tume",
+        "description": "Tumeda teema valiku nimi"
+    },
+    "extDescription": {
+        "message": "Paremklõpsake mis tahes XRP rahakoti aadressil, et saata kiiresti sõnum TextRP kaudu, mis on XRPL-i ühtne sõnumite kiht.",
+        "description": "Laienduse kirjeldus."
+    },
+    "themeLight": {
+        "message": "Hele",
+        "description": "Heleda teema valiku nimi"
+    },
+    "buttonTextWallet": {
+        "message": "Vestle rahakotiga",
+        "description": "Nupu tekst rahakotiga vestlemiseks"
+    },
+    "feedbackSuccess": {
+        "message": "Tagasiside edukalt esitatud",
+        "description": "Edu sõnum, kui tagasiside esitatakse"
+    },
+    "feedbackError": {
+        "message": "Tagasiside esitamine ebaõnnestus. Proovige uuesti.",
+        "description": "Veateade, kui tagasiside esitamine ebaõnnestub"
+    },
+    "previewButtonText": {
+        "message": "Vestlusnupu eelvaade",
+        "description": "Tekst eelvaate nupule valikutes"
+    },
+    "buttonTextToken": {
+        "message": "Vestle tokeni väljaandjaga",
+        "description": "Nupu tekst tokeni väljaandjaga vestlemiseks"
+    },
+    "buttonTextNFT": {
+        "message": "Vestle NFT omanikuga",
+        "description": "Nupu tekst NFT omanikuga vestlemiseks"
+    },
+    "themeRed": {
+        "message": "Punane",
+        "description": "Punase teema valiku nimi"
+    },
+    "messageWalletTitle": {
+        "message": "Sõnum XRP rahakotile",
+        "description": "Rahakoti sõnumite liidese pealkiri"
+    },
+    "saveButtonText": {
+        "message": "Salvesta",
+        "description": "Tekst salvestamisnupule"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Vestle tokeni looja rahakotiga",
+        "description": "Nupu tekst tokeni looja rahakotiga vestlemiseks"
+    },
+    "cancelButtonText": {
+        "message": "Tühista",
+        "description": "Tekst tühistamisnupule"
+    },
+    "closeButtonText": {
+        "message": "Sulge",
+        "description": "Tekst sulgemisnupule"
+    },
+    "submitButtonText": {
+        "message": "Esita",
+        "description": "Tekst esitamise nupule"
+    },
+    "stepPinExtension": {
+        "message": "Kinnita laiendus",
+        "description": "Juhis laienduse kinnitamiseks"
+    },
+    "themeSelectLabel": {
+        "message": "Vali nupu teema:",
+        "description": "Silt teema valiku rippmenüüle"
+    },
+    "configLoadError": {
+        "message": "Seadistuse laadimine ebaõnnestus. Tagasiside esitamine on keelatud.",
+        "description": "Veateade, kui seadistuse laadimine ebaõnnestub"
+    },
+    "extName": {
+        "message": "XRP Rahakoti Sõnumitooja TextRP-lt",
+        "description": "Laienduse nimi."
+    },
+    "configNotLoaded": {
+        "message": "Seadistus ei ole laetud. Tagasiside esitamine on keelatud.",
+        "description": "Veateade, kui seadistus ei ole laetud"
+    },
+    "feedbackRequired": {
+        "message": "Palun sisestage tagasiside enne esitamist.",
+        "description": "Veateade, kui tagasiside on tühi"
+    },
+    "optionsDescription2": {
+        "message": "Või paremklõpsake XRP aadressil kiireks rahakottide vaheliseks vestluseks.",
+        "description": "Valikute lehe kirjelduse teine osa"
+    },
+    "howToChangeTheme": {
+        "message": "Kuidas muuta nupu teemat",
+        "description": "Pealkiri teema muutmise juhiste sektsioonile"
+    },
+    "tryXRPWebsites": {
+        "message": "Proovi neid XRP veebisaite",
+        "description": "Pealkiri XRP veebisaitide loendile"
+    },
+    "feedbackButtonText": {
+        "message": "Anna tagasisidet",
+        "description": "Tekst tagasiside nupule"
+    },
+    "stepClickOptions": {
+        "message": "Klõpsa ikooni valikutel",
+        "description": "Juhis valikute klõpsamiseks"
+    }
+}

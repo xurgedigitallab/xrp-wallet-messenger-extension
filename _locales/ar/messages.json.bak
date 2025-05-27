@@ -1,0 +1,130 @@
+{
+    "buttonTextGame": {
+        "message": "الدردشة مع اللاعب",
+        "description": "نص الزر للدردشة مع لاعب اللعبة"
+    },
+    "optionsDescription1": {
+        "message": "يضيف زر دردشة لمواقع XRP للدردشة الفورية بين المحافظ.",
+        "description": "الجزء الأول من وصف صفحة الخيارات"
+    },
+    "themeGreen": {
+        "message": "أخضر",
+        "description": "اسم خيار السمة الخضراء"
+    },
+    "themeBlue": {
+        "message": "أزرق",
+        "description": "اسم خيار السمة الزرقاء"
+    },
+    "themeSaved": {
+        "message": "تم حفظ السمة بنجاح",
+        "description": "رسالة النجاح عند حفظ السمة"
+    },
+    "themeDark": {
+        "message": "داكن",
+        "description": "اسم خيار السمة الداكنة"
+    },
+    "extDescription": {
+        "message": "انقر بزر الفأرة الأيمن على أي عنوان محفظة XRP لإرسال رسالة عبر TextRP، طبقة المراسلة الموحدة لـ XRPL.",
+        "description": "وصف الإضافة."
+    },
+    "themeLight": {
+        "message": "فاتح",
+        "description": "اسم خيار السمة الفاتحة"
+    },
+    "buttonTextWallet": {
+        "message": "الدردشة مع المحفظة",
+        "description": "نص الزر للدردشة مع المحفظة"
+    },
+    "feedbackSuccess": {
+        "message": "تم إرسال التعليقات بنجاح",
+        "description": "رسالة النجاح عند إرسال التعليقات"
+    },
+    "feedbackError": {
+        "message": "فشل إرسال التعليقات. حاول مرة أخرى.",
+        "description": "رسالة الخطأ عند فشل إرسال التعليقات"
+    },
+    "previewButtonText": {
+        "message": "معاينة زر الدردشة",
+        "description": "نص زر المعاينة في الخيارات"
+    },
+    "buttonTextToken": {
+        "message": "الدردشة مع مُصدر الرمز",
+        "description": "نص الزر للدردشة مع مُصدر الرمز"
+    },
+    "buttonTextNFT": {
+        "message": "الدردشة مع مالك NFT",
+        "description": "نص الزر للدردشة مع مالك NFT"
+    },
+    "themeRed": {
+        "message": "أحمر",
+        "description": "اسم خيار السمة الحمراء"
+    },
+    "messageWalletTitle": {
+        "message": "مراسلة محفظة XRP",
+        "description": "عنوان واجهة مراسلة المحفظة"
+    },
+    "saveButtonText": {
+        "message": "حفظ",
+        "description": "نص زر الحفظ"
+    },
+    "buttonTextTokenCreator": {
+        "message": "الدردشة مع محفظة مُنشئ الرمز",
+        "description": "نص الزر للدردشة مع محفظة مُنشئ الرمز"
+    },
+    "cancelButtonText": {
+        "message": "إلغاء",
+        "description": "نص زر الإلغاء"
+    },
+    "closeButtonText": {
+        "message": "إغلاق",
+        "description": "نص زر الإغلاق"
+    },
+    "submitButtonText": {
+        "message": "إرسال",
+        "description": "نص زر الإرسال"
+    },
+    "stepPinExtension": {
+        "message": "تثبيت الإضافة",
+        "description": "تعليمات خطوة لتثبيت الإضافة"
+    },
+    "themeSelectLabel": {
+        "message": "اختيار سمة الزر:",
+        "description": "تسمية قائمة اختيار السمة"
+    },
+    "configLoadError": {
+        "message": "فشل تحميل الإعدادات. إرسال التعليقات معطل.",
+        "description": "رسالة الخطأ عند فشل تحميل الإعدادات"
+    },
+    "extName": {
+        "message": "رسول محفظة XRP من TextRP",
+        "description": "اسم الإضافة."
+    },
+    "configNotLoaded": {
+        "message": "لم يتم تحميل الإعدادات. إرسال التعليقات معطل.",
+        "description": "رسالة الخطأ عند عدم تحميل الإعدادات"
+    },
+    "feedbackRequired": {
+        "message": "يرجى إدخال تعليقات قبل الإرسال.",
+        "description": "رسالة الخطأ عندما تكون التعليقات فارغة"
+    },
+    "optionsDescription2": {
+        "message": "أو انقر بزر الفأرة الأيمن على عنوان XRP لدردشة فورية.",
+        "description": "الجزء الثاني من وصف صفحة الخيارات"
+    },
+    "howToChangeTheme": {
+        "message": "كيفية تغيير سمة الزر",
+        "description": "عنوان قسم تعليمات تغيير السمة"
+    },
+    "tryXRPWebsites": {
+        "message": "جرب مواقع XRP هذه",
+        "description": "عنوان قائمة مواقع XRP"
+    },
+    "feedbackButtonText": {
+        "message": "تقديم تعليقات",
+        "description": "نص زر التعليقات"
+    },
+    "stepClickOptions": {
+        "message": "انقر على خيارات الأيقونة",
+        "description": "تعليمات خطوة للنقر على الخيارات"
+    }
+}

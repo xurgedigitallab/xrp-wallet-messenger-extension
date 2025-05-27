@@ -1,130 +1,130 @@
 {
-  "buttonTextGame": {
-    "message": "Тоглогчтой чатлах",
-    "description": "Button text for chatting with game player"
-  },
-  "optionsDescription1": {
-    "message": "XRP вэбсайтуудад түргэн хэтэвч-хэтэвч чат хийх товч нэмнэ.",
-    "description": "First part of the options page description"
-  },
-  "themeGreen": {
-    "message": "Ногоон",
-    "description": "Name of the green theme option"
-  },
-  "themeBlue": {
-    "message": "Цэнхэр",
-    "description": "Name of the blue theme option"
-  },
-  "themeSaved": {
-    "message": "Сэдэв амжилттай хадгалагдлаа",
-    "description": "Success message when theme is saved"
-  },
-  "themeDark": {
-    "message": "Харанхуй",
-    "description": "Name of the dark theme option"
-  },
-  "extDescription": {
-    "message": "XRP хэтэвчний хаягийг баруун товчоор дараад TextRP-ээр дамжуулан хурдан мессеж илгээнэ үү — XRPL-ийн нэгтгэсэн мессежний давхарга.",
-    "description": "The description of the extension."
-  },
-  "themeLight": {
-    "message": "Цайвар",
-    "description": "Name of the light theme option"
-  },
-  "buttonTextWallet": {
-    "message": "Хэтэвчтэй чатлах",
-    "description": "Button text for chatting with wallet"
-  },
-  "feedbackSuccess": {
-    "message": "Санал хүсэлт амжилттай илгээгдлээ",
-    "description": "Success message when feedback is submitted"
-  },
-  "feedbackError": {
-    "message": "Санал илгээхэд амжилтгүй боллоо. Дараа дахин оролдоно уу.",
-    "description": "Error message when feedback submission fails"
-  },
-  "previewButtonText": {
-    "message": "Чат товчны урьдчилсан харагдац",
-    "description": "Text for the preview button in options"
-  },
-  "buttonTextToken": {
-    "message": "Токен гаргагчтай чатлах",
-    "description": "Button text for chatting with token issuer"
-  },
-  "buttonTextNFT": {
-    "message": "NFT эзэмшигчтэй чатлах",
-    "description": "Button text for chatting with NFT owner"
-  },
-  "themeRed": {
-    "message": "Улаан",
-    "description": "Name of the red theme option"
-  },
-  "messageWalletTitle": {
-    "message": "XRP хэтэвчинд мессеж илгээх",
-    "description": "Title for the wallet messaging interface"
-  },
-  "saveButtonText": {
-    "message": "Хадгалах",
-    "description": "Text for the save button"
-  },
-  "buttonTextTokenCreator": {
-    "message": "Токен үүсгэгчийн хэтэвчтэй чатлах",
-    "description": "Button text for chatting with token creator's wallet"
-  },
-  "cancelButtonText": {
-    "message": "Цуцлах",
-    "description": "Text for the cancel button"
-  },
-  "closeButtonText": {
-    "message": "Хаах",
-    "description": "Text for the close button"
-  },
-  "submitButtonText": {
-    "message": "Илгээх",
-    "description": "Text for the submit button"
-  },
-  "stepPinExtension": {
-    "message": "Өргөтгөлийг зоох",
-    "description": "Step instruction for pinning the extension"
-  },
-  "themeSelectLabel": {
-    "message": "Товчны сэдвийг сонгоно уу:",
-    "description": "Label for the theme selection dropdown"
-  },
-  "configLoadError": {
-    "message": "Тохиргоог ачаалж чадсангүй. Санал хүсэлт илгээх боломжгүй.",
-    "description": "Error message when configuration fails to load"
-  },
-  "extName": {
-    "message": "TextRP-ийн XRP Хэтэвч Мессенжер",
-    "description": "The name of the extension."
-  },
-  "configNotLoaded": {
-    "message": "Тохиргоо ачаалагдаагүй байна. Санал хүсэлт илгээх боломжгүй.",
-    "description": "Error message when configuration is not loaded"
-  },
-  "feedbackRequired": {
-    "message": "Илгээхийн өмнө санал хүсэлтээ оруулна уу.",
-    "description": "Error message when feedback is empty"
-  },
-  "optionsDescription2": {
-    "message": "Эсвэл XRP хаяг дээр баруун товч дарж шууд хэтэвч-хэтэвч чат эхлүүлнэ үү.",
-    "description": "Second part of the options page description"
-  },
-  "howToChangeTheme": {
-    "message": "Товчны сэдвийг хэрхэн өөрчлөх вэ",
-    "description": "Header for the theme change instructions section"
-  },
-  "tryXRPWebsites": {
-    "message": "Эдгээр XRP вэбсайтуудыг туршаад үзээрэй",
-    "description": "Header for the list of XRP websites"
-  },
-  "feedbackButtonText": {
-    "message": "Санал хүсэлт илгээх",
-    "description": "Text for the feedback button"
-  },
-  "stepClickOptions": {
-    "message": "Тохиргооны дүрс дээр дарна уу",
-    "description": "Step instruction for clicking options"
-  }
+    "buttonTextGame": {
+        "message": "Тоглогчтой чатлах",
+        "description": "Button text for chatting with game player"
+    },
+    "optionsDescription1": {
+        "message": "XRP вэбсайтуудад түргэн хэтэвч-хэтэвч чат хийх товч нэмнэ.",
+        "description": "First part of the options page description"
+    },
+    "themeGreen": {
+        "message": "Ногоон",
+        "description": "Name of the green theme option"
+    },
+    "themeBlue": {
+        "message": "Цэнхэр",
+        "description": "Name of the blue theme option"
+    },
+    "themeSaved": {
+        "message": "Сэдэв амжилттай хадгалагдлаа",
+        "description": "Success message when theme is saved"
+    },
+    "themeDark": {
+        "message": "Харанхуй",
+        "description": "Name of the dark theme option"
+    },
+    "extDescription": {
+        "message": "XRP вэбсайтуудад хэтэвчнээс хэтэвчинд шуурхай чатах товч нэмнэ.",
+        "description": "The description of the extension."
+    },
+    "themeLight": {
+        "message": "Цайвар",
+        "description": "Name of the light theme option"
+    },
+    "buttonTextWallet": {
+        "message": "Хэтэвчтэй чатлах",
+        "description": "Button text for chatting with wallet"
+    },
+    "feedbackSuccess": {
+        "message": "Санал хүсэлт амжилттай илгээгдлээ",
+        "description": "Success message when feedback is submitted"
+    },
+    "feedbackError": {
+        "message": "Санал илгээхэд амжилтгүй боллоо. Дараа дахин оролдоно уу.",
+        "description": "Error message when feedback submission fails"
+    },
+    "previewButtonText": {
+        "message": "Чат товчны урьдчилсан харагдац",
+        "description": "Text for the preview button in options"
+    },
+    "buttonTextToken": {
+        "message": "Токен гаргагчтай чатлах",
+        "description": "Button text for chatting with token issuer"
+    },
+    "buttonTextNFT": {
+        "message": "NFT эзэмшигчтэй чатлах",
+        "description": "Button text for chatting with NFT owner"
+    },
+    "themeRed": {
+        "message": "Улаан",
+        "description": "Name of the red theme option"
+    },
+    "messageWalletTitle": {
+        "message": "XRP хэтэвчинд мессеж илгээх",
+        "description": "Title for the wallet messaging interface"
+    },
+    "saveButtonText": {
+        "message": "Хадгалах",
+        "description": "Text for the save button"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Токен үүсгэгчийн хэтэвчтэй чатлах",
+        "description": "Button text for chatting with token creator's wallet"
+    },
+    "cancelButtonText": {
+        "message": "Цуцлах",
+        "description": "Text for the cancel button"
+    },
+    "closeButtonText": {
+        "message": "Хаах",
+        "description": "Text for the close button"
+    },
+    "submitButtonText": {
+        "message": "Илгээх",
+        "description": "Text for the submit button"
+    },
+    "stepPinExtension": {
+        "message": "Өргөтгөлийг зоох",
+        "description": "Step instruction for pinning the extension"
+    },
+    "themeSelectLabel": {
+        "message": "Товчны сэдвийг сонгоно уу:",
+        "description": "Label for the theme selection dropdown"
+    },
+    "configLoadError": {
+        "message": "Тохиргоог ачаалж чадсангүй. Санал хүсэлт илгээх боломжгүй.",
+        "description": "Error message when configuration fails to load"
+    },
+    "extName": {
+        "message": "TextRP-ийн XRP Хэтэвч Мессенжер",
+        "description": "The name of the extension."
+    },
+    "configNotLoaded": {
+        "message": "Тохиргоо ачаалагдаагүй байна. Санал хүсэлт илгээх боломжгүй.",
+        "description": "Error message when configuration is not loaded"
+    },
+    "feedbackRequired": {
+        "message": "Илгээхийн өмнө санал хүсэлтээ оруулна уу.",
+        "description": "Error message when feedback is empty"
+    },
+    "optionsDescription2": {
+        "message": "Эсвэл XRP хаяг дээр баруун товч дарж шууд хэтэвч-хэтэвч чат эхлүүлнэ үү.",
+        "description": "Second part of the options page description"
+    },
+    "howToChangeTheme": {
+        "message": "Товчны сэдвийг хэрхэн өөрчлөх вэ",
+        "description": "Header for the theme change instructions section"
+    },
+    "tryXRPWebsites": {
+        "message": "Эдгээр XRP вэбсайтуудыг туршаад үзээрэй",
+        "description": "Header for the list of XRP websites"
+    },
+    "feedbackButtonText": {
+        "message": "Санал хүсэлт илгээх",
+        "description": "Text for the feedback button"
+    },
+    "stepClickOptions": {
+        "message": "Тохиргооны дүрс дээр дарна уу",
+        "description": "Step instruction for clicking options"
+    }
 }

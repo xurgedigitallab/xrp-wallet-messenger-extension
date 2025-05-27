@@ -24,7 +24,7 @@
         "description": "Nom de l'opció de tema fosc"
     },
     "extDescription": {
-        "message": "Feu clic dret sobre qualsevol adreça de cartera XRP per enviar ràpidament un missatge a través de TextRP, la capa de missatgeria unificada per a XRPL.",
+        "message": "Afegeix un botó de xat als llocs web XRP per a xats instantanis entre moneders.",
         "description": "La descripció de l'extensió."
     },
     "themeLight": {

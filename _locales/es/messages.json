@@ -24,7 +24,7 @@
         "description": "Nombre de la opción de tema oscuro"
     },
     "extDescription": {
-        "message": "Haz clic derecho en una dirección XRP para enviar un mensaje vía TextRP, la capa de mensajería de XRPL.",
+        "message": "Agrega un botón de chat a los sitios web de XRP para chatear al instante entre billeteras.",
         "description": "La descripción de la extensión."
     },
     "themeLight": {

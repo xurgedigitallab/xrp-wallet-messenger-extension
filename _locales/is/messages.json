@@ -1,130 +1,130 @@
 {
-  "buttonTextGame": {
-    "message": "Spjalla við leikmann",
-    "description": "Button text for chatting with game player"
-  },
-  "optionsDescription1": {
-    "message": "Bætir spjallhnappi við XRP vefsíður fyrir tafarlaust veski-við-veski spjall.",
-    "description": "First part of the options page description"
-  },
-  "themeGreen": {
-    "message": "Grænt",
-    "description": "Name of the green theme option"
-  },
-  "themeBlue": {
-    "message": "Blátt",
-    "description": "Name of the blue theme option"
-  },
-  "themeSaved": {
-    "message": "Þema vistað með góðum árangri",
-    "description": "Success message when theme is saved"
-  },
-  "themeDark": {
-    "message": "Dökkt",
-    "description": "Name of the dark theme option"
-  },
-  "extDescription": {
-    "message": "Hægri smelltu á hvaða XRP veskiheimilisfang sem er til að senda skilaboð strax með TextRP, sameinaða skilaboðalaginu fyrir XRPL.",
-    "description": "The description of the extension."
-  },
-  "themeLight": {
-    "message": "Ljóst",
-    "description": "Name of the light theme option"
-  },
-  "buttonTextWallet": {
-    "message": "Spjalla við veski",
-    "description": "Button text for chatting with wallet"
-  },
-  "feedbackSuccess": {
-    "message": "Endurgjöf send með góðum árangri",
-    "description": "Success message when feedback is submitted"
-  },
-  "feedbackError": {
-    "message": "Ekki tókst að senda endurgjöf. Vinsamlegast reyndu aftur síðar.",
-    "description": "Error message when feedback submission fails"
-  },
-  "previewButtonText": {
-    "message": "Forskoðun spjallhnapps",
-    "description": "Text for the preview button in options"
-  },
-  "buttonTextToken": {
-    "message": "Spjalla við útgefanda tákns",
-    "description": "Button text for chatting with token issuer"
-  },
-  "buttonTextNFT": {
-    "message": "Spjalla við eiganda NFT",
-    "description": "Button text for chatting with NFT owner"
-  },
-  "themeRed": {
-    "message": "Rautt",
-    "description": "Name of the red theme option"
-  },
-  "messageWalletTitle": {
-    "message": "Senda skilaboð til XRP veski",
-    "description": "Title for the wallet messaging interface"
-  },
-  "saveButtonText": {
-    "message": "Vista",
-    "description": "Text for the save button"
-  },
-  "buttonTextTokenCreator": {
-    "message": "Spjalla við veski höfundar tákns",
-    "description": "Button text for chatting with token creator's wallet"
-  },
-  "cancelButtonText": {
-    "message": "Hætta við",
-    "description": "Text for the cancel button"
-  },
-  "closeButtonText": {
-    "message": "Loka",
-    "description": "Text for the close button"
-  },
-  "submitButtonText": {
-    "message": "Senda",
-    "description": "Text for the submit button"
-  },
-  "stepPinExtension": {
-    "message": "Festa viðbótina",
-    "description": "Step instruction for pinning the extension"
-  },
-  "themeSelectLabel": {
-    "message": "Veldu útlit hnapps:",
-    "description": "Label for the theme selection dropdown"
-  },
-  "configLoadError": {
-    "message": "Ekki tókst að hlaða stillingum. Ekki hægt að senda endurgjöf.",
-    "description": "Error message when configuration fails to load"
-  },
-  "extName": {
-    "message": "XRP veski spjallforrit frá TextRP",
-    "description": "The name of the extension."
-  },
-  "configNotLoaded": {
-    "message": "Stillingar ekki hlaðnar. Ekki hægt að senda endurgjöf.",
-    "description": "Error message when configuration is not loaded"
-  },
-  "feedbackRequired": {
-    "message": "Vinsamlegast sláðu inn endurgjöf áður en þú sendir.",
-    "description": "Error message when feedback is empty"
-  },
-  "optionsDescription2": {
-    "message": "Eða hægrismelltu á hvaða XRP heimilisfang sem er fyrir tafarlaust veski-við-veski spjall.",
-    "description": "Second part of the options page description"
-  },
-  "howToChangeTheme": {
-    "message": "Hvernig á að breyta þema hnappsins",
-    "description": "Header for the theme change instructions section"
-  },
-  "tryXRPWebsites": {
-    "message": "Prófaðu þessar XRP vefsíður",
-    "description": "Header for the list of XRP websites"
-  },
-  "feedbackButtonText": {
-    "message": "Senda endurgjöf",
-    "description": "Text for the feedback button"
-  },
-  "stepClickOptions": {
-    "message": "Smelltu á valmöguleika táknsins",
-    "description": "Step instruction for clicking options"
-  }
+    "buttonTextGame": {
+        "message": "Spjalla við leikmann",
+        "description": "Button text for chatting with game player"
+    },
+    "optionsDescription1": {
+        "message": "Bætir spjallhnappi við XRP vefsíður fyrir tafarlaust veski-við-veski spjall.",
+        "description": "First part of the options page description"
+    },
+    "themeGreen": {
+        "message": "Grænt",
+        "description": "Name of the green theme option"
+    },
+    "themeBlue": {
+        "message": "Blátt",
+        "description": "Name of the blue theme option"
+    },
+    "themeSaved": {
+        "message": "Þema vistað með góðum árangri",
+        "description": "Success message when theme is saved"
+    },
+    "themeDark": {
+        "message": "Dökkt",
+        "description": "Name of the dark theme option"
+    },
+    "extDescription": {
+        "message": "Bætir við spjallhnappi á XRP vefsíður fyrir augnabliks veski-til-veski spjall.",
+        "description": "The description of the extension."
+    },
+    "themeLight": {
+        "message": "Ljóst",
+        "description": "Name of the light theme option"
+    },
+    "buttonTextWallet": {
+        "message": "Spjalla við veski",
+        "description": "Button text for chatting with wallet"
+    },
+    "feedbackSuccess": {
+        "message": "Endurgjöf send með góðum árangri",
+        "description": "Success message when feedback is submitted"
+    },
+    "feedbackError": {
+        "message": "Ekki tókst að senda endurgjöf. Vinsamlegast reyndu aftur síðar.",
+        "description": "Error message when feedback submission fails"
+    },
+    "previewButtonText": {
+        "message": "Forskoðun spjallhnapps",
+        "description": "Text for the preview button in options"
+    },
+    "buttonTextToken": {
+        "message": "Spjalla við útgefanda tákns",
+        "description": "Button text for chatting with token issuer"
+    },
+    "buttonTextNFT": {
+        "message": "Spjalla við eiganda NFT",
+        "description": "Button text for chatting with NFT owner"
+    },
+    "themeRed": {
+        "message": "Rautt",
+        "description": "Name of the red theme option"
+    },
+    "messageWalletTitle": {
+        "message": "Senda skilaboð til XRP veski",
+        "description": "Title for the wallet messaging interface"
+    },
+    "saveButtonText": {
+        "message": "Vista",
+        "description": "Text for the save button"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Spjalla við veski höfundar tákns",
+        "description": "Button text for chatting with token creator's wallet"
+    },
+    "cancelButtonText": {
+        "message": "Hætta við",
+        "description": "Text for the cancel button"
+    },
+    "closeButtonText": {
+        "message": "Loka",
+        "description": "Text for the close button"
+    },
+    "submitButtonText": {
+        "message": "Senda",
+        "description": "Text for the submit button"
+    },
+    "stepPinExtension": {
+        "message": "Festa viðbótina",
+        "description": "Step instruction for pinning the extension"
+    },
+    "themeSelectLabel": {
+        "message": "Veldu útlit hnapps:",
+        "description": "Label for the theme selection dropdown"
+    },
+    "configLoadError": {
+        "message": "Ekki tókst að hlaða stillingum. Ekki hægt að senda endurgjöf.",
+        "description": "Error message when configuration fails to load"
+    },
+    "extName": {
+        "message": "XRP veski spjallforrit frá TextRP",
+        "description": "The name of the extension."
+    },
+    "configNotLoaded": {
+        "message": "Stillingar ekki hlaðnar. Ekki hægt að senda endurgjöf.",
+        "description": "Error message when configuration is not loaded"
+    },
+    "feedbackRequired": {
+        "message": "Vinsamlegast sláðu inn endurgjöf áður en þú sendir.",
+        "description": "Error message when feedback is empty"
+    },
+    "optionsDescription2": {
+        "message": "Eða hægrismelltu á hvaða XRP heimilisfang sem er fyrir tafarlaust veski-við-veski spjall.",
+        "description": "Second part of the options page description"
+    },
+    "howToChangeTheme": {
+        "message": "Hvernig á að breyta þema hnappsins",
+        "description": "Header for the theme change instructions section"
+    },
+    "tryXRPWebsites": {
+        "message": "Prófaðu þessar XRP vefsíður",
+        "description": "Header for the list of XRP websites"
+    },
+    "feedbackButtonText": {
+        "message": "Senda endurgjöf",
+        "description": "Text for the feedback button"
+    },
+    "stepClickOptions": {
+        "message": "Smelltu á valmöguleika táknsins",
+        "description": "Step instruction for clicking options"
+    }
 }

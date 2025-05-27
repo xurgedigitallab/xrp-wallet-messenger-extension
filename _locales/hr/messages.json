@@ -24,7 +24,7 @@
         "description": "Naziv opcije za tamnu temu"
     },
     "extDescription": {
-        "message": "Desnim klikom na bilo koju XRP adresu novčanika brzo pošaljite poruku putem TextRP-a, ujedinjenog sloja za poruke za XRPL.",
+        "message": "Dodaje gumb za chat na XRP web stranice za trenutni razgovor između novčanika.",
         "description": "Opis proširenja."
     },
     "themeLight": {

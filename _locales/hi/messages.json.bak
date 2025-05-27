@@ -1,0 +1,130 @@
+{
+    "buttonTextGame": {
+        "message": "खिलाड़ी के साथ चैट",
+        "description": "गेम खिलाड़ी के साथ चैट करने के लिए बटन का पाठ"
+    },
+    "optionsDescription1": {
+        "message": "XRP वेबसाइटों पर त्वरित वॉलेट-टू-वॉलेट चैट के लिए चैट बटन जोड़ता है।",
+        "description": "विकल्प पृष्ठ के विवरण का पहला भाग"
+    },
+    "themeGreen": {
+        "message": "हरा",
+        "description": "हरे थीम विकल्प का नाम"
+    },
+    "themeBlue": {
+        "message": "नीला",
+        "description": "नीले थीम विकल्प का नाम"
+    },
+    "themeSaved": {
+        "message": "थीम सफलतापूर्वक सहेजी गई",
+        "description": "थीम सहेजने पर सफलता संदेश"
+    },
+    "themeDark": {
+        "message": "गहरा",
+        "description": "गहरे थीम विकल्प का नाम"
+    },
+    "extDescription": {
+        "message": "किसी भी XRP वॉलेट पते पर राइट-क्लिक करके TextRP के माध्यम से जल्दी से संदेश भेजें, जो XRPL के लिए एकीकृत मैसेजिंग लेयर है।",
+        "description": "एक्सटेंशन का विवरण।"
+    },
+    "themeLight": {
+        "message": "हल्का",
+        "description": "हल्के थीम विकल्प का नाम"
+    },
+    "buttonTextWallet": {
+        "message": "वॉलेट के साथ चैट",
+        "description": "वॉलेट के साथ चैट करने के लिए बटन का पाठ"
+    },
+    "feedbackSuccess": {
+        "message": "प्रतिक्रिया सफलतापूर्वक सबमिट की गई",
+        "description": "प्रतिक्रिया सबमिट करने पर सफलता संदेश"
+    },
+    "feedbackError": {
+        "message": "प्रतिक्रिया सबमिट करने में विफल। कृपया फिर से प्रयास करें।",
+        "description": "प्रतिक्रिया सबमिशन विफल होने पर त्रुटि संदेश"
+    },
+    "previewButtonText": {
+        "message": "चैट बटन का पूर्वावलोकन",
+        "description": "विकल्पों में पूर्वावलोकन बटन के लिए पाठ"
+    },
+    "buttonTextToken": {
+        "message": "टोकन जारीकर्ता के साथ चैट",
+        "description": "टोकन जारीकर्ता के साथ चैट करने के लिए बटन का पाठ"
+    },
+    "buttonTextNFT": {
+        "message": "NFT मालिक के साथ चैट",
+        "description": "NFT मालिक के साथ चैट करने के लिए बटन का पाठ"
+    },
+    "themeRed": {
+        "message": "लाल",
+        "description": "लाल थीम विकल्प का नाम"
+    },
+    "messageWalletTitle": {
+        "message": "XRP वॉलेट को संदेश",
+        "description": "वॉलेट मैसेजिंग इंटरफेस के लिए शीर्षक"
+    },
+    "saveButtonText": {
+        "message": "सहेजें",
+        "description": "सहेजें बटन के लिए पाठ"
+    },
+    "buttonTextTokenCreator": {
+        "message": "टोकन निर्माता के वॉलेट के साथ चैट",
+        "description": "टोकन निर्माता के वॉलेट के साथ चैट करने के लिए बटन का पाठ"
+    },
+    "cancelButtonText": {
+        "message": "रद्द करें",
+        "description": "रद्द करें बटन के लिए पाठ"
+    },
+    "closeButtonText": {
+        "message": "बंद करें",
+        "description": "बंद करें बटन के लिए पाठ"
+    },
+    "submitButtonText": {
+        "message": "सबमिट करें",
+        "description": "सबमिट बटन के लिए पाठ"
+    },
+    "stepPinExtension": {
+        "message": "एक्सटेंशन को पिन करें",
+        "description": "एक्सटेंशन को पिन करने के लिए चरण निर्देश"
+    },
+    "themeSelectLabel": {
+        "message": "बटन थीम चुनें:",
+        "description": "थीम चयन ड्रॉपडाउन के लिए लेबल"
+    },
+    "configLoadError": {
+        "message": "कॉन्फ़िगरेशन लोड करने में विफल। प्रतिक्रिया सबमिशन अक्षम है।",
+        "description": "कॉन्फ़िगरेशन लोड होने में विफल होने पर त्रुटि संदेश"
+    },
+    "extName": {
+        "message": "TextRP से XRP वॉलेट मैसेंजर",
+        "description": "एक्सटेंशन का नाम।"
+    },
+    "configNotLoaded": {
+        "message": "कॉन्फ़िगरेशन लोड नहीं हुआ। प्रतिक्रिया सबमिशन अक्षम है।",
+        "description": "कॉन्फ़िगरेशन लोड न होने पर त्रुटि संदेश"
+    },
+    "feedbackRequired": {
+        "message": "कृपया सबमिट करने से पहले प्रतिक्रिया दर्ज करें।",
+        "description": "प्रतिक्रिया खाली होने पर त्रुटि संदेश"
+    },
+    "optionsDescription2": {
+        "message": "या किसी XRP पते पर राइट-क्लिक करके त्वरित वॉलेट-टू-वॉलेट चैट करें।",
+        "description": "विकल्प पृष्ठ के विवरण का दूसरा भाग"
+    },
+    "howToChangeTheme": {
+        "message": "बटन थीम कैसे बदलें",
+        "description": "थीम परिवर्तन निर्देशों के खंड के लिए शीर्षक"
+    },
+    "tryXRPWebsites": {
+        "message": "इन XRP वेबसाइटों को आजमाएं",
+        "description": "XRP वेबसाइटों की सूची के लिए शीर्षक"
+    },
+    "feedbackButtonText": {
+        "message": "प्रतिक्रिया दें",
+        "description": "प्रतिक्रिया बटन के लिए पाठ"
+    },
+    "stepClickOptions": {
+        "message": "आइकन विकल्पों पर क्लिक करें",
+        "description": "विकल्पों पर क्लिक करने के लिए चरण निर्देश"
+    }
+}

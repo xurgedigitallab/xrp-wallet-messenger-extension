@@ -1,130 +1,130 @@
 {
-  "buttonTextGame": {
-    "message": "ක්‍රීඩකයා සමඟ කතා කරන්න",
-    "description": "Button text for chatting with game player"
-  },
-  "optionsDescription1": {
-    "message": "XRP වෙබ් අඩවි සඳහා තක්ෂණික පසුබැසීමකින් තොරව Wallet-to-Wallet සංවාදයක් සඳහා කතා බොත්තමක් එක් කරයි.",
-    "description": "First part of the options page description"
-  },
-  "themeGreen": {
-    "message": "කොළ",
-    "description": "Name of the green theme option"
-  },
-  "themeBlue": {
-    "message": "නිල්",
-    "description": "Name of the blue theme option"
-  },
-  "themeSaved": {
-    "message": "තේමාව සාර්ථකව සුරැකිණි",
-    "description": "Success message when theme is saved"
-  },
-  "themeDark": {
-    "message": "අඳුරු",
-    "description": "Name of the dark theme option"
-  },
-  "extDescription": {
-    "message": "TextRP හරහා ඉක්මනින් පණිවිඩයක් යවන්න XRP පොකට් ලිපිනයක් මත දකුණු ක්ලික් කරන්න — XRPL සඳහා ඒකාබද්ධ පණිවිඩ තට්ටුවක්.",
-    "description": "The description of the extension."
-  },
-  "themeLight": {
-    "message": "ආලෝකමත්",
-    "description": "Name of the light theme option"
-  },
-  "buttonTextWallet": {
-    "message": "පොකට් එක සමඟ කතා කරන්න",
-    "description": "Button text for chatting with wallet"
-  },
-  "feedbackSuccess": {
-    "message": "ප්‍රතිචාරය සාර්ථකව ඉදිරිපත් විය",
-    "description": "Success message when feedback is submitted"
-  },
-  "feedbackError": {
-    "message": "ප්‍රතිචාරය ඉදිරිපත් කිරීමට නොහැකි විය. කරුණාකර පසුව නැවත උත්සහ කරන්න.",
-    "description": "Error message when feedback submission fails"
-  },
-  "previewButtonText": {
-    "message": "කතා බොත්තමේ පෙරදසුන",
-    "description": "Text for the preview button in options"
-  },
-  "buttonTextToken": {
-    "message": "ටෝකන නිකුත්කරු සමඟ කතා කරන්න",
-    "description": "Button text for chatting with token issuer"
-  },
-  "buttonTextNFT": {
-    "message": "NFT හිමියන් සමඟ කතා කරන්න",
-    "description": "Button text for chatting with NFT owner"
-  },
-  "themeRed": {
-    "message": "රතු",
-    "description": "Name of the red theme option"
-  },
-  "messageWalletTitle": {
-    "message": "XRP පොකට් එකට පණිවිඩය යවන්න",
-    "description": "Title for the wallet messaging interface"
-  },
-  "saveButtonText": {
-    "message": "සුරකින්න",
-    "description": "Text for the save button"
-  },
-  "buttonTextTokenCreator": {
-    "message": "ටෝකන නිර්මාතෘගේ පොකට් එක සමඟ කතා කරන්න",
-    "description": "Button text for chatting with token creator's wallet"
-  },
-  "cancelButtonText": {
-    "message": "අවලංගු කරන්න",
-    "description": "Text for the cancel button"
-  },
-  "closeButtonText": {
-    "message": "වසන්න",
-    "description": "Text for the close button"
-  },
-  "submitButtonText": {
-    "message": "ඉදිරිපත් කරන්න",
-    "description": "Text for the submit button"
-  },
-  "stepPinExtension": {
-    "message": "දිගු කිරීම පින් කරන්න",
-    "description": "Step instruction for pinning the extension"
-  },
-  "themeSelectLabel": {
-    "message": "බොත්තමේ තේමාව තෝරන්න:",
-    "description": "Label for the theme selection dropdown"
-  },
-  "configLoadError": {
-    "message": "සැකසීම් පූරණය කිරීමට නොහැක. ප්‍රතිචාරය ඉදිරිපත් කිරීම අක්‍රීයයි.",
-    "description": "Error message when configuration fails to load"
-  },
-  "extName": {
-    "message": "TextRP විසින් XRP Wallet Messenger",
-    "description": "The name of the extension."
-  },
-  "configNotLoaded": {
-    "message": "සැකසීම් පූරණය වී නැත. ප්‍රතිචාරය ඉදිරිපත් කිරීම අක්‍රීයයි.",
-    "description": "Error message when configuration is not loaded"
-  },
-  "feedbackRequired": {
-    "message": "කරුණාකර ඉදිරිපත් කිරීමට පෙර ප්‍රතිචාරයක් ඇතුළත් කරන්න.",
-    "description": "Error message when feedback is empty"
-  },
-  "optionsDescription2": {
-    "message": "හෝ XRP ලිපිනයක් මත දකුණු ක්ලික් කර Wallet-to-Wallet කතාබස් ආරම්භ කරන්න.",
-    "description": "Second part of the options page description"
-  },
-  "howToChangeTheme": {
-    "message": "බොත්තමේ තේමාව වෙනස් කිරීම කෙසේද",
-    "description": "Header for the theme change instructions section"
-  },
-  "tryXRPWebsites": {
-    "message": "මෙම XRP වෙබ් අඩවි උත්සාහ කරන්න",
-    "description": "Header for the list of XRP websites"
-  },
-  "feedbackButtonText": {
-    "message": "ප්‍රතිචාරය ලබා දෙන්න",
-    "description": "Text for the feedback button"
-  },
-  "stepClickOptions": {
-    "message": "නිරූපක විකල්පය මත ක්ලික් කරන්න",
-    "description": "Step instruction for clicking options"
-  }
+    "buttonTextGame": {
+        "message": "ක්‍රීඩකයා සමඟ කතා කරන්න",
+        "description": "Button text for chatting with game player"
+    },
+    "optionsDescription1": {
+        "message": "XRP වෙබ් අඩවි සඳහා තක්ෂණික පසුබැසීමකින් තොරව Wallet-to-Wallet සංවාදයක් සඳහා කතා බොත්තමක් එක් කරයි.",
+        "description": "First part of the options page description"
+    },
+    "themeGreen": {
+        "message": "කොළ",
+        "description": "Name of the green theme option"
+    },
+    "themeBlue": {
+        "message": "නිල්",
+        "description": "Name of the blue theme option"
+    },
+    "themeSaved": {
+        "message": "තේමාව සාර්ථකව සුරැකිණි",
+        "description": "Success message when theme is saved"
+    },
+    "themeDark": {
+        "message": "අඳුරු",
+        "description": "Name of the dark theme option"
+    },
+    "extDescription": {
+        "message": "XRP වෙබ් අඩවි වලට ක්ෂණික බඩුත්ත-සිට-බඩුත්ත කතාබහ සඳහා කතාබහ බොත්තමක් එකතු කරයි.",
+        "description": "The description of the extension."
+    },
+    "themeLight": {
+        "message": "ආලෝකමත්",
+        "description": "Name of the light theme option"
+    },
+    "buttonTextWallet": {
+        "message": "පොකට් එක සමඟ කතා කරන්න",
+        "description": "Button text for chatting with wallet"
+    },
+    "feedbackSuccess": {
+        "message": "ප්‍රතිචාරය සාර්ථකව ඉදිරිපත් විය",
+        "description": "Success message when feedback is submitted"
+    },
+    "feedbackError": {
+        "message": "ප්‍රතිචාරය ඉදිරිපත් කිරීමට නොහැකි විය. කරුණාකර පසුව නැවත උත්සහ කරන්න.",
+        "description": "Error message when feedback submission fails"
+    },
+    "previewButtonText": {
+        "message": "කතා බොත්තමේ පෙරදසුන",
+        "description": "Text for the preview button in options"
+    },
+    "buttonTextToken": {
+        "message": "ටෝකන නිකුත්කරු සමඟ කතා කරන්න",
+        "description": "Button text for chatting with token issuer"
+    },
+    "buttonTextNFT": {
+        "message": "NFT හිමියන් සමඟ කතා කරන්න",
+        "description": "Button text for chatting with NFT owner"
+    },
+    "themeRed": {
+        "message": "රතු",
+        "description": "Name of the red theme option"
+    },
+    "messageWalletTitle": {
+        "message": "XRP පොකට් එකට පණිවිඩය යවන්න",
+        "description": "Title for the wallet messaging interface"
+    },
+    "saveButtonText": {
+        "message": "සුරකින්න",
+        "description": "Text for the save button"
+    },
+    "buttonTextTokenCreator": {
+        "message": "ටෝකන නිර්මාතෘගේ පොකට් එක සමඟ කතා කරන්න",
+        "description": "Button text for chatting with token creator's wallet"
+    },
+    "cancelButtonText": {
+        "message": "අවලංගු කරන්න",
+        "description": "Text for the cancel button"
+    },
+    "closeButtonText": {
+        "message": "වසන්න",
+        "description": "Text for the close button"
+    },
+    "submitButtonText": {
+        "message": "ඉදිරිපත් කරන්න",
+        "description": "Text for the submit button"
+    },
+    "stepPinExtension": {
+        "message": "දිගු කිරීම පින් කරන්න",
+        "description": "Step instruction for pinning the extension"
+    },
+    "themeSelectLabel": {
+        "message": "බොත්තමේ තේමාව තෝරන්න:",
+        "description": "Label for the theme selection dropdown"
+    },
+    "configLoadError": {
+        "message": "සැකසීම් පූරණය කිරීමට නොහැක. ප්‍රතිචාරය ඉදිරිපත් කිරීම අක්‍රීයයි.",
+        "description": "Error message when configuration fails to load"
+    },
+    "extName": {
+        "message": "TextRP විසින් XRP Wallet Messenger",
+        "description": "The name of the extension."
+    },
+    "configNotLoaded": {
+        "message": "සැකසීම් පූරණය වී නැත. ප්‍රතිචාරය ඉදිරිපත් කිරීම අක්‍රීයයි.",
+        "description": "Error message when configuration is not loaded"
+    },
+    "feedbackRequired": {
+        "message": "කරුණාකර ඉදිරිපත් කිරීමට පෙර ප්‍රතිචාරයක් ඇතුළත් කරන්න.",
+        "description": "Error message when feedback is empty"
+    },
+    "optionsDescription2": {
+        "message": "හෝ XRP ලිපිනයක් මත දකුණු ක්ලික් කර Wallet-to-Wallet කතාබස් ආරම්භ කරන්න.",
+        "description": "Second part of the options page description"
+    },
+    "howToChangeTheme": {
+        "message": "බොත්තමේ තේමාව වෙනස් කිරීම කෙසේද",
+        "description": "Header for the theme change instructions section"
+    },
+    "tryXRPWebsites": {
+        "message": "මෙම XRP වෙබ් අඩවි උත්සාහ කරන්න",
+        "description": "Header for the list of XRP websites"
+    },
+    "feedbackButtonText": {
+        "message": "ප්‍රතිචාරය ලබා දෙන්න",
+        "description": "Text for the feedback button"
+    },
+    "stepClickOptions": {
+        "message": "නිරූපක විකල්පය මත ක්ලික් කරන්න",
+        "description": "Step instruction for clicking options"
+    }
 }

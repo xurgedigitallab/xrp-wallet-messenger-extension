@@ -1,0 +1,130 @@
+{
+  "buttonTextGame": {
+    "message": "Trò chuyện với người chơi",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Thêm nút trò chuyện vào các trang web XRP để trò chuyện tức thì giữa các ví.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Xanh lá",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Xanh dương",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Chủ đề đã được lưu",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Tối",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Nhấp chuột phải vào bất kỳ địa chỉ ví XRP nào để gửi tin nhắn nhanh qua TextRP — lớp nhắn tin hợp nhất cho XRPL.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Sáng",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Trò chuyện với ví",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Gửi phản hồi thành công",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Không thể gửi phản hồi. Vui lòng thử lại sau.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Xem trước nút trò chuyện",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Trò chuyện với nhà phát hành token",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Trò chuyện với chủ sở hữu NFT",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Đỏ",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Gửi tin nhắn đến ví XRP",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Lưu",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Trò chuyện với ví của người tạo token",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Hủy",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Đóng",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Gửi",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Ghim tiện ích mở rộng",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Chọn chủ đề nút:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Không thể tải cấu hình. Gửi phản hồi bị tắt.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "Trình nhắn tin ví XRP bởi TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Cấu hình chưa được tải. Gửi phản hồi bị tắt.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Vui lòng nhập phản hồi trước khi gửi.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Hoặc nhấp chuột phải vào địa chỉ XRP để bắt đầu trò chuyện ví-với-ví tức thì.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Cách thay đổi chủ đề nút",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Thử các trang web XRP này",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Gửi phản hồi",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Nhấp vào tùy chọn biểu tượng",
+    "description": "Step instruction for clicking options"
+  }
+}

@@ -1,0 +1,130 @@
+{
+    "buttonTextGame": {
+        "message": "Chatear con jugador",
+        "description": "Texto del botón para chatear con el jugador del juego"
+    },
+    "optionsDescription1": {
+        "message": "Añade un botón de chat a sitios XRP para chat instantáneo entre billeteras.",
+        "description": "Primera parte de la descripción de la página de opciones"
+    },
+    "themeGreen": {
+        "message": "Verde",
+        "description": "Nombre de la opción de tema verde"
+    },
+    "themeBlue": {
+        "message": "Azul",
+        "description": "Nombre de la opción de tema azul"
+    },
+    "themeSaved": {
+        "message": "Tema guardado",
+        "description": "Mensaje de éxito cuando se guarda el tema"
+    },
+    "themeDark": {
+        "message": "Oscuro",
+        "description": "Nombre de la opción de tema oscuro"
+    },
+    "extDescription": {
+        "message": "Haz clic derecho en una dirección XRP para enviar un mensaje vía TextRP, la capa de mensajería de XRPL.",
+        "description": "La descripción de la extensión."
+    },
+    "themeLight": {
+        "message": "Claro",
+        "description": "Nombre de la opción de tema claro"
+    },
+    "buttonTextWallet": {
+        "message": "Chatear con billetera",
+        "description": "Texto del botón para chatear con la billetera"
+    },
+    "feedbackSuccess": {
+        "message": "Comentarios enviados",
+        "description": "Mensaje de éxito cuando se envían los comentarios"
+    },
+    "feedbackError": {
+        "message": "Error al enviar comentarios. Intenta de nuevo.",
+        "description": "Mensaje de error cuando falla el envío de comentarios"
+    },
+    "previewButtonText": {
+        "message": "Previsualizar botón",
+        "description": "Texto para el botón de vista previa en las opciones"
+    },
+    "buttonTextToken": {
+        "message": "Chatear con emisor",
+        "description": "Texto del botón para chatear con el emisor del token"
+    },
+    "buttonTextNFT": {
+        "message": "Chatear con dueño NFT",
+        "description": "Texto del botón para chatear con el propietario del NFT"
+    },
+    "themeRed": {
+        "message": "Rojo",
+        "description": "Nombre de la opción de tema rojo"
+    },
+    "messageWalletTitle": {
+        "message": "Mensaje a billetera XRP",
+        "description": "Título para la interfaz de mensajería de la billetera"
+    },
+    "saveButtonText": {
+        "message": "Guardar",
+        "description": "Texto para el botón de guardar"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Chatear con creador del token",
+        "description": "Texto del botón para chatear con la billetera del creador del token"
+    },
+    "cancelButtonText": {
+        "message": "Cancelar",
+        "description": "Texto para el botón de cancelar"
+    },
+    "closeButtonText": {
+        "message": "Cerrar",
+        "description": "Texto para el botón de cerrar"
+    },
+    "submitButtonText": {
+        "message": "Enviar",
+        "description": "Texto para el botón de enviar"
+    },
+    "stepPinExtension": {
+        "message": "Anclar extensión",
+        "description": "Instrucción para anclar la extensión"
+    },
+    "themeSelectLabel": {
+        "message": "Seleccionar tema:",
+        "description": "Etiqueta para el desplegable de selección de tema"
+    },
+    "configLoadError": {
+        "message": "Error al cargar configuración. Comentarios deshabilitados.",
+        "description": "Mensaje de error cuando no se carga la configuración"
+    },
+    "extName": {
+        "message": "Mensajero XRP de TextRP",
+        "description": "El nombre de la extensión."
+    },
+    "configNotLoaded": {
+        "message": "Configuración no cargada. Comentarios deshabilitados.",
+        "description": "Mensaje de error cuando la configuración no está cargada"
+    },
+    "feedbackRequired": {
+        "message": "Ingresa comentarios antes de enviar.",
+        "description": "Mensaje de error cuando los comentarios están vacíos"
+    },
+    "optionsDescription2": {
+        "message": "O haz clic derecho en una dirección XRP para chatear al instante.",
+        "description": "Segunda parte de la descripción de la página de opciones"
+    },
+    "howToChangeTheme": {
+        "message": "Cambiar tema del botón",
+        "description": "Encabezado para la sección de instrucciones de cambio de tema"
+    },
+    "tryXRPWebsites": {
+        "message": "Prueba sitios XRP",
+        "description": "Encabezado para la lista de sitios web de XRP"
+    },
+    "feedbackButtonText": {
+        "message": "Enviar comentarios",
+        "description": "Texto para el botón de comentarios"
+    },
+    "stepClickOptions": {
+        "message": "Clic en opciones del icono",
+        "description": "Instrucción para hacer clic en las opciones"
+    }
+}

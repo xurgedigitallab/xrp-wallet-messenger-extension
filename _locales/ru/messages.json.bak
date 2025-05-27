@@ -1,0 +1,130 @@
+{
+  "buttonTextGame": {
+    "message": "Чат с игроком",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Добавляет кнопку чата на сайты XRP для мгновенного общения между кошельками.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Зелёная",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Синяя",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Тема успешно сохранена",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Тёмная",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Щёлкните правой кнопкой мыши по любому адресу кошелька XRP, чтобы быстро отправить сообщение через TextRP — унифицированный слой сообщений для XRPL.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Светлая",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Чат с кошельком",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Отзыв успешно отправлен",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Не удалось отправить отзыв. Пожалуйста, попробуйте позже.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Предпросмотр кнопки чата",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Чат с эмитентом токена",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Чат с владельцем NFT",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Красная",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Отправить сообщение на кошелёк XRP",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Сохранить",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Чат с кошельком создателя токена",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Отмена",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Закрыть",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Отправить",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Закрепить расширение",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Выберите тему кнопки:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Не удалось загрузить конфигурацию. Отправка отзыва отключена.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "Мессенджер кошельков XRP от TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Конфигурация не загружена. Отправка отзыва отключена.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Пожалуйста, введите отзыв перед отправкой.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Или щёлкните правой кнопкой мыши по адресу XRP, чтобы сразу начать чат между кошельками.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Как изменить тему кнопки",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Попробуйте эти сайты XRP",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Оставить отзыв",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Нажмите на значок параметров",
+    "description": "Step instruction for clicking options"
+  }
+}

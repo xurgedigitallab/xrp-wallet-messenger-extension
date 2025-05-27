@@ -1,0 +1,130 @@
+{
+  "buttonTextGame": {
+    "message": "ကစားသူနှင့် စကားပြောရန်",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "XRP ဝက်ဘ်ဆိုက်များတွင် တိုက်ရိုက် ငွေပုံး-to-ငွေပုံး စကားပြောရန် ခလုတ်တစ်ခု ထည့်သည်။",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "အစိမ်းရောင်",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "အပြာရောင်",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "အကြောင်းအရာအောင်မြင်စွာသိမ်းဆည်းပြီး",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "မှောင်မိုက်",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "TextRP ကို အသုံးပြုပြီး မည်သည့် XRP ငွေပုံးလိပ်စာကိုမဆို ညာကလစ်နှိပ်၍ message တစ်စောင်ကို ချက်ချင်းပေးပို့နိုင်သည်။ ၎င်းသည် XRPL အတွက် စုပေါင်းထားသော မက်ဆေ့ခ်ျင်လွှာတစ်ခုဖြစ်သည်။",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "အလင်း",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "ငွေပုံးနှင့် စကားပြောရန်",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "အကြံပြုချက်ကို အောင်မြင်စွာ တင်ပြပြီး",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "အကြံပြုချက် တင်ပြခြင်းမအောင်မြင်ပါ။ နောက်မှပြန်လည်ကြိုးစားပါ။",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "စကားပြောခလုတ် အကြိုကြည့်ရှုမှု",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Token ထုတ်သူနှင့် စကားပြောရန်",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "NFT ပိုင်ရှင်နှင့် စကားပြောရန်",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "အနီရောင်",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "XRP ငွေပုံးသို့ မက်ဆေ့ခ်ျပို့ရန်",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "သိမ်းဆည်းမည်",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Token ဖန်တီးသူ၏ ငွေပုံးနှင့် စကားပြောရန်",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "ဖျက်သိမ်းမည်",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "ပိတ်မည်",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "တင်ပြမည်",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Extension ကို ချိတ်မည်",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "ခလုတ်အကြောင်းအရာကို ရွေးချယ်ပါ။",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "ပြင်ဆင်ချက်များ load မဖြစ်ပါ။ အကြံပြုချက် တင်ပြခြင်း မဖြစ်နိုင်ပါ။",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "TextRP မှ XRP Wallet Messenger",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "ပြင်ဆင်ချက်များ load မဖြစ်ပါ။ အကြံပြုချက် တင်ပြခြင်း မဖြစ်နိုင်ပါ။",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "တင်ပြခြင်းမပြုမီ အကြံပြုချက်ထည့်ပါ။",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "သို့မဟုတ် XRP လိပ်စာကို ညာကလစ်နှိပ်ပြီး ချက်ချင်း စကားပြောနိုင်သည်။",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "ခလုတ်အကြောင်းအရာ ဘယ်လိုပြောင်းမလဲ",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "ဤ XRP ဝက်ဘ်ဆိုက်များကို စမ်းကြည့်ပါ",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "အကြံပြုချက် ပေးရန်",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "အိုင်ကွန်အတွက် ရွေးချယ်မှုကို နှိပ်ပါ",
+    "description": "Step instruction for clicking options"
+  }
+}

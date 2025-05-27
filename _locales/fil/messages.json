@@ -24,7 +24,7 @@
         "description": "Pangalan ng opsyon ng madilim na tema"
     },
     "extDescription": {
-        "message": "Mag-right-click lamang sa anumang XRP wallet address upang mabilis na magpadala ng mensahe sa pamamagitan ng TextRP, ang pinag-isang layer ng mensahe para sa XRPL.",
+        "message": "Nagdaragdag ng pindutan ng chat sa mga website ng XRP para sa instant na wallet-to-wallet chat.",
         "description": "Ang paglalarawan ng extension."
     },
     "themeLight": {

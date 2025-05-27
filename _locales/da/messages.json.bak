@@ -1,0 +1,130 @@
+{
+    "buttonTextGame": {
+        "message": "Chat med spiller",
+        "description": "Tekst til knappen for at chatte med spillets spiller"
+    },
+    "optionsDescription1": {
+        "message": "Tilføjer en chatknap til XRP-websteder for øjeblikkelig tegnebog-til-tegnebog-chat.",
+        "description": "Første del af beskrivelsen på indstillingssiden"
+    },
+    "themeGreen": {
+        "message": "Grøn",
+        "description": "Navn på den grønne temavalgmulighed"
+    },
+    "themeBlue": {
+        "message": "Blå",
+        "description": "Navn på den blå temavalgmulighed"
+    },
+    "themeSaved": {
+        "message": "Tema gemt succesfuldt",
+        "description": "Succesmeddelelse, når temaet gemmes"
+    },
+    "themeDark": {
+        "message": "Mørk",
+        "description": "Navn på den mørke temavalgmulighed"
+    },
+    "extDescription": {
+        "message": "Højreklik på en XRP-tegnebogsadresse for hurtigt at sende en besked via TextRP, den ensartede beskedlag for XRPL.",
+        "description": "Beskrivelsen af udvidelsen."
+    },
+    "themeLight": {
+        "message": "Lys",
+        "description": "Navn på den lyse temavalgmulighed"
+    },
+    "buttonTextWallet": {
+        "message": "Chat med tegnebog",
+        "description": "Tekst til knappen for at chatte med tegnebogen"
+    },
+    "feedbackSuccess": {
+        "message": "Feedback sendt succesfuldt",
+        "description": "Succesmeddelelse, når feedback sendes"
+    },
+    "feedbackError": {
+        "message": "Kunne ikke sende feedback. Prøv igen senere.",
+        "description": "Fejlmeddelelse, når afsendelse af feedback mislykkes"
+    },
+    "previewButtonText": {
+        "message": "Forhåndsvisning af chatknap",
+        "description": "Tekst til forhåndsvisningsknappen i indstillingerne"
+    },
+    "buttonTextToken": {
+        "message": "Chat med tokenudsteder",
+        "description": "Tekst til knappen for at chatte med tokenudstederen"
+    },
+    "buttonTextNFT": {
+        "message": "Chat med NFT-ejer",
+        "description": "Tekst til knappen for at chatte med NFT-ejeren"
+    },
+    "themeRed": {
+        "message": "Rød",
+        "description": "Navn på den røde temavalgmulighed"
+    },
+    "messageWalletTitle": {
+        "message": "Besked til XRP-tegnebog",
+        "description": "Titel for tegnebogsbeskedgrænsefladen"
+    },
+    "saveButtonText": {
+        "message": "Gem",
+        "description": "Tekst til gem-knappen"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Chat med token-skabers tegnebog",
+        "description": "Tekst til knappen for at chatte med token-skaberens tegnebog"
+    },
+    "cancelButtonText": {
+        "message": "Annuller",
+        "description": "Tekst til annulleringsknappen"
+    },
+    "closeButtonText": {
+        "message": "Luk",
+        "description": "Tekst til lukkeknappen"
+    },
+    "submitButtonText": {
+        "message": "Send",
+        "description": "Tekst til afsendelsesknappen"
+    },
+    "stepPinExtension": {
+        "message": "Fastgør udvidelsen",
+        "description": "Instruktion til at fastgøre udvidelsen"
+    },
+    "themeSelectLabel": {
+        "message": "Vælg knaptema:",
+        "description": "Etiket til rullemenuen for temavalg"
+    },
+    "configLoadError": {
+        "message": "Kunne ikke indlæse konfiguration. Feedback-afsendelse er deaktiveret.",
+        "description": "Fejlmeddelelse, når konfigurationen ikke indlæses"
+    },
+    "extName": {
+        "message": "XRP Tegnebog Messenger fra TextRP",
+        "description": "Navnet på udvidelsen."
+    },
+    "configNotLoaded": {
+        "message": "Konfiguration ikke indlæst. Feedback-afsendelse er deaktiveret.",
+        "description": "Fejlmeddelelse, når konfigurationen ikke er indlæst"
+    },
+    "feedbackRequired": {
+        "message": "Indtast venligst feedback før afsendelse.",
+        "description": "Fejlmeddelelse, når feedback er tom"
+    },
+    "optionsDescription2": {
+        "message": "Eller højreklik på en XRP-adresse for øjeblikkelig chat.",
+        "description": "Anden del af beskrivelsen på indstillingssiden"
+    },
+    "howToChangeTheme": {
+        "message": "Sådan ændres knaptemaet",
+        "description": "Overskrift for afsnittet med instruktioner til temaændring"
+    },
+    "tryXRPWebsites": {
+        "message": "Prøv disse XRP-websteder",
+        "description": "Overskrift for listen over XRP-websteder"
+    },
+    "feedbackButtonText": {
+        "message": "Send feedback",
+        "description": "Tekst til feedback-knappen"
+    },
+    "stepClickOptions": {
+        "message": "Klik på ikonet for indstillinger",
+        "description": "Instruktion til at klikke på indstillinger"
+    }
+}

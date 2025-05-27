@@ -1,0 +1,130 @@
+{
+  "buttonTextGame": {
+    "message": "ఆడుతున్న ఆటగాడితో చాట్ చేయండి",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "XRP వెబ్‌సైట్లలో వెంటనే వాలెట్-టు-వాలెట్ చాట్ కోసం చాట్ బటన్‌ను జత చేస్తుంది.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "ఆకుపచ్చ",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "నీలం",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "థీమ్ విజయవంతంగా సేవ్ చేయబడింది",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "చీకటి",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "TextRP ద్వారా వేగంగా సందేశం పంపేందుకు ఏదైనా XRP వాలెట్ చిరునామాపై కుడి క్లిక్ చేయండి — XRPL కోసం ఏకీకృత మెసేజింగ్ లేయర్.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "లేత",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "వాలెట్‌తో చాట్ చేయండి",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "ఫీడ్‌బ్యాక్ విజయవంతంగా పంపబడింది",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "ఫీడ్‌బ్యాక్ పంపడంలో విఫలమైంది. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "చాట్ బటన్ ప్రివ్యూను చూపించు",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "టోకెన్ విడుదల చేసిన వ్యక్తితో చాట్ చేయండి",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "NFT యజమానితో చాట్ చేయండి",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "ఎరుపు",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "XRP వాలెట్‌కు సందేశం పంపండి",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "సేవ్ చేయి",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "టోకెన్ సృష్టించిన వ్యక్తి వాలెట్‌తో చాట్ చేయండి",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "రద్దు చేయి",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "మూసివేయి",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "పంపండి",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "ఎక్స్‌టెన్షన్‌ను పిన్ చేయండి",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "బటన్ థీమ్‌ను ఎంచుకోండి:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "కాన్ఫిగరేషన్ లోడ్ చేయలేకపోయాం. ఫీడ్‌బ్యాక్ పంపడం నిలిపివేయబడింది.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "TextRP యొక్క XRP వాలెట్ మెసెంజర్",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "కాన్ఫిగరేషన్ లోడ్ కాలేదు. ఫీడ్‌బ్యాక్ పంపడం నిలిపివేయబడింది.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "దయచేసి పంపే ముందు ఫీడ్‌బ్యాక్‌ను నమోదు చేయండి.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "లేదా XRP చిరునామాపై కుడి క్లిక్ చేసి వెంటనే వాలెట్-టు-వాలెట్ చాట్‌ను ప్రారంభించండి.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "బటన్ థీమ్‌ను ఎలా మార్చాలి",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "ఈ XRP వెబ్‌సైట్లను ప్రయత్నించండి",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "ఫీడ్‌బ్యాక్ ఇవ్వండి",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "ఐకాన్ ఎంపికలపై క్లిక్ చేయండి",
+    "description": "Step instruction for clicking options"
+  }
+}

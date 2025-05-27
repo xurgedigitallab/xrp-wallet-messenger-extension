@@ -1,130 +1,130 @@
 {
-  "buttonTextGame": {
-    "message": "Chat met speler",
-    "description": "Button text for chatting with game player"
-  },
-  "optionsDescription1": {
-    "message": "Voegt een chatknop toe aan XRP-websites voor directe wallet-naar-wallet gesprekken.",
-    "description": "First part of the options page description"
-  },
-  "themeGreen": {
-    "message": "Groen",
-    "description": "Name of the green theme option"
-  },
-  "themeBlue": {
-    "message": "Blauw",
-    "description": "Name of the blue theme option"
-  },
-  "themeSaved": {
-    "message": "Thema succesvol opgeslagen",
-    "description": "Success message when theme is saved"
-  },
-  "themeDark": {
-    "message": "Donker",
-    "description": "Name of the dark theme option"
-  },
-  "extDescription": {
-    "message": "Klik met de rechtermuisknop op een XRP-walletadres om snel een bericht te sturen via TextRP – de uniforme berichtlaag voor XRPL.",
-    "description": "The description of the extension."
-  },
-  "themeLight": {
-    "message": "Licht",
-    "description": "Name of the light theme option"
-  },
-  "buttonTextWallet": {
-    "message": "Chat met wallet",
-    "description": "Button text for chatting with wallet"
-  },
-  "feedbackSuccess": {
-    "message": "Feedback succesvol verzonden",
-    "description": "Success message when feedback is submitted"
-  },
-  "feedbackError": {
-    "message": "Verzenden van feedback mislukt. Probeer het later opnieuw.",
-    "description": "Error message when feedback submission fails"
-  },
-  "previewButtonText": {
-    "message": "Voorbeeld van chatknop",
-    "description": "Text for the preview button in options"
-  },
-  "buttonTextToken": {
-    "message": "Chat met tokenuitgever",
-    "description": "Button text for chatting with token issuer"
-  },
-  "buttonTextNFT": {
-    "message": "Chat met NFT-eigenaar",
-    "description": "Button text for chatting with NFT owner"
-  },
-  "themeRed": {
-    "message": "Rood",
-    "description": "Name of the red theme option"
-  },
-  "messageWalletTitle": {
-    "message": "Bericht aan XRP-wallet",
-    "description": "Title for the wallet messaging interface"
-  },
-  "saveButtonText": {
-    "message": "Opslaan",
-    "description": "Text for the save button"
-  },
-  "buttonTextTokenCreator": {
-    "message": "Chat met wallet van tokenmaker",
-    "description": "Button text for chatting with token creator's wallet"
-  },
-  "cancelButtonText": {
-    "message": "Annuleren",
-    "description": "Text for the cancel button"
-  },
-  "closeButtonText": {
-    "message": "Sluiten",
-    "description": "Text for the close button"
-  },
-  "submitButtonText": {
-    "message": "Verzenden",
-    "description": "Text for the submit button"
-  },
-  "stepPinExtension": {
-    "message": "Extensie vastzetten",
-    "description": "Step instruction for pinning the extension"
-  },
-  "themeSelectLabel": {
-    "message": "Kies een knopthema:",
-    "description": "Label for the theme selection dropdown"
-  },
-  "configLoadError": {
-    "message": "Configuratie laden mislukt. Feedback verzenden is uitgeschakeld.",
-    "description": "Error message when configuration fails to load"
-  },
-  "extName": {
-    "message": "XRP Wallet Messenger van TextRP",
-    "description": "The name of the extension."
-  },
-  "configNotLoaded": {
-    "message": "Configuratie is niet geladen. Feedback verzenden is uitgeschakeld.",
-    "description": "Error message when configuration is not loaded"
-  },
-  "feedbackRequired": {
-    "message": "Voer feedback in voordat u verzendt.",
-    "description": "Error message when feedback is empty"
-  },
-  "optionsDescription2": {
-    "message": "Of klik met de rechtermuisknop op een XRP-adres om direct een wallet-naar-wallet chat te starten.",
-    "description": "Second part of the options page description"
-  },
-  "howToChangeTheme": {
-    "message": "Hoe verander je het knopthema",
-    "description": "Header for the theme change instructions section"
-  },
-  "tryXRPWebsites": {
-    "message": "Probeer deze XRP-websites",
-    "description": "Header for the list of XRP websites"
-  },
-  "feedbackButtonText": {
-    "message": "Feedback geven",
-    "description": "Text for the feedback button"
-  },
-  "stepClickOptions": {
-    "message": "Klik op de opties van het pictogram",
-    "description": "Step instruction for clicking options"
-  }
+    "buttonTextGame": {
+        "message": "Chat met speler",
+        "description": "Button text for chatting with game player"
+    },
+    "optionsDescription1": {
+        "message": "Voegt een chatknop toe aan XRP-websites voor directe wallet-naar-wallet gesprekken.",
+        "description": "First part of the options page description"
+    },
+    "themeGreen": {
+        "message": "Groen",
+        "description": "Name of the green theme option"
+    },
+    "themeBlue": {
+        "message": "Blauw",
+        "description": "Name of the blue theme option"
+    },
+    "themeSaved": {
+        "message": "Thema succesvol opgeslagen",
+        "description": "Success message when theme is saved"
+    },
+    "themeDark": {
+        "message": "Donker",
+        "description": "Name of the dark theme option"
+    },
+    "extDescription": {
+        "message": "Voegt een chatknop toe aan XRP-websites voor directe portemonnee-naar-portemonnee chats.",
+        "description": "The description of the extension."
+    },
+    "themeLight": {
+        "message": "Licht",
+        "description": "Name of the light theme option"
+    },
+    "buttonTextWallet": {
+        "message": "Chat met wallet",
+        "description": "Button text for chatting with wallet"
+    },
+    "feedbackSuccess": {
+        "message": "Feedback succesvol verzonden",
+        "description": "Success message when feedback is submitted"
+    },
+    "feedbackError": {
+        "message": "Verzenden van feedback mislukt. Probeer het later opnieuw.",
+        "description": "Error message when feedback submission fails"
+    },
+    "previewButtonText": {
+        "message": "Voorbeeld van chatknop",
+        "description": "Text for the preview button in options"
+    },
+    "buttonTextToken": {
+        "message": "Chat met tokenuitgever",
+        "description": "Button text for chatting with token issuer"
+    },
+    "buttonTextNFT": {
+        "message": "Chat met NFT-eigenaar",
+        "description": "Button text for chatting with NFT owner"
+    },
+    "themeRed": {
+        "message": "Rood",
+        "description": "Name of the red theme option"
+    },
+    "messageWalletTitle": {
+        "message": "Bericht aan XRP-wallet",
+        "description": "Title for the wallet messaging interface"
+    },
+    "saveButtonText": {
+        "message": "Opslaan",
+        "description": "Text for the save button"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Chat met wallet van tokenmaker",
+        "description": "Button text for chatting with token creator's wallet"
+    },
+    "cancelButtonText": {
+        "message": "Annuleren",
+        "description": "Text for the cancel button"
+    },
+    "closeButtonText": {
+        "message": "Sluiten",
+        "description": "Text for the close button"
+    },
+    "submitButtonText": {
+        "message": "Verzenden",
+        "description": "Text for the submit button"
+    },
+    "stepPinExtension": {
+        "message": "Extensie vastzetten",
+        "description": "Step instruction for pinning the extension"
+    },
+    "themeSelectLabel": {
+        "message": "Kies een knopthema:",
+        "description": "Label for the theme selection dropdown"
+    },
+    "configLoadError": {
+        "message": "Configuratie laden mislukt. Feedback verzenden is uitgeschakeld.",
+        "description": "Error message when configuration fails to load"
+    },
+    "extName": {
+        "message": "XRP Wallet Messenger van TextRP",
+        "description": "The name of the extension."
+    },
+    "configNotLoaded": {
+        "message": "Configuratie is niet geladen. Feedback verzenden is uitgeschakeld.",
+        "description": "Error message when configuration is not loaded"
+    },
+    "feedbackRequired": {
+        "message": "Voer feedback in voordat u verzendt.",
+        "description": "Error message when feedback is empty"
+    },
+    "optionsDescription2": {
+        "message": "Of klik met de rechtermuisknop op een XRP-adres om direct een wallet-naar-wallet chat te starten.",
+        "description": "Second part of the options page description"
+    },
+    "howToChangeTheme": {
+        "message": "Hoe verander je het knopthema",
+        "description": "Header for the theme change instructions section"
+    },
+    "tryXRPWebsites": {
+        "message": "Probeer deze XRP-websites",
+        "description": "Header for the list of XRP websites"
+    },
+    "feedbackButtonText": {
+        "message": "Feedback geven",
+        "description": "Text for the feedback button"
+    },
+    "stepClickOptions": {
+        "message": "Klik op de opties van het pictogram",
+        "description": "Step instruction for clicking options"
+    }
 }

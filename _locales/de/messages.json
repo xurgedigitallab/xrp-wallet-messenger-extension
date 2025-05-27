@@ -24,7 +24,7 @@
         "description": "Name der dunklen Themenoption"
     },
     "extDescription": {
-        "message": "Rechtsklicken Sie auf eine XRP-Wallet-Adresse, um schnell eine Nachricht über TextRP zu senden, die einheitliche Messaging-Schicht für XRPL.",
+        "message": "Fügt XRP-Websites eine Chat-Schaltfläche für sofortigen Wallet-zu-Wallet-Chat hinzu.",
         "description": "Die Beschreibung der Erweiterung."
     },
     "themeLight": {

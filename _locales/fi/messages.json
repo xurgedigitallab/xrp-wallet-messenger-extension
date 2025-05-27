@@ -24,7 +24,7 @@
         "description": "Tumman teeman vaihtoehdon nimi"
     },
     "extDescription": {
-        "message": "Napsauta hiiren kakkospainikkeella mitä tahansa XRP-lompakon osoitetta lähettääksesi nopeasti viestin TextRP:n kautta, joka on XRPL:n yhtenäinen viestintäkerros.",
+        "message": "Lisää XRP-verkkosivustoille chat-painikkeen välittömään lompakkojen väliseen keskusteluun.",
         "description": "Laajennuksen kuvaus."
     },
     "themeLight": {

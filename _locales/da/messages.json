@@ -24,7 +24,7 @@
         "description": "Navn på den mørke temavalgmulighed"
     },
     "extDescription": {
-        "message": "Højreklik på en XRP-tegnebogsadresse for hurtigt at sende en besked via TextRP, den ensartede beskedlag for XRPL.",
+        "message": "Tilføjer en chatknap til XRP-websteder til øjeblikkelig pengepulje-til-pengepulje-chat.",
         "description": "Beskrivelsen af udvidelsen."
     },
     "themeLight": {

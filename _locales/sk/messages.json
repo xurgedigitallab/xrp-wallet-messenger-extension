@@ -1,130 +1,130 @@
 {
-  "buttonTextGame": {
-    "message": "Chat s hráčom",
-    "description": "Button text for chatting with game player"
-  },
-  "optionsDescription1": {
-    "message": "Pridáva tlačidlo chatu na XRP webové stránky pre okamžitý chat medzi peňaženkami.",
-    "description": "First part of the options page description"
-  },
-  "themeGreen": {
-    "message": "Zelená",
-    "description": "Name of the green theme option"
-  },
-  "themeBlue": {
-    "message": "Modrá",
-    "description": "Name of the blue theme option"
-  },
-  "themeSaved": {
-    "message": "Téma bola úspešne uložená",
-    "description": "Success message when theme is saved"
-  },
-  "themeDark": {
-    "message": "Tmavá",
-    "description": "Name of the dark theme option"
-  },
-  "extDescription": {
-    "message": "Kliknite pravým tlačidlom na ľubovoľnú adresu XRP peňaženky a rýchlo odošlite správu cez TextRP – jednotnú komunikačnú vrstvu pre XRPL.",
-    "description": "The description of the extension."
-  },
-  "themeLight": {
-    "message": "Svetlá",
-    "description": "Name of the light theme option"
-  },
-  "buttonTextWallet": {
-    "message": "Chat s peňaženkou",
-    "description": "Button text for chatting with wallet"
-  },
-  "feedbackSuccess": {
-    "message": "Spätná väzba bola úspešne odoslaná",
-    "description": "Success message when feedback is submitted"
-  },
-  "feedbackError": {
-    "message": "Odoslanie spätnej väzby zlyhalo. Skúste to znova neskôr.",
-    "description": "Error message when feedback submission fails"
-  },
-  "previewButtonText": {
-    "message": "Náhľad tlačidla chatu",
-    "description": "Text for the preview button in options"
-  },
-  "buttonTextToken": {
-    "message": "Chat s vydavateľom tokenu",
-    "description": "Button text for chatting with token issuer"
-  },
-  "buttonTextNFT": {
-    "message": "Chat s vlastníkom NFT",
-    "description": "Button text for chatting with NFT owner"
-  },
-  "themeRed": {
-    "message": "Červená",
-    "description": "Name of the red theme option"
-  },
-  "messageWalletTitle": {
-    "message": "Odoslať správu do XRP peňaženky",
-    "description": "Title for the wallet messaging interface"
-  },
-  "saveButtonText": {
-    "message": "Uložiť",
-    "description": "Text for the save button"
-  },
-  "buttonTextTokenCreator": {
-    "message": "Chat s peňaženkou tvorcu tokenu",
-    "description": "Button text for chatting with token creator's wallet"
-  },
-  "cancelButtonText": {
-    "message": "Zrušiť",
-    "description": "Text for the cancel button"
-  },
-  "closeButtonText": {
-    "message": "Zatvoriť",
-    "description": "Text for the close button"
-  },
-  "submitButtonText": {
-    "message": "Odoslať",
-    "description": "Text for the submit button"
-  },
-  "stepPinExtension": {
-    "message": "Pripnúť rozšírenie",
-    "description": "Step instruction for pinning the extension"
-  },
-  "themeSelectLabel": {
-    "message": "Vyberte tému tlačidla:",
-    "description": "Label for the theme selection dropdown"
-  },
-  "configLoadError": {
-    "message": "Nepodarilo sa načítať konfiguráciu. Odoslanie spätnej väzby je zakázané.",
-    "description": "Error message when configuration fails to load"
-  },
-  "extName": {
-    "message": "Messenger XRP peňaženky od TextRP",
-    "description": "The name of the extension."
-  },
-  "configNotLoaded": {
-    "message": "Konfigurácia nebola načítaná. Odoslanie spätnej väzby je zakázané.",
-    "description": "Error message when configuration is not loaded"
-  },
-  "feedbackRequired": {
-    "message": "Pred odoslaním zadajte spätnú väzbu.",
-    "description": "Error message when feedback is empty"
-  },
-  "optionsDescription2": {
-    "message": "Alebo kliknite pravým tlačidlom na adresu XRP pre okamžitý wallet-to-wallet chat.",
-    "description": "Second part of the options page description"
-  },
-  "howToChangeTheme": {
-    "message": "Ako zmeniť tému tlačidla",
-    "description": "Header for the theme change instructions section"
-  },
-  "tryXRPWebsites": {
-    "message": "Vyskúšajte tieto XRP webové stránky",
-    "description": "Header for the list of XRP websites"
-  },
-  "feedbackButtonText": {
-    "message": "Odoslať spätnú väzbu",
-    "description": "Text for the feedback button"
-  },
-  "stepClickOptions": {
-    "message": "Kliknite na ikonu možností",
-    "description": "Step instruction for clicking options"
-  }
+    "buttonTextGame": {
+        "message": "Chat s hráčom",
+        "description": "Button text for chatting with game player"
+    },
+    "optionsDescription1": {
+        "message": "Pridáva tlačidlo chatu na XRP webové stránky pre okamžitý chat medzi peňaženkami.",
+        "description": "First part of the options page description"
+    },
+    "themeGreen": {
+        "message": "Zelená",
+        "description": "Name of the green theme option"
+    },
+    "themeBlue": {
+        "message": "Modrá",
+        "description": "Name of the blue theme option"
+    },
+    "themeSaved": {
+        "message": "Téma bola úspešne uložená",
+        "description": "Success message when theme is saved"
+    },
+    "themeDark": {
+        "message": "Tmavá",
+        "description": "Name of the dark theme option"
+    },
+    "extDescription": {
+        "message": "Pridáva tlačidlo chatu na webové stránky XRP pre okamžitý chat medzi peňaženkami.",
+        "description": "The description of the extension."
+    },
+    "themeLight": {
+        "message": "Svetlá",
+        "description": "Name of the light theme option"
+    },
+    "buttonTextWallet": {
+        "message": "Chat s peňaženkou",
+        "description": "Button text for chatting with wallet"
+    },
+    "feedbackSuccess": {
+        "message": "Spätná väzba bola úspešne odoslaná",
+        "description": "Success message when feedback is submitted"
+    },
+    "feedbackError": {
+        "message": "Odoslanie spätnej väzby zlyhalo. Skúste to znova neskôr.",
+        "description": "Error message when feedback submission fails"
+    },
+    "previewButtonText": {
+        "message": "Náhľad tlačidla chatu",
+        "description": "Text for the preview button in options"
+    },
+    "buttonTextToken": {
+        "message": "Chat s vydavateľom tokenu",
+        "description": "Button text for chatting with token issuer"
+    },
+    "buttonTextNFT": {
+        "message": "Chat s vlastníkom NFT",
+        "description": "Button text for chatting with NFT owner"
+    },
+    "themeRed": {
+        "message": "Červená",
+        "description": "Name of the red theme option"
+    },
+    "messageWalletTitle": {
+        "message": "Odoslať správu do XRP peňaženky",
+        "description": "Title for the wallet messaging interface"
+    },
+    "saveButtonText": {
+        "message": "Uložiť",
+        "description": "Text for the save button"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Chat s peňaženkou tvorcu tokenu",
+        "description": "Button text for chatting with token creator's wallet"
+    },
+    "cancelButtonText": {
+        "message": "Zrušiť",
+        "description": "Text for the cancel button"
+    },
+    "closeButtonText": {
+        "message": "Zatvoriť",
+        "description": "Text for the close button"
+    },
+    "submitButtonText": {
+        "message": "Odoslať",
+        "description": "Text for the submit button"
+    },
+    "stepPinExtension": {
+        "message": "Pripnúť rozšírenie",
+        "description": "Step instruction for pinning the extension"
+    },
+    "themeSelectLabel": {
+        "message": "Vyberte tému tlačidla:",
+        "description": "Label for the theme selection dropdown"
+    },
+    "configLoadError": {
+        "message": "Nepodarilo sa načítať konfiguráciu. Odoslanie spätnej väzby je zakázané.",
+        "description": "Error message when configuration fails to load"
+    },
+    "extName": {
+        "message": "Messenger XRP peňaženky od TextRP",
+        "description": "The name of the extension."
+    },
+    "configNotLoaded": {
+        "message": "Konfigurácia nebola načítaná. Odoslanie spätnej väzby je zakázané.",
+        "description": "Error message when configuration is not loaded"
+    },
+    "feedbackRequired": {
+        "message": "Pred odoslaním zadajte spätnú väzbu.",
+        "description": "Error message when feedback is empty"
+    },
+    "optionsDescription2": {
+        "message": "Alebo kliknite pravým tlačidlom na adresu XRP pre okamžitý wallet-to-wallet chat.",
+        "description": "Second part of the options page description"
+    },
+    "howToChangeTheme": {
+        "message": "Ako zmeniť tému tlačidla",
+        "description": "Header for the theme change instructions section"
+    },
+    "tryXRPWebsites": {
+        "message": "Vyskúšajte tieto XRP webové stránky",
+        "description": "Header for the list of XRP websites"
+    },
+    "feedbackButtonText": {
+        "message": "Odoslať spätnú väzbu",
+        "description": "Text for the feedback button"
+    },
+    "stepClickOptions": {
+        "message": "Kliknite na ikonu možností",
+        "description": "Step instruction for clicking options"
+    }
 }

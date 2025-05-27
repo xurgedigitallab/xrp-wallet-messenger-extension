@@ -1,0 +1,130 @@
+{
+  "buttonTextGame": {
+    "message": "Ойыншымен сөйлесу",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "XRP веб-сайттарына әмияннан әмиянға жылдам сөйлесу үшін чат батырмасын қосады.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Жасыл",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Көк",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Тақырып сәтті сақталды",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Қараңғы",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Кез келген XRP әмиян мекенжайын оң жақ батырмамен басып, XRPL үшін біріктірілген хабар алмасу қабаты болып табылатын TextRP арқылы тез хабарлама жіберуге болады.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Ашық",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Әмиянмен сөйлесу",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Пікір сәтті жіберілді",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Пікір жіберілмеді. Кейінірек қайталап көріңіз.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Чат батырмасын алдын ала қарау",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Токен шығарушымен сөйлесу",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "NFT иесімен сөйлесу",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Қызыл",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "XRP әмиянына хабарлама",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Сақтау",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Токен жасаушының әмиянымен сөйлесу",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Бас тарту",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Жабу",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Жіберу",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Кеңейтімді бекіту",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Батырма тақырыбын таңдаңыз:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Баптаулар жүктелмеді. Пікір жіберу мүмкін емес.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "TextRP ұсынған XRP әмиян хабаршысы",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Баптаулар жүктелмеген. Пікір жіберу мүмкін емес.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Жібермес бұрын пікіріңізді жазыңыз.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Немесе кез келген XRP мекенжайын оң басып, дереу әмиянмен сөйлесіңіз.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Батырма тақырыбын қалай өзгертуге болады",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Осы XRP веб-сайттарын қолданып көріңіз",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Пікір қалдыру",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Параметрлер белгішесін басыңыз",
+    "description": "Step instruction for clicking options"
+  }
+}

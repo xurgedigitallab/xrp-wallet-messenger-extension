@@ -1,130 +1,130 @@
 {
-  "buttonTextGame": {
-    "message": "வீரருடன் உரையாடு",
-    "description": "Button text for chatting with game player"
-  },
-  "optionsDescription1": {
-    "message": "XRP இணையதளங்களில் உடனடி பணப்பை-இல்-பணப்பை உரையாடலுக்கான உரையாடல் பொத்தானை சேர்க்கிறது.",
-    "description": "First part of the options page description"
-  },
-  "themeGreen": {
-    "message": "பச்சை",
-    "description": "Name of the green theme option"
-  },
-  "themeBlue": {
-    "message": "நீலம்",
-    "description": "Name of the blue theme option"
-  },
-  "themeSaved": {
-    "message": "தீம் வெற்றிகரமாக சேமிக்கப்பட்டது",
-    "description": "Success message when theme is saved"
-  },
-  "themeDark": {
-    "message": "இருள்",
-    "description": "Name of the dark theme option"
-  },
-  "extDescription": {
-    "message": "TextRP மூலமாக விரைவாக செய்தியை அனுப்ப எந்தவொரு XRP வாலட் முகவரியிலும் வலது கிளிக் செய்யவும் — XRPL க்கான ஒருங்கிணைந்த செய்தி அடுக்கு.",
-    "description": "The description of the extension."
-  },
-  "themeLight": {
-    "message": "ஒளி",
-    "description": "Name of the light theme option"
-  },
-  "buttonTextWallet": {
-    "message": "வாலட்டுடன் உரையாடவும்",
-    "description": "Button text for chatting with wallet"
-  },
-  "feedbackSuccess": {
-    "message": "பின்வட்டம் வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது",
-    "description": "Success message when feedback is submitted"
-  },
-  "feedbackError": {
-    "message": "பின்வட்டத்தை சமர்ப்பிக்க இயலவில்லை. தயவுசெய்து பிறகு முயற்சிக்கவும்.",
-    "description": "Error message when feedback submission fails"
-  },
-  "previewButtonText": {
-    "message": "உரையாடல் பொத்தானை முன்னோட்டம் காண்க",
-    "description": "Text for the preview button in options"
-  },
-  "buttonTextToken": {
-    "message": "டோக்கன் வழங்குபவருடன் உரையாடவும்",
-    "description": "Button text for chatting with token issuer"
-  },
-  "buttonTextNFT": {
-    "message": "NFT உரிமையாளருடன் உரையாடவும்",
-    "description": "Button text for chatting with NFT owner"
-  },
-  "themeRed": {
-    "message": "சிவப்பு",
-    "description": "Name of the red theme option"
-  },
-  "messageWalletTitle": {
-    "message": "XRP வாலட்டிற்கு செய்தியை அனுப்பு",
-    "description": "Title for the wallet messaging interface"
-  },
-  "saveButtonText": {
-    "message": "சேமி",
-    "description": "Text for the save button"
-  },
-  "buttonTextTokenCreator": {
-    "message": "டோக்கன் உருவாக்குநரின் வாலட்டுடன் உரையாடவும்",
-    "description": "Button text for chatting with token creator's wallet"
-  },
-  "cancelButtonText": {
-    "message": "ரத்து செய்",
-    "description": "Text for the cancel button"
-  },
-  "closeButtonText": {
-    "message": "மூடு",
-    "description": "Text for the close button"
-  },
-  "submitButtonText": {
-    "message": "சமர்ப்பிக்கவும்",
-    "description": "Text for the submit button"
-  },
-  "stepPinExtension": {
-    "message": "நீட்சியை பின் செய்க",
-    "description": "Step instruction for pinning the extension"
-  },
-  "themeSelectLabel": {
-    "message": "பொத்தான் தீமையைத் தேர்ந்தெடுக்கவும்:",
-    "description": "Label for the theme selection dropdown"
-  },
-  "configLoadError": {
-    "message": "விகிதாசாரத்தை ஏற்ற முடியவில்லை. பின்னூட்டம் சமர்ப்பித்தல் முடக்கப்பட்டுள்ளது.",
-    "description": "Error message when configuration fails to load"
-  },
-  "extName": {
-    "message": "TextRP வழங்கும் XRP வாலட் மெசஞ்சர்",
-    "description": "The name of the extension."
-  },
-  "configNotLoaded": {
-    "message": "விகிதாசாரம் ஏற்றப்படவில்லை. பின்னூட்டம் சமர்ப்பிக்க இயலாது.",
-    "description": "Error message when configuration is not loaded"
-  },
-  "feedbackRequired": {
-    "message": "சமர்ப்பிக்குமுன் பின்னூட்டத்தை உள்ளிடவும்.",
-    "description": "Error message when feedback is empty"
-  },
-  "optionsDescription2": {
-    "message": "அல்லது எந்தவொரு XRP முகவரியிலும் வலது கிளிக் செய்து உடனடி வாலட்-இன்-வாலட் உரையாடலைத் தொடங்கவும்.",
-    "description": "Second part of the options page description"
-  },
-  "howToChangeTheme": {
-    "message": "பொத்தான் தீமையை எவ்வாறு மாற்றுவது",
-    "description": "Header for the theme change instructions section"
-  },
-  "tryXRPWebsites": {
-    "message": "இந்த XRP இணையதளங்களை முயற்சிக்கவும்",
-    "description": "Header for the list of XRP websites"
-  },
-  "feedbackButtonText": {
-    "message": "பின்வட்டம் அளிக்கவும்",
-    "description": "Text for the feedback button"
-  },
-  "stepClickOptions": {
-    "message": "சின்ன விருப்பங்களை கிளிக் செய்யவும்",
-    "description": "Step instruction for clicking options"
-  }
+    "buttonTextGame": {
+        "message": "வீரருடன் உரையாடு",
+        "description": "Button text for chatting with game player"
+    },
+    "optionsDescription1": {
+        "message": "XRP இணையதளங்களில் உடனடி பணப்பை-இல்-பணப்பை உரையாடலுக்கான உரையாடல் பொத்தானை சேர்க்கிறது.",
+        "description": "First part of the options page description"
+    },
+    "themeGreen": {
+        "message": "பச்சை",
+        "description": "Name of the green theme option"
+    },
+    "themeBlue": {
+        "message": "நீலம்",
+        "description": "Name of the blue theme option"
+    },
+    "themeSaved": {
+        "message": "தீம் வெற்றிகரமாக சேமிக்கப்பட்டது",
+        "description": "Success message when theme is saved"
+    },
+    "themeDark": {
+        "message": "இருள்",
+        "description": "Name of the dark theme option"
+    },
+    "extDescription": {
+        "message": "XRP வலைத்தளங்களில் உடனடி வாலட்டு-க்கு-வாலட்டு அரட்டைக்கான அரட்டை பொத்தானைச் சேர்க்கிறது.",
+        "description": "The description of the extension."
+    },
+    "themeLight": {
+        "message": "ஒளி",
+        "description": "Name of the light theme option"
+    },
+    "buttonTextWallet": {
+        "message": "வாலட்டுடன் உரையாடவும்",
+        "description": "Button text for chatting with wallet"
+    },
+    "feedbackSuccess": {
+        "message": "பின்வட்டம் வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது",
+        "description": "Success message when feedback is submitted"
+    },
+    "feedbackError": {
+        "message": "பின்வட்டத்தை சமர்ப்பிக்க இயலவில்லை. தயவுசெய்து பிறகு முயற்சிக்கவும்.",
+        "description": "Error message when feedback submission fails"
+    },
+    "previewButtonText": {
+        "message": "உரையாடல் பொத்தானை முன்னோட்டம் காண்க",
+        "description": "Text for the preview button in options"
+    },
+    "buttonTextToken": {
+        "message": "டோக்கன் வழங்குபவருடன் உரையாடவும்",
+        "description": "Button text for chatting with token issuer"
+    },
+    "buttonTextNFT": {
+        "message": "NFT உரிமையாளருடன் உரையாடவும்",
+        "description": "Button text for chatting with NFT owner"
+    },
+    "themeRed": {
+        "message": "சிவப்பு",
+        "description": "Name of the red theme option"
+    },
+    "messageWalletTitle": {
+        "message": "XRP வாலட்டிற்கு செய்தியை அனுப்பு",
+        "description": "Title for the wallet messaging interface"
+    },
+    "saveButtonText": {
+        "message": "சேமி",
+        "description": "Text for the save button"
+    },
+    "buttonTextTokenCreator": {
+        "message": "டோக்கன் உருவாக்குநரின் வாலட்டுடன் உரையாடவும்",
+        "description": "Button text for chatting with token creator's wallet"
+    },
+    "cancelButtonText": {
+        "message": "ரத்து செய்",
+        "description": "Text for the cancel button"
+    },
+    "closeButtonText": {
+        "message": "மூடு",
+        "description": "Text for the close button"
+    },
+    "submitButtonText": {
+        "message": "சமர்ப்பிக்கவும்",
+        "description": "Text for the submit button"
+    },
+    "stepPinExtension": {
+        "message": "நீட்சியை பின் செய்க",
+        "description": "Step instruction for pinning the extension"
+    },
+    "themeSelectLabel": {
+        "message": "பொத்தான் தீமையைத் தேர்ந்தெடுக்கவும்:",
+        "description": "Label for the theme selection dropdown"
+    },
+    "configLoadError": {
+        "message": "விகிதாசாரத்தை ஏற்ற முடியவில்லை. பின்னூட்டம் சமர்ப்பித்தல் முடக்கப்பட்டுள்ளது.",
+        "description": "Error message when configuration fails to load"
+    },
+    "extName": {
+        "message": "TextRP வழங்கும் XRP வாலட் மெசஞ்சர்",
+        "description": "The name of the extension."
+    },
+    "configNotLoaded": {
+        "message": "விகிதாசாரம் ஏற்றப்படவில்லை. பின்னூட்டம் சமர்ப்பிக்க இயலாது.",
+        "description": "Error message when configuration is not loaded"
+    },
+    "feedbackRequired": {
+        "message": "சமர்ப்பிக்குமுன் பின்னூட்டத்தை உள்ளிடவும்.",
+        "description": "Error message when feedback is empty"
+    },
+    "optionsDescription2": {
+        "message": "அல்லது எந்தவொரு XRP முகவரியிலும் வலது கிளிக் செய்து உடனடி வாலட்-இன்-வாலட் உரையாடலைத் தொடங்கவும்.",
+        "description": "Second part of the options page description"
+    },
+    "howToChangeTheme": {
+        "message": "பொத்தான் தீமையை எவ்வாறு மாற்றுவது",
+        "description": "Header for the theme change instructions section"
+    },
+    "tryXRPWebsites": {
+        "message": "இந்த XRP இணையதளங்களை முயற்சிக்கவும்",
+        "description": "Header for the list of XRP websites"
+    },
+    "feedbackButtonText": {
+        "message": "பின்வட்டம் அளிக்கவும்",
+        "description": "Text for the feedback button"
+    },
+    "stepClickOptions": {
+        "message": "சின்ன விருப்பங்களை கிளிக் செய்யவும்",
+        "description": "Step instruction for clicking options"
+    }
 }

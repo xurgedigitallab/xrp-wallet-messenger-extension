@@ -1,130 +1,130 @@
 {
-  "buttonTextGame": {
-    "message": "Pokalbis su žaidėju",
-    "description": "Button text for chatting with game player"
-  },
-  "optionsDescription1": {
-    "message": "Prideda pokalbio mygtuką prie XRP svetainių, skirtą momentiniams piniginės pokalbiams.",
-    "description": "First part of the options page description"
-  },
-  "themeGreen": {
-    "message": "Žalia",
-    "description": "Name of the green theme option"
-  },
-  "themeBlue": {
-    "message": "Mėlyna",
-    "description": "Name of the blue theme option"
-  },
-  "themeSaved": {
-    "message": "Tema sėkmingai išsaugota",
-    "description": "Success message when theme is saved"
-  },
-  "themeDark": {
-    "message": "Tamsi",
-    "description": "Name of the dark theme option"
-  },
-  "extDescription": {
-    "message": "Tiesiog dešiniuoju pelės mygtuku spustelėkite bet kurį XRP piniginės adresą ir greitai išsiųskite žinutę per TextRP – vieningą XRPL pranešimų sluoksnį.",
-    "description": "The description of the extension."
-  },
-  "themeLight": {
-    "message": "Šviesi",
-    "description": "Name of the light theme option"
-  },
-  "buttonTextWallet": {
-    "message": "Pokalbis su pinigine",
-    "description": "Button text for chatting with wallet"
-  },
-  "feedbackSuccess": {
-    "message": "Atsiliepimas sėkmingai išsiųstas",
-    "description": "Success message when feedback is submitted"
-  },
-  "feedbackError": {
-    "message": "Nepavyko pateikti atsiliepimo. Bandykite dar kartą vėliau.",
-    "description": "Error message when feedback submission fails"
-  },
-  "previewButtonText": {
-    "message": "Pokalbio mygtuko peržiūra",
-    "description": "Text for the preview button in options"
-  },
-  "buttonTextToken": {
-    "message": "Pokalbis su žetono leidėju",
-    "description": "Button text for chatting with token issuer"
-  },
-  "buttonTextNFT": {
-    "message": "Pokalbis su NFT savininku",
-    "description": "Button text for chatting with NFT owner"
-  },
-  "themeRed": {
-    "message": "Raudona",
-    "description": "Name of the red theme option"
-  },
-  "messageWalletTitle": {
-    "message": "Pranešimas XRP piniginei",
-    "description": "Title for the wallet messaging interface"
-  },
-  "saveButtonText": {
-    "message": "Išsaugoti",
-    "description": "Text for the save button"
-  },
-  "buttonTextTokenCreator": {
-    "message": "Pokalbis su žetono kūrėjo pinigine",
-    "description": "Button text for chatting with token creator's wallet"
-  },
-  "cancelButtonText": {
-    "message": "Atšaukti",
-    "description": "Text for the cancel button"
-  },
-  "closeButtonText": {
-    "message": "Uždaryti",
-    "description": "Text for the close button"
-  },
-  "submitButtonText": {
-    "message": "Pateikti",
-    "description": "Text for the submit button"
-  },
-  "stepPinExtension": {
-    "message": "Prisegti plėtinį",
-    "description": "Step instruction for pinning the extension"
-  },
-  "themeSelectLabel": {
-    "message": "Pasirinkite mygtuko temą:",
-    "description": "Label for the theme selection dropdown"
-  },
-  "configLoadError": {
-    "message": "Nepavyko įkelti konfigūracijos. Atsiliepimų pateikimas išjungtas.",
-    "description": "Error message when configuration fails to load"
-  },
-  "extName": {
-    "message": "XRP piniginės žinučių siuntėjas iš TextRP",
-    "description": "The name of the extension."
-  },
-  "configNotLoaded": {
-    "message": "Konfigūracija neįkelta. Atsiliepimų pateikimas išjungtas.",
-    "description": "Error message when configuration is not loaded"
-  },
-  "feedbackRequired": {
-    "message": "Prašome įvesti atsiliepimą prieš pateikdami.",
-    "description": "Error message when feedback is empty"
-  },
-  "optionsDescription2": {
-    "message": "Arba dešiniuoju pelės mygtuku spustelėkite bet kurį XRP adresą, kad pradėtumėte pokalbį tarp piniginių.",
-    "description": "Second part of the options page description"
-  },
-  "howToChangeTheme": {
-    "message": "Kaip pakeisti mygtuko temą",
-    "description": "Header for the theme change instructions section"
-  },
-  "tryXRPWebsites": {
-    "message": "Išbandykite šias XRP svetaines",
-    "description": "Header for the list of XRP websites"
-  },
-  "feedbackButtonText": {
-    "message": "Pateikti atsiliepimą",
-    "description": "Text for the feedback button"
-  },
-  "stepClickOptions": {
-    "message": "Spustelėkite piktogramą, kad atidarytumėte parinktis",
-    "description": "Step instruction for clicking options"
-  }
+    "buttonTextGame": {
+        "message": "Pokalbis su žaidėju",
+        "description": "Button text for chatting with game player"
+    },
+    "optionsDescription1": {
+        "message": "Prideda pokalbio mygtuką prie XRP svetainių, skirtą momentiniams piniginės pokalbiams.",
+        "description": "First part of the options page description"
+    },
+    "themeGreen": {
+        "message": "Žalia",
+        "description": "Name of the green theme option"
+    },
+    "themeBlue": {
+        "message": "Mėlyna",
+        "description": "Name of the blue theme option"
+    },
+    "themeSaved": {
+        "message": "Tema sėkmingai išsaugota",
+        "description": "Success message when theme is saved"
+    },
+    "themeDark": {
+        "message": "Tamsi",
+        "description": "Name of the dark theme option"
+    },
+    "extDescription": {
+        "message": "Prideda pokalbių mygtuką XRP svetainėse, kad galėtumėte akimirksniu kalbėtis piniginėlėmis.",
+        "description": "The description of the extension."
+    },
+    "themeLight": {
+        "message": "Šviesi",
+        "description": "Name of the light theme option"
+    },
+    "buttonTextWallet": {
+        "message": "Pokalbis su pinigine",
+        "description": "Button text for chatting with wallet"
+    },
+    "feedbackSuccess": {
+        "message": "Atsiliepimas sėkmingai išsiųstas",
+        "description": "Success message when feedback is submitted"
+    },
+    "feedbackError": {
+        "message": "Nepavyko pateikti atsiliepimo. Bandykite dar kartą vėliau.",
+        "description": "Error message when feedback submission fails"
+    },
+    "previewButtonText": {
+        "message": "Pokalbio mygtuko peržiūra",
+        "description": "Text for the preview button in options"
+    },
+    "buttonTextToken": {
+        "message": "Pokalbis su žetono leidėju",
+        "description": "Button text for chatting with token issuer"
+    },
+    "buttonTextNFT": {
+        "message": "Pokalbis su NFT savininku",
+        "description": "Button text for chatting with NFT owner"
+    },
+    "themeRed": {
+        "message": "Raudona",
+        "description": "Name of the red theme option"
+    },
+    "messageWalletTitle": {
+        "message": "Pranešimas XRP piniginei",
+        "description": "Title for the wallet messaging interface"
+    },
+    "saveButtonText": {
+        "message": "Išsaugoti",
+        "description": "Text for the save button"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Pokalbis su žetono kūrėjo pinigine",
+        "description": "Button text for chatting with token creator's wallet"
+    },
+    "cancelButtonText": {
+        "message": "Atšaukti",
+        "description": "Text for the cancel button"
+    },
+    "closeButtonText": {
+        "message": "Uždaryti",
+        "description": "Text for the close button"
+    },
+    "submitButtonText": {
+        "message": "Pateikti",
+        "description": "Text for the submit button"
+    },
+    "stepPinExtension": {
+        "message": "Prisegti plėtinį",
+        "description": "Step instruction for pinning the extension"
+    },
+    "themeSelectLabel": {
+        "message": "Pasirinkite mygtuko temą:",
+        "description": "Label for the theme selection dropdown"
+    },
+    "configLoadError": {
+        "message": "Nepavyko įkelti konfigūracijos. Atsiliepimų pateikimas išjungtas.",
+        "description": "Error message when configuration fails to load"
+    },
+    "extName": {
+        "message": "XRP piniginės žinučių siuntėjas iš TextRP",
+        "description": "The name of the extension."
+    },
+    "configNotLoaded": {
+        "message": "Konfigūracija neįkelta. Atsiliepimų pateikimas išjungtas.",
+        "description": "Error message when configuration is not loaded"
+    },
+    "feedbackRequired": {
+        "message": "Prašome įvesti atsiliepimą prieš pateikdami.",
+        "description": "Error message when feedback is empty"
+    },
+    "optionsDescription2": {
+        "message": "Arba dešiniuoju pelės mygtuku spustelėkite bet kurį XRP adresą, kad pradėtumėte pokalbį tarp piniginių.",
+        "description": "Second part of the options page description"
+    },
+    "howToChangeTheme": {
+        "message": "Kaip pakeisti mygtuko temą",
+        "description": "Header for the theme change instructions section"
+    },
+    "tryXRPWebsites": {
+        "message": "Išbandykite šias XRP svetaines",
+        "description": "Header for the list of XRP websites"
+    },
+    "feedbackButtonText": {
+        "message": "Pateikti atsiliepimą",
+        "description": "Text for the feedback button"
+    },
+    "stepClickOptions": {
+        "message": "Spustelėkite piktogramą, kad atidarytumėte parinktis",
+        "description": "Step instruction for clicking options"
+    }
 }

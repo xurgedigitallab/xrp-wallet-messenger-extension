@@ -1,0 +1,130 @@
+{
+    "buttonTextGame": {
+        "message": "Keskustele pelaajan kanssa",
+        "description": "Painikkeen teksti pelaajan kanssa keskustelemiseen"
+    },
+    "optionsDescription1": {
+        "message": "Lisää keskustelupainikkeen XRP-sivustoille välittömään lompakosta lompakkoon -keskusteluun.",
+        "description": "Asetussivun kuvauksen ensimmäinen osa"
+    },
+    "themeGreen": {
+        "message": "Vihreä",
+        "description": "Vihreän teeman vaihtoehdon nimi"
+    },
+    "themeBlue": {
+        "message": "Sininen",
+        "description": "Sinisen teeman vaihtoehdon nimi"
+    },
+    "themeSaved": {
+        "message": "Teema tallennettu onnistuneesti",
+        "description": "Onnistumisviesti, kun teema tallennetaan"
+    },
+    "themeDark": {
+        "message": "Tumma",
+        "description": "Tumman teeman vaihtoehdon nimi"
+    },
+    "extDescription": {
+        "message": "Napsauta hiiren kakkospainikkeella mitä tahansa XRP-lompakon osoitetta lähettääksesi nopeasti viestin TextRP:n kautta, joka on XRPL:n yhtenäinen viestintäkerros.",
+        "description": "Laajennuksen kuvaus."
+    },
+    "themeLight": {
+        "message": "Vaalea",
+        "description": "Vaalean teeman vaihtoehdon nimi"
+    },
+    "buttonTextWallet": {
+        "message": "Keskustele lompakon kanssa",
+        "description": "Painikkeen teksti lompakon kanssa keskustelemiseen"
+    },
+    "feedbackSuccess": {
+        "message": "Palaute lähetetty onnistuneesti",
+        "description": "Onnistumisviesti, kun palaute lähetetään"
+    },
+    "feedbackError": {
+        "message": "Palautteen lähetys epäonnistui. Yritä uudelleen.",
+        "description": "Virheviesti, kun palautteen lähetys epäonnistuu"
+    },
+    "previewButtonText": {
+        "message": "Keskustelupainikkeen esikatselu",
+        "description": "Teksti esikatselupainikkeelle asetuksissa"
+    },
+    "buttonTextToken": {
+        "message": "Keskustele tokenin liikkeeseenlaskijan kanssa",
+        "description": "Painikkeen teksti tokenin liikkeeseenlaskijan kanssa keskustelemiseen"
+    },
+    "buttonTextNFT": {
+        "message": "Keskustele NFT:n omistajan kanssa",
+        "description": "Painikkeen teksti NFT:n omistajan kanssa keskustelemiseen"
+    },
+    "themeRed": {
+        "message": "Punainen",
+        "description": "Punaisen teeman vaihtoehdon nimi"
+    },
+    "messageWalletTitle": {
+        "message": "Viesti XRP-lompakolle",
+        "description": "Otsikko lompakon viestintäliittymälle"
+    },
+    "saveButtonText": {
+        "message": "Tallenna",
+        "description": "Teksti tallennuspainikkeelle"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Keskustele tokenin luojan lompakon kanssa",
+        "description": "Painikkeen teksti tokenin luojan lompakon kanssa keskustelemiseen"
+    },
+    "cancelButtonText": {
+        "message": "Peruuta",
+        "description": "Teksti peruutuspainikkeelle"
+    },
+    "closeButtonText": {
+        "message": "Sulje",
+        "description": "Teksti sulkemispainikkeelle"
+    },
+    "submitButtonText": {
+        "message": "Lähetä",
+        "description": "Teksti lähetysnappulalle"
+    },
+    "stepPinExtension": {
+        "message": "Kiinnitä laajennus",
+        "description": "Ohje laajennuksen kiinnittämiseen"
+    },
+    "themeSelectLabel": {
+        "message": "Valitse painikkeen teema:",
+        "description": "Otsikko teeman valintapudotusvalikolle"
+    },
+    "configLoadError": {
+        "message": "Asetusten lataaminen epäonnistui. Palautteen lähetys on pois käytöstä.",
+        "description": "Virheviesti, kun asetusten lataaminen epäonnistuu"
+    },
+    "extName": {
+        "message": "XRP-lompakon viestitin TextRP:ltä",
+        "description": "Laajennuksen nimi."
+    },
+    "configNotLoaded": {
+        "message": "Asetuksia ei ladattu. Palautteen lähetys on pois käytöstä.",
+        "description": "Virheviesti, kun asetuksia ei ole ladattu"
+    },
+    "feedbackRequired": {
+        "message": "Anna palaute ennen lähettämistä.",
+        "description": "Virheviesti, kun palaute on tyhjä"
+    },
+    "optionsDescription2": {
+        "message": "Tai napsauta hiiren kakkospainikkeella XRP-osoitetta välittömään chattiin.",
+        "description": "Asetussivun kuvauksen toinen osa"
+    },
+    "howToChangeTheme": {
+        "message": "Kuinka vaihtaa painikkeen teema",
+        "description": "Otsikko teeman vaihto-ohjeiden osiolle"
+    },
+    "tryXRPWebsites": {
+        "message": "Kokeile näitä XRP-sivustoja",
+        "description": "Otsikko XRP-sivustojen luettelolle"
+    },
+    "feedbackButtonText": {
+        "message": "Anna palautetta",
+        "description": "Teksti palautepainikkeelle"
+    },
+    "stepClickOptions": {
+        "message": "Napsauta kuvakkeen asetuksia",
+        "description": "Ohje asetusten napsauttamiseen"
+    }
+}

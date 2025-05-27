@@ -1,0 +1,130 @@
+{
+    "buttonTextGame": {
+        "message": "Xat amb el jugador",
+        "description": "Text del botó per xatejar amb el jugador del joc"
+    },
+    "optionsDescription1": {
+        "message": "Afegeix un botó de xat als llocs web XRP per a xat instantani entre carteres.",
+        "description": "Primera part de la descripció de la pàgina d'opcions"
+    },
+    "themeGreen": {
+        "message": "Verd",
+        "description": "Nom de l'opció de tema verd"
+    },
+    "themeBlue": {
+        "message": "Blau",
+        "description": "Nom de l'opció de tema blau"
+    },
+    "themeSaved": {
+        "message": "Tema desat amb èxit",
+        "description": "Missatge d'èxit quan es desa el tema"
+    },
+    "themeDark": {
+        "message": "Fosc",
+        "description": "Nom de l'opció de tema fosc"
+    },
+    "extDescription": {
+        "message": "Feu clic dret sobre qualsevol adreça de cartera XRP per enviar ràpidament un missatge a través de TextRP, la capa de missatgeria unificada per a XRPL.",
+        "description": "La descripció de l'extensió."
+    },
+    "themeLight": {
+        "message": "Clar",
+        "description": "Nom de l'opció de tema clar"
+    },
+    "buttonTextWallet": {
+        "message": "Xat amb cartera",
+        "description": "Text del botó per xatejar amb la cartera"
+    },
+    "feedbackSuccess": {
+        "message": "Comentaris enviats amb èxit",
+        "description": "Missatge d'èxit quan s'envien els comentaris"
+    },
+    "feedbackError": {
+        "message": "No s'han pogut enviar els comentaris. Torneu-ho a provar.",
+        "description": "Missatge d'error quan falla l'enviament de comentaris"
+    },
+    "previewButtonText": {
+        "message": "Previsualització del botó de xat",
+        "description": "Text per al botó de previsualització a les opcions"
+    },
+    "buttonTextToken": {
+        "message": "Xat amb l'emissor del token",
+        "description": "Text del botó per xatejar amb l'emissor del token"
+    },
+    "buttonTextNFT": {
+        "message": "Xat amb el propietari de l'NFT",
+        "description": "Text del botó per xatejar amb el propietari de l'NFT"
+    },
+    "themeRed": {
+        "message": "Vermell",
+        "description": "Nom de l'opció de tema vermell"
+    },
+    "messageWalletTitle": {
+        "message": "Missatge a la cartera XRP",
+        "description": "Títol per a la interfície de missatgeria de la cartera"
+    },
+    "saveButtonText": {
+        "message": "Desa",
+        "description": "Text per al botó de desar"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Xat amb la cartera del creador del token",
+        "description": "Text del botó per xatejar amb la cartera del creador del token"
+    },
+    "cancelButtonText": {
+        "message": "Cancel·la",
+        "description": "Text per al botó de cancel·lació"
+    },
+    "closeButtonText": {
+        "message": "Tanca",
+        "description": "Text per al botó de tancament"
+    },
+    "submitButtonText": {
+        "message": "Envia",
+        "description": "Text per al botó d'enviament"
+    },
+    "stepPinExtension": {
+        "message": "Fixa l'extensió",
+        "description": "Instrucció per fixar l'extensió"
+    },
+    "themeSelectLabel": {
+        "message": "Selecciona el tema del botó:",
+        "description": "Etiqueta per al menú desplegable de selecció de tema"
+    },
+    "configLoadError": {
+        "message": "No s'ha pogut carregar la configuració. L'enviament de comentaris està desactivat.",
+        "description": "Missatge d'error quan no es carrega la configuració"
+    },
+    "extName": {
+        "message": "Missatger de Cartera XRP de TextRP",
+        "description": "El nom de l'extensió."
+    },
+    "configNotLoaded": {
+        "message": "Configuració no carregada. L'enviament de comentaris està desactivat.",
+        "description": "Missatge d'error quan la configuració no està carregada"
+    },
+    "feedbackRequired": {
+        "message": "Introduïu comentaris abans d'enviar.",
+        "description": "Missatge d'error quan els comentaris estan buits"
+    },
+    "optionsDescription2": {
+        "message": "O feu clic dret sobre una adreça XRP per a un xat instantani.",
+        "description": "Segona part de la descripció de la pàgina d'opcions"
+    },
+    "howToChangeTheme": {
+        "message": "Com canviar el tema del botó",
+        "description": "Encapçalament per a la secció d'instruccions de canvi de tema"
+    },
+    "tryXRPWebsites": {
+        "message": "Proveu aquests llocs web XRP",
+        "description": "Encapçalament per a la llista de llocs web XRP"
+    },
+    "feedbackButtonText": {
+        "message": "Envia comentaris",
+        "description": "Text per al botó de comentaris"
+    },
+    "stepClickOptions": {
+        "message": "Feu clic a les opcions de la icona",
+        "description": "Instrucció per fer clic a les opcions"
+    }
+}

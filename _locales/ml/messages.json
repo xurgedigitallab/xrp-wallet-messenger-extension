@@ -1,130 +1,130 @@
 {
-  "buttonTextGame": {
-    "message": "പ്ലേയറുമായ് ചാറ്റ് ചെയ്യുക",
-    "description": "Button text for chatting with game player"
-  },
-  "optionsDescription1": {
-    "message": "തത്സമയ വാലറ്റ്-ടു-വാലറ്റ് ചാറ്റിനായി XRP വെബ്‌സൈറ്റുകൾക്ക് ചാറ്റ് ബട്ടൺ ചേർക്കുന്നു.",
-    "description": "First part of the options page description"
-  },
-  "themeGreen": {
-    "message": "പച്ച",
-    "description": "Name of the green theme option"
-  },
-  "themeBlue": {
-    "message": "നീല",
-    "description": "Name of the blue theme option"
-  },
-  "themeSaved": {
-    "message": "തീം വിജയകരമായി സംരക്ഷിച്ചു",
-    "description": "Success message when theme is saved"
-  },
-  "themeDark": {
-    "message": "ഇരുണ്ടത്",
-    "description": "Name of the dark theme option"
-  },
-  "extDescription": {
-    "message": "TextRP ഉപയോഗിച്ച് സന്ദേശം അയയ്ക്കാൻ ഏത് XRP വാലറ്റ് അഡ്രസിലും വലത് ക്ലിക്ക് ചെയ്യുക — XRPL-യ്ക്കുള്ള ഐക്യവൽക്കൃത സന്ദേശ پرت.",
-    "description": "The description of the extension."
-  },
-  "themeLight": {
-    "message": "പ്രകാശം",
-    "description": "Name of the light theme option"
-  },
-  "buttonTextWallet": {
-    "message": "വാലറ്റുമായി ചാറ്റ് ചെയ്യുക",
-    "description": "Button text for chatting with wallet"
-  },
-  "feedbackSuccess": {
-    "message": "ഫീഡ്‌ബാക്ക് വിജയകരമായി സമർപ്പിച്ചു",
-    "description": "Success message when feedback is submitted"
-  },
-  "feedbackError": {
-    "message": "ഫീഡ്‌ബാക്ക് സമർപ്പിക്കുന്നതിൽ പരാജയപ്പെട്ടു. ദയവായി പിന്നീട് ശ്രമിക്കുക.",
-    "description": "Error message when feedback submission fails"
-  },
-  "previewButtonText": {
-    "message": "ചാറ്റ് ബട്ടൺ പ്രിവ്യൂ",
-    "description": "Text for the preview button in options"
-  },
-  "buttonTextToken": {
-    "message": "ടോക്കൺ ഇറക്കിയയാളുമായി ചാറ്റ് ചെയ്യുക",
-    "description": "Button text for chatting with token issuer"
-  },
-  "buttonTextNFT": {
-    "message": "NFT ഉടമയുമായി ചാറ്റ് ചെയ്യുക",
-    "description": "Button text for chatting with NFT owner"
-  },
-  "themeRed": {
-    "message": "ചുവപ്പ്",
-    "description": "Name of the red theme option"
-  },
-  "messageWalletTitle": {
-    "message": "XRP വാലറ്റിലേക്ക് സന്ദേശം അയയ്ക്കുക",
-    "description": "Title for the wallet messaging interface"
-  },
-  "saveButtonText": {
-    "message": "സംരക്ഷിക്കുക",
-    "description": "Text for the save button"
-  },
-  "buttonTextTokenCreator": {
-    "message": "ടോക്കൺ സൃഷ്ടിച്ചവന്റെ വാലറ്റുമായി ചാറ്റ് ചെയ്യുക",
-    "description": "Button text for chatting with token creator's wallet"
-  },
-  "cancelButtonText": {
-    "message": "റദ്ദാക്കുക",
-    "description": "Text for the cancel button"
-  },
-  "closeButtonText": {
-    "message": "അടയ്ക്കുക",
-    "description": "Text for the close button"
-  },
-  "submitButtonText": {
-    "message": "സമർപ്പിക്കുക",
-    "description": "Text for the submit button"
-  },
-  "stepPinExtension": {
-    "message": "എക്സ്റ്റൻഷൻ പിന് ചെയ്ത് വയ്ക്കുക",
-    "description": "Step instruction for pinning the extension"
-  },
-  "themeSelectLabel": {
-    "message": "ബട്ടൺ തീം തിരഞ്ഞെടുക്കുക:",
-    "description": "Label for the theme selection dropdown"
-  },
-  "configLoadError": {
-    "message": "കോൺഫിഗറേഷൻ ലോഡ് ചെയ്യുന്നതിൽ പരാജയം. ഫീഡ്‌ബാക്ക് സമർപ്പിക്കൽ പ്രവർത്തനരഹിതമാണ്.",
-    "description": "Error message when configuration fails to load"
-  },
-  "extName": {
-    "message": "TextRP-ൽ നിന്നുള്ള XRP വാലറ്റ് മെസ്സഞ്ചർ",
-    "description": "The name of the extension."
-  },
-  "configNotLoaded": {
-    "message": "കോൺഫിഗറേഷൻ ലോഡ് ചെയ്തിട്ടില്ല. ഫീഡ്‌ബാക്ക് സമർപ്പിക്കൽ പ്രവർത്തനരഹിതമാണ്.",
-    "description": "Error message when configuration is not loaded"
-  },
-  "feedbackRequired": {
-    "message": "സമർപ്പിക്കുന്നതിന് മുമ്പ് ദയവായി ഫീഡ്‌ബാക്ക് നൽകുക.",
-    "description": "Error message when feedback is empty"
-  },
-  "optionsDescription2": {
-    "message": "അല്ലെങ്കിൽ, XRP വിലാസത്തിൽ വലത് ക്ലിക്ക് ചെയ്ത് തത്സമയ വാലറ്റ്-ടു-വാലറ്റ് ചാറ്റ് ആരംഭിക്കുക.",
-    "description": "Second part of the options page description"
-  },
-  "howToChangeTheme": {
-    "message": "ബട്ടൺ തീം എങ്ങനെ മാറ്റാം",
-    "description": "Header for the theme change instructions section"
-  },
-  "tryXRPWebsites": {
-    "message": "ഈ XRP വെബ്‌സൈറ്റുകൾ പരീക്ഷിക്കുക",
-    "description": "Header for the list of XRP websites"
-  },
-  "feedbackButtonText": {
-    "message": "ഫീഡ്‌ബാക്ക് നൽകുക",
-    "description": "Text for the feedback button"
-  },
-  "stepClickOptions": {
-    "message": "ഐക്കണിൽ ക്ലിക്ക് ചെയ്ത് ഓപ്ഷനുകൾ തിരഞ്ഞെടുക്കുക",
-    "description": "Step instruction for clicking options"
-  }
+    "buttonTextGame": {
+        "message": "പ്ലേയറുമായ് ചാറ്റ് ചെയ്യുക",
+        "description": "Button text for chatting with game player"
+    },
+    "optionsDescription1": {
+        "message": "തത്സമയ വാലറ്റ്-ടു-വാലറ്റ് ചാറ്റിനായി XRP വെബ്‌സൈറ്റുകൾക്ക് ചാറ്റ് ബട്ടൺ ചേർക്കുന്നു.",
+        "description": "First part of the options page description"
+    },
+    "themeGreen": {
+        "message": "പച്ച",
+        "description": "Name of the green theme option"
+    },
+    "themeBlue": {
+        "message": "നീല",
+        "description": "Name of the blue theme option"
+    },
+    "themeSaved": {
+        "message": "തീം വിജയകരമായി സംരക്ഷിച്ചു",
+        "description": "Success message when theme is saved"
+    },
+    "themeDark": {
+        "message": "ഇരുണ്ടത്",
+        "description": "Name of the dark theme option"
+    },
+    "extDescription": {
+        "message": "XRP വെബ്‌സൈറ്റുകളിൽ വാലറ്റ്-ടു-വാലറ്റ് ചാറ്റിനായി ഒരു ചാറ്റ് ബട്ടൺ ചേർക്കുന്നു.",
+        "description": "The description of the extension."
+    },
+    "themeLight": {
+        "message": "പ്രകാശം",
+        "description": "Name of the light theme option"
+    },
+    "buttonTextWallet": {
+        "message": "വാലറ്റുമായി ചാറ്റ് ചെയ്യുക",
+        "description": "Button text for chatting with wallet"
+    },
+    "feedbackSuccess": {
+        "message": "ഫീഡ്‌ബാക്ക് വിജയകരമായി സമർപ്പിച്ചു",
+        "description": "Success message when feedback is submitted"
+    },
+    "feedbackError": {
+        "message": "ഫീഡ്‌ബാക്ക് സമർപ്പിക്കുന്നതിൽ പരാജയപ്പെട്ടു. ദയവായി പിന്നീട് ശ്രമിക്കുക.",
+        "description": "Error message when feedback submission fails"
+    },
+    "previewButtonText": {
+        "message": "ചാറ്റ് ബട്ടൺ പ്രിവ്യൂ",
+        "description": "Text for the preview button in options"
+    },
+    "buttonTextToken": {
+        "message": "ടോക്കൺ ഇറക്കിയയാളുമായി ചാറ്റ് ചെയ്യുക",
+        "description": "Button text for chatting with token issuer"
+    },
+    "buttonTextNFT": {
+        "message": "NFT ഉടമയുമായി ചാറ്റ് ചെയ്യുക",
+        "description": "Button text for chatting with NFT owner"
+    },
+    "themeRed": {
+        "message": "ചുവപ്പ്",
+        "description": "Name of the red theme option"
+    },
+    "messageWalletTitle": {
+        "message": "XRP വാലറ്റിലേക്ക് സന്ദേശം അയയ്ക്കുക",
+        "description": "Title for the wallet messaging interface"
+    },
+    "saveButtonText": {
+        "message": "സംരക്ഷിക്കുക",
+        "description": "Text for the save button"
+    },
+    "buttonTextTokenCreator": {
+        "message": "ടോക്കൺ സൃഷ്ടിച്ചവന്റെ വാലറ്റുമായി ചാറ്റ് ചെയ്യുക",
+        "description": "Button text for chatting with token creator's wallet"
+    },
+    "cancelButtonText": {
+        "message": "റദ്ദാക്കുക",
+        "description": "Text for the cancel button"
+    },
+    "closeButtonText": {
+        "message": "അടയ്ക്കുക",
+        "description": "Text for the close button"
+    },
+    "submitButtonText": {
+        "message": "സമർപ്പിക്കുക",
+        "description": "Text for the submit button"
+    },
+    "stepPinExtension": {
+        "message": "എക്സ്റ്റൻഷൻ പിന് ചെയ്ത് വയ്ക്കുക",
+        "description": "Step instruction for pinning the extension"
+    },
+    "themeSelectLabel": {
+        "message": "ബട്ടൺ തീം തിരഞ്ഞെടുക്കുക:",
+        "description": "Label for the theme selection dropdown"
+    },
+    "configLoadError": {
+        "message": "കോൺഫിഗറേഷൻ ലോഡ് ചെയ്യുന്നതിൽ പരാജയം. ഫീഡ്‌ബാക്ക് സമർപ്പിക്കൽ പ്രവർത്തനരഹിതമാണ്.",
+        "description": "Error message when configuration fails to load"
+    },
+    "extName": {
+        "message": "TextRP-ൽ നിന്നുള്ള XRP വാലറ്റ് മെസ്സഞ്ചർ",
+        "description": "The name of the extension."
+    },
+    "configNotLoaded": {
+        "message": "കോൺഫിഗറേഷൻ ലോഡ് ചെയ്തിട്ടില്ല. ഫീഡ്‌ബാക്ക് സമർപ്പിക്കൽ പ്രവർത്തനരഹിതമാണ്.",
+        "description": "Error message when configuration is not loaded"
+    },
+    "feedbackRequired": {
+        "message": "സമർപ്പിക്കുന്നതിന് മുമ്പ് ദയവായി ഫീഡ്‌ബാക്ക് നൽകുക.",
+        "description": "Error message when feedback is empty"
+    },
+    "optionsDescription2": {
+        "message": "അല്ലെങ്കിൽ, XRP വിലാസത്തിൽ വലത് ക്ലിക്ക് ചെയ്ത് തത്സമയ വാലറ്റ്-ടു-വാലറ്റ് ചാറ്റ് ആരംഭിക്കുക.",
+        "description": "Second part of the options page description"
+    },
+    "howToChangeTheme": {
+        "message": "ബട്ടൺ തീം എങ്ങനെ മാറ്റാം",
+        "description": "Header for the theme change instructions section"
+    },
+    "tryXRPWebsites": {
+        "message": "ഈ XRP വെബ്‌സൈറ്റുകൾ പരീക്ഷിക്കുക",
+        "description": "Header for the list of XRP websites"
+    },
+    "feedbackButtonText": {
+        "message": "ഫീഡ്‌ബാക്ക് നൽകുക",
+        "description": "Text for the feedback button"
+    },
+    "stepClickOptions": {
+        "message": "ഐക്കണിൽ ക്ലിക്ക് ചെയ്ത് ഓപ്ഷനുകൾ തിരഞ്ഞെടുക്കുക",
+        "description": "Step instruction for clicking options"
+    }
 }

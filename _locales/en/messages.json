@@ -3,149 +3,148 @@
         "message": "Provide Feedback",
         "description": "Text for the feedback button in options"
     },
-    "buttonTextGame":  {
-                           "message":  "Chat with player",
-                           "description":  "Button text for chatting with game player"
-                       },
-    "optionsDescription1":  {
-                                "message":  "Adds a chat button to XRP websites for instant wallet-to-wallet chat.",
-                                "description":  "First part of the options page description"
-                            },
-    "themeGreen":  {
-                       "message":  "Green",
-                       "description":  "Name of the green theme option"
-                   },
-    "themeBlue":  {
-                      "message":  "Blue",
-                      "description":  "Name of the blue theme option"
-                  },
-    "themeSaved":  {
-                       "message":  "Theme saved successfully",
-                       "description":  "Success message when theme is saved"
-                   },
-    "themeDark":  {
-                      "message":  "Dark",
-                      "description":  "Name of the dark theme option"
-                  },
-    "extDescription":  {
-                           "message":  "Simply right-click on any XRP wallet address to quickly send a message through TextRP, the unified messaging layer for the XRPL.",
-                           "description":  "The description of the extension."
-                       },
-    "themeLight":  {
-                       "message":  "Light",
-                       "description":  "Name of the light theme option"
-                   },
-    "buttonTextWallet":  {
-                             "message":  "Chat with wallet",
-                             "description":  "Button text for chatting with wallet"
-                         },
-    "feedbackSuccess":  {
-                            "message":  "Feedback submitted successfully",
-                            "description":  "Success message when feedback is submitted"
-                        },
-    "feedbackError":  {
-                          "message":  "Failed to submit feedback. Please try again later.",
-                          "description":  "Error message when feedback submission fails"
-                      },
-  "feedbackTitle":  {
-                          "message":  "Provide Feedback",
-                          "description":  "Title for the feedback modal"
-                      },
-  "feedbackPlaceholder":  {
-                          "message":  "Enter your feedback here...",
-                          "description":  "Placeholder text for feedback textarea"
-                      },
-  "submitFeedback":  {
-                          "message":  "Submit",
-                          "description":  "Text for the submit feedback button"
-                      },
-  "cancelFeedback":  {
-                          "message":  "Cancel",
-                          "description":  "Text for the cancel feedback button"
-                      },
-    "previewButtonText":  {
-                              "message":  "Chat Button Preview",
-                              "description":  "Text for the preview button in options"
-                          },
-    "buttonTextToken":  {
-                            "message":  "Chat with token issuer",
-                            "description":  "Button text for chatting with token issuer"
-                        },
-    "buttonTextNFT":  {
-                          "message":  "Chat with NFT owner",
-                          "description":  "Button text for chatting with NFT owner"
-                      },
-    "themeRed":  {
-                     "message":  "Red",
-                     "description":  "Name of the red theme option"
-                 },
-    "messageWalletTitle":  {
-                               "message":  "Message XRP Wallet",
-                               "description":  "Title for the wallet messaging interface"
-                           },
-    "saveButtonText":  {
-                           "message":  "Save",
-                           "description":  "Text for the save button"
-                       },
-    "buttonTextTokenCreator":  {
-                                   "message":  "Chat with token creator\u0027s wallet",
-                                   "description":  "Button text for chatting with token creator\u0027s wallet"
-                               },
-    "cancelButtonText":  {
-                             "message":  "Cancel",
-                             "description":  "Text for the cancel button"
-                         },
-    "closeButtonText":  {
-                            "message":  "Close",
-                            "description":  "Text for the close button"
-                        },
-    "submitButtonText":  {
-                             "message":  "Submit",
-                             "description":  "Text for the submit button"
-                         },
-    "stepPinExtension":  {
-                             "message":  "Pin the extension",
-                             "description":  "Step instruction for pinning the extension"
-                         },
-    "themeSelectLabel":  {
-                             "message":  "Select Button Theme:",
-                             "description":  "Label for the theme selection dropdown"
-                         },
-    "configLoadError":  {
-                            "message":  "Failed to load configuration. Feedback submission is disabled.",
-                            "description":  "Error message when configuration fails to load"
-                        },
-    "extName":  {
-                    "message":  "XRP Wallet Messenger from TextRP",
-                    "description":  "The name of the extension."
-                },
-    "configNotLoaded":  {
-                            "message":  "Configuration not loaded. Feedback submission is disabled.",
-                            "description":  "Error message when configuration is not loaded"
-                        },
-    "feedbackRequired":  {
-                             "message":  "Please enter feedback before submitting.",
-                             "description":  "Error message when feedback is empty"
-                         },
-    "submittingFeedback":  {
-                              "message":  "Submitting...",
-                              "description":  "Text shown on the submit button while feedback is being submitted"
-                          },
-    "optionsDescription2":  {
-                                "message":  "Or right-click any XRP address for instant wallet-to-wallet chat.",
-                                "description":  "Second part of the options page description"
-                            },
-    "howToChangeTheme":  {
-                                "message":  "How to Change Button Later",
-                                "description":  "Header for the theme change instructions section"
-                            },
-    "tryXRPWebsites":  {
-                                "message":  "Works on these XRP Websites",
-                                "description":  "Header for the list of XRP websites"
-                            },
-
-    "stepClickOptions":  {
-                             "message":  "Click icon options",
-                             "description":  "Step instruction for clicking options"
-                         }
+    "buttonTextGame": {
+        "message": "Chat with player",
+        "description": "Button text for chatting with game player"
+    },
+    "optionsDescription1": {
+        "message": "Adds a chat button to XRP websites for instant wallet-to-wallet chat.",
+        "description": "First part of the options page description"
+    },
+    "themeGreen": {
+        "message": "Green",
+        "description": "Name of the green theme option"
+    },
+    "themeBlue": {
+        "message": "Blue",
+        "description": "Name of the blue theme option"
+    },
+    "themeSaved": {
+        "message": "Theme saved successfully",
+        "description": "Success message when theme is saved"
+    },
+    "themeDark": {
+        "message": "Dark",
+        "description": "Name of the dark theme option"
+    },
+    "extDescription": {
+        "message": "Adds a chat button to XRP websites for instant wallet-to-wallet chat.",
+        "description": "The description of the extension."
+    },
+    "themeLight": {
+        "message": "Light",
+        "description": "Name of the light theme option"
+    },
+    "buttonTextWallet": {
+        "message": "Chat with wallet",
+        "description": "Button text for chatting with wallet"
+    },
+    "feedbackSuccess": {
+        "message": "Feedback submitted successfully",
+        "description": "Success message when feedback is submitted"
+    },
+    "feedbackError": {
+        "message": "Failed to submit feedback. Please try again later.",
+        "description": "Error message when feedback submission fails"
+    },
+    "feedbackTitle": {
+        "message": "Provide Feedback",
+        "description": "Title for the feedback modal"
+    },
+    "feedbackPlaceholder": {
+        "message": "Enter your feedback here...",
+        "description": "Placeholder text for feedback textarea"
+    },
+    "submitFeedback": {
+        "message": "Submit",
+        "description": "Text for the submit feedback button"
+    },
+    "cancelFeedback": {
+        "message": "Cancel",
+        "description": "Text for the cancel feedback button"
+    },
+    "previewButtonText": {
+        "message": "Chat Button Preview",
+        "description": "Text for the preview button in options"
+    },
+    "buttonTextToken": {
+        "message": "Chat with token issuer",
+        "description": "Button text for chatting with token issuer"
+    },
+    "buttonTextNFT": {
+        "message": "Chat with NFT owner",
+        "description": "Button text for chatting with NFT owner"
+    },
+    "themeRed": {
+        "message": "Red",
+        "description": "Name of the red theme option"
+    },
+    "messageWalletTitle": {
+        "message": "Message XRP Wallet",
+        "description": "Title for the wallet messaging interface"
+    },
+    "saveButtonText": {
+        "message": "Save",
+        "description": "Text for the save button"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Chat with token creator's wallet",
+        "description": "Button text for chatting with token creator's wallet"
+    },
+    "cancelButtonText": {
+        "message": "Cancel",
+        "description": "Text for the cancel button"
+    },
+    "closeButtonText": {
+        "message": "Close",
+        "description": "Text for the close button"
+    },
+    "submitButtonText": {
+        "message": "Submit",
+        "description": "Text for the submit button"
+    },
+    "stepPinExtension": {
+        "message": "Pin the extension",
+        "description": "Step instruction for pinning the extension"
+    },
+    "themeSelectLabel": {
+        "message": "Select Button Theme:",
+        "description": "Label for the theme selection dropdown"
+    },
+    "configLoadError": {
+        "message": "Failed to load configuration. Feedback submission is disabled.",
+        "description": "Error message when configuration fails to load"
+    },
+    "extName": {
+        "message": "XRP Wallet Messenger from TextRP",
+        "description": "The name of the extension."
+    },
+    "configNotLoaded": {
+        "message": "Configuration not loaded. Feedback submission is disabled.",
+        "description": "Error message when configuration is not loaded"
+    },
+    "feedbackRequired": {
+        "message": "Please enter feedback before submitting.",
+        "description": "Error message when feedback is empty"
+    },
+    "submittingFeedback": {
+        "message": "Submitting...",
+        "description": "Text shown on the submit button while feedback is being submitted"
+    },
+    "optionsDescription2": {
+        "message": "Or right-click any XRP address for instant wallet-to-wallet chat.",
+        "description": "Second part of the options page description"
+    },
+    "howToChangeTheme": {
+        "message": "How to Change Button Later",
+        "description": "Header for the theme change instructions section"
+    },
+    "tryXRPWebsites": {
+        "message": "Works on these XRP Websites",
+        "description": "Header for the list of XRP websites"
+    },
+    "stepClickOptions": {
+        "message": "Click icon options",
+        "description": "Step instruction for clicking options"
+    }
 }

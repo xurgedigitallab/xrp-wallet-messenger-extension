@@ -1,130 +1,130 @@
 {
-  "buttonTextGame": {
-    "message": "Czat z graczem",
-    "description": "Button text for chatting with game player"
-  },
-  "optionsDescription1": {
-    "message": "Dodaje przycisk czatu do stron XRP w celu natychmiastowego czatu portfel–portfel.",
-    "description": "First part of the options page description"
-  },
-  "themeGreen": {
-    "message": "Zielony",
-    "description": "Name of the green theme option"
-  },
-  "themeBlue": {
-    "message": "Niebieski",
-    "description": "Name of the blue theme option"
-  },
-  "themeSaved": {
-    "message": "Motyw został zapisany",
-    "description": "Success message when theme is saved"
-  },
-  "themeDark": {
-    "message": "Ciemny",
-    "description": "Name of the dark theme option"
-  },
-  "extDescription": {
-    "message": "Kliknij prawym przyciskiem na dowolny adres portfela XRP, aby szybko wysłać wiadomość przez TextRP — zintegrowaną warstwę wiadomości dla XRPL.",
-    "description": "The description of the extension."
-  },
-  "themeLight": {
-    "message": "Jasny",
-    "description": "Name of the light theme option"
-  },
-  "buttonTextWallet": {
-    "message": "Czat z portfelem",
-    "description": "Button text for chatting with wallet"
-  },
-  "feedbackSuccess": {
-    "message": "Opinie zostały pomyślnie wysłane",
-    "description": "Success message when feedback is submitted"
-  },
-  "feedbackError": {
-    "message": "Nie udało się wysłać opinii. Spróbuj ponownie później.",
-    "description": "Error message when feedback submission fails"
-  },
-  "previewButtonText": {
-    "message": "Podgląd przycisku czatu",
-    "description": "Text for the preview button in options"
-  },
-  "buttonTextToken": {
-    "message": "Czat z wydawcą tokena",
-    "description": "Button text for chatting with token issuer"
-  },
-  "buttonTextNFT": {
-    "message": "Czat z właścicielem NFT",
-    "description": "Button text for chatting with NFT owner"
-  },
-  "themeRed": {
-    "message": "Czerwony",
-    "description": "Name of the red theme option"
-  },
-  "messageWalletTitle": {
-    "message": "Wyślij wiadomość do portfela XRP",
-    "description": "Title for the wallet messaging interface"
-  },
-  "saveButtonText": {
-    "message": "Zapisz",
-    "description": "Text for the save button"
-  },
-  "buttonTextTokenCreator": {
-    "message": "Czat z portfelem twórcy tokena",
-    "description": "Button text for chatting with token creator's wallet"
-  },
-  "cancelButtonText": {
-    "message": "Anuluj",
-    "description": "Text for the cancel button"
-  },
-  "closeButtonText": {
-    "message": "Zamknij",
-    "description": "Text for the close button"
-  },
-  "submitButtonText": {
-    "message": "Wyślij",
-    "description": "Text for the submit button"
-  },
-  "stepPinExtension": {
-    "message": "Przypnij rozszerzenie",
-    "description": "Step instruction for pinning the extension"
-  },
-  "themeSelectLabel": {
-    "message": "Wybierz motyw przycisku:",
-    "description": "Label for the theme selection dropdown"
-  },
-  "configLoadError": {
-    "message": "Nie udało się załadować konfiguracji. Wysyłanie opinii jest wyłączone.",
-    "description": "Error message when configuration fails to load"
-  },
-  "extName": {
-    "message": "Komunikator portfela XRP od TextRP",
-    "description": "The name of the extension."
-  },
-  "configNotLoaded": {
-    "message": "Konfiguracja nie została załadowana. Wysyłanie opinii jest wyłączone.",
-    "description": "Error message when configuration is not loaded"
-  },
-  "feedbackRequired": {
-    "message": "Wpisz opinię przed wysłaniem.",
-    "description": "Error message when feedback is empty"
-  },
-  "optionsDescription2": {
-    "message": "Lub kliknij prawym przyciskiem na adres XRP, aby rozpocząć czat portfel–portfel.",
-    "description": "Second part of the options page description"
-  },
-  "howToChangeTheme": {
-    "message": "Jak zmienić motyw przycisku",
-    "description": "Header for the theme change instructions section"
-  },
-  "tryXRPWebsites": {
-    "message": "Wypróbuj te strony XRP",
-    "description": "Header for the list of XRP websites"
-  },
-  "feedbackButtonText": {
-    "message": "Prześlij opinię",
-    "description": "Text for the feedback button"
-  },
-  "stepClickOptions": {
-    "message": "Kliknij opcje ikony",
-    "description": "Step instruction for clicking options"
-  }
+    "buttonTextGame": {
+        "message": "Czat z graczem",
+        "description": "Button text for chatting with game player"
+    },
+    "optionsDescription1": {
+        "message": "Dodaje przycisk czatu do stron XRP w celu natychmiastowego czatu portfel–portfel.",
+        "description": "First part of the options page description"
+    },
+    "themeGreen": {
+        "message": "Zielony",
+        "description": "Name of the green theme option"
+    },
+    "themeBlue": {
+        "message": "Niebieski",
+        "description": "Name of the blue theme option"
+    },
+    "themeSaved": {
+        "message": "Motyw został zapisany",
+        "description": "Success message when theme is saved"
+    },
+    "themeDark": {
+        "message": "Ciemny",
+        "description": "Name of the dark theme option"
+    },
+    "extDescription": {
+        "message": "Dodaje przycisk czatu na stronach XRP umożliwiający natychmiastową rozmowę między portfelami.",
+        "description": "The description of the extension."
+    },
+    "themeLight": {
+        "message": "Jasny",
+        "description": "Name of the light theme option"
+    },
+    "buttonTextWallet": {
+        "message": "Czat z portfelem",
+        "description": "Button text for chatting with wallet"
+    },
+    "feedbackSuccess": {
+        "message": "Opinie zostały pomyślnie wysłane",
+        "description": "Success message when feedback is submitted"
+    },
+    "feedbackError": {
+        "message": "Nie udało się wysłać opinii. Spróbuj ponownie później.",
+        "description": "Error message when feedback submission fails"
+    },
+    "previewButtonText": {
+        "message": "Podgląd przycisku czatu",
+        "description": "Text for the preview button in options"
+    },
+    "buttonTextToken": {
+        "message": "Czat z wydawcą tokena",
+        "description": "Button text for chatting with token issuer"
+    },
+    "buttonTextNFT": {
+        "message": "Czat z właścicielem NFT",
+        "description": "Button text for chatting with NFT owner"
+    },
+    "themeRed": {
+        "message": "Czerwony",
+        "description": "Name of the red theme option"
+    },
+    "messageWalletTitle": {
+        "message": "Wyślij wiadomość do portfela XRP",
+        "description": "Title for the wallet messaging interface"
+    },
+    "saveButtonText": {
+        "message": "Zapisz",
+        "description": "Text for the save button"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Czat z portfelem twórcy tokena",
+        "description": "Button text for chatting with token creator's wallet"
+    },
+    "cancelButtonText": {
+        "message": "Anuluj",
+        "description": "Text for the cancel button"
+    },
+    "closeButtonText": {
+        "message": "Zamknij",
+        "description": "Text for the close button"
+    },
+    "submitButtonText": {
+        "message": "Wyślij",
+        "description": "Text for the submit button"
+    },
+    "stepPinExtension": {
+        "message": "Przypnij rozszerzenie",
+        "description": "Step instruction for pinning the extension"
+    },
+    "themeSelectLabel": {
+        "message": "Wybierz motyw przycisku:",
+        "description": "Label for the theme selection dropdown"
+    },
+    "configLoadError": {
+        "message": "Nie udało się załadować konfiguracji. Wysyłanie opinii jest wyłączone.",
+        "description": "Error message when configuration fails to load"
+    },
+    "extName": {
+        "message": "Komunikator portfela XRP od TextRP",
+        "description": "The name of the extension."
+    },
+    "configNotLoaded": {
+        "message": "Konfiguracja nie została załadowana. Wysyłanie opinii jest wyłączone.",
+        "description": "Error message when configuration is not loaded"
+    },
+    "feedbackRequired": {
+        "message": "Wpisz opinię przed wysłaniem.",
+        "description": "Error message when feedback is empty"
+    },
+    "optionsDescription2": {
+        "message": "Lub kliknij prawym przyciskiem na adres XRP, aby rozpocząć czat portfel–portfel.",
+        "description": "Second part of the options page description"
+    },
+    "howToChangeTheme": {
+        "message": "Jak zmienić motyw przycisku",
+        "description": "Header for the theme change instructions section"
+    },
+    "tryXRPWebsites": {
+        "message": "Wypróbuj te strony XRP",
+        "description": "Header for the list of XRP websites"
+    },
+    "feedbackButtonText": {
+        "message": "Prześlij opinię",
+        "description": "Text for the feedback button"
+    },
+    "stepClickOptions": {
+        "message": "Kliknij opcje ikony",
+        "description": "Step instruction for clicking options"
+    }
 }

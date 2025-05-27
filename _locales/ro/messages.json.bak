@@ -1,0 +1,130 @@
+{
+  "buttonTextGame": {
+    "message": "Chat cu jucătorul",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Adaugă un buton de chat pe site-urile XRP pentru conversații instantanee între portofele.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Verde",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Albastru",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Tema a fost salvată cu succes",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Întunecat",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Faceți clic dreapta pe orice adresă de portofel XRP pentru a trimite rapid un mesaj prin TextRP — stratul unificat de mesagerie pentru XRPL.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Deschis",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Chat cu portofelul",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Feedback-ul a fost trimis cu succes",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Trimiterea feedback-ului a eșuat. Vă rugăm să încercați mai târziu.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Previzualizare buton chat",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Chat cu emitentul tokenului",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Chat cu deținătorul NFT",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Roșu",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Trimite mesaj către portofel XRP",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Salvează",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Chat cu portofelul creatorului tokenului",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Anulează",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Închide",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Trimite",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Fixează extensia",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Selectează tema butonului:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Nu s-a putut încărca configurația. Trimiterea feedback-ului este dezactivată.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "Messenger portofel XRP de la TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Configurația nu a fost încărcată. Trimiterea feedback-ului este dezactivată.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Vă rugăm să introduceți un feedback înainte de a trimite.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Sau faceți clic dreapta pe orice adresă XRP pentru a începe un chat portofel-portofel instantaneu.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Cum se schimbă tema butonului",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Încercați aceste site-uri XRP",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Trimite feedback",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Apasă pe pictograma opțiuni",
+    "description": "Step instruction for clicking options"
+  }
+}

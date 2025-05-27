@@ -1,13 +1,16 @@
 const path = require('path');
 const TerserPlugin = require('terser-webpack-plugin');
 const { merge } = require('webpack-merge');
+const CopyPlugin = require('copy-webpack-plugin');
 
 const commonConfig = {
-  entry: './background.js', // Only process background.js
+  entry: {
+    background: './background.js',
+  },
   output: {
-    filename: 'background.bundle.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: true, // Clean the output directory before each build
+    clean: true,
   },
   module: {
     rules: [
@@ -20,6 +23,28 @@ const commonConfig = {
       },
     ],
   },
+  plugins: [
+    new CopyPlugin({
+      patterns: [
+        { from: 'manifest.json', to: '.' },
+        { from: 'config.json', to: '.', noErrorOnMissing: false },
+        { 
+          from: 'icons', 
+          to: 'icons',
+          globOptions: {
+            ignore: ['**/orig_button_icon.svg']  // Exclude the large SVG file
+          }
+        },
+        { from: '_locales', to: '_locales' },
+        { from: '*.html', to: '.', noErrorOnMissing: true },
+        { from: '*.gif', to: '.', noErrorOnMissing: true },
+        { from: '*.css', to: '.', noErrorOnMissing: true },
+        { from: '*.png', to: '.', noErrorOnMissing: true },
+        { from: 'content.min.js', to: '.', noErrorOnMissing: true },
+        { from: 'options.min.js', to: '.', noErrorOnMissing: true },
+      ],
+    }),
+  ],
   target: 'web',
   resolve: {
     fallback: {
@@ -27,6 +52,11 @@ const commonConfig = {
       path: false,
       crypto: false,
     },
+  },
+  performance: {
+    hints: 'warning',
+    maxAssetSize: 1024 * 1024, // 1 MiB
+    maxEntrypointSize: 1024 * 1024, // 1 MiB
   },
 };
 
@@ -38,15 +68,15 @@ const productionConfig = {
       new TerserPlugin({
         terserOptions: {
           compress: {
-            drop_console: false, // Keep console logs
-            drop_debugger: true, // Remove debugger statements
+            drop_console: false,
+            drop_debugger: true,
           },
-          mangle: true, // Shorten variable names
+          mangle: true,
           output: {
-            comments: false, // Remove comments
+            comments: false,
           },
         },
-        extractComments: false, // Do not extract comments to a separate file
+        extractComments: false,
       }),
     ],
   },
@@ -54,7 +84,7 @@ const productionConfig = {
 
 const developmentConfig = {
   mode: 'development',
-  devtool: 'inline-source-map', // For easier debugging in development
+  devtool: 'inline-source-map',
 };
 
 module.exports = (env) =>

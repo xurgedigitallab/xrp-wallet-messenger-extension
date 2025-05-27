@@ -1,0 +1,130 @@
+{
+    "buttonTextGame": {
+        "message": "Chat s hráčem",
+        "description": "Text tlačítka pro chat s hráčem hry"
+    },
+    "optionsDescription1": {
+        "message": "Přidává tlačítko chatu na XRP weby pro okamžitý chat mezi peněženkami.",
+        "description": "První část popisu stránky s možnostmi"
+    },
+    "themeGreen": {
+        "message": "Zelená",
+        "description": "Název možnosti zeleného motivu"
+    },
+    "themeBlue": {
+        "message": "Modrá",
+        "description": "Název možnosti modrého motivu"
+    },
+    "themeSaved": {
+        "message": "Motiv úspěšně uložen",
+        "description": "Zpráva o úspěchu při uložení motivu"
+    },
+    "themeDark": {
+        "message": "Tmavá",
+        "description": "Název možnosti tmavého motivu"
+    },
+    "extDescription": {
+        "message": "Klikněte pravým tlačítkem na libovolnou adresu peněženky XRP a rychle odešlete zprávu přes TextRP, jednotnou vrstvu zpráv pro XRPL.",
+        "description": "Popis rozšíření."
+    },
+    "themeLight": {
+        "message": "Světlá",
+        "description": "Název možnosti světlého motivu"
+    },
+    "buttonTextWallet": {
+        "message": "Chat s peněženkou",
+        "description": "Text tlačítka pro chat s peněženkou"
+    },
+    "feedbackSuccess": {
+        "message": "Zpětná vazba úspěšně odeslána",
+        "description": "Zpráva o úspěchu při odeslání zpětné vazby"
+    },
+    "feedbackError": {
+        "message": "Odeslání zpětné vazby selhalo. Zkuste to znovu.",
+        "description": "Chybová zpráva při neúspěšném odeslání zpětné vazby"
+    },
+    "previewButtonText": {
+        "message": "Náhled tlačítka chatu",
+        "description": "Text pro tlačítko náhledu v možnostech"
+    },
+    "buttonTextToken": {
+        "message": "Chat s vydavatelem tokenu",
+        "description": "Text tlačítka pro chat s vydavatelem tokenu"
+    },
+    "buttonTextNFT": {
+        "message": "Chat s vlastníkem NFT",
+        "description": "Text tlačítka pro chat s vlastníkem NFT"
+    },
+    "themeRed": {
+        "message": "Červená",
+        "description": "Název možnosti červeného motivu"
+    },
+    "messageWalletTitle": {
+        "message": "Zpráva peněžence XRP",
+        "description": "Název rozhraní pro zasílání zpráv peněžence"
+    },
+    "saveButtonText": {
+        "message": "Uložit",
+        "description": "Text pro tlačítko uložení"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Chat s peněženkou tvůrce tokenu",
+        "description": "Text tlačítka pro chat s peněženkou tvůrce tokenu"
+    },
+    "cancelButtonText": {
+        "message": "Zrušit",
+        "description": "Text pro tlačítko zrušení"
+    },
+    "closeButtonText": {
+        "message": "Zavřít",
+        "description": "Text pro tlačítko zavření"
+    },
+    "submitButtonText": {
+        "message": "Odeslat",
+        "description": "Text pro tlačítko odeslání"
+    },
+    "stepPinExtension": {
+        "message": "Připnout rozšíření",
+        "description": "Pokyn pro připnutí rozšíření"
+    },
+    "themeSelectLabel": {
+        "message": "Vyberte motiv tlačítka:",
+        "description": "Popisek pro rozbalovací nabídku výběru motivu"
+    },
+    "configLoadError": {
+        "message": "Nepodařilo se načíst konfiguraci. Odesílání zpětné vazby je deaktivováno.",
+        "description": "Chybová zpráva při neúspěšném načtení konfigurace"
+    },
+    "extName": {
+        "message": "XRP Peněženka Messenger od TextRP",
+        "description": "Název rozšíření."
+    },
+    "configNotLoaded": {
+        "message": "Konfigurace není načtena. Odesílání zpětné vazby je deaktivováno.",
+        "description": "Chybová zpráva, když konfigurace není načtena"
+    },
+    "feedbackRequired": {
+        "message": "Před odesláním zadejte zpětnou vazbu.",
+        "description": "Chybová zpráva, když je zpětná vazba prázdná"
+    },
+    "optionsDescription2": {
+        "message": "Nebo klikněte pravým tlačítkem na adresu XRP pro okamžitý chat.",
+        "description": "Druhá část popisu stránky s možnostmi"
+    },
+    "howToChangeTheme": {
+        "message": "Jak změnit motiv tlačítka",
+        "description": "Nadpis pro sekci s pokyny pro změnu motivu"
+    },
+    "tryXRPWebsites": {
+        "message": "Vyzkoušejte tyto XRP weby",
+        "description": "Nadpis pro seznam XRP webů"
+    },
+    "feedbackButtonText": {
+        "message": "Odeslat zpětnou vazbu",
+        "description": "Text pro tlačítko zpětné vazby"
+    },
+    "stepClickOptions": {
+        "message": "Klikněte na možnosti ikony",
+        "description": "Pokyn pro kliknutí na možnosti"
+    }
+}

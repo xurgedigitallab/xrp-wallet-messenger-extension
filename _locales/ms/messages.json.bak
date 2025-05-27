@@ -1,0 +1,130 @@
+{
+  "buttonTextGame": {
+    "message": "Sembang dengan pemain",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Menambah butang sembang ke laman web XRP untuk sembang dompet ke dompet secara serta-merta.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Hijau",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Biru",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Tema berjaya disimpan",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Gelap",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Klik kanan pada mana-mana alamat dompet XRP untuk menghantar mesej dengan cepat melalui TextRP, lapisan pemesejan bersatu untuk XRPL.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Cerah",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Sembang dengan dompet",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Maklum balas berjaya dihantar",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Gagal menghantar maklum balas. Sila cuba lagi nanti.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Pratonton Butang Sembang",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Sembang dengan penerbit token",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Sembang dengan pemilik NFT",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Merah",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Hantar Mesej ke Dompet XRP",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Simpan",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Sembang dengan dompet pencipta token",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Batal",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Tutup",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Hantar",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Pin sambungan",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Pilih Tema Butang:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Gagal memuatkan konfigurasi. Penghantaran maklum balas dilumpuhkan.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "Pemesej Dompet XRP oleh TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Konfigurasi tidak dimuatkan. Penghantaran maklum balas dilumpuhkan.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Sila masukkan maklum balas sebelum menghantar.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Atau klik kanan mana-mana alamat XRP untuk mula sembang dompet ke dompet secara serta-merta.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Cara Tukar Tema Butang",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Cuba Laman Web XRP Ini",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Beri Maklum Balas",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Klik pada ikon pilihan",
+    "description": "Step instruction for clicking options"
+  }
+}

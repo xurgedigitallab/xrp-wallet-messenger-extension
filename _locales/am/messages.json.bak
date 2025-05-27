@@ -1,0 +1,130 @@
+{
+    "buttonTextGame": {
+        "message": "ከተጫዋች ጋር ውይይት",
+        "description": "ከጨዋታ ተጫዋች ጋር ለመወያየት የአዝራር ጽሑፍ"
+    },
+    "optionsDescription1": {
+        "message": "በXRP ድረ-ገፆች ላይ ፈጣን ቦርሳ-ወደ-ቦርሳ ውይይት የሚያስችል የውይይት አዝራር ይጨምራል።",
+        "description": "የአማራጮች ገፅ መግለጫ የመጀመሪያ ክፍል"
+    },
+    "themeGreen": {
+        "message": "አረንጓዴ",
+        "description": "የአረንጓዴ ገፅታ አማራጭ ስም"
+    },
+    "themeBlue": {
+        "message": "ሰማያዊ",
+        "description": "የሰማያዊ ገፅታ አማራጭ ስም"
+    },
+    "themeSaved": {
+        "message": "ገፅታ ተቀምጧል",
+        "description": "ገፅታ ሲቀመጥ የስኬት መልዕክት"
+    },
+    "themeDark": {
+        "message": "ጨለማ",
+        "description": "የጨለማ ገፅታ አማራጭ ስም"
+    },
+    "extDescription": {
+        "message": "በማንኛውም XRP ቦርሳ አድራሻ ላይ ቀኝ ጠቅ በማድረግ በTextRP በኩል ፈጣን መልዕክት ይላኩ፣ ይህም ለXRPL የተዋሃደ የመልዕክት ንብርብር ነው።",
+        "description": "የቅጥያው መግለጫ።"
+    },
+    "themeLight": {
+        "message": "ብርሃን",
+        "description": "የብርሃን ገፅታ አማራጭ ስም"
+    },
+    "buttonTextWallet": {
+        "message": "ከቦርሳ ጋር ውይይት",
+        "description": "ከቦርሳ ጋር ለመወያየት የአዝራር ጽሑፍ"
+    },
+    "feedbackSuccess": {
+        "message": "አስተያየት ተልኳል",
+        "description": "አስተያየት ሲላክ የስኬት መልዕክት"
+    },
+    "feedbackError": {
+        "message": "አስተያየት መላክ አልተሳካም። እንደገና ይሞክሩ።",
+        "description": "አስተያየት መላክ ሲያቅት የስህተት መልዕክት"
+    },
+    "previewButtonText": {
+        "message": "የውይይት አዝራር ቅድመ-እይታ",
+        "description": "በአማራጮች ውስጥ ለቅድመ-እይታ አዝራር ጽሑፍ"
+    },
+    "buttonTextToken": {
+        "message": "ከቶከን አውጪ ጋር ውይይት",
+        "description": "ከቶከን አውጪ ጋር ለመወያየት የአዝራር ጽሑፍ"
+    },
+    "buttonTextNFT": {
+        "message": "ከNFT ባለቤት ጋር ውይይት",
+        "description": "ከNFT ባለቤት ጋር ለመወያየት የአዝራር ጽሑፍ"
+    },
+    "themeRed": {
+        "message": "ቀይ",
+        "description": "የቀይ ገፅታ አማራጭ ስም"
+    },
+    "messageWalletTitle": {
+        "message": "ወደ XRP ቦርሳ መልዕክት",
+        "description": "ለቦርሳ መልዕክት በይነገፅ ርዕስ"
+    },
+    "saveButtonText": {
+        "message": "መዝግብ",
+        "description": "ለመዝገብ አዝራር ጽሑፍ"
+    },
+    "buttonTextTokenCreator": {
+        "message": "ከቶከን ፈጣሪ ቦርሳ ጋር ውይይት",
+        "description": "ከቶከን ፈጣሪ ቦርሳ ጋር ለመወያየት የአዝራር ጽሑፍ"
+    },
+    "cancelButtonText": {
+        "message": "መሰረዝ",
+        "description": "ለመሰረዝ አዝራር ጽሑፍ"
+    },
+    "closeButtonText": {
+        "message": "ዝጋ",
+        "description": "ለመዝጋት አዝራር ጽሑፍ"
+    },
+    "submitButtonText": {
+        "message": "ላክ",
+        "description": "ለመላክ አዝራር ጽሑፍ"
+    },
+    "stepPinExtension": {
+        "message": "ቅጥያውን መጠገን",
+        "description": "ቅጥያውን ለመጠገን የመመሪያ ደረጃ"
+    },
+    "themeSelectLabel": {
+        "message": "የአዝራር ገፅታ ምረጥ፡",
+        "description": "የገፅታ ምርጫ ተቆልቋይ መለያ"
+    },
+    "configLoadError": {
+        "message": "ቅንብር መጫን አልተሳካም። አስተያየት መላክ ተከልክሏል።",
+        "description": "ቅንብር መጫን ሲያቅት የስህተት መልዕክት"
+    },
+    "extName": {
+        "message": "ከTextRP የXRP ቦርሳ መልእክተኛ",
+        "description": "የቅጥያው ስም።"
+    },
+    "configNotLoaded": {
+        "message": "ቅንብር አልተጫነም። አስተያየት መላክ ተከልክሏል።",
+        "description": "ቅንብር ሳይጫን ሲቀር የስህተት መልዕክት"
+    },
+    "feedbackRequired": {
+        "message": "እባክዎ አስተያየት ያስገቡ።",
+        "description": "አስተያየት ባዶ ሲሆን የስህተት መልዕክት"
+    },
+    "optionsDescription2": {
+        "message": "ወይም በXRP አድራሻ ላይ ቀኝ ጠቅ በማድረግ ፈጣን ውይይት ያድርጉ።",
+        "description": "የአማራጮች ገፅ መግለጫ ሁለተኛ ክፍል"
+    },
+    "howToChangeTheme": {
+        "message": "የአዝራር ገፅታ እንዴት መቀየር እንደሚቻል",
+        "description": "የገፅታ መቀየሪያ መመሪያዎች ክፍል ርዕስ"
+    },
+    "tryXRPWebsites": {
+        "message": "እነዚህን XRP ድረ-ገፆች ይሞክሩ",
+        "description": "የXRP ድረ-ገፆች ዝርዝር ርዕስ"
+    },
+    "feedbackButtonText": {
+        "message": "አስተያየት ስጥ",
+        "description": "ለአስተያየት አዝራር ጽሑፍ"
+    },
+    "stepClickOptions": {
+        "message": "በአዶ አማራጮች ላይ ጠቅ ያድርጉ",
+        "description": "በአማራጮች ላይ ለመጫን የመመሪያ ደረጃ"
+    }
+}

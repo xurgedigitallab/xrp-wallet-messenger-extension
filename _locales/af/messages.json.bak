@@ -1,0 +1,130 @@
+{
+    "buttonTextGame": {
+        "message": "Klets met speler",
+        "description": "Knoppie teks vir klets met die speletjie speler"
+    },
+    "optionsDescription1": {
+        "message": "Voeg 'n kletsknoppie by XRP-webwerwe vir kits beursie-tot-beursie klets.",
+        "description": "Eerste deel van die opsies bladsy beskrywing"
+    },
+    "themeGreen": {
+        "message": "Groen",
+        "description": "Naam van die groen tema opsie"
+    },
+    "themeBlue": {
+        "message": "Blou",
+        "description": "Naam van die blou tema opsie"
+    },
+    "themeSaved": {
+        "message": "Tema suksesvol gestoor",
+        "description": "Suksesboodskap wanneer tema gestoor word"
+    },
+    "themeDark": {
+        "message": "Donker",
+        "description": "Naam van die donker tema opsie"
+    },
+    "extDescription": {
+        "message": "Regsklik op enige XRP-beursie-adres om vinnig 'n boodskap te stuur via TextRP, die eenvormige kletslaag vir XRPL.",
+        "description": "Die beskrywing van die uitbreiding."
+    },
+    "themeLight": {
+        "message": "Lig",
+        "description": "Naam van die ligte tema opsie"
+    },
+    "buttonTextWallet": {
+        "message": "Klets met beursie",
+        "description": "Knoppie teks vir klets met beursie"
+    },
+    "feedbackSuccess": {
+        "message": "Terugvoer suksesvol ingedien",
+        "description": "Suksesboodskap wanneer terugvoer ingedien word"
+    },
+    "feedbackError": {
+        "message": "Kon nie terugvoer indien nie. Probeer later weer.",
+        "description": "Foutboodskap wanneer terugvoer indiening misluk"
+    },
+    "previewButtonText": {
+        "message": "Kletsknoppie voorskou",
+        "description": "Teks vir die voorskou knoppie in opsies"
+    },
+    "buttonTextToken": {
+        "message": "Klets met tekenuitreiker",
+        "description": "Knoppie teks vir klets met tekenuitreiker"
+    },
+    "buttonTextNFT": {
+        "message": "Klets met NFT-eienaar",
+        "description": "Knoppie teks vir klets met NFT-eienaar"
+    },
+    "themeRed": {
+        "message": "Rooi",
+        "description": "Naam van die rooi tema opsie"
+    },
+    "messageWalletTitle": {
+        "message": "Boodskap aan XRP-beursie",
+        "description": "Titel vir die beursie klets koppelvlak"
+    },
+    "saveButtonText": {
+        "message": "Stoor",
+        "description": "Teks vir die stoor knoppie"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Klets met tekenmaker se beursie",
+        "description": "Knoppie teks vir klets met tekenmaker se beursie"
+    },
+    "cancelButtonText": {
+        "message": "Kanselleer",
+        "description": "Teks vir die kanselleer knoppie"
+    },
+    "closeButtonText": {
+        "message": "Sluit",
+        "description": "Teks vir die sluit knoppie"
+    },
+    "submitButtonText": {
+        "message": "Dien in",
+        "description": "Teks vir die indien knoppie"
+    },
+    "stepPinExtension": {
+        "message": "Pen die uitbreiding vas",
+        "description": "Instruksiestap vir vaspen van die uitbreiding"
+    },
+    "themeSelectLabel": {
+        "message": "Kies knoppie tema:",
+        "description": "Etiket vir die tema keuse aftreklys"
+    },
+    "configLoadError": {
+        "message": "Kon nie konfigurasie laai nie. Terugvoer indiening gedeaktiveer.",
+        "description": "Foutboodskap wanneer konfigurasie nie laai nie"
+    },
+    "extName": {
+        "message": "XRP Beursie Kletser van TextRP",
+        "description": "Die naam van die uitbreiding."
+    },
+    "configNotLoaded": {
+        "message": "Konfigurasie nie gelaai nie. Terugvoer indiening gedeaktiveer.",
+        "description": "Foutboodskap wanneer konfigurasie nie gelaai is nie"
+    },
+    "feedbackRequired": {
+        "message": "Voer asseblief terugvoer in voor indiening.",
+        "description": "Foutboodskap wanneer terugvoer leeg is"
+    },
+    "optionsDescription2": {
+        "message": "Of regsklik op 'n XRP-adres vir kits beursie-klets.",
+        "description": "Tweede deel van die opsies bladsy beskrywing"
+    },
+    "howToChangeTheme": {
+        "message": "Hoe om knoppie tema te verander",
+        "description": "Opskrif vir die tema verandering instruksies afdeling"
+    },
+    "tryXRPWebsites": {
+        "message": "Probeer hierdie XRP-webwerwe",
+        "description": "Opskrif vir die lys van XRP-webwerwe"
+    },
+    "feedbackButtonText": {
+        "message": "Gee terugvoer",
+        "description": "Teks vir die terugvoer knoppie"
+    },
+    "stepClickOptions": {
+        "message": "Klik op ikoon opsies",
+        "description": "Instruksiestap vir klik op opsies"
+    }
+}

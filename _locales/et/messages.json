@@ -24,7 +24,7 @@
         "description": "Tumeda teema valiku nimi"
     },
     "extDescription": {
-        "message": "Paremklõpsake mis tahes XRP rahakoti aadressil, et saata kiiresti sõnum TextRP kaudu, mis on XRPL-i ühtne sõnumite kiht.",
+        "message": "Lisab XRP veebisaitidele vestlusnupu kiireks rahakottidevaheliseks suhtluseks.",
         "description": "Laienduse kirjeldus."
     },
     "themeLight": {

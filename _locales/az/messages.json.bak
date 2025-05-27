@@ -1,0 +1,130 @@
+{
+    "buttonTextGame": {
+        "message": "Oyunçu ilə söhbət",
+        "description": "Oyun oyunçusu ilə söhbət üçün düymə mətni"
+    },
+    "optionsDescription1": {
+        "message": "XRP veb-saytlarına cüzdandan-cüzdana ani söhbət üçün söhbət düyməsi əlavə edir.",
+        "description": "Seçimlər səhifəsinin təsvirinin birinci hissəsi"
+    },
+    "themeGreen": {
+        "message": "Yaşıl",
+        "description": "Yaşıl tema seçiminin adı"
+    },
+    "themeBlue": {
+        "message": "Mavi",
+        "description": "Mavi tema seçiminin adı"
+    },
+    "themeSaved": {
+        "message": "Tema uğurla saxlanıldı",
+        "description": "Tema saxlanarkən uğur mesajı"
+    },
+    "themeDark": {
+        "message": "Tünd",
+        "description": "Tünd tema seçiminin adı"
+    },
+    "extDescription": {
+        "message": "İstənilən XRP cüzdan ünvanına sağ kliklə TextRP vasitəsilə tez mesaj göndərin, bu XRPL üçün vahid mesajlaşma qatıdır.",
+        "description": "Əlavənin təsviri."
+    },
+    "themeLight": {
+        "message": "Açıq",
+        "description": "Açıq tema seçiminin adı"
+    },
+    "buttonTextWallet": {
+        "message": "Cüzdan ilə söhbət",
+        "description": "Cüzdan ilə söhbət üçün düymə mətni"
+    },
+    "feedbackSuccess": {
+        "message": "Rəy uğurla göndərildi",
+        "description": "Rəy göndərildikdə uğur mesajı"
+    },
+    "feedbackError": {
+        "message": "Rəy göndərilmədi. Zəhmət olmasa yenidən cəhd edin.",
+        "description": "Rəy göndərilməsi uğursuz olduqda xəta mesajı"
+    },
+    "previewButtonText": {
+        "message": "Söhbət düyməsi önizləməsi",
+        "description": "Seçimlərdəki önizləmə düyməsi üçün mətn"
+    },
+    "buttonTextToken": {
+        "message": "Token buraxanı ilə söhbət",
+        "description": "Token buraxanı ilə söhbət üçün düymə mətni"
+    },
+    "buttonTextNFT": {
+        "message": "NFT sahibi ilə söhbət",
+        "description": "NFT sahibi ilə söhbət üçün düymə mətni"
+    },
+    "themeRed": {
+        "message": "Qırmızı",
+        "description": "Qırmızı tema seçiminin adı"
+    },
+    "messageWalletTitle": {
+        "message": "XRP cüzdanına mesaj",
+        "description": "Cüzdan mesajlaşma interfeysi üçün başlıq"
+    },
+    "saveButtonText": {
+        "message": "Saxla",
+        "description": "Saxlama düyməsi üçün mətn"
+    },
+    "buttonTextTokenCreator": {
+        "message": "Token yaradıcısının cüzdanı ilə söhbət",
+        "description": "Token yaradıcısının cüzdanı ilə söhbət üçün düymə mətni"
+    },
+    "cancelButtonText": {
+        "message": "Ləğv et",
+        "description": "Ləğv düyməsi üçün mətn"
+    },
+    "closeButtonText": {
+        "message": "Bağla",
+        "description": "Bağlama düyməsi üçün mətn"
+    },
+    "submitButtonText": {
+        "message": "Göndər",
+        "description": "Göndərmə düyməsi üçün mətn"
+    },
+    "stepPinExtension": {
+        "message": "Əlavəni sabitlə",
+        "description": "Əlavənin sabitlənməsi üçün təlimat addımı"
+    },
+    "themeSelectLabel": {
+        "message": "Düymə temasını seç:",
+        "description": "Tema seçimi açılan menyusu üçün etiket"
+    },
+    "configLoadError": {
+        "message": "Konfiqurasiya yüklənmədi. Rəy göndərilməsi deaktiv edilib.",
+        "description": "Konfiqurasiya yüklənmədikdə xəta mesajı"
+    },
+    "extName": {
+        "message": "TextRP-dən XRP Cüzdan Mesajçısı",
+        "description": "Əlavənin adı."
+    },
+    "configNotLoaded": {
+        "message": "Konfiqurasiya yüklənməyib. Rəy göndərilməsi deaktivdir.",
+        "description": "Konfiqurasiya yüklənməyibsə xəta mesajı"
+    },
+    "feedbackRequired": {
+        "message": "Zəhmət olmasa rəy daxil edin.",
+        "description": "Rəy boş olduqda xəta mesajı"
+    },
+    "optionsDescription2": {
+        "message": "Və ya XRP ünvanına sağ kliklə ani cüzdan söhbəti edin.",
+        "description": "Seçimlər səhifəsinin təsvirinin ikinci hissəsi"
+    },
+    "howToChangeTheme": {
+        "message": "Düymə temasını necə dəyişmək olar",
+        "description": "Tema dəyişdirmə təlimatları bölməsi üçün başlıq"
+    },
+    "tryXRPWebsites": {
+        "message": "Bu XRP veb-saytlarını sına",
+        "description": "XRP veb-saytları siyahısı üçün başlıq"
+    },
+    "feedbackButtonText": {
+        "message": "Rəy ver",
+        "description": "Rəy düyməsi üçün mətn"
+    },
+    "stepClickOptions": {
+        "message": "İkon seçimlərinə kliklə",
+        "description": "Seçimlərə klikləmək üçün təlimat addımı"
+    }
+}

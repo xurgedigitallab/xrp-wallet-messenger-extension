@@ -1,0 +1,130 @@
+{
+  "buttonTextGame": {
+    "message": "ਖਿਡਾਰੀ ਨਾਲ ਗੱਲ ਕਰੋ",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "ਤੁਰੰਤ ਵੌਲਟ-ਤੋਂ-ਵੌਲਟ ਗੱਲਬਾਤ ਲਈ XRP ਵੈੱਬਸਾਈਟਾਂ ਵਿੱਚ ਚੈਟ ਬਟਨ ਸ਼ਾਮਲ ਕਰਦਾ ਹੈ।",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "ਹਰਾ",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "ਨੀਲਾ",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "ਥੀਮ ਸਫਲਤਾਪੂਰਵਕ ਸੰਭਾਲ ਲਿਆ ਗਿਆ",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "ਹਨੇਰਾ",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "TextRP ਰਾਹੀਂ ਜਲਦੀ ਸੰਦੇਸ਼ ਭੇਜਣ ਲਈ ਕਿਸੇ ਵੀ XRP ਵੌਲਟ ਪਤੇ 'ਤੇ ਸੱਜਾ ਕਲਿੱਕ ਕਰੋ — XRPL ਲਈ ਇਕ ਸਾਂਝਾ ਮੈਸੇਜਿੰਗ ਪਰਤ।",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "ਚਿੱਟਾ",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "ਵੌਲਟ ਨਾਲ ਗੱਲ ਕਰੋ",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "ਫੀਡਬੈਕ ਸਫਲਤਾਪੂਰਵਕ ਭੇਜਿਆ ਗਿਆ",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "ਫੀਡਬੈਕ ਭੇਜਣ ਵਿੱਚ ਅਸਫਲ। ਬਾਅਦ ਵਿੱਚ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "ਚੈਟ ਬਟਨ ਦਾ ਝਲਕ",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "ਟੋਕਨ ਜਾਰੀ ਕਰਨ ਵਾਲੇ ਨਾਲ ਗੱਲ ਕਰੋ",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "NFT ਮਾਲਕ ਨਾਲ ਗੱਲ ਕਰੋ",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "ਲਾਲ",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "XRP ਵੌਲਟ ਨੂੰ ਸੰਦੇਸ਼ ਭੇਜੋ",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "ਸੇਵ ਕਰੋ",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "ਟੋਕਨ ਬਣਾਉਣ ਵਾਲੇ ਦੇ ਵੌਲਟ ਨਾਲ ਗੱਲ ਕਰੋ",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "ਰੱਦ ਕਰੋ",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "ਬੰਦ ਕਰੋ",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "ਭੇਜੋ",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "ਐਕਸਟੈਂਸ਼ਨ ਨੂੰ ਪਿੰਨ ਕਰੋ",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "ਬਟਨ ਥੀਮ ਚੁਣੋ:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "ਕੰਫਿਗ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ। ਫੀਡਬੈਕ ਭੇਜਣਾ ਅਯੋਗ ਹੈ।",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "TextRP ਵੱਲੋਂ XRP ਵੌਲਟ ਮੈਸੈਂਜਰ",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "ਕੰਫਿਗ ਲੋਡ ਨਹੀਂ ਹੋਇਆ। ਫੀਡਬੈਕ ਭੇਜਣਾ ਅਯੋਗ ਹੈ।",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "ਭੇਜਣ ਤੋਂ ਪਹਿਲਾਂ ਕਿਰਪਾ ਕਰਕੇ ਫੀਡਬੈਕ ਦਰਜ ਕਰੋ।",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "ਜਾਂ ਕਿਸੇ ਵੀ XRP ਪਤੇ 'ਤੇ ਸੱਜਾ ਕਲਿੱਕ ਕਰਕੇ ਤੁਰੰਤ ਵੌਲਟ-ਤੋਂ-ਵੌਲਟ ਚੈਟ ਸ਼ੁਰੂ ਕਰੋ।",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "ਬਟਨ ਥੀਮ ਕਿਵੇਂ ਬਦਲਣੀ ਹੈ",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "ਇਹ XRP ਵੈੱਬਸਾਈਟਾਂ ਅためਓ",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "ਫੀਡਬੈਕ ਦਿਓ",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "ਆਈਕਨ ਵਿਕਲਪਾਂ 'ਤੇ ਕਲਿੱਕ ਕਰੋ",
+    "description": "Step instruction for clicking options"
+  }
+}

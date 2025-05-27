@@ -1,0 +1,130 @@
+{
+  "buttonTextGame": {
+    "message": "Bisedo me lojtarin",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Shton një buton bisede në faqet e XRP për biseda të menjëhershme portofol-me-portofol.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Jeshi",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Blu",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Tema u ruajt me sukses",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "E errët",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Klikoni me të djathtën mbi çdo adresë portofoli XRP për të dërguar një mesazh të shpejtë përmes TextRP — shtresa e unifikuar e mesazheve për XRPL.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "E ndritshme",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Bisedo me portofolin",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Komenti u dërgua me sukses",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Dërgimi i komentit dështoi. Ju lutemi provoni më vonë.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Parapamje e butonit të bisedës",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Bisedo me lëshuesin e tokenit",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Bisedo me pronarin e NFT-së",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "E kuqe",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Dërgo mesazh te portofoli XRP",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Ruaj",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Bisedo me portofolin e krijuesit të tokenit",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Anulo",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Mbyll",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Dërgo",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Fikso zgjerimin",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Zgjidhni temën e butonit:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Konfigurimi nuk mund të ngarkohej. Dërgimi i komenteve është çaktivizuar.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "Messenger i portofolit XRP nga TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Konfigurimi nuk u ngarkua. Dërgimi i komenteve është çaktivizuar.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Ju lutemi shkruani një koment përpara se të dërgoni.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Ose klikoni me të djathtën mbi një adresë XRP për të filluar një bisedë të menjëhershme portofol-me-portofol.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Si të ndryshoni temën e butonit",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Provoni këto faqe të XRP-së",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Dërgo koment",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Kliko mbi ikonën e opsioneve",
+    "description": "Step instruction for clicking options"
+  }
+}

@@ -1,130 +1,130 @@
 {
-  "buttonTextGame": {
-    "message": "ესაუბრე მოთამაშეს",
-    "description": "Button text for chatting with game player"
-  },
-  "optionsDescription1": {
-    "message": "XRP ვებსაიტებს ამატებს ჩეთის ღილაკს მყისიერი საფულე-საფულე საუბრისთვის.",
-    "description": "First part of the options page description"
-  },
-  "themeGreen": {
-    "message": "მწვანე",
-    "description": "Name of the green theme option"
-  },
-  "themeBlue": {
-    "message": "ლურჯი",
-    "description": "Name of the blue theme option"
-  },
-  "themeSaved": {
-    "message": "თემა წარმატებით შეინახა",
-    "description": "Success message when theme is saved"
-  },
-  "themeDark": {
-    "message": "მუქი",
-    "description": "Name of the dark theme option"
-  },
-  "extDescription": {
-    "message": "მარჯვენა ღილაკით დააჭირეთ ნებისმიერ XRP საფულეს, რათა სწრაფად გაგზავნოთ შეტყობინება TextRP-ის მეშვეობით — XRPL-ის გაერთიანებული მესიჯინგ პლატფორმა.",
-    "description": "The description of the extension."
-  },
-  "themeLight": {
-    "message": "ღია",
-    "description": "Name of the light theme option"
-  },
-  "buttonTextWallet": {
-    "message": "ესაუბრე საფულეს",
-    "description": "Button text for chatting with wallet"
-  },
-  "feedbackSuccess": {
-    "message": "კავშირი წარმატებით გაიგზავნა",
-    "description": "Success message when feedback is submitted"
-  },
-  "feedbackError": {
-    "message": "კავშირის გაგზავნა ვერ მოხერხდა. გთხოვთ სცადეთ მოგვიანებით.",
-    "description": "Error message when feedback submission fails"
-  },
-  "previewButtonText": {
-    "message": "ჩეთის ღილაკის წინასწარი ხილვა",
-    "description": "Text for the preview button in options"
-  },
-  "buttonTextToken": {
-    "message": "ესაუბრე ტოკენის გამომცემელს",
-    "description": "Button text for chatting with token issuer"
-  },
-  "buttonTextNFT": {
-    "message": "ესაუბრე NFT-ის მფლობელს",
-    "description": "Button text for chatting with NFT owner"
-  },
-  "themeRed": {
-    "message": "წითელი",
-    "description": "Name of the red theme option"
-  },
-  "messageWalletTitle": {
-    "message": "მესიჯი XRP საფულეს",
-    "description": "Title for the wallet messaging interface"
-  },
-  "saveButtonText": {
-    "message": "შენახვა",
-    "description": "Text for the save button"
-  },
-  "buttonTextTokenCreator": {
-    "message": "ესაუბრე ტოკენის შემქმნელის საფულეს",
-    "description": "Button text for chatting with token creator's wallet"
-  },
-  "cancelButtonText": {
-    "message": "გაუქმება",
-    "description": "Text for the cancel button"
-  },
-  "closeButtonText": {
-    "message": "დახურვა",
-    "description": "Text for the close button"
-  },
-  "submitButtonText": {
-    "message": "გაგზავნა",
-    "description": "Text for the submit button"
-  },
-  "stepPinExtension": {
-    "message": "დაამაგრე გაფართოება",
-    "description": "Step instruction for pinning the extension"
-  },
-  "themeSelectLabel": {
-    "message": "აირჩიე ღილაკის თემა:",
-    "description": "Label for the theme selection dropdown"
-  },
-  "configLoadError": {
-    "message": "კონფიგურაციის ჩატვირთვა ვერ მოხერხდა. კავშირის გაგზავნა შეზღუდულია.",
-    "description": "Error message when configuration fails to load"
-  },
-  "extName": {
-    "message": "XRP საფულე მესენჯერი TextRP-ისგან",
-    "description": "The name of the extension."
-  },
-  "configNotLoaded": {
-    "message": "კონფიგურაცია არ ჩაიტვირთა. კავშირის გაგზავნა შეზღუდულია.",
-    "description": "Error message when configuration is not loaded"
-  },
-  "feedbackRequired": {
-    "message": "გთხოვთ შეიყვანოთ კავშირი გაგზავნამდე.",
-    "description": "Error message when feedback is empty"
-  },
-  "optionsDescription2": {
-    "message": "ან მარჯვენა ღილაკით დააწკაპუნეთ ნებისმიერ XRP მისამართზე მყისიერი საფულე-საფულე საუბრისთვის.",
-    "description": "Second part of the options page description"
-  },
-  "howToChangeTheme": {
-    "message": "როგორ შევცვალოთ ღილაკის თემა",
-    "description": "Header for the theme change instructions section"
-  },
-  "tryXRPWebsites": {
-    "message": "ため ეს XRP ვებსაიტები",
-    "description": "Header for the list of XRP websites"
-  },
-  "feedbackButtonText": {
-    "message": "გამოგვიგზავნეთ კავშირი",
-    "description": "Text for the feedback button"
-  },
-  "stepClickOptions": {
-    "message": "დააწკაპუნე ხატულაზე პარამეტრებისთვის",
-    "description": "Step instruction for clicking options"
-  }
+    "buttonTextGame": {
+        "message": "ესაუბრე მოთამაშეს",
+        "description": "Button text for chatting with game player"
+    },
+    "optionsDescription1": {
+        "message": "XRP ვებსაიტებს ამატებს ჩეთის ღილაკს მყისიერი საფულე-საფულე საუბრისთვის.",
+        "description": "First part of the options page description"
+    },
+    "themeGreen": {
+        "message": "მწვანე",
+        "description": "Name of the green theme option"
+    },
+    "themeBlue": {
+        "message": "ლურჯი",
+        "description": "Name of the blue theme option"
+    },
+    "themeSaved": {
+        "message": "თემა წარმატებით შეინახა",
+        "description": "Success message when theme is saved"
+    },
+    "themeDark": {
+        "message": "მუქი",
+        "description": "Name of the dark theme option"
+    },
+    "extDescription": {
+        "message": "XRP-ის ვებგვერდებს უერთდება ჩეთის ღილაკი სწრაფი ფულის ტრანსფერისთვის საფულეებს შორის.",
+        "description": "The description of the extension."
+    },
+    "themeLight": {
+        "message": "ღია",
+        "description": "Name of the light theme option"
+    },
+    "buttonTextWallet": {
+        "message": "ესაუბრე საფულეს",
+        "description": "Button text for chatting with wallet"
+    },
+    "feedbackSuccess": {
+        "message": "კავშირი წარმატებით გაიგზავნა",
+        "description": "Success message when feedback is submitted"
+    },
+    "feedbackError": {
+        "message": "კავშირის გაგზავნა ვერ მოხერხდა. გთხოვთ სცადეთ მოგვიანებით.",
+        "description": "Error message when feedback submission fails"
+    },
+    "previewButtonText": {
+        "message": "ჩეთის ღილაკის წინასწარი ხილვა",
+        "description": "Text for the preview button in options"
+    },
+    "buttonTextToken": {
+        "message": "ესაუბრე ტოკენის გამომცემელს",
+        "description": "Button text for chatting with token issuer"
+    },
+    "buttonTextNFT": {
+        "message": "ესაუბრე NFT-ის მფლობელს",
+        "description": "Button text for chatting with NFT owner"
+    },
+    "themeRed": {
+        "message": "წითელი",
+        "description": "Name of the red theme option"
+    },
+    "messageWalletTitle": {
+        "message": "მესიჯი XRP საფულეს",
+        "description": "Title for the wallet messaging interface"
+    },
+    "saveButtonText": {
+        "message": "შენახვა",
+        "description": "Text for the save button"
+    },
+    "buttonTextTokenCreator": {
+        "message": "ესაუბრე ტოკენის შემქმნელის საფულეს",
+        "description": "Button text for chatting with token creator's wallet"
+    },
+    "cancelButtonText": {
+        "message": "გაუქმება",
+        "description": "Text for the cancel button"
+    },
+    "closeButtonText": {
+        "message": "დახურვა",
+        "description": "Text for the close button"
+    },
+    "submitButtonText": {
+        "message": "გაგზავნა",
+        "description": "Text for the submit button"
+    },
+    "stepPinExtension": {
+        "message": "დაამაგრე გაფართოება",
+        "description": "Step instruction for pinning the extension"
+    },
+    "themeSelectLabel": {
+        "message": "აირჩიე ღილაკის თემა:",
+        "description": "Label for the theme selection dropdown"
+    },
+    "configLoadError": {
+        "message": "კონფიგურაციის ჩატვირთვა ვერ მოხერხდა. კავშირის გაგზავნა შეზღუდულია.",
+        "description": "Error message when configuration fails to load"
+    },
+    "extName": {
+        "message": "XRP საფულე მესენჯერი TextRP-ისგან",
+        "description": "The name of the extension."
+    },
+    "configNotLoaded": {
+        "message": "კონფიგურაცია არ ჩაიტვირთა. კავშირის გაგზავნა შეზღუდულია.",
+        "description": "Error message when configuration is not loaded"
+    },
+    "feedbackRequired": {
+        "message": "გთხოვთ შეიყვანოთ კავშირი გაგზავნამდე.",
+        "description": "Error message when feedback is empty"
+    },
+    "optionsDescription2": {
+        "message": "ან მარჯვენა ღილაკით დააწკაპუნეთ ნებისმიერ XRP მისამართზე მყისიერი საფულე-საფულე საუბრისთვის.",
+        "description": "Second part of the options page description"
+    },
+    "howToChangeTheme": {
+        "message": "როგორ შევცვალოთ ღილაკის თემა",
+        "description": "Header for the theme change instructions section"
+    },
+    "tryXRPWebsites": {
+        "message": "ため ეს XRP ვებსაიტები",
+        "description": "Header for the list of XRP websites"
+    },
+    "feedbackButtonText": {
+        "message": "გამოგვიგზავნეთ კავშირი",
+        "description": "Text for the feedback button"
+    },
+    "stepClickOptions": {
+        "message": "დააწკაპუნე ხატულაზე პარამეტრებისთვის",
+        "description": "Step instruction for clicking options"
+    }
 }

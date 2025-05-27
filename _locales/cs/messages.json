@@ -24,7 +24,7 @@
         "description": "Název možnosti tmavého motivu"
     },
     "extDescription": {
-        "message": "Klikněte pravým tlačítkem na libovolnou adresu peněženky XRP a rychle odešlete zprávu přes TextRP, jednotnou vrstvu zpráv pro XRPL.",
+        "message": "Přidá tlačítko chatu na webové stránky XRP pro okamžitý chat mezi peněženkami.",
         "description": "Popis rozšíření."
     },
     "themeLight": {

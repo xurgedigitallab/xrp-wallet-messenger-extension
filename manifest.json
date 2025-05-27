@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "__MSG_extName__",
-  "version": "0.1.2",
+  "version": "1.1.0",
   "description": "__MSG_extDescription__",
   "default_locale": "en",
   "icons": {
@@ -10,24 +10,15 @@
     "128": "icons/icon128.png"
   },
   "permissions": [
-    "declarativeNetRequest",
-    "declarativeNetRequestWithHostAccess",
     "contextMenus",
     "activeTab",
-    "storage",
-    "tabs"
+    "storage"
   ],
   "host_permissions": [
-    "https://bidds.com/*",
-    "https://xrp.cafe/*",
-    "https://xmart.art/*",
-    "https://xrpnft.com/*",
-    "https://team.textrp.io/*",
-    "https://api.textrp.com/*",
     "<all_urls>"
   ],
   "background": {
-    "service_worker": "dist/background.bundle.js"
+    "service_worker": "./background.bundle.js"
   },
   "content_scripts": [
     {
@@ -35,10 +26,10 @@
         "<all_urls>"
       ],
       "js": [
-        "content.min.js"
+        "./content.min.js"
       ],
       "css": [
-        "styles.css"
+        "./styles.css"
       ]
     }
   ],

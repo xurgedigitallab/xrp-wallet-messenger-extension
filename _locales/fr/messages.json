@@ -24,7 +24,7 @@
         "description": "Nom de l'option de thème sombre"
     },
     "extDescription": {
-        "message": "Faites un clic droit sur n'importe quelle adresse de portefeuille XRP pour envoyer rapidement un message via TextRP, la couche de messagerie unifiée pour XRPL.",
+        "message": "Ajoute un bouton de discussion aux sites Web XRP pour un chat instantané de portefeuille à portefeuille.",
         "description": "La description de l'extension."
     },
     "themeLight": {

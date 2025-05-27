@@ -1,0 +1,130 @@
+{
+  "buttonTextGame": {
+    "message": "Chatta con il giocatore",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Aggiunge un pulsante di chat ai siti XRP per una chat istantanea da wallet a wallet.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Verde",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Blu",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Tema salvato con successo",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Scuro",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Fai clic con il tasto destro su qualsiasi indirizzo wallet XRP per inviare rapidamente un messaggio tramite TextRP, il livello di messaggistica unificata per XRPL.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Chiaro",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Chatta con il wallet",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Feedback inviato con successo",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Invio del feedback non riuscito. Riprova più tardi.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Anteprima del pulsante di chat",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Chatta con l’emittente del token",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Chatta con il proprietario dell’NFT",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Rosso",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Invia messaggio al wallet XRP",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Salva",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Chatta con il wallet del creatore del token",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Annulla",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Chiudi",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Invia",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Fissa l’estensione",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Seleziona il tema del pulsante:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Impossibile caricare la configurazione. Invio feedback disabilitato.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "Messenger Wallet XRP di TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Configurazione non caricata. Invio feedback disabilitato.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Inserisci un feedback prima di inviare.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Oppure fai clic con il tasto destro su un indirizzo XRP per una chat istantanea da wallet a wallet.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Come cambiare il tema del pulsante",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Prova questi siti XRP",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Fornisci feedback",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Fai clic sulle opzioni dell'icona",
+    "description": "Step instruction for clicking options"
+  }
+}

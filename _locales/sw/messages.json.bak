@@ -1,0 +1,130 @@
+{
+  "buttonTextGame": {
+    "message": "Zungumza na mchezaji",
+    "description": "Button text for chatting with game player"
+  },
+  "optionsDescription1": {
+    "message": "Inaongeza kitufe cha gumzo kwenye tovuti za XRP kwa mazungumzo ya papo kwa papo kati ya pochi.",
+    "description": "First part of the options page description"
+  },
+  "themeGreen": {
+    "message": "Kijani",
+    "description": "Name of the green theme option"
+  },
+  "themeBlue": {
+    "message": "Bluu",
+    "description": "Name of the blue theme option"
+  },
+  "themeSaved": {
+    "message": "Mandhari imehifadhiwa kwa mafanikio",
+    "description": "Success message when theme is saved"
+  },
+  "themeDark": {
+    "message": "Giza",
+    "description": "Name of the dark theme option"
+  },
+  "extDescription": {
+    "message": "Bofya kulia anwani yoyote ya pochi ya XRP kutuma ujumbe haraka kupitia TextRP — safu ya ujumbe iliyounganishwa kwa XRPL.",
+    "description": "The description of the extension."
+  },
+  "themeLight": {
+    "message": "Nyeupe",
+    "description": "Name of the light theme option"
+  },
+  "buttonTextWallet": {
+    "message": "Zungumza na pochi",
+    "description": "Button text for chatting with wallet"
+  },
+  "feedbackSuccess": {
+    "message": "Maoni yamewasilishwa kwa mafanikio",
+    "description": "Success message when feedback is submitted"
+  },
+  "feedbackError": {
+    "message": "Imeshindikana kutuma maoni. Tafadhali jaribu tena baadaye.",
+    "description": "Error message when feedback submission fails"
+  },
+  "previewButtonText": {
+    "message": "Onyesho la kitufe cha gumzo",
+    "description": "Text for the preview button in options"
+  },
+  "buttonTextToken": {
+    "message": "Zungumza na mtoaji wa tokeni",
+    "description": "Button text for chatting with token issuer"
+  },
+  "buttonTextNFT": {
+    "message": "Zungumza na mmiliki wa NFT",
+    "description": "Button text for chatting with NFT owner"
+  },
+  "themeRed": {
+    "message": "Nyekundu",
+    "description": "Name of the red theme option"
+  },
+  "messageWalletTitle": {
+    "message": "Tuma ujumbe kwa pochi ya XRP",
+    "description": "Title for the wallet messaging interface"
+  },
+  "saveButtonText": {
+    "message": "Hifadhi",
+    "description": "Text for the save button"
+  },
+  "buttonTextTokenCreator": {
+    "message": "Zungumza na pochi ya mtayarishaji wa tokeni",
+    "description": "Button text for chatting with token creator's wallet"
+  },
+  "cancelButtonText": {
+    "message": "Ghairi",
+    "description": "Text for the cancel button"
+  },
+  "closeButtonText": {
+    "message": "Funga",
+    "description": "Text for the close button"
+  },
+  "submitButtonText": {
+    "message": "Tuma",
+    "description": "Text for the submit button"
+  },
+  "stepPinExtension": {
+    "message": "Ambatisha kiendelezi",
+    "description": "Step instruction for pinning the extension"
+  },
+  "themeSelectLabel": {
+    "message": "Chagua mandhari ya kitufe:",
+    "description": "Label for the theme selection dropdown"
+  },
+  "configLoadError": {
+    "message": "Imeshindikana kupakia mipangilio. Uwasilishaji wa maoni umezimwa.",
+    "description": "Error message when configuration fails to load"
+  },
+  "extName": {
+    "message": "Mjumbe wa Pochi ya XRP kutoka TextRP",
+    "description": "The name of the extension."
+  },
+  "configNotLoaded": {
+    "message": "Mipangilio haijapakiwa. Uwasilishaji wa maoni umezimwa.",
+    "description": "Error message when configuration is not loaded"
+  },
+  "feedbackRequired": {
+    "message": "Tafadhali andika maoni kabla ya kutuma.",
+    "description": "Error message when feedback is empty"
+  },
+  "optionsDescription2": {
+    "message": "Au bofya kulia anwani yoyote ya XRP ili kuanza gumzo la papo kwa papo kati ya pochi.",
+    "description": "Second part of the options page description"
+  },
+  "howToChangeTheme": {
+    "message": "Jinsi ya kubadilisha mandhari ya kitufe",
+    "description": "Header for the theme change instructions section"
+  },
+  "tryXRPWebsites": {
+    "message": "Jaribu tovuti hizi za XRP",
+    "description": "Header for the list of XRP websites"
+  },
+  "feedbackButtonText": {
+    "message": "Toa maoni",
+    "description": "Text for the feedback button"
+  },
+  "stepClickOptions": {
+    "message": "Bofya kwenye chaguo za ikoni",
+    "description": "Step instruction for clicking options"
+  }
+}
